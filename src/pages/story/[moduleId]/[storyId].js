@@ -4,24 +4,43 @@ import { useRouter } from 'next/router';
 import Head from 'next/head';
 import Link from 'next/link';
 import StoryGame from '../../../components/StoryGame';
-import { loadStoryModule } from '../../../data/storyModules';
+import { loadStoryModule, getModuleConfig } from '../../../data/storyModules';
 
-export default function StoryPage() {
+// Import all story modules
+import aesopStories from '../../../data/stories/aesop';
+import greekStories from '../../../data/stories/greek';
+import bibleStories from '../../../data/stories/bible';
+import worldStories from '../../../data/stories/world';
+
+export default function StoryPage({ initialModuleData, initialStoryData, moduleId, storyId }) {
   const router = useRouter();
-  const { moduleId, storyId } = router.query;
-  const [storyData, setStoryData] = useState(null);
-  const [moduleData, setModuleData] = useState(null);
-  const [loading, setLoading] = useState(true);
+  const [storyData, setStoryData] = useState(initialStoryData);
+  const [moduleData, setModuleData] = useState(initialModuleData);
+  const [loading, setLoading] = useState(false);
   
+  // Use effect is still needed for client-side navigation
   useEffect(() => {
+    if (router.isFallback) {
+      setLoading(true);
+      return;
+    }
+    
+    // If we already have initial data from getStaticProps, use that
+    if (initialModuleData && initialStoryData) {
+      setModuleData(initialModuleData);
+      setStoryData(initialStoryData);
+      setLoading(false);
+      return;
+    }
+    
     async function fetchStory() {
-      if (moduleId && storyId) {
+      if (router.query.moduleId && router.query.storyId) {
         setLoading(true);
-        const mData = await loadStoryModule(moduleId);
+        const mData = await loadStoryModule(router.query.moduleId);
         setModuleData(mData);
         
         if (mData && mData.stories) {
-          const story = mData.stories.find(s => s.id === storyId);
+          const story = mData.stories.find(s => s.id === router.query.storyId);
           setStoryData(story);
         }
         
@@ -30,9 +49,9 @@ export default function StoryPage() {
     }
     
     fetchStory();
-  }, [moduleId, storyId]);
+  }, [router.query.moduleId, router.query.storyId, router.isFallback, initialModuleData, initialStoryData]);
   
-  if (loading) {
+  if (router.isFallback || loading) {
     return (
       <div className="min-h-screen bg-gradient-to-b from-blue-100 to-purple-100 py-12 px-4 flex items-center justify-center">
         <div className="text-center">
@@ -88,4 +107,80 @@ export default function StoryPage() {
       </main>
     </>
   );
+}
+
+// This function generates all possible [moduleId]/[storyId] combinations
+export async function getStaticPaths() {
+  // Create an array of all possible module/story combinations
+  const paths = [];
+  
+  // Aesop stories
+  aesopStories.forEach(story => {
+    paths.push({ params: { moduleId: 'aesop', storyId: story.id } });
+  });
+  
+  // Greek stories
+  greekStories.forEach(story => {
+    paths.push({ params: { moduleId: 'greek', storyId: story.id } });
+  });
+  
+  // Bible stories
+  bibleStories.forEach(story => {
+    paths.push({ params: { moduleId: 'bible', storyId: story.id } });
+  });
+  
+  // World stories
+  worldStories.forEach(story => {
+    paths.push({ params: { moduleId: 'world', storyId: story.id } });
+  });
+  
+  return {
+    paths,
+    fallback: false // Set to 'blocking' if you want to generate pages on-demand
+  };
+}
+
+// This function gets the data for a specific story
+export async function getStaticProps({ params }) {
+  const { moduleId, storyId } = params;
+  const moduleConfig = getModuleConfig();
+  
+  // Get all stories for this module
+  let stories;
+  switch (moduleId) {
+    case 'aesop':
+      stories = aesopStories;
+      break;
+    case 'greek':
+      stories = greekStories;
+      break;
+    case 'bible':
+      stories = bibleStories;
+      break;
+    case 'world':
+      stories = worldStories;
+      break;
+    default:
+      stories = [];
+  }
+  
+  // Find the specific story
+  const storyData = stories.find(story => story.id === storyId) || null;
+  
+  // Create the module data structure
+  const moduleData = moduleConfig[moduleId] ? {
+    ...moduleConfig[moduleId],
+    stories
+  } : null;
+  
+  return {
+    props: {
+      initialModuleData: moduleData,
+      initialStoryData: storyData,
+      moduleId,
+      storyId
+    },
+    // Re-generate at most once per 10 seconds if a request comes in
+    revalidate: 10
+  };
 }
