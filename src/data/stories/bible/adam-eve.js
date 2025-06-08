@@ -1,4 +1,4 @@
-// src/data/stories/bible/adam-eve.js
+
 const adamEve = {
   id: "adam-eve",
   title: "Adam and Eve",

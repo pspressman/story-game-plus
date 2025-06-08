@@ -1,4 +1,4 @@
-// src/data/stories/bible/jacob-ladder.js
+
 const jacobLadder = {
   id: "jacob-ladder",
   title: "Jacob's Ladder",

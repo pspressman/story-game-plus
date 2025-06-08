@@ -1,4 +1,4 @@
-/ src/data/stories/world/gilgamesh.js
+
 const gilgamesh = {
   id: "gilgamesh",
   title: "The Epic of Gilgamesh",

@@ -1,4 +1,4 @@
-/ src/data/stories/bible/moses.js
+
 const moses = {
   id: "moses",
   title: "Moses and the Exodus",
