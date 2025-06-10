@@ -1,4 +1,4 @@
-/ Updated src/data/stories/world/index.js
+// Updated src/data/stories/world/index.js
 // Import existing stories (keeping all current ones)
 import mulanWarrior from './mulan-warrior';
 import aladdinLamp from './aladdin-lamp';
@@ -6,9 +6,9 @@ import egyptNile from './egypt-nile';
 import gilgamesh from './gilgamesh';
 
 // Import Norse mythology stories
-import thorGiants from './thor-giants';
-import odinRavens from './odin-ravens';
-import lokiShapeChanger from './loki-shape-changer';
+import thorGiants from './thor-giants-story';
+import odinRavens from './odin-ravens-story';
+import lokiShapeChanger from './loki-shape-changer-story';
 
 // Import Chinese mythology stories
 import panguWorldCreation from './pangu-world-creation';
