@@ -88,7 +88,7 @@ export default function StoryPage({ initialModuleData, initialStoryData, moduleI
       <main className="min-h-screen bg-gradient-to-b from-blue-100 to-purple-100 py-12 px-4">
         <div className="max-w-4xl mx-auto">
           <Link 
-            href={`/module/${moduleId}`}
+            href={`/${moduleId}`}
             className="mb-6 inline-flex items-center text-blue-700 hover:text-blue-900"
           >
             <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

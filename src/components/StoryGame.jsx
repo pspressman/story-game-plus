@@ -212,7 +212,7 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
               Play Again
             </button>
             <Link
-              href={`/module/${moduleId}`}
+              href={`/${moduleId}`}
               className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg inline-block text-center"
             >
               More Stories

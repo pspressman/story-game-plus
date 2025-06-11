@@ -17,10 +17,10 @@ const anansiWisdomPot = {
       domain: "what",
       question: "When you picture Anansi, what kind of creature would he be?",
       options: [
-        "A large elephant with a long trunk",
-        "A spider with eight long legs",
+        "A large animal with a long trunk",
+        "A creature with eight long legs",
         "A colorful bird with bright feathers",
-        "A fish swimming in the river"
+        "An insect with six legs"
       ],
       correctAnswer: 1,
       explanation: "The story tells us Anansi was a spider with eight long legs who could spin beautiful webs in the forest."
@@ -53,7 +53,7 @@ const anansiWisdomPot = {
       options: [
         "Light and easy to carry",
         "The same size as when it was empty",
-        "Heavy and full of all the world's wisdom",
+        "Full and hard to carry",
         "Smaller than it was before"
       ],
       correctAnswer: 2,
