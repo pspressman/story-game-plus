@@ -11,7 +11,34 @@ import danielLionsDen from './daniel-lions-den';
 import jonahWhale from './jonah-whale';
 import estherQueen from './esther-queen';
 
+// New Bible stories
+import babylonEstherStory from './babylon-esther-story';
+import balaamsDonkeyStory from './balaams-donkey-story';
+import biblicalProverbsCollection2 from './biblical-proverbs-collection-2';
+import biblicalProverbsCollection from './biblical-proverbs-collection';
+import birthOfJesus from './birth_of_jesus';
+import callingDisciplesMiracles from './calling_disciples_miracles';
+import crucifixionBurial from './crucifixion-burial';
+import danielBabylonStory from './daniel-babylon-story';
+import davidKingStory from './david-king-story';
+import elijahRavensStory from './elijah-ravens-story';
+import elishaMiraclesStory from './elisha-miracles-story';
+import gideonsArmyStory from './gideons-army-story';
+import jobTestedStory from './job-tested-story';
+import johnBaptistMinistry from './john_baptist_ministry';
+import jonahWhaleStory from './jonah-whale-story';
+import miraclesAuthorityJesus from './miracles_authority_jesus';
+import parableVisualizationSeries from './parable_visualization_series';
+import psalmsVisualizationStories from './psalms-visualization-stories';
+import resurrectionOfJesus from './resurrection-of-jesus';
+import ruthLoyaltyStory from './ruth-loyalty-story';
+import samsonStrengthStory from './samson-strength-story';
+import samuelCalledStory from './samuel-called-story';
+import solomonWisdomStory from './solomon-wisdom-story';
+import stitchInTimeProverb from './stitch-in-time-proverb';
+
 const bibleStories = [
+  // OLD TESTAMENT
   // Creation and early stories
   creation,
   adamEve,
@@ -22,17 +49,45 @@ const bibleStories = [
   
   // Moses and the Exodus
   moses,
+  balaamsDonkeyStory,
   
   // Conquest and Judges period
   joshuaJericho,
+  gideonsArmyStory,
+  samsonStrengthStory,
   
-  // Kings and Kingdom period
+  // Samuel and Kings period
+  samuelCalledStory,
   davidGoliath,
-  danielLionsDen,
-  estherQueen,
+  davidKingStory,
+  solomonWisdomStory,
   
-  // Prophets
-  jonahWhale
+  // Prophets and exile
+  elijahRavensStory,
+  elishaMiraclesStory,
+  jonahWhale,
+  jonahWhaleStory,
+  danielLionsDen,
+  danielBabylonStory,
+  babylonEstherStory,
+  estherQueen,
+  jobTestedStory,
+  ruthLoyaltyStory,
+  
+  // Wisdom literature
+  psalmsVisualizationStories,
+  biblicalProverbsCollection,
+  biblicalProverbsCollection2,
+  stitchInTimeProverb,
+  
+  // NEW TESTAMENT
+  birthOfJesus,
+  johnBaptistMinistry,
+  callingDisciplesMiracles,
+  miraclesAuthorityJesus,
+  parableVisualizationSeries,
+  crucifixionBurial,
+  resurrectionOfJesus
 ];
 
 export default bibleStories;
