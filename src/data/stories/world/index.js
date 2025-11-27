@@ -52,6 +52,16 @@ import whySunMoonSky from './why-sun-moon-sky';
 import lionMouseKindness from './lion-mouse-kindness';
 import anansiTarBaby from './anansi-tar-baby';
 
+// Import Buddhist stories
+import buddhaTalesVisualization from './buddha-tales-visualization';
+import zenTalesVisualization from './zen-tales-visualization';
+
+// Import Islamic stories
+import islamicTalesVisualization from './islamic-tales-visualization';
+
+// Import Hindu stories
+import hinduTalesVisualization from './hindu-tales-visualization';
+
 const worldStories = [
   // Existing stories (preserved)
   mulanWarrior,
@@ -104,7 +114,17 @@ const worldStories = [
   anansiWisdomPot,
   whySunMoonSky,
   lionMouseKindness,
-  anansiTarBaby
+  anansiTarBaby,
+  
+  // Buddhist stories
+  buddhaTalesVisualization,
+  zenTalesVisualization,
+  
+  // Islamic stories
+  islamicTalesVisualization,
+  
+  // Hindu stories
+  hinduTalesVisualization
 ];
 
 export default worldStories;

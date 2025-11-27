@@ -111,7 +111,7 @@ const jiangTaigongFishing = {
     },
     {
       type: "story",
-      text: "Jiang Taigong smiled. 'I have been waiting for you, Your Majesty. Just as a fish that wishes to be caught needs no hook, a king who seeks wisdom will find his advisor. I have been "fishing" for a worthy ruler.'"
+      text: "Jiang Taigong smiled. 'I have been waiting for you, Your Majesty. Just as a fish that wishes to be caught needs no hook, a king who seeks wisdom will find his advisor. I have been fishing for a worthy ruler.'"
     },
     {
       type: "question",

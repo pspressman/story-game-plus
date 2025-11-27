@@ -1,6 +1,3 @@
-// Bible Stories Index - Updated with Individual Story Files
-
-// EXISTING STORIES - Keep all of these
 import creation from './creation';
 import adamEve from './adam-eve';
 import noahArk from './noah-ark';
@@ -14,9 +11,11 @@ import danielLionsDen from './daniel-lions-den';
 import jonahWhale from './jonah-whale';
 import estherQueen from './esther-queen';
 
-// Existing new Bible stories
+// New Bible stories
 import babylonEstherStory from './babylon-esther-story';
 import balaamsDonkeyStory from './balaams-donkey-story';
+import biblicalProverbsCollection2 from './biblical-proverbs-collection-2';
+import biblicalProverbsCollection from './biblical-proverbs-collection';
 import birthOfJesus from './birth_of_jesus';
 import callingDisciplesMiracles from './calling_disciples_miracles';
 import crucifixionBurial from './crucifixion-burial';
@@ -29,34 +28,14 @@ import jobTestedStory from './job-tested-story';
 import johnBaptistMinistry from './john_baptist_ministry';
 import jonahWhaleStory from './jonah-whale-story';
 import miraclesAuthorityJesus from './miracles_authority_jesus';
+import parableVisualizationSeries from './parable_visualization_series';
+import psalmsVisualizationStories from './psalms-visualization-stories';
 import resurrectionOfJesus from './resurrection-of-jesus';
 import ruthLoyaltyStory from './ruth-loyalty-story';
 import samsonStrengthStory from './samson-strength-story';
 import samuelCalledStory from './samuel-called-story';
 import solomonWisdomStory from './solomon-wisdom-story';
 import stitchInTimeProverb from './stitch-in-time-proverb';
-
-// NEW IMPORTS - Proverbs stories (from split collections)
-import prideBeforeFall from './pride-before-fall';
-import gentleAnswer from './gentle-answer';
-import goToTheAnt from './go-to-the-ant';
-import ironSharpensIron from './iron-sharpens-iron';
-import applesOfGold from './apples-of-gold';
-import slowToAnger from './slow-to-anger';
-import trainUpChild from './train-up-child';
-import refreshOthers from './refresh-others';
-import trustInLord from './trust-in-lord';
-import betterVegetablesLove from './better-vegetables-love';
-
-// NEW IMPORTS - Psalms stories (from split collections)
-import lordMyShepherd from './lord-my-shepherd';
-import deerPantsWater from './deer-pants-water';
-import treeByWater from './tree-by-water';
-import godOurRefuge from './god-our-refuge';
-import wordIsLamp from './word-is-lamp';
-
-// NEW IMPORTS - Parables story (from split collection)
-import parablesJesusVisualization from './parables-jesus-visualization';
 
 const bibleStories = [
   // OLD TESTAMENT
@@ -95,32 +74,18 @@ const bibleStories = [
   jobTestedStory,
   ruthLoyaltyStory,
   
-  // Wisdom literature (Proverbs)
+  // Wisdom literature
+  psalmsVisualizationStories,
+  biblicalProverbsCollection,
+  biblicalProverbsCollection2,
   stitchInTimeProverb,
-  prideBeforeFall,
-  gentleAnswer,
-  goToTheAnt,
-  ironSharpensIron,
-  applesOfGold,
-  slowToAnger,
-  trainUpChild,
-  refreshOthers,
-  trustInLord,
-  betterVegetablesLove,
-  
-  // Psalms
-  lordMyShepherd,
-  deerPantsWater,
-  treeByWater,
-  godOurRefuge,
-  wordIsLamp,
   
   // NEW TESTAMENT
   birthOfJesus,
   johnBaptistMinistry,
   callingDisciplesMiracles,
   miraclesAuthorityJesus,
-  parablesJesusVisualization,
+  parableVisualizationSeries,
   crucifixionBurial,
   resurrectionOfJesus
 ];
