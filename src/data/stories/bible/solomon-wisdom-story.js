@@ -49,15 +49,15 @@ const solomonWisdom = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine these two upset mothers arguing about the baby, how would their voices sound?",
+      question: "When you imagine the two women arguing before Solomon, what would the pauses between their shouting sound like?",
       options: [
-        "Loud and emotional",
-        "Quiet and whispering",
-        "Singing sweetly",
-        "Completely silent"
+        "Long, calm silences filled with birdsong",
+        "Brief and tense, quickly broken by the next outburst",
+        "Slow and peaceful like a quiet evening",
+        "Musical and rhythmic like a chant"
       ],
-      correctAnswer: 0,
-      explanation: "Mothers fighting over a baby would speak loudly with very emotional voices."
+      correctAnswer: 1,
+      explanation: "Two desperate mothers in a fierce dispute would barely pause before breaking back in, filling any silence with sharp, tense anticipation."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const solomonWisdom = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you visualize the real mother crying 'Give her the baby,' what is she thinking about most?",
+      question: "When you visualize the false mother agreeing to have the baby cut in half, what does that reveal about what she values most?",
       options: [
-        "Winning the argument",
-        "Making Solomon angry",
-        "What others will think",
-        "Keeping the baby alive even if she loses him"
+        "She values the baby's happiness above everything",
+        "She values winning and denying the other woman over the baby's life",
+        "She values following Solomon's commands out of respect",
+        "She values honesty and wants to confess her lie"
       ],
-      correctAnswer: 3,
-      explanation: "A real mother would care more about her baby living than about winning him."
+      correctAnswer: 1,
+      explanation: "A woman willing to let a baby die rather than let her rival have him is driven by spite and the desire to win, not by any care for the child."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const solomonWisdom = {
     {
       type: "question",
       domain: "size",
-      question: "When you visualize the temple Solomon built compared to normal houses, how would it look?",
+      question: "When you picture a foreign queen arriving after a long journey to visit Solomon's temple, what part of it would make her stop walking and simply stare upward?",
       options: [
-        "Much smaller than houses",
-        "The same size as houses",
-        "Enormously larger and grander",
-        "Invisible to everyone"
+        "The small wooden door at the entrance",
+        "The towering walls and pillars rising far above her head",
+        "A modest garden no taller than herself",
+        "A narrow pathway leading underground"
       ],
-      correctAnswer: 2,
-      explanation: "A temple that took seven years to build would be enormously larger than ordinary houses."
+      correctAnswer: 1,
+      explanation: "A structure requiring seven years of construction would feature towering walls and columns that would dwarf any visitor, drawing the eye dramatically upward."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const solomonWisdom = {
     {
       type: "question",
       domain: "background",
-      question: "If you could see Solomon's palace in his later years, what would fill the rooms that once held only wisdom?",
+      question: "If you could look into Solomon's eyes in his later years and compare them to his eyes when he first asked God for wisdom, what change would you see?",
       options: [
-        "Books and scrolls everywhere",
-        "Statues of foreign gods and gold treasures",
-        "Empty space and dust",
-        "Children's toys and games"
+        "Brighter and more alert than ever before",
+        "The same steady, searching gaze as always",
+        "A dimming of the focused, searching light that once filled them",
+        "Wider and more curious with each passing year"
       ],
-      correctAnswer: 1,
-      explanation: "The story tells us foreign wives brought their gods and Solomon became focused on riches."
+      correctAnswer: 2,
+      explanation: "A man who began with a heart hungry for understanding but slowly turned away from wisdom would show that inner shift in his eyes — the keen, searching light replaced by something duller and more distant."
     },
     {
       type: "story",

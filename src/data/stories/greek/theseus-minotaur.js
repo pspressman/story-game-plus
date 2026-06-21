@@ -15,15 +15,15 @@ const theseusMinotaur = {
     {
       type: "question",
       domain: "shape",
-      question: "What shape would the Labyrinth most likely be when viewed from above?",
+      question: "If someone were trapped inside the Labyrinth, what would they most likely see when they looked straight ahead?",
       options: [
-        "A perfect circle with a single spiral path",
-        "A square grid with straight paths",
-        "An irregular pattern with twisting, confusing passages",
-        "A triangle with three distinct sections"
+        "A long, straight corridor stretching far into the distance",
+        "A wall blocking their path with no obvious way forward",
+        "An open courtyard with sunlight streaming in",
+        "A gentle curve leading to a clearly marked exit"
       ],
-      correctAnswer: 2,
-      explanation: "The Labyrinth was designed to be confusing and impossible to navigate, so it would most logically be visualized as an irregular pattern with twisting passages rather than a simple geometric shape."
+      correctAnswer: 1,
+      explanation: "A maze designed to trap and confuse would frequently present dead ends — walls blocking the path with no obvious way forward — forcing its occupants to constantly backtrack and lose their sense of direction."
     },
     {
       type: "story",

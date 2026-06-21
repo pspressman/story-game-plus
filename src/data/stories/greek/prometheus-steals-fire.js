@@ -14,15 +14,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture early humans without fire trying to eat meat, what would their food be like?",
+      question: "When you picture early humans trying to bite into an uncooked piece of tough animal hide or muscle, what would the texture feel like in their mouths?",
       options: [
-        "Hot and cooked",
-        "Cold and raw",
-        "Frozen solid",
-        "Already prepared by restaurants"
+        "Soft and easy to chew",
+        "Chewy, rubbery, and difficult to tear apart",
+        "Crunchy like dry bread",
+        "Smooth and melting"
       ],
       correctAnswer: 1,
-      explanation: "Without fire to cook with, early humans would have to eat their meat cold and raw."
+      explanation: "Without fire to break down the fibers of raw meat through cooking, early humans would struggle with tough, rubbery, chewy flesh that resists tearing — very different from the tender texture that heat produces."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "temperature",
-      question: "In your mental image of humans without fire during winter nights, how would they feel?",
+      question: "In your mental image of humans without fire huddling together on a winter night, what would their breath look like in the air?",
       options: [
-        "Warm and cozy",
-        "Slightly cool",
-        "Burning hot",
-        "Freezing cold"
+        "Invisible, as in warm conditions",
+        "Visible puffs of white mist",
+        "Thick clouds of steam",
+        "Colored like smoke from a fire"
       ],
-      correctAnswer: 3,
-      explanation: "Without fire for warmth during winter nights, humans would feel freezing cold."
+      correctAnswer: 1,
+      explanation: "In freezing cold air without any fire for warmth, the moisture in human breath would condense into visible white puffs of mist with each exhale."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Prometheus hiding the ember, where would he place it in the fennel stalk?",
+      question: "When you visualize Prometheus carefully carrying the fennel stalk down the mountain, how would he likely hold it to keep the ember alive?",
       options: [
-        "On top of the stalk",
-        "Tied to the outside",
-        "Inside the hollow center",
-        "Underneath the stalk"
+        "Upside down so heat rises into the stalk",
+        "Upright and steady, shielded from the wind",
+        "Spinning it rapidly through the air",
+        "Dragging it along the ground"
       ],
-      correctAnswer: 2,
-      explanation: "The story says he hid it inside a hollow fennel stalk, so it would be placed in the hollow center."
+      correctAnswer: 1,
+      explanation: "To keep an ember alive inside a stalk, Prometheus would need to hold it upright and steady, protecting it from wind that could extinguish it or cause it to burn out of control."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image of wild animals approaching a human campfire at night, how would they react to the flames?",
+      question: "In your mental image of humans sitting around a campfire telling stories, how would the shadows of the people appear on the ground and trees nearby?",
       options: [
-        "Run toward the fire excitedly",
-        "Back away or run from it",
-        "Ignore it completely",
-        "Try to put it out"
+        "Sharp and perfectly still like midday shadows",
+        "Invisible because fire is too dim",
+        "Long and dancing as the flames flicker",
+        "Short and pointing upward"
       ],
-      correctAnswer: 1,
-      explanation: "Wild animals are naturally afraid of fire, so they would back away or run from the flames."
+      correctAnswer: 2,
+      explanation: "A flickering campfire casts unsteady light, causing the shadows of people sitting around it to stretch long and sway back and forth with every movement of the flames."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Prometheus chained to a rock for punishment, where would this rock most likely be?",
+      question: "When you visualize Prometheus chained to a mountain rock through all seasons, what kind of weather would he be exposed to that would make his punishment even harsher?",
       options: [
-        "Deep underwater",
-        "In a comfortable valley",
-        "Inside a cozy cave",
-        "High on a mountain peak"
+        "Gentle breezes and mild sunshine",
+        "Lashing wind, freezing snow, and driving rain",
+        "Warm tropical humidity",
+        "Calm foggy mornings only"
       ],
-      correctAnswer: 3,
-      explanation: "The story mentions Prometheus was chained to a rock on a tall mountain, so it would be high on a mountain peak."
+      correctAnswer: 1,
+      explanation: "A mountain peak offers no shelter, so Prometheus would be fully exposed to harsh mountain weather — biting winds, snowstorms, and cold rain — making his chains all the more punishing."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const prometheusStealsFire = {
     {
       type: "question",
       domain: "perspective",
-      question: "In your mental image, when Prometheus looks down from the mountain at night, what would the human fires look like?",
+      question: "In your mental image, as Prometheus watches human settlements grow over many years, how would the pattern of lights on the earth below change compared to when he first gave them fire?",
       options: [
-        "Tiny flickering dots of light",
-        "Large blazing suns",
-        "Complete darkness",
-        "Solid beams of light"
+        "The lights would slowly disappear one by one",
+        "The lights would stay exactly the same forever",
+        "There would be more lights spread across a wider area",
+        "The lights would merge into one single giant fire"
       ],
-      correctAnswer: 0,
-      explanation: "From high on a mountain, distant campfires would appear as tiny flickering dots of light scattered across the dark landscape."
+      correctAnswer: 2,
+      explanation: "As civilization grew and spread across the world, more and more settlements would form campfires, meaning Prometheus would see an ever-increasing number of lights covering a broader stretch of the earth below."
     },
     {
       type: "story",

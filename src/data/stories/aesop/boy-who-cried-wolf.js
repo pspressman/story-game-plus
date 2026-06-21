@@ -15,15 +15,15 @@ const boyWhoCriedWolf = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the boy with his sheep, where would you see him spending his day?",
+      question: "When you picture the boy passing the hours alone with his sheep, what would the ground beneath his feet most likely look like?",
       options: [
-        "Inside a dark cave with the sheep",
-        "On a grassy hillside overlooking the village",
-        "In the middle of the busy village market",
-        "Swimming in a deep lake with the sheep"
+        "Smooth marble tiles like a palace floor",
+        "Soft grass and scattered wildflowers where sheep could graze",
+        "Deep sand dunes shifting in the wind",
+        "Thick ice covering a frozen pond"
       ],
       correctAnswer: 1,
-      explanation: "The shepherd boy would be on a hillside where he could watch the sheep graze and keep an eye on the village below."
+      explanation: "A hillside where sheep are kept would need vegetation for the animals to eat, so you would picture patchy grass and perhaps wildflowers underfoot — details the story never describes but that logically follow from imagining a real grazing hillside."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const boyWhoCriedWolf = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the villagers responding to the boy's cry, how would they be moving?",
+      question: "When you visualize the villagers climbing the hill with their tools, what would their hands and arms look like as they moved?",
       options: [
-        "Walking slowly and calmly up the hill",
-        "Running quickly with worried expressions",
-        "Standing still and ignoring the boy",
-        "Dancing and celebrating"
+        "Hands clasped calmly behind their backs",
+        "Arms pumping hard, gripping sticks and tools tightly",
+        "Arms stretched out lazily at their sides",
+        "Waving cheerfully at neighbors along the way"
       ],
       correctAnswer: 1,
-      explanation: "The villagers would be running quickly because they thought there was real danger and wanted to help save the sheep."
+      explanation: "Racing uphill while gripping heavy sticks and tools would cause the villagers' arms to pump with effort, knuckles tight around their makeshift weapons as they hurried to defend the flock."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const boyWhoCriedWolf = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture the villagers' faces after discovering the trick, what expressions would you see?",
+      question: "When you imagine the villagers walking back down the hill after the trick, what would their body language look like?",
       options: [
-        "Happy smiles and laughter",
-        "Angry frowns and disappointment",
-        "Confused and scratching their heads",
-        "Sleepy and yawning"
+        "Skipping lightly and waving goodbye to the boy",
+        "Shoulders tense, strides stiff, muttering under their breath",
+        "Slouched and shuffling slowly from exhaustion",
+        "Jumping and cheering with relief"
       ],
       correctAnswer: 1,
-      explanation: "The villagers would be angry and disappointed because they had rushed to help but were tricked instead."
+      explanation: "People who feel betrayed and irritated after wasting effort typically carry tension in their shoulders and walk with stiff, clipped strides, often muttering to themselves as they go."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const boyWhoCriedWolf = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image, how many times has the boy now cried wolf falsely?",
+      question: "If the boy cried wolf one more time after this point in the story, how many false alarms would the villagers have experienced in total?",
       options: [
-        "One time",
-        "Two times",
-        "Three times",
-        "Four times"
+        "Two false alarms",
+        "Three false alarms",
+        "Four false alarms",
+        "Five false alarms"
       ],
       correctAnswer: 1,
-      explanation: "The boy has now cried wolf falsely two times - once the first week and once the second week."
+      explanation: "By this moment the villagers have already endured two false alarms. Adding one more imaginary cry would bring the total to three, requiring you to count what has happened and project one step beyond it."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const boyWhoCriedWolf = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize the real wolf, what would make it look dangerous?",
+      question: "When you picture the sheep scattering from the wolf, what sounds would fill the hillside that the story never describes?",
       options: [
-        "Soft, fluffy fur and a wagging tail",
-        "Sharp teeth and fierce, hungry eyes",
-        "Bright purple fur and wings",
-        "Tiny size like a mouse"
+        "Gentle humming and soft laughter",
+        "Panicked bleating, thundering hooves, and the wolf's snarling growl",
+        "Complete silence broken only by birdsong",
+        "Slow, rhythmic drumbeats echoing across the hill"
       ],
       correctAnswer: 1,
-      explanation: "A dangerous wolf would have sharp teeth and fierce, hungry eyes as it hunted the sheep."
+      explanation: "A wolf attack on a flock would produce sounds the story never mentions: the sheep's frightened bleating, the rumble of hooves as they fled in all directions, and the wolf's aggressive snarling — a chaotic soundscape you must construct in your imagination."
     },
     {
       type: "story",

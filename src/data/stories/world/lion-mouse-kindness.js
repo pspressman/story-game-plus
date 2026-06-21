@@ -15,15 +15,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the setting of this story, what would the landscape look like?",
+      question: "When you picture the African savanna in this story, what kinds of sounds would fill the air around you?",
       options: [
-        "Snowy mountains with pine trees",
-        "Tall golden grass under hot African sun",
-        "Dense rainforest with thick green leaves",
-        "Sandy desert with no plants at all"
+        "Crashing ocean waves and seagull cries",
+        "Rustling grass, buzzing insects, and distant animal calls",
+        "City traffic and crowded marketplace noise",
+        "Howling blizzard winds and silence"
       ],
       correctAnswer: 1,
-      explanation: "The story describes the African savanna with tall golden grass growing under the hot sun, which is the classic habitat where lions live."
+      explanation: "Imagining yourself standing in a hot, open African savanna, you would mentally construct the ambient sounds of dry grass rustling in the breeze, insects humming in the heat, and the calls of distant wildlife — none of which are described in the story text."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "size",
-      question: "When you visualize the mouse compared to the sleeping lion, how would their sizes appear?",
+      question: "If you imagined placing the sleeping lion's paw next to a common household object, which would best match its size?",
       options: [
-        "The mouse would be the same size as the lion",
-        "The mouse would be much larger than the lion",
-        "The mouse would be tiny compared to the mighty lion",
-        "Both would be too small to see clearly"
+        "A postage stamp",
+        "A dinner plate",
+        "A pencil eraser",
+        "A single grape"
       ],
-      correctAnswer: 2,
-      explanation: "The story contrasts the 'tiny field mouse' with the 'great lion' and 'mighty lion,' so you would picture a huge size difference between them."
+      correctAnswer: 1,
+      explanation: "To visualize the true scale of a lion's paw, you would need to mentally compare it to familiar objects. A lion's paw is roughly the size of a dinner plate — something the story never states but which helps you appreciate how enormous the lion truly is compared to a tiny mouse."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "mood",
-      question: "In your mental image, how would the little mouse look when the lion woke up?",
+      question: "In your mental image, what would the mouse's tiny eyes look like as the lion stared down at her?",
       options: [
-        "Brave and ready to fight the lion",
-        "Trembling and frightened by the giant lion",
-        "Laughing and playing games",
-        "Sleeping peacefully like the lion was"
+        "Half-closed and drowsy with sleep",
+        "Wide open and glistening with fear",
+        "Narrowed and fierce with anger",
+        "Cheerful and bright with excitement"
       ],
       correctAnswer: 1,
-      explanation: "The story describes the mouse as 'trembling' when the lion woke up, so you would picture her looking very scared and frightened."
+      explanation: "Although the story tells us the mouse was trembling, it never describes her eyes. Visualizing a tiny creature frozen in terror before a giant predator, you would picture her eyes stretched wide open and shining with panic."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the lion's voice as he spoke to the mouse, what would it sound like?",
+      question: "When you picture the lion leaning down to look at the mouse, what would his breath feel like on her tiny body?",
       options: [
-        "High and squeaky like a bird",
-        "Deep and rumbling like thunder",
-        "Soft and whispery like wind",
-        "Silent with no sound at all"
+        "Cold and icy like a winter frost",
+        "Hot and heavy like a wave of warm air",
+        "Completely unnoticeable to her",
+        "Gentle and cool like a spring breeze"
       ],
       correctAnswer: 1,
-      explanation: "The story describes the lion's voice as 'deep, rumbling,' so you would imagine it sounding powerful and low like distant thunder."
+      explanation: "The story never mentions the lion's breath, but visualizing a massive warm-blooded predator exhaling right above a creature small enough to eat in one bite, you would imagine the mouse feeling a hot, heavy blast of warm air washing over her entire body."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "movement",
-      question: "When you imagine the mouse being freed, how would she move away from the lion?",
+      question: "When you imagine the mouse disappearing into the grass after being freed, what would happen to your view of her?",
       options: [
-        "Walking slowly and calmly",
-        "Scurrying away quickly into the grass",
-        "Flying up into the tree branches",
-        "Swimming away through water"
+        "She would grow larger and easier to see as she ran",
+        "She would vanish almost instantly, swallowed by the towering grass",
+        "She would float slowly upward into the sky",
+        "She would stand still and look back at the lion"
       ],
       correctAnswer: 1,
-      explanation: "The story says the grateful mouse 'scurried away quickly into the tall grass,' so you would picture her moving fast to get to safety."
+      explanation: "Picturing a tiny mouse darting into grass described as tall and golden, you can infer she would disappear from sight almost immediately — the grass would swallow her up in seconds, leaving no trace behind."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "what",
-      question: "In your mind, what would be trapping the mighty lion?",
+      question: "In your mental image, what would the lion's body look like as he struggled against the trap?",
       options: [
-        "A deep hole in the ground",
-        "Strong ropes and a large net",
-        "Heavy chains made of metal",
-        "Thick mud that he couldn't escape"
+        "Perfectly still and calm, resting peacefully",
+        "Muscles straining and bulging, fur pressed flat by tight ropes",
+        "Completely hidden so nothing could be seen",
+        "Standing tall and free with no marks on him"
       ],
       correctAnswer: 1,
-      explanation: "The story describes the lion caught in a trap with strong ropes that tightened around him and a large net that he couldn't break free from."
+      explanation: "The story tells us he struggled but could not break free, so you must visualize what that effort would look like — powerful muscles flexing and bulging against ropes cutting into his fur, his body contorted by the strain of fighting the trap."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize the mouse hearing the lion's roar, where would she be?",
+      question: "When you visualize the mouse the moment she heard the lion's roar, what would she most likely be doing?",
       options: [
-        "Right next to the trapped lion",
-        "Far away across the savanna",
-        "Deep underground in a burrow",
-        "High up in the sky flying"
+        "Swimming across a wide river",
+        "Going about her small daily routine, perhaps foraging or tending to her family",
+        "Already standing right beside the lion",
+        "Sleeping high up in a tree"
       ],
       correctAnswer: 1,
-      explanation: "The story says the mouse heard the lion's cry 'from far away,' so you would picture her at a distance across the savanna when she heard his roar for help."
+      explanation: "The story never tells us what the mouse was doing when she heard the roar. Inferring from her earlier behavior — searching for food for her family — you would picture her in the middle of ordinary daily mouse life when the distant roar interrupted her."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental picture, how would the mouse free the lion from the net?",
+      question: "As the mouse gnawed through strand after strand of rope, what would the ropes look like once she had finished chewing through them?",
       options: [
-        "Using her sharp teeth to gnaw through the ropes",
-        "Pushing the ropes away with her tiny paws",
-        "Calling other animals to help pull the net off",
-        "Waiting for the ropes to break by themselves"
+        "Smooth and neatly cut as if by scissors",
+        "Frayed and ragged with chewed, fuzzy ends",
+        "Melted and glassy at the edges",
+        "Unchanged and still tightly wound"
       ],
-      correctAnswer: 0,
-      explanation: "The story describes the mouse using her sharp teeth to gnaw through the thick ropes, cutting them strand after strand to free the lion."
+      correctAnswer: 1,
+      explanation: "The story says the mouse used her teeth to gnaw through the ropes, but never describes what the cut ends would look like. Visualizing teeth chewing through thick rope fibres, you would picture frayed, ragged, fuzzy ends — the unmistakable mark of gnawing rather than cutting."
     },
     {
       type: "story",
@@ -168,15 +168,15 @@ const lionMouseKindness = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture the lion after being freed, what would his expression show?",
+      question: "When you picture the lion standing over the tiny mouse after being freed, what would his body posture look like compared to how he stood when he first caught the mouse?",
       options: [
-        "Angry and upset about being trapped",
-        "Grateful and warm toward his tiny rescuer",
-        "Confused about what had happened",
-        "Sad and disappointed in himself"
+        "Towering stiffly with his chest thrust out, just as dominant and threatening as before",
+        "Lowered gently toward her, his great head dipping down in a gesture of humble respect",
+        "Turned completely away, ignoring her as he walked off",
+        "Collapsed flat on the ground, too exhausted to move"
       ],
       correctAnswer: 1,
-      explanation: "The story says the lion spoke warmly and was grateful to be free, thanking the mouse for saving his life, so you would picture him looking appreciative and kind."
+      explanation: "The story never describes the lion's posture after being freed, but it tells us he spoke warmly and acknowledged he had been wrong. Inferring the physical expression of that humility, you would picture his massive body softening — his head lowering toward the tiny mouse as a visible sign of gratitude and respect he never showed her before."
     },
     {
       type: "story",

@@ -14,15 +14,15 @@ const changEMoon = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the sky after Hou Yi's heroic deed, what would you see in the background?",
+      question: "When you picture the earth after Hou Yi's heroic deed, what would the land and plants most likely look like?",
       options: [
-        "Ten bright suns still shining together",
-        "Complete darkness with no light at all",
-        "One sun shining peacefully in a blue sky",
-        "Nine suns hiding behind clouds"
+        "Lush, green, and thriving with life returning",
+        "Buried under thick snow and ice",
+        "Exactly the same as before, unchanged",
+        "Flooded with deep water everywhere"
       ],
-      correctAnswer: 2,
-      explanation: "Since Hou Yi shot down nine suns and left one, you would visualize a normal sky with just one sun shining."
+      correctAnswer: 0,
+      explanation: "With the scorching extra suns gone, the burned and parched earth would slowly recover, so you would visualize vegetation beginning to grow back and the landscape returning to life."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const changEMoon = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize Chang'e hearing the intruder, how would she be moving?",
+      question: "When you visualize Peng Meng breaking into the house, how would his body posture and movement most likely appear?",
       options: [
-        "Walking slowly and calmly to greet a visitor",
-        "Running or moving quickly with urgency",
-        "Sitting still and waiting",
-        "Dancing happily"
+        "Standing tall and announcing himself proudly at the front door",
+        "Crouched low and creeping carefully to avoid being seen or heard",
+        "Skipping cheerfully through the garden",
+        "Lying flat and rolling across the floor"
       ],
       correctAnswer: 1,
-      explanation: "Chang'e would move quickly and urgently when she realized someone was breaking in to steal the elixir."
+      explanation: "An intruder trying to steal something would move in a low, sneaking posture, trying to stay hidden and quiet as he crept through the house."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const changEMoon = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were watching from the ground as Chang'e flew to the moon, from what angle would you see her?",
+      question: "If you were watching from the ground as Chang'e flew to the moon, how large would her figure appear by the time she was nearly there?",
       options: [
-        "Looking down at her from above",
-        "Looking straight ahead at eye level",
-        "Looking up at her as she rises into the sky",
-        "Looking at her from underground"
+        "Larger and larger, filling the whole sky",
+        "The same size as when she left the window",
+        "Tiny, like a distant speck barely visible",
+        "Invisible only because it would be too bright to look at"
       ],
       correctAnswer: 2,
-      explanation: "Since Chang'e is flying upward to the moon, someone on the ground would need to look up to see her."
+      explanation: "As Chang'e traveled the vast distance to the moon, she would appear smaller and smaller until she was just a barely visible speck against the sky."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const changEMoon = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental image of Hou Yi setting out offerings for Chang'e, what time of day would this scene take place?",
+      question: "When you picture the fruits and cakes Hou Yi set out in the garden, what would they look like by the time he finally went back inside?",
       options: [
-        "Early morning at sunrise",
-        "Noon when the sun is highest",
-        "Evening or nighttime when the moon is visible",
-        "Middle of a sunny afternoon"
+        "Perfectly fresh, unchanged from when he placed them",
+        "Slightly cool and touched by dew from the night air",
+        "Fully cooked and steaming hot",
+        "Buried under fresh fallen snow"
       ],
-      correctAnswer: 2,
-      explanation: "Since he's looking at the moon and making offerings to Chang'e, this would happen when the moon is visible in the evening or night."
+      correctAnswer: 1,
+      explanation: "Left outside through a cool night, the offerings would gather moisture from the night air and become dewy and chilled, showing the passage of time Hou Yi spent gazing at the moon."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const changEMoon = {
     {
       type: "question",
       domain: "shape",
-      question: "When people imagine seeing Chang'e's silhouette on the moon, what shape would her figure most likely appear as?",
+      question: "When you picture the outline of Chang'e's jade palace on the moon's surface, what kind of shapes would its rooftops most likely form against the sky?",
       options: [
-        "A perfect square or rectangle",
-        "A flowing, graceful human form",
-        "A sharp triangle pointing upward",
-        "A perfectly round circle"
+        "Perfectly flat, horizontal lines with no peaks",
+        "Jagged, irregular spikes pointing in random directions",
+        "Curved, upswept roof tips arching gracefully upward",
+        "A single large dome with no edges"
       ],
-      correctAnswer: 1,
-      explanation: "A silhouette of a person would show the flowing, curved outline of a human figure, especially for a graceful goddess."
+      correctAnswer: 2,
+      explanation: "Traditional Chinese palace architecture features distinctive curved roofs with upswept corners, so the palace silhouette would show those elegant arching rooftip shapes characteristic of ancient Chinese buildings."
     },
     {
       type: "story",

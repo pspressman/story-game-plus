@@ -31,15 +31,15 @@ const herculesMoreLabors = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image of the river water rushing through the stables, what would happen to the mountains of dirt?",
+      question: "In your mental image of the river water rushing through the stables, what would happen to the wooden walls and beams of the stable structure itself?",
       options: [
-        "They would get wetter and heavier",
-        "They would turn into mud statues",
-        "They would freeze solid",
-        "They would be swept away by the current"
+        "They would glow and become warmer",
+        "They would splinter, crack, and bow outward under the water's pressure",
+        "They would freeze solid and turn white",
+        "They would shrink and become smaller"
       ],
-      correctAnswer: 3,
-      explanation: "Rushing river water would sweep away the dirt and waste, carrying it all downstream with the powerful current."
+      correctAnswer: 1,
+      explanation: "The force of two redirected rivers surging through an enclosed stable would put enormous pressure on the wooden walls and supports, causing them to splinter and strain outward under the powerful current."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const herculesMoreLabors = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, how would the horses' behavior change after switching from meat to grass?",
+      question: "As you picture the horses adjusting to their new diet, what would their posture and movement look like compared to when they were chained?",
       options: [
-        "From calm to wild and fierce",
-        "From fierce and wild to calm and gentle",
-        "No change at all",
-        "They would start flying"
+        "Heads low, muscles relaxed, moving with easy unhurried steps",
+        "Rearing up on hind legs with teeth bared",
+        "Frozen completely still like statues",
+        "Running in tight frantic circles"
       ],
-      correctAnswer: 1,
-      explanation: "Switching from an unnatural meat diet to their natural grass diet would help the horses become calm and gentle instead of fierce."
+      correctAnswer: 0,
+      explanation: "As the horses' aggression faded with a natural diet, their bodies would reflect that inner calm — heads dropping, muscles loosening, and their gait becoming slow and easy rather than tense and straining against chains."
     },
     {
       type: "story",

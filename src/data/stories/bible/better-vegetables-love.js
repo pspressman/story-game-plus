@@ -32,15 +32,15 @@ const betterVegetablesLove = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize Sam's face at each dinner table. At which house would his expression look more relaxed and happy?",
+      question: "Imagine Sam lying in bed that night, replaying both dinners in his mind. Which dinner would most likely keep him smiling as he fell asleep?",
       options: [
-        "At Anna's house with vegetables and love",
-        "At Rich's house with steak and arguing",
-        "His face would be the same at both",
-        "He would look sad at both places"
+        "The steak dinner, because expensive food is memorable",
+        "Neither dinner, because both made him uncomfortable",
+        "The vegetable soup dinner, because the warmth of the people stayed with him",
+        "Both equally, because food is what matters most at dinner"
       ],
-      correctAnswer: 0,
-      explanation: "Love and peace make us feel good inside, no matter what we're eating!"
+      correctAnswer: 2,
+      explanation: "Love and peace make us feel good inside long after the meal is over, no matter what we're eating!"
     },
     {
       type: "story",

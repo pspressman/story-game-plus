@@ -14,15 +14,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "where",
-      question: "When Sun Wukong decides to visit the Dragon King of the Eastern Sea, in which direction would he need to travel from his mountain?",
+      question: "As Sun Wukong travels from his mountain toward the ocean, what would the landscape gradually look like beneath his feet?",
       options: [
-        "Deep underground through tunnels",
-        "Eastward toward the ocean",
-        "Straight up to the moon",
-        "West into the desert"
+        "Rocky mountain peaks rising higher and higher",
+        "Endless desert sand dunes appearing",
+        "Terrain sloping downward as forests give way to coastal shores and then open water",
+        "Snow and ice covering everything around him"
       ],
-      correctAnswer: 1,
-      explanation: "The Dragon King of the Eastern Sea would live eastward in the ocean from the mountain."
+      correctAnswer: 2,
+      explanation: "Traveling from an inland mountain toward the sea, the landscape would gradually descend through forests and coastal land before reaching the shoreline and ocean waters."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "size",
-      question: "When Sun Wukong easily lifts a three-thousand-pound sword, what does this reveal about his strength?",
+      question: "When Sun Wukong tosses the three-thousand-pound sword aside and the palace shakes, what would the Dragon King's servants likely do in that moment?",
       options: [
-        "He's weaker than a normal monkey",
-        "He has average human strength",
-        "He possesses superhuman magical strength",
-        "He can't lift anything at all"
+        "Step forward eagerly to bring more weapons",
+        "Stand perfectly still with no reaction",
+        "Scatter backward and press against the walls in fear",
+        "Cheer and applaud Sun Wukong's strength"
       ],
       correctAnswer: 2,
-      explanation: "Lifting a three-thousand-pound sword with one hand shows superhuman magical strength."
+      explanation: "Watching a massive sword hurled aside like a twig while the palace shudders would terrify the servants, causing them to scramble away and flatten themselves against the walls."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "shape",
-      question: "When you visualize this legendary pillar that once measured ocean depths, what shape would it be?",
+      question: "If you imagine the ancient writing engraved on the iron pillar, what style of characters would most likely appear on such a legendary Chinese artifact?",
       options: [
-        "A flat square board",
-        "A round ball",
-        "A long cylindrical staff or pillar",
-        "A triangular pyramid"
+        "Modern printed block letters",
+        "Roman alphabet letters",
+        "Classical brushstroke Chinese characters carved into the metal",
+        "Simple stick figure drawings"
       ],
       correctAnswer: 2,
-      explanation: "A pillar used to measure depths would be long and cylindrical, like a staff or column."
+      explanation: "A legendary ancient Chinese artifact would bear classical brushstroke-style Chinese characters engraved into its surface, reflecting the writing tradition of the era."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "movement",
-      question: "As Sun Wukong spins his giant staff underwater, what would happen to the water around him?",
+      question: "When sea creatures are tumbled by the force of Sun Wukong's spinning staff, how would a small crab likely move through the churning water?",
       options: [
-        "The water would stay perfectly still",
-        "It would freeze into ice",
-        "It would create swirling whirlpools and currents",
-        "The water would disappear"
+        "Swimming gracefully in a straight line",
+        "Tumbling helplessly with claws splayed, rolling end over end",
+        "Sinking calmly to the ocean floor",
+        "Flying upward out of the water"
       ],
-      correctAnswer: 2,
-      explanation: "Spinning a large object underwater would create swirling whirlpools and strong currents."
+      correctAnswer: 1,
+      explanation: "A small crab caught in violent underwater turbulence would have no control, tumbling helplessly with limbs outstretched as the currents tossed it in every direction."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you watched Sun Wukong leaving the palace wearing all his new magical items, how would he appear different from when he arrived?",
+      question: "If a small fish peeked through the palace gate watching Sun Wukong depart, how would the sound of his cloud-walking boots on the ocean floor differ from when he first arrived barefoot?",
       options: [
-        "Looking exactly the same as before",
-        "Transformed into a fish",
-        "Magnificently dressed like a divine warrior",
-        "Invisible to everyone"
+        "Completely silent both times",
+        "Louder and more rhythmic clanking with each armored step, compared to soft padding before",
+        "Softer and quieter than his barefoot arrival",
+        "Identical sound both times"
       ],
-      correctAnswer: 2,
-      explanation: "With phoenix-feather cap, golden armor, and cloud-walking boots, he'd look like a divine warrior."
+      correctAnswer: 1,
+      explanation: "Metal cloud-walking boots striking the ocean floor would produce a loud, rhythmic clanking sound, a stark contrast to the quiet padding of bare monkey feet on his arrival."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const sunWukongDragonKing = {
     {
       type: "question",
       domain: "when",
-      question: "When the Dragon King writes his complaint to Heaven, what would Sun Wukong likely be doing at that same time?",
+      question: "While the Dragon King frantically composed his complaint, what emotions would be churning inside him that would make his writing difficult to keep calm and formal?",
       options: [
-        "Still swimming in the ocean",
-        "Apologizing to the Dragon King",
-        "Sleeping in the dragon palace",
-        "Already back home showing off to his subjects"
+        "Happiness and gratitude toward Sun Wukong",
+        "Boredom and indifference about the whole encounter",
+        "Serenity and patience as he carefully chose each word",
+        "Humiliation and rage competing with the need to appear dignified before the Jade Emperor"
       ],
       correctAnswer: 3,
-      explanation: "The story mentions he was already back showing off his staff while the Dragon King wrote his complaint."
+      explanation: "Having been bullied into surrendering his treasures, the Dragon King would feel deep humiliation and fury, yet would need to suppress those emotions to write a composed, respectful petition to the Jade Emperor."
     },
     {
       type: "story",

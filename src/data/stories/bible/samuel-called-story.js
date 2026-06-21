@@ -49,15 +49,15 @@ const samuelCalled = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize Samuel hearing his name called in the night, how quickly would he get up?",
+      question: "When you picture Samuel running through the dark temple toward Eli, how would his feet move on the stone floor?",
       options: [
-        "Very slowly, stretching and yawning",
-        "He would stay lying down",
-        "Jumping up immediately",
-        "Rolling over to go back to sleep"
+        "Slow and shuffling, barely lifting his feet",
+        "Light and quick, barely making a sound",
+        "Stomping heavily with loud thumps",
+        "Crawling on his hands and knees"
       ],
-      correctAnswer: 2,
-      explanation: "A helpful child who thinks his master called would jump up right away to help."
+      correctAnswer: 1,
+      explanation: "A young boy raised in a quiet, reverent temple would move quickly but lightly, used to keeping noise down in the holy space."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const samuelCalled = {
     {
       type: "question",
       domain: "number",
-      question: "When you picture people coming to hear Samuel speak God's messages, how many people would gather?",
+      question: "When you picture the road leading to where Samuel was speaking, what would it look like before his appearance?",
       options: [
-        "Just two or three",
-        "About ten people",
-        "Crowds of hundreds",
-        "Nobody would come"
+        "Empty with no one traveling it",
+        "Busy with travelers arriving from many directions",
+        "Blocked by a locked gate",
+        "Used only by soldiers on horses"
       ],
-      correctAnswer: 2,
-      explanation: "A prophet speaking for God to all Israel would draw large crowds of hundreds of people."
+      correctAnswer: 1,
+      explanation: "People journeying from distant towns to hear a prophet would create busy, well-traveled roads with groups arriving from many directions."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const samuelCalled = {
     {
       type: "question",
       domain: "mood",
-      question: "If you could see Samuel's face when the people kept demanding a king after his warnings, what expression would he have?",
+      question: "If you could see Samuel's body language as the crowd kept shouting for a king, how would he be standing?",
       options: [
-        "Happy and excited",
-        "Disappointed and concerned",
-        "Laughing with joy",
-        "Sleeping peacefully"
+        "Jumping and cheering along with them",
+        "Shoulders heavy, head slightly bowed",
+        "Dancing and clapping his hands",
+        "Sitting comfortably with a smile"
       ],
       correctAnswer: 1,
-      explanation: "Samuel would feel disappointed that people ignored his warnings and concerned about their choice."
+      explanation: "A person whose careful warnings are being ignored by a crowd would carry the weight of that rejection visibly, with slumped shoulders and a bowed head."
     },
     {
       type: "story",

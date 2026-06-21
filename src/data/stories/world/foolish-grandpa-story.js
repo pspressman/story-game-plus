@@ -31,15 +31,15 @@ const foolishGrandpa = {
     {
       type: "question",
       domain: "mood",
-      question: "When Yu Gong's wife hears his plan to move entire mountains, what expression would cross her face?",
+      question: "How would the mood inside the family home feel differently between the sons and the wife as they prepared to begin the work?",
       options: [
-        "Immediate enthusiasm",
-        "Worried doubt about the impossible task",
-        "Angry rage",
-        "Sleepy indifference"
+        "Both the sons and wife would feel equally cheerful and excited",
+        "The sons would buzz with eager energy while a heavy, uncertain tension hung around the wife",
+        "Everyone would feel bored and reluctant to start",
+        "The wife would be the most energetic while the sons sat quietly"
       ],
       correctAnswer: 1,
-      explanation: "Hearing a plan to move mountains would cause worried doubt about such an impossible task."
+      explanation: "The sons agreed enthusiastically, so their side of the room would feel lively and energized, while the wife's unspoken reservations would create a contrasting atmosphere of quiet unease and hesitation."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const foolishGrandpa = {
     {
       type: "question",
       domain: "movement",
-      question: "How would Yu Gong's family transport dirt and rocks from the mountain to the sea?",
+      question: "After months of travel carrying heavy loads, what would Yu Gong's family look like when they finally returned home?",
       options: [
-        "Throwing it through the air",
-        "Using magic spells",
-        "Carrying loaded baskets on their backs",
-        "Rolling it like balls"
+        "Fresh and energetic as when they left",
+        "Exhausted, dusty, and worn from the long journey",
+        "Dry and clean with no sign of effort",
+        "Taller and younger than before"
       ],
-      correctAnswer: 2,
-      explanation: "Without modern tools, they would carry loaded baskets on their backs for the long journey."
+      correctAnswer: 1,
+      explanation: "After months of hauling heavy rocks across long distances, the family would return home visibly exhausted, dusty, and worn down by the grueling journey."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const foolishGrandpa = {
     {
       type: "question",
       domain: "perspective",
-      question: "From Zhi Sou's 'wise' viewpoint, why would Yu Gong's plan seem foolish?",
+      question: "What picture would form in Zhi Sou's mind when he compared Yu Gong's tiny basket of stones to the towering mountains behind him?",
       options: [
-        "The mountains were too small to bother with",
-        "One elderly man couldn't finish such a massive task",
-        "Mountains don't really exist",
-        "The task was already complete"
+        "He would imagine the mountains shrinking rapidly with each basket removed",
+        "He would see the mountains and the basket as roughly equal in size",
+        "He would picture a single raindrop trying to empty an entire ocean, making the effort look absurd",
+        "He would visualize the task as already half finished"
       ],
-      correctAnswer: 1,
-      explanation: "From a practical view, one elderly man couldn't possibly complete such a massive task in his lifetime."
+      correctAnswer: 2,
+      explanation: "Watching one frail elderly man remove a small basket while two massive mountains loomed overhead would paint a picture of utter futility in Zhi Sou's mind, like a single raindrop against an ocean."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const foolishGrandpa = {
     {
       type: "question",
       domain: "number",
-      question: "In Yu Gong's vision, how many generations would work on moving the mountains?",
+      question: "If each generation of Yu Gong's family had three sons, and each of those sons also had three sons, how would the workforce change over time?",
       options: [
-        "Just his own efforts",
-        "Two or three generations",
-        "Exactly ten generations",
-        "Endless generations until complete"
+        "It would slowly shrink until no one was left",
+        "It would stay exactly the same size forever",
+        "It would grow larger with each passing generation",
+        "It would immediately double then stop"
       ],
-      correctAnswer: 3,
-      explanation: "Yu Gong envisioned endless generations of his family continuing until the task was complete."
+      correctAnswer: 2,
+      explanation: "With each generation producing multiple children who continue the work, the number of workers would grow larger over time, making Yu Gong's confidence in eventual success well founded."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const foolishGrandpa = {
     {
       type: "question",
       domain: "shape",
-      question: "According to Yu Gong's plan, what would eventually happen to the mountains' shape?",
+      question: "Halfway through the generations of digging, what would a traveler notice about the mountains compared to their original form?",
       options: [
-        "They would grow taller",
-        "They would move sideways",
-        "They would gradually flatten to ground level",
-        "They would turn into lakes"
+        "They would appear steeper and more jagged than before",
+        "They would look noticeably shorter with wide, spreading bases of loose rubble",
+        "They would be perfectly unchanged with no visible difference",
+        "They would have grown wider and taller from the digging"
       ],
-      correctAnswer: 2,
-      explanation: "Through endless digging over generations, the mountains would gradually flatten to ground level."
+      correctAnswer: 1,
+      explanation: "Centuries of removing rock and soil from the top and sides would leave the mountains visibly shorter, with their bases surrounded by the scattered remnants of excavation."
     },
     {
       type: "story",

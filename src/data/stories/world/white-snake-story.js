@@ -31,15 +31,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "movement",
-      question: "As you visualize these magical beings crossing the bridge in human form, how would they likely be moving?",
+      question: "As Bai Suzhen and Xiao Qing crossed the bridge in their new human forms for the very first time, what might betray that walking felt unfamiliar to them?",
       options: [
-        "Slithering like snakes despite their human appearance",
-        "Walking gracefully like elegant ladies",
-        "Hopping on one foot playfully",
-        "Crawling on hands and knees"
+        "They would stride forward with total confidence and speed",
+        "They might pause and sway slightly, adjusting to legs they had never used before",
+        "They would immediately sprint across without hesitation",
+        "They would crawl rather than stand upright"
       ],
       correctAnswer: 1,
-      explanation: "Having transformed into young women, they would walk gracefully like proper ladies of that time."
+      explanation: "As snake spirits experiencing human legs for the first time, they would likely need a brief moment to find their balance and adapt to an entirely new way of moving through the world."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "mood",
-      question: "When you imagine Bai Suzhen looking at Xu Xian for the first time, what expression would be on her face?",
+      question: "If you could see Bai Suzhen's hands at the moment her heart began to flutter, how might they betray what she was feeling inside?",
       options: [
-        "Angry and frightening",
-        "Bored and sleepy",
-        "Surprised and enchanted, perhaps blushing",
-        "Disgusted and turning away"
+        "Clenched into fists, ready to fight",
+        "Trembling slightly or fidgeting with her white silk sleeve",
+        "Relaxed and completely still at her sides",
+        "Raised above her head in celebration"
       ],
-      correctAnswer: 2,
-      explanation: "Since her heart fluttered with new feelings of love, she would look surprised and enchanted."
+      correctAnswer: 1,
+      explanation: "Experiencing love for the very first time would likely produce a nervous, fluttery physical response — her hands might tremble or fidget in a way her composed expression was trying to hide."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental picture of their daily life, where would you see Bai Suzhen and Xu Xian working?",
+      question: "In your mental picture of their medicine shop, what would likely be covering the walls and shelves inside?",
       options: [
-        "In a medicine shop helping sick people",
-        "On a farm growing rice",
-        "In the palace as royal guards",
-        "On a boat fishing in the lake"
+        "Swords and armor for warriors",
+        "Rows of dried herbs, jars of potions, and healing ingredients",
+        "Bolts of silk fabric and sewing needles",
+        "Fishing nets and buckets of water"
       ],
-      correctAnswer: 0,
-      explanation: "The story tells us they opened a medicine shop together where they helped heal sick people."
+      correctAnswer: 1,
+      explanation: "Since Bai Suzhen used magical knowledge of herbs to create healing potions, the shop would be filled with dried herbs, medicinal ingredients, and jars of prepared remedies."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "perspective",
-      question: "From Fa Hai's point of view as a monk with magical sight, what would he see when looking at Bai Suzhen?",
+      question: "If you could see Fa Hai's face as he watched Bai Suzhen living happily as a wife, what expression would he most likely wear?",
       options: [
-        "Just an ordinary woman",
-        "A beautiful princess",
-        "Both her human form and her true snake spirit nature",
-        "Nothing at all - she would be invisible"
+        "A warm, approving smile of admiration",
+        "A look of joyful celebration for her happiness",
+        "A tight-lipped grimace of disapproval and determination",
+        "A blank, emotionless stare showing no reaction"
       ],
       correctAnswer: 2,
-      explanation: "As a monk with special powers, Fa Hai could see through the disguise to her true snake spirit nature."
+      explanation: "As someone who believed spirits and humans should never be together and felt jealous of their happiness, Fa Hai would wear an expression of stern disapproval — perhaps a furrowed brow and clenched jaw — as he plotted to expose her."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "movement",
-      question: "As the realgar wine affects Bai Suzhen, how would you visualize her movement changing?",
+      question: "As the poison of the realgar wine spread through Bai Suzhen's body, how would you picture her face changing before she fully transformed?",
       options: [
-        "Dancing gracefully and happily",
-        "Struggling and losing control, perhaps writhing",
-        "Standing perfectly still like a statue",
-        "Flying up into the clouds"
+        "Glowing brighter and becoming more beautiful",
+        "Turning pale and contorting with pain and confusion",
+        "Remaining perfectly calm with no visible change",
+        "Breaking into a wide smile as the wine warmed her"
       ],
       correctAnswer: 1,
-      explanation: "Since the wine is poisonous to her and makes her lose control, she would struggle and writhe in distress."
+      explanation: "As a deadly poison worked against her magical nature, her face would likely drain of color and twist with pain and confusion before she lost full control — a physical sign of the battle happening inside her."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "number",
-      question: "In your visualization of Bai Suzhen's success, how many pieces of the magical herb did she obtain?",
+      question: "Imagine the battle Bai Suzhen fought against the immortal guards on Kunlun Mountain. How many opponents would you picture her facing?",
       options: [
-        "A whole basket full",
-        "One small piece",
-        "Hundreds of herbs",
-        "None at all"
+        "Just one single guard standing at a gate",
+        "A large group of powerful immortal warriors surrounding her",
+        "No guards at all — the mountain was empty",
+        "Only animals like tigers and dragons"
       ],
       correctAnswer: 1,
-      explanation: "The immortals allowed her to take one small piece of the life-giving herb."
+      explanation: "A sacred mountain housing a miraculous life-giving herb would be heavily protected, so Bai Suzhen would face many powerful immortal warriors to prove her love and determination."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const whiteSnake = {
     {
       type: "question",
       domain: "when",
-      question: "At what point in the story does Xu Xian fully accept that his wife is a snake spirit?",
+      question: "Before Bai Suzhen revealed her snake form, what feeling do you think Xu Xian had about his wife that would later make acceptance possible?",
       options: [
-        "The moment they first met on the bridge",
-        "When they opened their medicine shop",
-        "He never accepts the truth",
-        "After she saved his life with the magical herb"
+        "He always suspected she was dangerous and feared her",
+        "He felt indifferent and had no strong feelings for her",
+        "He deeply loved and trusted her, which prepared his heart to forgive",
+        "He was planning to leave her before she transformed"
       ],
-      correctAnswer: 3,
-      explanation: "Xu Xian accepts her true nature after she saves his life, proving her genuine love for him."
+      correctAnswer: 2,
+      explanation: "For Xu Xian to accept his wife after such a shock, there must have been a foundation of deep love and trust already in his heart — something built during their happy life together that is never directly described in the text."
     },
     {
       type: "story",

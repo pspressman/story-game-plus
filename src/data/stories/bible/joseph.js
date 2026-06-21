@@ -1,4 +1,3 @@
-
 // src/data/stories/bible/joseph.js
 const joseph = {
   id: "joseph",
@@ -16,28 +15,28 @@ const joseph = {
     {
       type: "question",
       domain: "what",
-      question: "In your mind, what does Joseph's special coat look like?",
+      question: "When you imagine Joseph wearing his special coat next to his brothers, how would the brothers appear by comparison?",
       options: [
-        "Plain brown with no decoration",
-        "Black with white polka dots",
-        "Bright with many different colored stripes or patches",
-        "Invisible so no one could see it"
+        "Dressed in equally bright and elaborate robes of their own",
+        "Wearing plain, simple working clothes that look dull beside Joseph's coat",
+        "Completely naked with no clothing at all",
+        "Dressed in armor like soldiers going to battle"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Joseph's coat as 'special' and 'colorful,' which made his brothers jealous. Visualizing a bright garment with many colors creates a vivid mental picture of this important item from the story."
+      correctAnswer: 1,
+      explanation: "The story tells us Jacob singled out Joseph with a special coat, something his brothers did not receive. Visualizing the brothers in ordinary, undecorated working clothes beside Joseph's vibrant coat helps explain the visual contrast that fueled their jealousy."
     },
     {
       type: "question",
       domain: "expression",
-      question: "How do you picture the faces of Joseph's brothers when he tells them about his dream?",
+      question: "How do you picture the brothers' body language as Joseph walks away after telling them his dream?",
       options: [
-        "Smiling and congratulating Joseph on his interesting dream",
-        "Looking confused because they don't understand what the dream means",
-        "Frowning with narrowed eyes and clenched jaws, showing anger and jealousy",
-        "Laughing loudly and slapping their knees, thinking it's a great joke"
+        "Waving warmly and calling out kind words to him",
+        "Turning toward each other with hunched shoulders, speaking in low, bitter voices",
+        "Jumping up and down excitedly to celebrate his dream",
+        "Standing perfectly still with their eyes closed, saying nothing"
       ],
-      correctAnswer: 2,
-      explanation: "The story tells us the brothers were jealous and angry about Joseph's dream. Visualizing their hostile expressions helps create a mental picture of the growing tension between Joseph and his brothers."
+      correctAnswer: 1,
+      explanation: "The brothers had just heard a dream suggesting they would bow to Joseph, which deepened their jealousy. Visualizing them huddling together with tense, closed-off posture as they murmur among themselves creates a mental picture of the resentment forming between them."
     },
     {
       type: "story",
@@ -46,15 +45,15 @@ const joseph = {
     {
       type: "question",
       domain: "environment",
-      question: "How do you picture the well that Joseph was thrown into?",
+      question: "If you could look down into the well after Joseph was thrown in, what would the scene look like?",
       options: [
-        "A shallow puddle of water with frogs hopping around",
-        "A deep pit with high stone walls and no water at the bottom",
-        "A modern well with a bucket on a rope and handle to turn",
-        "A small hole just big enough for a mouse"
+        "A shallow, brightly lit pool with colorful fish swimming around",
+        "A narrow, shadowy shaft of earth and rock with Joseph a small figure far below on dry ground",
+        "A wide open space filled with soft hay for a comfortable landing",
+        "A tunnel leading straight into a lit underground room"
       ],
       correctAnswer: 1,
-      explanation: "The story describes a 'deep, dry well.' Visualizing a pit with high stone walls creates an accurate mental picture of the kind of ancient well that would be impossible for Joseph to climb out of without help."
+      explanation: "The story describes a deep, dry well. Visualizing the view from above — a narrow opening that shrinks into darkness, with Joseph appearing small and unreachable at the bottom — creates a mental image of how helpless and trapped he truly was."
     },
     {
       type: "question",
@@ -76,15 +75,15 @@ const joseph = {
     {
       type: "question",
       domain: "expression",
-      question: "When you imagine Jacob's reaction to seeing the bloody coat, what do you see?",
+      question: "How do you picture the brothers' faces while Jacob weeps over the coat they know they stained themselves?",
       options: [
-        "Jacob laughing because he knows it's a joke",
-        "Jacob looking confused but not really caring",
-        "Jacob crying with his hands covering his face, shoulders shaking with grief",
-        "Jacob dancing happily around the coat"
+        "Open and sorrowful, crying just as hard as Jacob",
+        "Glancing sideways at each other with tight lips and eyes that cannot quite meet their father's gaze",
+        "Completely relaxed and cheerful, unaffected by the scene",
+        "Wide-eyed with surprise, as though they too cannot believe what happened"
       ],
-      correctAnswer: 2,
-      explanation: "The story says Jacob was 'heartbroken and cried for many days.' Visualizing physical signs of extreme grief creates an emotional mental picture that matches how devastating this news would be for a father."
+      correctAnswer: 1,
+      explanation: "The brothers created the deception themselves, so they would carry the guilt of watching their father grieve a lie they told. Visualizing the uneasy, averted looks of people hiding a secret creates a mental picture of that guilty tension not described in the text."
     },
     {
       type: "story",
@@ -93,15 +92,15 @@ const joseph = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how does Joseph act while he's working in Potiphar's house?",
+      question: "When you picture Joseph moving through Potiphar's house as he manages it, how does he carry himself?",
       options: [
-        "Lazy, taking naps whenever possible",
-        "Angry, breaking things and yelling at people",
-        "Hardworking and organized, doing his tasks carefully and well",
-        "Scared, hiding from everyone and working only at night"
+        "Hunched over and shuffling slowly, staring at the floor",
+        "Standing tall and moving with purpose, directing servants and overseeing tasks with calm confidence",
+        "Running frantically from room to room, bumping into furniture",
+        "Crawling on his hands and knees to avoid being noticed"
       ],
-      correctAnswer: 2,
-      explanation: "The story says Joseph 'worked hard and was honest' and 'did well at everything he tried.' Visualizing him as diligent and organized helps create a mental picture that explains why Potiphar would put him in charge of his household."
+      correctAnswer: 1,
+      explanation: "Joseph was placed in charge of Potiphar's entire household, which means he would need to project authority and move with purpose. Visualizing his confident posture and deliberate movements helps explain why someone would trust a former slave with such responsibility."
     },
     {
       type: "story",
@@ -144,15 +143,15 @@ const joseph = {
     {
       type: "question",
       domain: "environment",
-      question: "When you imagine the storehouses in Egypt during the famine, what do you see?",
+      question: "When you imagine the surrounding countries during the famine, compared to Egypt, what contrast do you picture?",
       options: [
-        "Empty buildings with no food left",
-        "Small baskets with just a handful of grain in each",
-        "Massive buildings filled with grain while people line up outside to buy food",
-        "Buildings full of fruits and vegetables but no grain"
+        "Both Egypt and surrounding lands look equally green and full of crops",
+        "Surrounding lands with cracked dry earth and bare fields, while Egypt alone has guarded storehouses standing full",
+        "Egypt completely underwater while surrounding countries have plenty of food",
+        "All countries looking identical, with no visible difference between them"
       ],
-      correctAnswer: 2,
-      explanation: "The story mentions Joseph stored 'enormous amounts of grain' that was sufficient during the seven-year famine. Visualizing large storehouses with plenty of grain and people coming to buy food creates an accurate mental picture of this situation."
+      correctAnswer: 1,
+      explanation: "The story states that surrounding countries had no food while Egypt had prepared. Visualizing the stark difference between barren, drought-struck lands beyond Egypt's borders and the stocked storehouses within Egypt creates a mental picture of why people traveled so far to buy grain."
     },
     {
       type: "question",

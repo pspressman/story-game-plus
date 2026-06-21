@@ -1,0 +1,171 @@
+// The Country Mouse and the City Mouse - Aesop's Fable
+const countryMouseCityMouse = {
+  id: "country-mouse-city-mouse",
+  title: "The Country Mouse and the City Mouse",
+  icon: "🐭",
+  difficulty: "Medium",
+  theme: "Contentment",
+  estimatedTime: "12-15 min",
+  description: "Two mouse cousins discover that a simple, safe life can be better than a fancy, dangerous one.",
+  content: [
+    {
+      type: "story",
+      text: "A little country mouse lived peacefully in a cozy burrow under an old oak tree. His home was simple but comfortable, with soft grass for bedding and plenty of seeds, nuts, and berries to eat from the nearby fields."
+    },
+    {
+      type: "question",
+      domain: "background",
+      question: "When you picture the country mouse's home, what would you see in the surrounding area?",
+      options: [
+        "Tall buildings and busy streets with cars",
+        "Green fields, trees, and peaceful nature",
+        "Desert sand with no plants anywhere",
+        "An underground cave with no sunlight"
+      ],
+      correctAnswer: 1,
+      explanation: "The country mouse lived in nature, so you'd see green fields, trees, and peaceful natural surroundings."
+    },
+    {
+      type: "story",
+      text: "One day, his cousin from the big city came to visit. The city mouse wore a shiny coat and had sleek, well-groomed whiskers. He looked at the country mouse's simple meal of acorns and grain with disgust."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "When you visualize the country mouse standing next to his city cousin, what would his own fur and paws likely look like by comparison?",
+      options: [
+        "More polished and elegant than the city mouse",
+        "Rougher and more weathered from outdoor living",
+        "Identical in every way to the city mouse",
+        "Covered in colorful paint and decorations"
+      ],
+      correctAnswer: 1,
+      explanation: "Living outdoors in fields and a burrow, the country mouse's fur would look rougher and more weathered compared to his sleek city cousin — a contrast the story implies but never directly describes."
+    },
+    {
+      type: "story",
+      text: "'Dear cousin,' said the city mouse, 'how can you live on such plain food? Come with me to the city! I'll show you how to eat like a king with fancy cheese, fresh bread, and sweet cakes every day!'"
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "When you picture the city mouse talking about city food, what expression would be on his face?",
+      options: [
+        "Disgusted and unhappy with everything",
+        "Excited and proud, trying to impress his cousin",
+        "Scared and wanting to hide",
+        "Sleepy and ready for a nap"
+      ],
+      correctAnswer: 1,
+      explanation: "The city mouse would look excited and proud as he bragged about the fancy city food to impress his country cousin."
+    },
+    {
+      type: "story",
+      text: "The curious country mouse agreed to visit the city. They traveled through busy streets filled with honking cars, shouting people, and tall buildings that blocked out the sun. The noise and smells were overwhelming."
+    },
+    {
+      type: "question",
+      domain: "sound",
+      question: "When you imagine the country mouse's first moments in the city, what expression would appear on his face as he took in all the unfamiliar sounds?",
+      options: [
+        "Calm and relaxed, completely at ease",
+        "Wide-eyed and tense, overwhelmed by the assault on his senses",
+        "Bored and uninterested in his surroundings",
+        "Laughing and dancing with delight"
+      ],
+      correctAnswer: 1,
+      explanation: "Having only ever known quiet countryside, the country mouse would look wide-eyed and tense — his face showing the shock and overwhelm of encountering so many loud, unfamiliar sounds all at once."
+    },
+    {
+      type: "story",
+      text: "The city mouse led his cousin to a grand mansion where they snuck into the dining room. The table was covered with delicious leftovers - creamy cheese, soft bread, chocolate cake, and sweet fruits the country mouse had never seen."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "When you visualize the fancy foods on the mansion table, what colors would you see?",
+      options: [
+        "Only brown and gray like dirt",
+        "Rich yellows, creamy whites, and colorful fruits",
+        "Everything bright purple and green",
+        "No colors at all, just black and white"
+      ],
+      correctAnswer: 1,
+      explanation: "The fancy foods would have rich, appealing colors - yellow cheese, white bread, and colorful fruits that look delicious."
+    },
+    {
+      type: "story",
+      text: "Just as the country mouse took his first bite of the wonderful cheese, a huge house cat came prowling into the room! Both mice squeaked in terror and raced for the nearest hiding spot behind the curtains."
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "When you picture the house cat compared to the two mice, how would it appear?",
+      options: [
+        "Much smaller than both mice",
+        "About the same size as the mice",
+        "Enormous and dangerous compared to the tiny mice",
+        "Invisible and impossible to see"
+      ],
+      correctAnswer: 2,
+      explanation: "The house cat would appear enormous and very dangerous compared to the two tiny mice, making them terrified."
+    },
+    {
+      type: "story",
+      text: "The cat prowled around the room for what felt like hours before finally leaving. The mice waited, hearts pounding, until they were sure it was safe. 'Does this happen often?' whispered the frightened country mouse."
+    },
+    {
+      type: "question",
+      domain: "when",
+      question: "When you picture the two mice pressed together behind the curtains, what physical signs would show how frightened they were while waiting?",
+      options: [
+        "Yawning and stretching, perfectly relaxed",
+        "Trembling bodies and wide, darting eyes scanning for danger",
+        "Smiling and nudging each other cheerfully",
+        "Sitting up straight and completely still with no reaction"
+      ],
+      correctAnswer: 1,
+      explanation: "Even though the story tells us their hearts were pounding, it never describes how fear would show on their bodies — you'd have to visualize the trembling limbs and wide, darting eyes of two tiny creatures too terrified to move."
+    },
+    {
+      type: "story",
+      text: "'Well, yes,' admitted the city mouse. 'But just ignore the dangers and enjoy the food!' Before they could eat another bite, footsteps thundered down the hallway. 'The humans are coming!' squeaked the city mouse. 'Run!'"
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "When you visualize the mice escaping from the humans, how would they be moving?",
+      options: [
+        "Walking slowly and calmly",
+        "Running as fast as possible in panic",
+        "Standing perfectly still",
+        "Dancing in circles"
+      ],
+      correctAnswer: 1,
+      explanation: "The mice would be running as fast as possible in panic, trying to escape the danger of being caught by humans."
+    },
+    {
+      type: "story",
+      text: "After escaping twice in one evening, the country mouse had enough. 'Thank you, cousin, but I'm going home,' he said. 'I'd rather eat simple food in safety than fancy food in fear. Goodbye!' And he hurried back to his peaceful burrow."
+    },
+    {
+      type: "question",
+      domain: "where",
+      question: "When you picture the country mouse settling back in for the night after his city adventure, what would his sleeping spot look and feel like compared to the mansion?",
+      options: [
+        "Cold and hard, making him regret leaving the city",
+        "Soft, warm, and snug in a way the grand mansion never felt",
+        "Identical in comfort to the fancy city bedroom",
+        "Dark and frightening, full of unknown dangers"
+      ],
+      correctAnswer: 1,
+      explanation: "The story never describes how the burrow feels to sleep in after the trip — but you can infer that the soft grass bedding and familiar surroundings would feel deeply comforting and safe in a way the dangerous, unfamiliar mansion never could."
+    },
+    {
+      type: "story",
+      moral: "It's better to enjoy simple pleasures in safety and peace than to have fancy things that come with danger and worry. A humble life with security is worth more than riches with fear."
+    }
+  ]
+};
+
+export default countryMouseCityMouse;

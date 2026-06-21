@@ -1,4 +1,3 @@
-
 const adamEve = {
   id: "adam-eve",
   title: "Adam and Eve",
@@ -15,15 +14,15 @@ const adamEve = {
     {
       type: "question",
       domain: "environment",
-      question: "In your mind, what does the Garden of Eden look like?",
+      question: "If you could step into the Garden of Eden, what sounds would you most likely hear around you?",
       options: [
-        "A small patch of flowers and vegetables, like a backyard garden",
-        "A vast park with perfectly arranged rows of identical trees",
-        "A wild, lush paradise with diverse plants, flowers, and trees with rivers flowing through it",
-        "A dark forest with tall trees blocking the sunlight"
+        "Silence and stillness, with no wind or movement",
+        "The hum of machines and distant city noise",
+        "Birdsong, rushing water, rustling leaves, and animal calls all around",
+        "Only the sound of Adam working with tools"
       ],
       correctAnswer: 2,
-      explanation: "Genesis describes Eden as having many fruit trees and being watered by four rivers. Visualizing a natural paradise with abundant variety helps create a mental picture of this perfect garden where the first humans lived."
+      explanation: "A garden teeming with fruit trees, rivers, and all kinds of animals would be filled with natural sounds—birds, flowing water, wind through leaves, and creatures moving about. Imagining these sounds helps bring the vibrant, living environment of Eden to life."
     },
     {
       type: "story",
@@ -49,15 +48,15 @@ const adamEve = {
     {
       type: "question",
       domain: "expression",
-      question: "When you imagine Adam and Eve realizing what they've done, what expressions do you see on their faces?",
+      question: "As Adam and Eve frantically sewed fig leaves together, what would their body language most likely look like?",
       options: [
-        "Big smiles, happily celebrating their new knowledge",
-        "Confused expressions, not understanding what has changed",
-        "Shocked and ashamed expressions, with eyes wide and perhaps hands covering their mouths",
-        "Angry expressions, blaming each other immediately"
+        "Relaxed and slow, carefully crafting their coverings with patience",
+        "Joyful and dancing, celebrating what they had just learned",
+        "Hunched over with trembling hands, working quickly and avoiding each other's eyes",
+        "Standing tall and confident, proud of their new knowledge"
       ],
       correctAnswer: 2,
-      explanation: "The story describes Adam and Eve feeling shame and trying to cover themselves, suggesting they experienced shock and dismay at their new awareness. Visualizing their expressions helps create an emotional connection to this pivotal moment."
+      explanation: "People overwhelmed by shame tend to make themselves smaller—hunching over, avoiding eye contact, and moving with urgency. Inferring this body language from their emotional state helps visualize the weight of guilt Adam and Eve would have felt in that moment."
     },
     {
       type: "story",
@@ -66,15 +65,15 @@ const adamEve = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how do Adam and Eve hide from God?",
+      question: "What would Adam and Eve's breathing and heartbeat most likely be like as they waited in hiding, hoping God would not find them?",
       options: [
-        "In a cave deep underground where they can't be found",
-        "Behind bushes and trees, crouching down and trying to stay quiet",
-        "By covering only their faces, thinking they can't be seen",
-        "By climbing to the top of the tallest tree"
+        "Slow and steady, feeling completely calm and at peace",
+        "Rapid and shallow, hearts pounding as they tried not to make a sound",
+        "Deep and rhythmic, as if they had just finished relaxing",
+        "Normal and unchanged, since they were not worried at all"
       ],
       correctAnswer: 1,
-      explanation: "Genesis describes them hiding 'among the trees of the garden.' Visualizing them crouching behind vegetation, attempting to conceal themselves, creates a realistic mental picture of their fear and shame."
+      explanation: "Adam told God he hid because he was afraid. When a person is gripped by fear and trying to conceal themselves, the body reacts with a racing heart and quick, quiet breaths. Imagining these physical sensations brings the tension of their hiding to life."
     },
     {
       type: "story",
@@ -83,15 +82,15 @@ const adamEve = {
     {
       type: "question",
       domain: "what",
-      question: "How do you picture the angels guarding Eden's entrance?",
+      question: "If Adam and Eve looked back at the entrance to Eden after being sent out, what feeling would the sight most likely give them?",
       options: [
-        "Tiny fairies with small sparklers",
-        "People in normal clothes standing at a gate",
-        "Majestic beings with large, flaming swords that move in all directions",
-        "Invisible forces that can only be heard, not seen"
+        "Excitement and curiosity about what lay beyond the garden",
+        "Indifference, since they had already forgotten about the garden",
+        "Relief, glad to finally be free from God's rules",
+        "Deep dread and loss, knowing they could never pass those fearsome guardians again"
       ],
-      correctAnswer: 2,
-      explanation: "Genesis describes 'cherubim and a flaming sword flashing back and forth to guard the way.' Visualizing impressive angelic beings with moving swords of fire creates a vivid mental picture of the powerful barrier preventing humans from returning to Eden."
+      correctAnswer: 3,
+      explanation: "Being expelled from a perfect home and then seeing powerful angelic guardians sealing it shut forever would create an overwhelming sense of finality and grief. Inferring that emotional weight—rather than any detail stated outright—helps us fully imagine what that moment meant for Adam and Eve."
     },
     {
       type: "story",

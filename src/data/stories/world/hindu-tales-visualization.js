@@ -51,15 +51,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize Ganesha's face when he realizes his anger made the whole world dark. What emotion would replace his anger?",
+      question: "Picture the world plunged into total darkness because of Ganesha's curse. What would the faces of people, animals, and creatures everywhere look like in that sudden blackness?",
       options: [
-        "More anger",
-        "Happiness",
-        "Regret and responsibility",
-        "Indifference"
+        "Calm and unbothered",
+        "Relieved and grateful",
+        "Frightened and confused",
+        "Cheerful and playful"
       ],
       correctAnswer: 2,
-      explanation: "Even gods learn that actions in anger can hurt more than just the target!"
+      explanation: "When an action harms the whole world unexpectedly, all living things would feel the fear and confusion of that sudden darkness!"
     },
     {
       type: "story",
@@ -68,15 +68,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "Think about when someone laughs at you and you want to say something mean back. What does Ganesha's story teach?",
+      question: "Imagine you snap angrily at a friend and later see them sitting alone looking hurt. What physical sensation might you feel in your chest in that moment?",
       options: [
-        "Always get revenge",
-        "Our angry reactions can cause unexpected harm",
-        "Never make mistakes",
-        "Moons aren't important"
+        "A warm glow of satisfaction",
+        "Nothing at all",
+        "A heavy sinking feeling",
+        "A burst of energy"
       ],
-      correctAnswer: 1,
-      explanation: "The story shows how anger can create problems bigger than the original hurt!"
+      correctAnswer: 2,
+      explanation: "Seeing the real hurt our angry words cause often brings a heavy, sinking feeling — the body's way of registering that our actions caused unexpected harm!"
     },
     
     // === THE BLIND MEN AND THE ELEPHANT (HINDU VERSION) ===
@@ -121,15 +121,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "When friends disagree about something, what does the elephant story suggest?",
+      question: "Imagine two friends who both witnessed the same argument but describe it completely differently. What would their faces look like when they realize neither has the whole story?",
       options: [
-        "Only one can be right",
-        "Everyone is always wrong",
-        "Each might see a different part of the truth",
-        "Arguments are bad"
+        "Smug and certain",
+        "Surprised and humbled",
+        "Bored and uninterested",
+        "Angry and defensive"
       ],
-      correctAnswer: 2,
-      explanation: "Understanding different viewpoints helps us see the bigger picture!"
+      correctAnswer: 1,
+      explanation: "Discovering that our own view is incomplete can be humbling — and that opens us to real understanding!"
     },
     
     // === KRISHNA AND THE FRUIT ===
@@ -157,15 +157,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "Think about doing something really hard to help a friend - like speaking up when they're bullied. Where does that 'extra strength' come from?",
+      question: "Imagine a small child managing to push open a very heavy door to help an elderly neighbor carrying bags. What would the expression on the child's face look like in that moment?",
       options: [
-        "From showing off",
-        "From love and caring",
-        "From wanting rewards",
-        "From being angry"
+        "Bored and distracted",
+        "Strained with effort but bright with purpose",
+        "Calm and completely relaxed",
+        "Annoyed and reluctant"
       ],
       correctAnswer: 1,
-      explanation: "Love for others can give us strength to do things we couldn't do for ourselves!"
+      explanation: "When we act for someone we care about, effort and devotion show together on our faces!"
     },
     {
       type: "story",
@@ -174,15 +174,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize Krishna's face seeing his poor childhood friend arrive with just some rice. What emotion would show?",
+      question: "Picture Sudama walking through the palace gates in his worn, patched clothes, clutching his tiny handful of rice. What would his posture and expression look like as he approached the king?",
       options: [
-        "Disappointment at the small gift",
-        "Joy at seeing his dear friend",
-        "Embarrassment",
-        "Anger"
+        "Proud and swaggering",
+        "Nervous and slightly ashamed, yet hopeful",
+        "Angry and demanding",
+        "Completely relaxed and confident"
       ],
       correctAnswer: 1,
-      explanation: "True friendship values the person, not what they can give us!"
+      explanation: "Arriving in poverty at a king's palace to offer almost nothing would create that mix of hope and self-consciousness visible in how someone holds themselves!"
     },
     
     // === THE SAGE AND THE SCORPION ===
@@ -193,15 +193,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture the sage's hand pulling back from the sting, then reaching out again. What does this repeated action show?",
+      question: "Picture the sage's stung hand hovering just above the water before reaching down a second time. What would his fingers look like — their shape and steadiness?",
       options: [
-        "He didn't feel the pain",
-        "He forgot what happened",
-        "His kindness was stronger than his pain",
-        "He wanted to get stung"
+        "Loose, relaxed, and perfectly still",
+        "Trembling slightly, perhaps curled from pain, slowly straightening with resolve",
+        "Moving faster and more carelessly than the first time",
+        "Completely rigid and frozen in place"
       ],
-      correctAnswer: 2,
-      explanation: "True compassion continues even when it's difficult or painful!"
+      correctAnswer: 1,
+      explanation: "A hand that has just been stung would still carry the physical memory of pain — trembling or curled — yet deliberately straightening shows the will overcoming the body's protest!"
     },
     {
       type: "story",
@@ -210,15 +210,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "When someone is mean to you repeatedly, what two choices do you have about your own behavior?",
+      question: "Imagine a student who is always kind to a classmate who mocks them daily. Over time, what would the kind student's posture and expression look like compared to the mocker's?",
       options: [
-        "Only be mean back",
-        "Only run away",
-        "Keep being kind or become mean like them",
-        "Do nothing ever"
+        "Hunched and ashamed, just like the mocker",
+        "Open and steady, while the mocker looks small and tense",
+        "Identical to the mocker in every way",
+        "Frightened and frozen"
       ],
-      correctAnswer: 2,
-      explanation: "We always have a choice about whether to keep our good nature or not!"
+      correctAnswer: 1,
+      explanation: "Holding onto your own good character keeps you upright, while cruelty tends to shrink a person!"
     },
     {
       type: "story",
@@ -227,15 +227,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the scorpion's view, it was defending itself. From the sage's view, he was saving a life. What does this teach about actions?",
+      question: "If you could shrink down and see the world through the scorpion's tiny eyes as the sage's hand came toward it, what would the hand probably look like to the scorpion?",
       options: [
-        "Everyone is mean",
-        "Different beings act from their own nature",
-        "Scorpions are evil",
-        "Helping is pointless"
+        "A friendly wave hello",
+        "A huge looming threat",
+        "Something too small to notice",
+        "A comfortable resting place"
       ],
       correctAnswer: 1,
-      explanation: "Understanding that everyone acts from their nature helps us respond with wisdom!"
+      explanation: "From the scorpion's perspective, the rescuing hand and a threatening hand would look exactly the same — showing how the same action can mean completely different things depending on who is experiencing it!"
     },
     
     // === RAMA AND THE SQUIRREL ===
@@ -280,15 +280,15 @@ const hinduTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize the little squirrel's face when mighty Rama praised its tiny contribution. What emotion would shine there?",
+      question: "Picture the moment just before Rama speaks — the squirrel sitting small and still while the monkeys tower over it, laughing. What would the squirrel's tiny body look like in that moment?",
       options: [
-        "Shame and sadness",
-        "Joy and feeling valued",
-        "Anger at the monkeys",
-        "Fear of Rama"
+        "Puffed up and aggressive",
+        "Curled inward, trembling, trying to look smaller",
+        "Leaping joyfully through the air",
+        "Completely frozen like a statue"
       ],
       correctAnswer: 1,
-      explanation: "Being recognized for our sincere efforts, no matter how small, brings deep joy!"
+      explanation: "A tiny creature surrounded by laughing giants would instinctively make itself smaller — that hunched, trembling posture makes Rama's sudden defense of it all the more powerful!"
     },
     {
       type: "story",

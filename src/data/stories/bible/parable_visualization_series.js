@@ -6,27 +6,27 @@ const parableVisualizationSeries = {
   difficulty: "Medium",
   theme: "Wisdom",
   estimatedTime: "20-30 min",
-  description: "Use visualization to explore Jesus’ parables and understand their deeper meaning through everyday comparisons.",
+  description: "Use visualization to explore Jesus' parables and understand their deeper meaning through everyday comparisons.",
   content: [
     // existing content above...
 
     // === PARABLE OF THE LOST COIN ===
     {
       type: "story",
-      text: "Imagine a woman sweeping every corner of her home. She’s lost one silver coin and won’t stop looking until she finds it. When she does, she calls her friends and celebrates."
+      text: "Imagine a woman sweeping every corner of her home. She's lost one silver coin and won't stop looking until she finds it. When she does, she calls her friends and celebrates."
     },
     {
       type: "question",
       domain: "movement",
-      question: "How would the woman’s body move as she searched for the coin?",
+      question: "What would the woman's hands look like as she moved through each part of her home?",
       options: [
-        "Calm and still",
-        "Tired and sleeping",
-        "Busy and focused",
-        "Running in circles"
+        "Folded calmly in her lap",
+        "Reaching, pushing, and lifting objects in every corner",
+        "Waving slowly at passing neighbors",
+        "Clasped together and perfectly still"
       ],
-      correctAnswer: 2,
-      explanation: "She’d be moving with purpose, checking every space carefully."
+      correctAnswer: 1,
+      explanation: "Though the story never describes her hands, someone who has lost something precious searches by reaching into every gap and shifting objects aside—a detail the reader must picture rather than read."
     },
     {
       type: "story",
@@ -35,15 +35,15 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "mood",
-      question: "What emotion would show on their face when they find the lost item?",
+      question: "What would the student's body feel like on the inside the moment before they spotted the pencil?",
       options: [
-        "Sadness",
-        "Joy and relief",
-        "Fear",
-        "Anger"
+        "Heavy and tight with worry",
+        "Completely relaxed and unbothered",
+        "Buzzing with excitement about lunch",
+        "Numb and unaware"
       ],
-      correctAnswer: 1,
-      explanation: "Just like the woman with the coin, they’d feel joy when something special is found."
+      correctAnswer: 0,
+      explanation: "The story tells us the student searched hard, but never describes their inner tension. A reader must infer the anxious, constricted feeling that comes just before a long-sought thing is finally found."
     },
     {
       type: "story",
@@ -52,15 +52,15 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "what",
-      question: "What does the parable of the lost coin teach?",
+      question: "If you could see into heaven during the parable's celebration, what expression would you picture on God's face?",
       options: [
-        "Coins are important",
-        "God searches for and rejoices over each person",
-        "You should clean your house more",
-        "Only perfect people matter"
+        "Indifferent and distant",
+        "Disappointed and stern",
+        "Radiant and overjoyed",
+        "Confused and uncertain"
       ],
-      correctAnswer: 1,
-      explanation: "Jesus teaches that each person is precious to God, like a coin worth searching for."
+      correctAnswer: 2,
+      explanation: "The parable compares God's response to a person throwing a joyful party—suggesting a face full of delight and warmth, something never directly described in the text."
     },
 
     // === PARABLE OF THE RICH FOOL ===
@@ -71,15 +71,15 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "background",
-      question: "What would you see behind the man as he looks over his full barns?",
+      question: "What would the farmer's neighbors' homes and tables look like compared to his overflowing barns?",
       options: [
-        "Huge piles of grain and smiling workers",
-        "Empty fields and small sheds",
-        "Torn-down buildings and piles of wood",
-        "Rain clouds and lightning"
+        "Equally full and prosperous",
+        "Grander and more decorated than his",
+        "Sparse and bare, with little food to spare",
+        "Identical in every way to his own"
       ],
       correctAnswer: 2,
-      explanation: "He tore down his barns to build new ones, focused on storing more for himself."
+      explanation: "The parable implies the farmer hoarded rather than shared, suggesting those around him likely lacked what he had in abundance—a detail readers must infer and picture, not one stated in the text."
     },
     {
       type: "story",
@@ -93,7 +93,7 @@ const parableVisualizationSeries = {
         "More candy is always better",
         "Store up treasures that last—like kindness—not just stuff",
         "Grain is more useful than candy",
-        "Don’t build barns"
+        "Don't build barns"
       ],
       correctAnswer: 1,
       explanation: "Jesus warns not to treasure things that fade, but to value what lasts."
@@ -124,15 +124,15 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "what",
-      question: "What is the parable of the vineyard workers teaching?",
+      question: "What would the expression on the earliest worker's face look like the moment they opened their pay and saw the amount?",
       options: [
-        "People should only work early",
-        "God’s generosity is not based on how long we’ve worked",
-        "Fairness always means the same effort",
-        "Rewards should always match hours"
+        "Soft and grateful, already expecting the kindness",
+        "Darkening with irritation as they glanced at the last worker's coins",
+        "Blank and unbothered, indifferent to the amount",
+        "Bright with laughter, immediately celebrating with the others"
       ],
       correctAnswer: 1,
-      explanation: "Jesus teaches that God's grace is generous and not earned like a paycheck."
+      explanation: "The story tells us some workers grumbled, but never describes their faces. A reader must visualize the shift from expectation to frustration the moment an early worker realized someone who worked far less received identical pay."
     },
 
     // === PARABLE OF THE RICH MAN AND LAZARUS ===
@@ -143,32 +143,32 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental image, where is Lazarus lying during his life?",
+      question: "In your mental image, what does the space between Lazarus and the rich man's dining table look like?",
       options: [
-        "At a royal banquet table",
-        "Beside the rich man's gate, cold and hungry",
-        "On a golden bed",
-        "Inside the rich man’s home"
+        "A short, open hallway they share together",
+        "A wide, unbridged gap—light and warmth on one side, cold stone on the other",
+        "A crowded marketplace where they meet daily",
+        "A narrow path with friendly neighbors passing through"
       ],
       correctAnswer: 1,
-      explanation: "Lazarus was suffering at the gate—ignored by the rich man."
+      explanation: "The parable never describes the physical space between them, but the contrast of feasting inside and suffering outside invites us to imagine a stark, uncrossed divide—foreshadowing the great chasm described after death."
     },
     {
       type: "story",
-      text: "Now picture this: One student always gets new supplies and snacks. Another has none. After school, the one with plenty says nothing. Later, roles switch—and the first student remembers how they didn’t help."
+      text: "Now picture this: One student always gets new supplies and snacks. Another has none. After school, the one with plenty says nothing. Later, roles switch—and the first student remembers how they didn't help."
     },
     {
       type: "question",
       domain: "mood",
-      question: "What emotion might the first student feel when roles are reversed?",
+      question: "What would the first student's face look like in the quiet moment when they realize the other student now has everything they once had?",
       options: [
-        "Pride and joy",
-        "Regret and sorrow",
-        "Excitement",
-        "Jealousy"
+        "Bright and cheerful, unbothered by the change",
+        "Tight and downcast, shadowed by a memory they cannot undo",
+        "Wide-eyed with excitement at the new situation",
+        "Blank and unreadable, showing no reaction at all"
       ],
       correctAnswer: 1,
-      explanation: "Like the rich man, the student may wish they had shown kindness when they could."
+      explanation: "The story tells us the student remembers not helping, but never describes their face. A reader must picture the particular heaviness that settles over someone who sees an opportunity for kindness has permanently passed."
     },
     {
       type: "story",
@@ -177,15 +177,15 @@ const parableVisualizationSeries = {
     {
       type: "question",
       domain: "what",
-      question: "What does the parable of the rich man and Lazarus teach?",
+      question: "If someone read this parable and then looked down at their own hands, what might those hands represent to them?",
       options: [
-        "Rich people are always bad",
-        "Poor people never have hope",
-        "What we do with what we have matters to God",
-        "Only money can help others"
+        "Tools only for earning more wealth",
+        "Something too weak to make any difference",
+        "Instruments of mercy they still have time to use",
+        "A sign that hard work always brings rewards"
       ],
       correctAnswer: 2,
-      explanation: "Jesus teaches that mercy and action—not wealth—are what truly count."
+      explanation: "The parable implies that the rich man's window of opportunity closed at death. A reader must infer that their own hands—still alive and able—represent a chance to act with kindness that the rich man never took."
     }
   ]
 };

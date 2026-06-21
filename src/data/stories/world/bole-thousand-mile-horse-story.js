@@ -31,15 +31,15 @@ const boleThousandMileHorse = {
     {
       type: "question",
       domain: "mood",
-      question: "As you visualize this overworked horse pulling the salt cart, what would its body language express?",
+      question: "If you could see the cart driver's face as he whips the struggling horse, what expression would he most likely wear?",
       options: [
-        "Energy and enthusiasm",
-        "Extreme tiredness and defeat",
-        "Playful happiness",
-        "Aggressive anger"
+        "Gentle concern and sympathy",
+        "Impatient frustration and indifference",
+        "Joyful excitement",
+        "Fearful worry about the horse"
       ],
       correctAnswer: 1,
-      explanation: "A skinny, overworked horse with hanging head would show extreme tiredness and defeat."
+      explanation: "A driver whipping a horse mercilessly would likely show impatient frustration and indifference, caring only about moving his cart forward rather than the animal's suffering."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const boleThousandMileHorse = {
     {
       type: "question",
       domain: "movement",
-      question: "As you imagine Bole leading the tired horse away from the cart, how would it likely walk at first?",
+      question: "As Bole leads the horse away, how would the heavy salt cart left behind look compared to when the horse was pulling it?",
       options: [
-        "Prancing with high, energetic steps",
-        "Moving slowly with stiff, painful steps",
-        "Galloping at full speed",
-        "Hopping like a rabbit"
+        "Floating upward without the horse's weight",
+        "Tilted and settled unevenly on the ground without forward tension",
+        "Rolling away on its own",
+        "Spinning rapidly in place"
       ],
       correctAnswer: 1,
-      explanation: "An exhausted horse just freed from hard labor would walk slowly and stiffly at first."
+      explanation: "Without the horse pulling it forward, the cart would lose its tension and settle unevenly on the ground, its shafts dropping and its load shifting to rest at an odd angle."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const boleThousandMileHorse = {
     {
       type: "question",
       domain: "color",
-      question: "After weeks of good care and grooming, how would the horse's coat appearance change?",
+      question: "Before Bole began his care, what color tones would you expect to see in the horse's neglected hooves?",
       options: [
-        "From dull and dusty to glossy and shining",
-        "From bright to completely black",
-        "It would stay exactly the same",
-        "From smooth to covered in spots"
+        "Bright gold and polished",
+        "Cracked, pale, and yellowish-gray",
+        "Deep black and perfectly smooth",
+        "Vivid red from healthy blood flow"
       ],
-      correctAnswer: 0,
-      explanation: "Good nutrition and grooming would transform a dull, dusty coat into a glossy, shining one."
+      correctAnswer: 1,
+      explanation: "Neglected hooves on an overworked, malnourished horse would appear cracked and pale with yellowish-gray tones, lacking the dark healthy color that proper care and nutrition would restore."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const boleThousandMileHorse = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the recovered horse's powerful neigh, what quality would that sound have?",
+      question: "How would the sound of the recovered horse's hooves striking the ground differ from when it was pulling the salt cart?",
       options: [
-        "Weak and barely audible",
-        "Strong and ringing across the field",
-        "Like a cat's meow",
-        "Completely silent"
+        "Soft and shuffling, barely audible",
+        "Sharp, rapid, and rhythmically thundering",
+        "Completely silent like padded footsteps",
+        "Slow and hollow like a single distant drum"
       ],
       correctAnswer: 1,
-      explanation: "A healthy, powerful horse would produce a strong neigh that rings across an open field."
+      explanation: "A fully recovered horse running at speed would produce sharp, rapid hoof strikes that build into a thundering rhythm, very different from the slow, labored shuffling of an exhausted horse hauling a heavy load."
     },
     {
       type: "story",

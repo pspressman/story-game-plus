@@ -1,0 +1,137 @@
+// The Goose That Laid Golden Eggs - Aesop's Fable
+const gooseGoldenEggs = {
+  id: "goose-golden-eggs",
+  title: "The Goose That Laid Golden Eggs",
+  icon: "🥚",
+  difficulty: "Medium",
+  theme: "Greed",
+  estimatedTime: "10-12 min",
+  description: "A farmer learns that greed can destroy the very thing that brings good fortune.",
+  content: [
+    {
+      type: "story",
+      text: "A poor farmer lived in a small cottage with his wife. They had very little money and often worried about having enough food to eat. Behind their house was a simple pen where they kept one white goose."
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "When you picture the farmer's cottage compared to a rich person's mansion, how would it look?",
+      options: [
+        "Much larger with many rooms and towers",
+        "About the same size with fancy decorations",
+        "Much smaller and simpler with basic needs",
+        "Floating in the air like a cloud"
+      ],
+      correctAnswer: 2,
+      explanation: "A poor farmer's cottage would be much smaller and simpler than a rich person's mansion, with just the basic rooms needed."
+    },
+    {
+      type: "story",
+      text: "One morning, the farmer went to check on his goose and found something amazing. Instead of a regular white egg, there was a beautiful golden egg gleaming in the nest! The egg was heavy and shiny like real gold."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "When you visualize the goose sitting beside the golden egg in the nest, what contrast would you notice between the two?",
+      options: [
+        "They would look exactly the same dull color",
+        "The egg's warm golden glow would stand out sharply against the goose's plain white feathers",
+        "The goose would appear brighter and more colorful than the egg",
+        "Both would blend together so you could barely tell them apart"
+      ],
+      correctAnswer: 1,
+      explanation: "The rich, warm golden color of the egg would create a striking contrast against the goose's ordinary white feathers, making it immediately eye-catching in the nest."
+    },
+    {
+      type: "story",
+      text: "The farmer took the golden egg to town and sold it for enough money to buy food for a whole month! Every day after that, the goose laid another golden egg. Soon the farmer and his wife had plenty of money."
+    },
+    {
+      type: "question",
+      domain: "when",
+      question: "If you imagined watching the farmer's trips to town over several weeks, what pattern would you notice in how he traveled?",
+      options: [
+        "He would make one very large trip carrying many eggs at once",
+        "He would make short, regular trips, arriving with just one egg each time",
+        "He would only travel during rainstorms to hide his secret",
+        "He would send his wife while he stayed home sleeping"
+      ],
+      correctAnswer: 1,
+      explanation: "Because the goose produced one egg at a time, the farmer would need to make frequent individual trips to town, each time carrying a single egg rather than a large haul."
+    },
+    {
+      type: "story",
+      text: "As weeks passed, the farmer grew impatient. 'Why should I wait for one egg each day?' he thought. 'If I cut open the goose, I could get all the golden eggs at once and become rich immediately!'"
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "When you picture the farmer's wife hearing his plan to cut open the goose, what would her body language most likely show?",
+      options: [
+        "Clapping her hands with excitement and nodding eagerly",
+        "Shrugging with total indifference and walking away",
+        "Leaning forward with raised hands, eyes wide, shaking her head",
+        "Laughing and patting him on the back approvingly"
+      ],
+      correctAnswer: 2,
+      explanation: "Since the wife warned against the plan, she would likely show alarm and protest through tense, urgent body language — reaching out, shaking her head, trying to stop him."
+    },
+    {
+      type: "story",
+      text: "Despite his wife's warnings, the greedy farmer killed the goose and cut it open. But inside the goose's body, there were no golden eggs at all! The goose looked just like any ordinary bird inside."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "When you visualize the farmer's hands immediately after cutting open the goose, what would they look like?",
+      options: [
+        "Covered in golden dust and sparkling with magic",
+        "Stained and empty, holding nothing of value",
+        "Clutching a huge pile of solid gold coins",
+        "Perfectly clean as if he had touched nothing"
+      ],
+      correctAnswer: 1,
+      explanation: "Finding no gold inside, the farmer's hands would be stained from the deed yet holding nothing valuable — a vivid image of his wasted action and destroyed hope."
+    },
+    {
+      type: "story",
+      text: "Now the farmer had no goose and no more golden eggs. He had destroyed the source of his good fortune because he wanted everything at once. The farmer and his wife returned to being poor and hungry."
+    },
+    {
+      type: "question",
+      domain: "number",
+      question: "If you could compare the stack of golden eggs the farmer collected before killing the goose to the stack he collected after, what would those two stacks look like side by side?",
+      options: [
+        "Both stacks would be equally tall and impressive",
+        "The second stack would be much taller than the first",
+        "A growing stack on the left, and nothing but empty space on the right",
+        "Both stacks would be tiny and barely visible"
+      ],
+      correctAnswer: 2,
+      explanation: "The contrast would be stark — a meaningful collection built up over weeks on one side, and a completely empty space on the other, since the dead goose could never produce another egg."
+    },
+    {
+      type: "story",
+      text: "The farmer realized his terrible mistake. He had been so greedy for instant wealth that he destroyed the wonderful gift he already had. If only he had been patient and grateful for one golden egg each day."
+    },
+    {
+      type: "question",
+      domain: "background",
+      question: "When you picture the empty pen behind the farmer's cottage after the goose is gone, what feeling would the space give off?",
+      options: [
+        "A warm, lively feeling with sounds and movement",
+        "A grand, impressive feeling like a royal stable",
+        "A hollow, abandoned feeling with straw scattered and silence",
+        "A cheerful feeling with colorful decorations everywhere"
+      ],
+      correctAnswer: 2,
+      explanation: "Without the goose, the pen would feel hollow and neglected — just leftover straw and silence where there was once something precious, reflecting the farmer's loss perfectly."
+    },
+    {
+      type: "story",
+      moral: "Be grateful for steady, small blessings rather than risking everything for instant wealth. Greed often destroys the very thing that brings us happiness and success."
+    }
+  ]
+};
+
+export default gooseGoldenEggs;

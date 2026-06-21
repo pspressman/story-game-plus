@@ -15,15 +15,15 @@ const windSun = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the Wind and Sun having their argument, where would you see them?",
+      question: "When you picture the Wind and Sun having their argument, what would the ground far below them look like from that height?",
       options: [
-        "Underground in a dark cave",
-        "High up in the sky above the clouds",
-        "Swimming at the bottom of the ocean",
-        "Inside a small house"
+        "Large and detailed, with people clearly visible walking around",
+        "Tiny and distant, with miniature trees and thread-like roads barely visible",
+        "Completely hidden under a solid floor of clouds",
+        "Dark and invisible because no light reaches down that far"
       ],
       correctAnswer: 1,
-      explanation: "The Wind and Sun would be high up in the sky where they naturally belong, above the clouds and earth."
+      explanation: "From the enormous height where the Wind and Sun exist, everything on the ground would appear tiny and far away — trees shrunk to specks, roads reduced to thin lines, and people too small to see at all."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const windSun = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the Wind while he's boasting, how would you see him moving?",
+      question: "When you visualize the Sun listening calmly while the Wind boasts and swirls, how would the Sun's movement contrast with the Wind's?",
       options: [
-        "Perfectly still like a statue",
-        "Swirling and blowing around wildly",
-        "Gently floating like a feather",
-        "Marching in a straight line"
+        "The Sun would also spin and twist frantically",
+        "The Sun would dart back and forth to avoid the Wind",
+        "The Sun would remain steady and still, radiating light without moving",
+        "The Sun would sink lower and lower toward the ground"
       ],
-      correctAnswer: 1,
-      explanation: "The Wind would be swirling and blowing around wildly to show off his power and express his anger."
+      correctAnswer: 2,
+      explanation: "While the Wind swirled and huffed dramatically, the Sun's calm confidence would show through stillness — glowing steadily in place rather than moving around at all."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const windSun = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the traveler on the road, what would he be wearing?",
+      question: "When you picture the traveler's coat, what details would you imagine about it — its color and condition?",
       options: [
-        "A swimsuit and sandals",
-        "A thick, warm coat for the chilly weather",
-        "Nothing at all",
-        "A heavy suit of armor"
+        "A bright white coat, brand new and perfectly clean",
+        "A faded, well-worn brown or grey coat with some travel dust on it",
+        "A shiny silver coat with golden buttons",
+        "A torn and tattered coat barely held together"
       ],
       correctAnswer: 1,
-      explanation: "The traveler would be wearing a thick, warm coat because it was a chilly day and he needed to stay warm."
+      explanation: "A traveler on the road would likely wear a practical, well-used coat — something faded and slightly dusty from the journey, suggesting it was a reliable everyday garment rather than anything fancy."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const windSun = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the Wind blowing with all his might, what sounds would you hear?",
+      question: "When you imagine the traveler's coat flapping in the fierce wind, what sound would the fabric itself make?",
       options: [
-        "Complete silence with no noise",
-        "Loud whooshing and howling wind sounds",
-        "Gentle whispers like a lullaby",
-        "Musical notes like a piano"
+        "A soft, barely audible rustle like turning a page",
+        "A loud, sharp snapping and cracking sound",
+        "A melodic humming like a musical instrument",
+        "No sound at all — fabric makes no noise"
       ],
       correctAnswer: 1,
-      explanation: "A powerful wind would make loud whooshing and howling sounds as it rushed through the air."
+      explanation: "Thick fabric caught in a powerful wind would snap and crack loudly — a sharp, rhythmic popping sound made as the material is yanked taut and released over and over by the gusts."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const windSun = {
     {
       type: "question",
       domain: "shape",
-      question: "When you visualize the traveler fighting against the strong wind, what shape would his body make?",
+      question: "When you visualize the traveler's face during the strongest gusts of wind, what would his expression look like?",
       options: [
-        "Standing tall and straight with arms spread wide",
-        "Bent forward with arms wrapped around himself",
-        "Lying flat on the ground",
-        "Spinning in circles with arms out"
+        "Relaxed and smiling with eyes wide open",
+        "Squinting tightly with cheeks pressed flat and lips pursed against the blast",
+        "Completely blank with no expression at all",
+        "Laughing with mouth wide open"
       ],
       correctAnswer: 1,
-      explanation: "The traveler would bend forward and wrap his arms around himself to protect against the cold, fierce wind."
+      explanation: "In powerful wind, a person's face would naturally scrunch up — eyes squeezed nearly shut to protect against the gusts, cheeks pushed flat by the force of the air, and lips pressed tightly together."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const windSun = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture the Sun's face as he begins his turn, what expression would you see?",
+      question: "When you picture the Wind after giving up and panting, what would his overall appearance suggest about how he feels inside?",
       options: [
-        "Angry and furious like the Wind",
-        "Gentle and confident with a warm smile",
-        "Scared and worried about failing",
-        "Sleepy and uninterested"
+        "Proud and satisfied, as though everything went according to plan",
+        "Deflated and embarrassed, his earlier boasting now looking foolish",
+        "Completely indifferent, as though the contest never mattered to him",
+        "Joyful and relieved to finally be done trying"
       ],
       correctAnswer: 1,
-      explanation: "The Sun would have a gentle, confident smile, showing his calm and peaceful approach to the challenge."
+      explanation: "The Wind began the contest with loud boasting and total confidence, so failing completely would leave him looking deflated and embarrassed — his earlier bragging making the defeat sting even more."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const windSun = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image of the final result, how many coats did each competitor successfully remove?",
+      question: "When you picture the traveler at the very end of the contest compared to the very beginning, what single visible difference would you notice about what he is carrying?",
       options: [
-        "Wind removed one coat, Sun removed zero coats",
-        "Wind removed zero coats, Sun removed one coat",
-        "Both removed one coat each",
-        "Neither removed any coats"
+        "He is now carrying twice as many bags as before",
+        "He is now carrying his coat over his arm instead of wearing it on his body",
+        "He is now carrying a new hat he found on the road",
+        "He is carrying nothing at all — he dropped everything and ran"
       ],
       correctAnswer: 1,
-      explanation: "The Wind failed to remove the coat (zero), while the Sun successfully got the traveler to remove it (one coat)."
+      explanation: "The one visible change between the start and end of the contest is that the coat moved from being worn on the traveler's body to being draped over his arm — the entire competition came down to that single physical difference."
     },
     {
       type: "story",

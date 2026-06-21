@@ -15,15 +15,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture where Rama's family lives, what would you see around their home?",
+      question: "If you could step inside Rama's world and walk toward the hut, what sounds would you likely hear around you?",
       options: [
-        "A busy city with many buildings and people",
-        "A simple hut surrounded by tall forest trees",
-        "A grand palace with golden walls",
-        "A boat floating on the ocean"
+        "Honking horns and crowds of people talking",
+        "Crashing waves and seagulls calling",
+        "Birds chirping and leaves rustling in the wind",
+        "Merchants selling goods and cart wheels rolling"
       ],
-      correctAnswer: 1,
-      explanation: "The story tells us they built a simple hut among the tall trees in the forest, so you would visualize a modest home surrounded by nature."
+      correctAnswer: 2,
+      explanation: "Since Rama's family lives deep in a forest, you would mentally fill in the natural sounds of that environment — birdsong, rustling leaves, and the quiet of the woods — none of which are described in the text."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "color",
-      question: "In your mental image, what color would the magical deer's coat be?",
+      question: "When you picture the golden deer standing in the shadowy part of the forest away from the sunlight, how would its coat appear compared to when it was in the sun?",
       options: [
-        "Brown like tree bark",
-        "White like fresh snow",
-        "Shining gold like precious metal",
-        "Gray like storm clouds"
+        "Even brighter and more dazzling than before",
+        "Dimmer and more muted, like dull metal",
+        "Completely invisible, blending into the dark",
+        "Turning deep red like glowing embers"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes the deer's coat as shining like pure gold in the sunlight, so you would picture a beautiful golden color."
+      correctAnswer: 1,
+      explanation: "The story says the coat shone like gold in the sunlight, so you must infer that away from sunlight its glow would fade — like actual gold, which needs light to gleam brightly."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Sita calling to Rama about the deer, what expression would be on her face?",
+      question: "When you picture Rama's face as he looks at the golden deer and feels something is not quite right, what expression would he most likely show?",
       options: [
-        "Angry and upset about something",
-        "Excited and amazed by the beautiful deer",
-        "Sleepy and uninterested in anything",
-        "Scared and running away in fear"
+        "A wide, carefree smile of pure delight",
+        "A furrowed brow and uncertain, cautious eyes",
+        "A blank, completely relaxed expression",
+        "Tears streaming down his cheeks in sadness"
       ],
       correctAnswer: 1,
-      explanation: "The story says Sita called excitedly and had never seen anything so beautiful, so you would picture her face showing excitement and wonder."
+      explanation: "The story tells us Rama felt something was not quite right, but does not describe his face. You must visualize the expression that inner unease and suspicion would produce — a furrowed brow and wary eyes."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would the golden deer move as Rama chased it?",
+      question: "As Rama chased the deer deeper into the forest, how would the trees around him most likely appear to change?",
       options: [
-        "Standing perfectly still like a statue",
-        "Running straight toward Rama quickly",
-        "Bounding away playfully, staying just out of reach",
-        "Flying high up into the tree branches"
+        "They would gradually thin out into an open grassy meadow",
+        "They would grow taller and closer together, blocking more light",
+        "They would shrink smaller the further he ran",
+        "They would turn into stone walls on either side of him"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes the deer bounding away playfully and leading Rama deeper into the woods, so you would picture it moving in a teasing, playful way."
+      correctAnswer: 1,
+      explanation: "The story says the deer led Rama deeper and deeper into the woods, but does not describe the forest changing. You must infer that going deeper into a forest means trees becoming denser and the canopy blocking more sunlight."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the deer's eyes when it stopped and looked back, what would they look like?",
+      question: "When you picture Rama's body at the moment he realizes he is very far from home, what physical condition would he most likely be in?",
       options: [
-        "Gentle brown eyes like a normal deer",
-        "Bright blue eyes like the sky",
-        "Strange, glowing red eyes",
-        "Completely black with no color"
+        "Completely fresh and rested, as if he had not moved at all",
+        "Breathing hard, sweating, with tired legs from the long chase",
+        "Shivering from cold, wrapped tightly in a blanket",
+        "Floating calmly, showing no signs of effort"
       ],
-      correctAnswer: 2,
-      explanation: "The story specifically mentions that the deer looked back with strange, glowing red eyes, which made Rama realize something was wrong."
+      correctAnswer: 1,
+      explanation: "The story says Rama chased the deer for a long time through the forest, but never describes his physical state. You must infer that running a long distance would leave him breathless, sweaty, and tired."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "shape",
-      question: "In your visualization, what shape would the deer change into when Rama's arrow hit it?",
+      question: "When you visualize the demon after it transformed, how tall would it likely appear compared to Rama?",
       options: [
-        "It would stay exactly the same as a golden deer",
-        "A scary demon with claws and sharp teeth",
-        "A beautiful butterfly with colorful wings",
-        "A tall tree with green leaves"
+        "Much smaller than Rama, barely reaching his knee",
+        "Exactly the same height as Rama",
+        "Looming much taller than Rama, towering over him",
+        "Flat on the ground with no real height at all"
       ],
-      correctAnswer: 1,
-      explanation: "The story tells us the deer transformed into a scary demon with long claws and sharp teeth when hit by the arrow."
+      correctAnswer: 2,
+      explanation: "The story describes the demon as having long claws and sharp teeth but gives no height. You must infer that a scary, powerful demon meant to intimidate a warrior like Rama would be visualized as a massive, towering figure."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const ramaGoldenDeer = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you imagine Rama rushing back through the forest, from what direction would he be approaching the hut?",
+      question: "When you imagine Rama arriving back at the hut after his long run through the forest, what would his voice most likely sound like as he calls out to Sita and Lakshmana?",
       options: [
-        "From the same direction where he chased the deer",
-        "From high above, flying through the air",
-        "From underground, coming up from below",
-        "From inside the hut, already there"
+        "Slow, deep, and perfectly steady as if he had been sitting still",
+        "Breathless and urgent, slightly broken between words",
+        "High-pitched and singing, as if celebrating a victory",
+        "Completely silent, choosing to say nothing at all"
       ],
-      correctAnswer: 0,
-      explanation: "Since Rama chased the deer deep into the woods and then returned, you would picture him coming back from the same direction he left."
+      correctAnswer: 1,
+      explanation: "The story never describes how Rama sounds when he returns, only that he hurried back. You must infer that after running a long distance through the forest in urgency, his voice would be breathless and strained — not calm and steady."
     },
     {
       type: "story",

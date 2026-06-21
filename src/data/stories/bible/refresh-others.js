@@ -49,15 +49,15 @@ const refreshOthers = {
     {
       type: "question",
       domain: "shape",
-      question: "Picture kindness as water flowing. If it moves in a circle from you to others and back, what shape would this pattern make?",
+      question: "Imagine kindness as a seed Rosa plants in the ground. As it grows into a tree and drops new seeds around her, what would the overall spreading pattern look like from above?",
       options: [
-        "A straight line going away",
-        "A square box",
-        "A complete circle returning to you",
-        "A triangle pointing down"
+        "A single straight line pointing away from Rosa",
+        "A starburst shape radiating outward from a center point",
+        "A flat horizontal bar with no depth",
+        "A small dot that never grows larger"
       ],
-      correctAnswer: 2,
-      explanation: "The proverb shows kindness flows in circles - what we give comes back!"
+      correctAnswer: 1,
+      explanation: "Acts of kindness don't just return to one person - they radiate outward in all directions, touching many lives and growing bigger over time!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const refreshOthers = {
     {
       type: "question",
       domain: "number",
-      question: "Visualize Rosa's first day with just her pitcher of water. Now picture her stand after weeks of refreshing others. How many helpers and friends would you see around her?",
+      question: "Imagine Rosa's water stand as a small puddle on day one. Picture what that puddle would look like after weeks of generosity if her growing circle of friends were drops of water joining it. What would the puddle become?",
       options: [
-        "Many friends helping and supporting her",
-        "Still just Rosa alone",
-        "Fewer people than before",
-        "Exactly two people"
+        "It would dry up completely",
+        "It would stay the same small puddle",
+        "It would shrink to a thin trickle",
+        "It would grow into a wide, spreading pool"
       ],
-      correctAnswer: 0,
-      explanation: "Generosity multiplies - when we refresh others, blessings multiply back to us!"
+      correctAnswer: 3,
+      explanation: "Generosity multiplies - when we refresh others, blessings multiply back to us, turning a small act into something much larger!"
     },
     {
       type: "story",

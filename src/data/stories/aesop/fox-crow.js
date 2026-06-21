@@ -1,4 +1,3 @@
-
 // src/data/stories/aesop/fox-crow.js
 const foxCrow = {
   id: "fox-crow",
@@ -16,15 +15,15 @@ const foxCrow = {
     {
       type: "question",
       domain: "where",
-      question: "Where would the Fox most likely be positioned in this scene?",
+      question: "What would the Fox's eyes most likely be focused on as he devises his plan?",
       options: [
-        "High up in the tree next to the Crow",
-        "On the ground looking up at the Crow",
-        "Hidden inside a hollow in the tree trunk",
-        "Swimming in a nearby stream"
+        "The roots of the tree, searching for fallen food",
+        "The Crow's beak, where the cheese is held",
+        "The sky above, watching for other birds",
+        "The surrounding forest, looking for escape routes"
       ],
       correctAnswer: 1,
-      explanation: "Since the Crow is in the tree with cheese and the Fox wants to get it, the Fox would logically be positioned on the ground looking up at the Crow."
+      explanation: "Since the Fox's entire focus is on obtaining the cheese, his gaze would be fixed on the Crow's beak where the prize is held, mentally calculating how to claim it."
     },
     {
       type: "story",
@@ -33,15 +32,15 @@ const foxCrow = {
     {
       type: "question",
       domain: "movement",
-      question: "How would the Fox likely move while flattering the Crow?",
+      question: "How would the Fox's tail most likely move as he delivers his flattering speech?",
       options: [
-        "Pacing back and forth nervously",
-        "Standing still with his head tilted upward",
-        "Jumping up and down trying to reach the branch",
-        "Running in circles around the tree"
+        "Bristling upright in visible excitement",
+        "Tucked between his legs in submission",
+        "Swishing slowly in a calm, deliberate manner",
+        "Wagging rapidly like an excited dog"
       ],
-      correctAnswer: 1,
-      explanation: "To effectively flatter the Crow and maintain eye contact, the Fox would most naturally be visualized as standing still with his head tilted upward toward the Crow."
+      correctAnswer: 2,
+      explanation: "A cunning Fox carefully executing a calculated scheme would keep composed and controlled, so his tail would move in a slow, deliberate swish rather than betraying eagerness or nervousness."
     },
     {
       type: "story",

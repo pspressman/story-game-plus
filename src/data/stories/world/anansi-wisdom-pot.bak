@@ -1,0 +1,154 @@
+// West African story for visualization-based reading comprehension
+const anansiWisdomPot = {
+  id: "anansi-wisdom-pot",
+  title: "Anansi and the Pot of Wisdom",
+  icon: "🕷️",
+  difficulty: "Medium",
+  theme: "Sharing",
+  estimatedTime: "8-12 min",
+  description: "A West African Ashanti tale about how the clever spider Anansi tried to keep all wisdom for himself but learned an important lesson about sharing knowledge.",
+  content: [
+    {
+      type: "story",
+      text: "Long ago in West Africa, according to the Ashanti people, there lived Anansi the spider. He was very clever and loved to collect knowledge and wisdom from all over the world. Anansi had eight long legs and could spin the most beautiful webs in the forest."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "When you picture Anansi moving through the forest, how would his body look compared to the insects around him?",
+      options: [
+        "He would look like a six-legged insect with antennae",
+        "He would appear to have four legs like most small forest creatures",
+        "He would have two extra legs more than the insects nearby",
+        "He would look identical to a beetle or ant"
+      ],
+      correctAnswer: 2,
+      explanation: "Anansi is a spider, which has eight legs, while insects have six. Visualizing him next to insects, you would notice he has two extra legs — a detail that requires you to apply knowledge about spiders rather than simply repeat the text."
+    },
+    {
+      type: "story",
+      text: "One day, Anansi decided he wanted to become the wisest creature in the world. He found a large clay pot and began collecting all the wisdom he could find. He gathered wisdom from the elders, from the animals, and even from the wind and the trees."
+    },
+    {
+      type: "question",
+      domain: "shape",
+      question: "When you picture Anansi gathering wisdom from the wind and trees, what would the inside of his collecting vessel look like as it slowly filled up?",
+      options: [
+        "You would see it glowing brighter and brighter as more wisdom settled inside",
+        "It would remain completely dark and empty-looking no matter how much was added",
+        "The walls would crack and break as the wisdom pushed outward",
+        "It would shrink smaller the more wisdom was poured in"
+      ],
+      correctAnswer: 0,
+      explanation: "Wisdom is something invisible, so to visualize it filling a container you would need to imagine it as a kind of inner glow or light growing steadily brighter — something the story never describes but the mind must construct."
+    },
+    {
+      type: "story",
+      text: "As Anansi's pot filled with more and more wisdom, it became very heavy. Soon the pot contained all the wisdom in the world, and Anansi was worried that others might try to take some of it. 'I must hide this pot where no one else can find it,' he thought."
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "When you visualize the pot after Anansi filled it with wisdom, how would it appear?",
+      options: [
+        "Light and easy to carry",
+        "The same size as when it was empty",
+        "Full and hard to carry",
+        "Smaller than it was before"
+      ],
+      correctAnswer: 2,
+      explanation: "The story describes the pot becoming very heavy as it filled with more wisdom, eventually containing all the wisdom in the world."
+    },
+    {
+      type: "story",
+      text: "Anansi decided to carry the pot to the top of the tallest tree in the forest. He tied the pot to his belly with strong web silk and began to climb. But the heavy pot kept bumping against the tree trunk and getting in his way as he climbed."
+    },
+    {
+      type: "question",
+      domain: "where",
+      question: "When you picture Anansi struggling to climb with the pot, what would the tree bark look like where the pot kept hitting it?",
+      options: [
+        "Smooth and polished from the repeated contact",
+        "Scratched and scuffed from the heavy clay striking it again and again",
+        "Completely untouched with no marks at all",
+        "Covered in fresh green leaves from the disturbance"
+      ],
+      correctAnswer: 1,
+      explanation: "The story tells us the heavy pot kept bumping against the tree trunk. Visualizing repeated hard clay striking rough bark, you would picture scratches and scuff marks building up — a physical detail the story never mentions but the scene implies."
+    },
+    {
+      type: "story",
+      text: "Anansi's young son was watching from below. 'Father!' the little spider called up. 'Why don't you tie the pot to your back instead? That way it won't bump into the tree, and you can climb much easier!' Anansi stopped climbing and looked down at his son in amazement."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "Before his son spoke up, what expression would you picture on Anansi's face as he struggled and failed to climb smoothly?",
+      options: [
+        "A calm, relaxed smile showing he found the climb effortless",
+        "A look of frustration and strain from the difficult, clumsy climbing",
+        "A joyful grin because he was enjoying the challenge",
+        "A sleepy, bored expression as though nothing was happening"
+      ],
+      correctAnswer: 1,
+      explanation: "The story describes the pot bumping into the tree and getting in Anansi's way as he climbed. Visualizing that struggle, you would picture his face tight with frustration and effort — an expression the story never names but the situation demands."
+    },
+    {
+      type: "story",
+      text: "'My son is right!' Anansi realized. 'His idea is very wise. But wait - if my young son can think of something so clever, then I don't really have ALL the wisdom in the world in this pot!' Anansi felt foolish for thinking he could keep all wisdom to himself."
+    },
+    {
+      type: "question",
+      domain: "perspective",
+      question: "In your visualization, from what angle would you see Anansi hanging on the tree when he realized his mistake?",
+      options: [
+        "From high above looking down at him",
+        "From the ground looking up at him on the tree",
+        "From inside the pot looking out",
+        "From behind the tree where you can't see him"
+      ],
+      correctAnswer: 1,
+      explanation: "Since Anansi was partway up the tree when he made this realization, you would best visualize the scene from the ground looking up at him clinging to the trunk."
+    },
+    {
+      type: "story",
+      text: "In that moment, Anansi understood that wisdom belongs to everyone, not just to one person. He became so excited that he accidentally let go of the pot! It fell to the ground and broke into many pieces, scattering wisdom everywhere like seeds in the wind."
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "When you picture the pot shattering on the ground, what would the broken clay pieces look like moments after the impact?",
+      options: [
+        "One clean crack down the middle leaving two equal halves",
+        "A neat pile of pieces stacked on top of each other",
+        "Jagged shards spread outward across the ground in all directions",
+        "The pot would flatten without breaking into separate pieces"
+      ],
+      correctAnswer: 2,
+      explanation: "The story says the pot broke into many pieces. Visualizing a heavy clay pot dropped from high in a tree, you would picture jagged shards exploding outward across the ground — a physical image you must construct rather than read."
+    },
+    {
+      type: "story",
+      text: "The pieces of wisdom blew all around the world. Some wisdom went to the farmers, some to the storytellers, some to the children, and some to the animals. From that day on, everyone in the world had some wisdom, and people learned that the best way to gain wisdom is to share what you know with others."
+    },
+    {
+      type: "question",
+      domain: "number",
+      question: "If you could picture the world before and after the pot broke, how would the number of wise faces you could see change?",
+      options: [
+        "You would see fewer wise faces because the wisdom was diluted by spreading",
+        "You would see only one wise face since Anansi kept most of it",
+        "You would see no change because wisdom was already everywhere",
+        "You would see countless wise faces where before only Anansi's pot held it all"
+      ],
+      correctAnswer: 3,
+      explanation: "Before the pot broke, all wisdom was locked inside one vessel. Visualizing the world afterward — with farmers, storytellers, children, and animals all carrying a share — you would imagine an enormous multiplication of wise faces, a contrast the story implies but never pictures directly."
+    },
+    {
+      type: "story",
+      moral: "This West African story teaches us that wisdom grows when it's shared, not when it's hoarded. True knowledge comes from learning together and listening to the ideas of others, even from those who seem younger or less experienced than ourselves."
+    }
+  ]
+};
+
+export default anansiWisdomPot;

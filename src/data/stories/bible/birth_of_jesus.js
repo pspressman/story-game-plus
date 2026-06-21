@@ -15,15 +15,15 @@ const birthsJesusJohn = {
     {
       type: "question",
       domain: "mood",
-      question: "In your mental image of Zechariah hearing this message, what would his face most likely look like?",
+      question: "If you could see Zechariah's hands in that moment, what would they most likely be doing?",
       options: [
-        "Bored and sleepy",
-        "Calm and relaxed",
-        "Surprised and confused",
-        "Angry and red-faced"
+        "Clapping happily with excitement",
+        "Trembling or gripping something for support",
+        "Folded calmly in his lap",
+        "Waving the angel away dismissively"
       ],
-      correctAnswer: 2,
-      explanation: "Being told he’d have a baby at his age would shock and confuse Zechariah!"
+      correctAnswer: 1,
+      explanation: "Receiving such an overwhelming and impossible-sounding message, Zechariah's hands would likely shake or reach out to steady himself in disbelief."
     },
     {
       type: "story",
@@ -40,24 +40,24 @@ const birthsJesusJohn = {
         "Angry shouting"
       ],
       correctAnswer: 1,
-      explanation: "Mary might have breathed quietly and nervously as she tried to understand the angel’s message."
+      explanation: "Mary might have breathed quietly and nervously as she tried to understand the angel's message."
     },
     {
       type: "story",
-      text: "Mary visited Elizabeth, who was now pregnant with John. When Mary arrived, baby John jumped for joy inside Elizabeth’s belly! They both felt something special was happening."
+      text: "Mary visited Elizabeth, who was now pregnant with John. When Mary arrived, baby John jumped for joy inside Elizabeth's belly! They both felt something special was happening."
     },
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would baby John move when Mary came close?",
+      question: "In your mind, how would Elizabeth's body most likely react in that moment of greeting Mary?",
       options: [
-        "Float quietly like a feather",
-        "Stay completely still",
-        "Jump excitedly inside the womb",
-        "Spin like a top"
+        "She would stand perfectly still with no reaction",
+        "She would stumble backward and fall",
+        "She would place her hands on her belly with wide eyes",
+        "She would run quickly out of the room"
       ],
       correctAnswer: 2,
-      explanation: "The story says John leapt with joy before he was even born!"
+      explanation: "Feeling her baby leap unexpectedly, Elizabeth would likely press her hands to her belly in wonder and surprise."
     },
     {
       type: "story",
@@ -66,19 +66,19 @@ const birthsJesusJohn = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture baby Jesus in the manger, what would you most likely see in the background?",
+      question: "When you picture Mary and Joseph searching for a place to stay in Bethlehem, what would the streets most likely look and feel like?",
       options: [
-        "A golden palace with marble floors",
-        "A quiet stable with hay and animals",
-        "A fancy hospital room",
-        "A spaceship and blinking lights"
+        "Empty and silent with no one around",
+        "Noisy and packed with travelers and carts",
+        "Decorated with colorful banners and lights",
+        "Flooded with water and mud"
       ],
       correctAnswer: 1,
-      explanation: "Jesus was born in a humble place with animals and straw, not a royal or modern setting."
+      explanation: "With the town crowded due to the census, the streets would feel bustling and overwhelming, making it hard to find shelter."
     },
     {
       type: "story",
-      text: "Shepherds in the fields saw a sky full of angels singing about Jesus’ birth. The shepherds hurried to see the baby, amazed at what the angel said."
+      text: "Shepherds in the fields saw a sky full of angels singing about Jesus' birth. The shepherds hurried to see the baby, amazed at what the angel said."
     },
     {
       type: "question",
@@ -117,15 +117,15 @@ const birthsJesusJohn = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the escape to Egypt, where would Mary, Joseph, and baby Jesus likely be traveling?",
+      question: "As you picture the family's journey, what would the landscape surrounding them most likely look like during their escape?",
       options: [
-        "Through snowy mountain cliffs",
-        "Along a desert road with stars above",
-        "Flying in a hot air balloon",
-        "Riding in a shiny car"
+        "Lush green forests with tall trees",
+        "Frozen tundra covered in snow",
+        "Vast stretches of sandy, open terrain under a dark sky",
+        "A busy city with bright torches on every corner"
       ],
-      correctAnswer: 1,
-      explanation: "They traveled quietly by night, likely through desert land with stars above them."
+      correctAnswer: 2,
+      explanation: "Traveling from Judea toward Egypt would take the family through open desert wilderness, and fleeing at night means the land would be dark and quiet around them."
     },
     {
       type: "story",

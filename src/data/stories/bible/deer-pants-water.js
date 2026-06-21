@@ -15,15 +15,15 @@ const deerPantsWater = {
     {
       type: "question",
       domain: "what",
-      question: "Picture a deer that hasn't had water for days in hot weather. What would its body show about how badly it needs water?",
+      question: "Imagine a deer that has gone without water for days under a blazing sun. If you could see its eyes and the way it held its head, what would those features look like compared to a well-rested deer?",
       options: [
-        "Casual walking and looking around",
-        "Sleeping peacefully",
-        "Desperate searching, heavy breathing",
-        "Playing and jumping"
+        "Bright and alert, head held high with curiosity",
+        "Sunken and dull, head stretched low and straining forward",
+        "Closed and calm, head drooping in peaceful sleep",
+        "Wide and playful, head tossing side to side"
       ],
-      correctAnswer: 2,
-      explanation: "The psalm uses this powerful image to show how strongly our hearts can need God!"
+      correctAnswer: 1,
+      explanation: "Severe dehydration pulls moisture from the eyes and weakens neck muscles, so a dangerously thirsty animal looks hollow-eyed and drives its nose toward the ground - a vivid picture of desperate longing the psalm uses to describe needing God!"
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const deerPantsWater = {
     {
       type: "question",
       domain: "where",
-      question: "Visualize where a thirsty deer would focus all its attention - what would it be looking for everywhere?",
+      question: "Imagine a deer desperately searching for water across a dry landscape. Where would you expect to find its hoofprints most concentrated?",
       options: [
-        "Other deer to play with",
-        "Streams, rivers, any water",
-        "Tall trees for shade",
-        "Good places to sleep"
+        "On hilltops far from any low ground",
+        "Deep in thick forest away from open land",
+        "Along dry riverbeds and low muddy hollows",
+        "On flat dusty plains with no vegetation"
       ],
-      correctAnswer: 1,
-      explanation: "Just like the deer seeks water, the psalm shows a heart seeking God with the same intensity!"
+      correctAnswer: 2,
+      explanation: "A thirsty deer instinctively follows low terrain where water collects - just as the psalm writer instinctively turned toward God in times of deep need!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const deerPantsWater = {
     {
       type: "question",
       domain: "size",
-      question: "When the psalm says 'all your waves and breakers have swept over me,' visualize ocean waves. What size waves would match feeling overwhelmed by sadness?",
+      question: "Visualize a person standing at the edge of the ocean when the waves described in the psalm crash over them. What would happen to their feet and balance compared to standing on calm, dry ground?",
       options: [
-        "Huge waves taller than a person",
-        "Tiny ripples",
-        "No waves at all",
-        "Medium splashes"
+        "Their feet would stay perfectly still and dry",
+        "They would feel a gentle tickle around their ankles",
+        "The force would drag the sand from under their feet and knock them off balance",
+        "They would be pushed smoothly and comfortably backward"
       ],
-      correctAnswer: 0,
-      explanation: "Poetry uses size to show emotion's power - big waves represent big feelings!"
+      correctAnswer: 2,
+      explanation: "When powerful surf hits a person, the undertow strips the ground from beneath them and makes standing impossible - a physical image that mirrors how crushing grief can make someone feel completely unsteady and out of control!"
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const deerPantsWater = {
     {
       type: "question",
       domain: "when",
-      question: "The psalm mentions God's love 'by day' and God's song 'at night.' In poetry, why mention both times?",
+      question: "Imagine someone singing quietly to themselves in the middle of a dark, sleepless night. What does it tell you about how that person is coping with their sadness?",
       options: [
-        "To confuse readers",
-        "To fill up space",
-        "Only daytime matters",
-        "To show God's care never stops"
+        "They have forgotten what made them sad",
+        "They are too tired to feel anything",
+        "They are finding a way to hold onto hope even in the hardest hours",
+        "They are pretending the sadness was never real"
       ],
-      correctAnswer: 3,
-      explanation: "Poetry uses 'day and night' to mean 'always' - showing complete, constant care!"
+      correctAnswer: 2,
+      explanation: "A song in the darkest hour suggests the singer is actively reaching for comfort rather than surrendering to despair - which is exactly the posture the psalm writer models toward God!"
     },
     {
       type: "story",

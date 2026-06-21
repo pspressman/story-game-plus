@@ -14,15 +14,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "mood",
-      question: "When you imagine a master musician who feels no one understands their art, what emotion would show in their playing?",
+      question: "When you imagine Boya watching an audience applaud after a performance, what expression would his eyes most likely betray?",
       options: [
-        "Pure joy and satisfaction",
-        "A deep loneliness despite the beauty",
-        "Anger and harsh sounds",
-        "Complete silence"
+        "Bright, grateful excitement",
+        "A distant, hollow look behind his polite bow",
+        "Fierce irritation at their cheering",
+        "Complete blankness, as if asleep"
       ],
       correctAnswer: 1,
-      explanation: "A musician feeling misunderstood would express deep loneliness even while creating beauty."
+      explanation: "A musician whose inner meaning is never grasped would feel invisible even amid applause — his eyes would carry a distant, hollow look that the crowd would never notice."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "perspective",
-      question: "From Boya's viewpoint, what made Ziqi's response so shocking?",
+      question: "In the moment Ziqi described seeing Mount Tai, what physical reaction would Boya's body most likely show before he could even speak?",
       options: [
-        "Ziqi played better than him",
-        "Ziqi couldn't hear the music",
-        "Ziqi understood the exact images in the music",
-        "Ziqi fell asleep"
+        "He would immediately laugh and walk away",
+        "His body would freeze mid-motion, breath caught, hands still hovering near the qin strings",
+        "He would shrug and begin packing up his instrument",
+        "His face would redden with embarrassment"
       ],
-      correctAnswer: 2,
-      explanation: "Ziqi understanding the exact images and feelings in the music shocked Boya after years of being misunderstood."
+      correctAnswer: 1,
+      explanation: "After years of never being understood, hearing Ziqi name the exact image in the music would cause Boya's body to freeze in stunned disbelief — a physical shock that would arrive before any words."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "what",
-      question: "When Boya calls Ziqi his 'zhiyin,' what special relationship does this term describe?",
+      question: "If a musician played for someone who did NOT understand them the way Ziqi understood Boya, what would that listener's response most likely look like?",
       options: [
-        "Someone who knows your true inner voice",
-        "A casual acquaintance",
-        "An enemy",
-        "A music teacher"
+        "Describing the exact landscape or emotion the music portrayed",
+        "Polite clapping without grasping any deeper meaning",
+        "Weeping tears of recognition",
+        "Picking up an instrument to join in"
       ],
-      correctAnswer: 0,
-      explanation: "Zhiyin means someone who truly knows your inner voice and understands your deepest expression."
+      correctAnswer: 1,
+      explanation: "An ordinary listener, unlike a zhiyin, would offer only polite, surface-level appreciation — clapping without sensing the inner images or feelings the musician poured into the notes."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "when",
-      question: "If Boya visits Ziqi once every year, how often do the friends meet?",
+      question: "During the long months between Boya's yearly visits, what feeling would most likely settle over Boya as he played for other audiences?",
       options: [
-        "Every day",
-        "Once a month",
-        "Annually during Boya's travels",
-        "Never again"
+        "Complete contentment and belonging",
+        "A renewed loneliness, counting the days until he could return",
+        "Indifference toward music altogether",
+        "Relief at being away from Ziqi"
       ],
-      correctAnswer: 2,
-      explanation: "Meeting once every year means they reunite annually during Boya's travels."
+      correctAnswer: 1,
+      explanation: "Knowing only Ziqi truly understood him, Boya would feel renewed loneliness during the long stretches between visits, aware that no one around him could truly hear his heart."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "number",
-      question: "After Ziqi's death, how many people remained who could truly understand Boya's music?",
+      question: "If Boya had tried to perform for a new audience after Ziqi's death, how many listeners would have been able to describe the inner images he wove into the music?",
       options: [
-        "Hundreds of fans",
-        "Several close friends",
-        "Zero - no one else ever understood",
-        "His family members"
+        "Hundreds — crowds always sensed his deeper meaning",
+        "A few talented musicians who studied hard",
+        "None — that level of understanding had never existed in any other listener",
+        "Only members of his own family"
       ],
       correctAnswer: 2,
-      explanation: "Ziqi was the only person who ever truly understood, so zero people remained after his death."
+      explanation: "The story shows that in all of Boya's years of performing, not a single person before or besides Ziqi ever grasped his true meaning — so a new audience would yield zero such listeners."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const boyaZiqiFriendship = {
     {
       type: "question",
       domain: "shape",
-      question: "When visualizing the broken qin as a symbol, what does its shattered form represent?",
+      question: "When you picture the scattered pieces of the shattered qin lying on the ground, what would the arrangement of its broken seven strings look like?",
       options: [
-        "A friendship that continues forever",
-        "The beginning of new music",
-        "A bond broken by death but honored in memory",
-        "Anger at the world"
+        "Neatly coiled and untouched",
+        "Tangled and splayed outward from the cracked body, like spokes of a broken wheel",
+        "Dissolved completely into dust",
+        "Restrung and ready to be played again"
       ],
-      correctAnswer: 2,
-      explanation: "The shattered qin represents a bond broken by death but forever honored in memory."
+      correctAnswer: 1,
+      explanation: "A qin smashed forcefully to the ground would leave its seven strings tangled and splayed outward from the cracked wooden body — a chaotic, radiating wreckage that mirrors the shattering of the bond that gave those strings their meaning."
     },
     {
       type: "story",

@@ -1,4 +1,3 @@
-
 // src/data/stories/greek/icarus-daedalus.js
 const icarusDaedalus = {
   id: "icarus-daedalus",
@@ -71,15 +70,15 @@ const icarusDaedalus = {
     {
       type: "question",
       domain: "mood",
-      question: "What expression would be on Icarus's face as he flew higher toward the sun?",
+      question: "What would Daedalus's expression most likely look like as he watched Icarus flying dangerously high?",
       options: [
-        "Fear and worry",
-        "Sadness and regret",
-        "Joy and excitement",
-        "Anger and frustration"
+        "Proud and admiring, pleased by his son's skill",
+        "Pale and stricken with dread, eyes wide with alarm",
+        "Calm and untroubled, confident the wings would hold",
+        "Laughing and carefree, enjoying the shared adventure"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Icarus as 'exhilarated' and 'bolder', indicating he would most likely appear joyful and excited as he soared higher, not afraid, sad, or angry."
+      correctAnswer: 1,
+      explanation: "Daedalus had specifically warned Icarus not to fly too high, knowing the wax would melt. Seeing his son ignore that warning and climb toward the sun, a father who understood the danger would most likely appear pale and stricken with dread — not proud, calm, or carefree."
     },
     {
       type: "story",

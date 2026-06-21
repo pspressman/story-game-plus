@@ -32,15 +32,15 @@ const gideonsArmy = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, when very thirsty soldiers reach the water, how would most of them drink?",
+      question: "If you picture a soldier scooping water with one hand while marching toward the stream, what would happen to his pace compared to a soldier who stopped completely to drink?",
       options: [
-        "Standing far from the water and waiting",
-        "Kneeling down and putting their faces in the water",
-        "Doing backflips into the water",
-        "Building cups from leaves first"
+        "He would move much faster through the water",
+        "He would slow down and nearly stop like the others",
+        "He would keep moving without fully stopping",
+        "He would sprint past the stream without drinking"
       ],
-      correctAnswer: 1,
-      explanation: "Very thirsty people usually kneel down to drink directly when they reach water."
+      correctAnswer: 2,
+      explanation: "Scooping water on the move means the soldier barely interrupts his stride, unlike someone who kneels and puts his face down, so he would keep moving without fully stopping."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const gideonsArmy = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize the alert soldiers drinking, where would their eyes be looking?",
+      question: "If you picture an alert soldier scooping water with one hand, where would his other hand most likely be positioned?",
       options: [
-        "Down at the water",
-        "Up at the sky",
-        "Around at their surroundings",
-        "At their own reflections"
+        "Tucked behind his back",
+        "Splashing water on his face",
+        "Resting on or near his weapon",
+        "Waving to signal other soldiers"
       ],
       correctAnswer: 2,
-      explanation: "Alert soldiers would keep watching around them for any danger while drinking."
+      explanation: "A soldier staying alert and watching for danger would keep his free hand close to his weapon, ready to react at any moment."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const gideonsArmy = {
     {
       type: "question",
       domain: "background",
-      question: "In your mental picture of the soldiers holding jars with torches inside, what would the area around them look like?",
+      question: "As Gideon's soldiers crept through the darkness carrying their hidden torches, what would the inside of each clay jar look like from the soldier's point of view?",
       options: [
-        "Bright as daylight everywhere",
-        "Very dark with no light showing",
-        "Rainbow colored lights dancing",
-        "Dim light leaking through the jars"
+        "Completely empty and cold",
+        "Glowing and flickering with orange light",
+        "Filled with smoke but no flame",
+        "Shining with a steady white light"
       ],
       correctAnswer: 1,
-      explanation: "The jars would hide the torch light completely, keeping the area very dark."
+      explanation: "A burning torch sealed inside a clay jar would cast a warm, flickering orange glow visible only to the soldier holding it, since the jar's walls would trap the light inside."
     },
     {
       type: "story",

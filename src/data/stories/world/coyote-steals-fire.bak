@@ -1,0 +1,171 @@
+// Navajo Native American story for visualization-based reading comprehension
+const coyoteStealsFire = {
+  id: "coyote-steals-fire",
+  title: "Coyote Steals Fire",
+  icon: "🐺",
+  difficulty: "Medium",
+  theme: "Teamwork",
+  estimatedTime: "8-12 min",
+  description: "A Navajo tale about how Coyote and the other animals worked together to steal fire from the Fire Beings and bring it to the people.",
+  content: [
+    {
+      type: "story",
+      text: "In the time when the world was young, according to the Navajo people, humans lived in darkness and cold. The Fire Beings lived on a high mountain and kept all the fire for themselves. They had built a great fire that burned day and night, but they would never share its warmth."
+    },
+    {
+      type: "question",
+      domain: "background",
+      question: "When you picture the human villages at night before fire was shared, what would the people be doing to cope?",
+      options: [
+        "Dancing around bright torches in the streets",
+        "Huddling together under animal skins, pressed close for warmth",
+        "Cooking large meals over glowing hearths",
+        "Reading and working by candlelight"
+      ],
+      correctAnswer: 1,
+      explanation: "Without any fire, people would have no heat source at all, so you would visualize them crowding together under whatever coverings they had, trying to share body heat through the cold darkness."
+    },
+    {
+      type: "story",
+      text: "Coyote saw how the people suffered and decided to help them. But he knew he couldn't steal the fire alone. So he called together all his animal friends: Squirrel with his bushy tail, Chipmunk with her quick feet, Frog with his big mouth, and many others."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "If you imagine Squirrel gripping a burning branch with his tail, what would that look like compared to holding it in a paw?",
+      options: [
+        "The tail would wrap around the branch like a thick furry sleeve, keeping flames farther from his body",
+        "The tail would flatten completely against the branch",
+        "The tail would make the branch burn faster by fanning it",
+        "The tail would be too small to hold anything at all"
+      ],
+      correctAnswer: 0,
+      explanation: "A bushy tail wrapping around a branch would create a thick cushion of fur between the flame and Squirrel's skin, which is why it made sense as a carrying tool — though it would still catch fire from the prolonged contact."
+    },
+    {
+      type: "story",
+      text: "'Here is my plan,' said Coyote. 'We will make a chain from the Fire Beings' mountain all the way down to the human villages. Each animal will run part of the way, passing the fire from one to the next like a relay race.'"
+    },
+    {
+      type: "question",
+      domain: "where",
+      question: "If you were a bird flying high above and looking down at the animals carrying out Coyote's plan, what pattern would their positions form across the landscape?",
+      options: [
+        "A tight circle surrounding the mountain base",
+        "A scattered random cluster in one valley",
+        "A long dotted line stretching from the mountain peak down toward the distant villages",
+        "Two parallel rows facing each other"
+      ],
+      correctAnswer: 2,
+      explanation: "Seen from above, the animals spaced out between the mountain and the villages would appear as a thin dotted line snaking down through the terrain — each creature a small point of waiting, connected by the path the fire would travel."
+    },
+    {
+      type: "story",
+      text: "When night came, Coyote snuck up the mountain to where the Fire Beings were sleeping around their great fire. Moving as quietly as a shadow, he grabbed a burning branch in his mouth and ran down the mountain as fast as his legs could carry him."
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "As Coyote crept past the sleeping Fire Beings with a burning branch in his mouth, what would his body posture look like?",
+      options: [
+        "Standing tall and proud with his head raised high",
+        "Body low to the ground, belly nearly touching the earth, moving in slow careful steps",
+        "Hopping quickly on his hind legs like a rabbit",
+        "Rolling sideways to stay out of sight"
+      ],
+      correctAnswer: 1,
+      explanation: "To move silently past sleeping creatures without being noticed, Coyote would need to keep his body pressed low, reducing his silhouette and placing each paw down with extreme care to avoid any sound."
+    },
+    {
+      type: "story",
+      text: "The Fire Beings woke up and chased after Coyote with angry shouts! Coyote ran until he reached Squirrel, who was waiting at the first station. Coyote passed the burning branch to Squirrel, who grabbed it with his tail and leaped from tree to tree."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "When you picture the Fire Beings the moment they realized their fire was missing, what would their bodies look like before they even started chasing?",
+      options: [
+        "Slumped and yawning, slowly stretching awake",
+        "Frozen in stunned disbelief, staring at the empty spot where the branch had been",
+        "Calmly walking toward the edge of the mountain",
+        "Sitting back down and going back to sleep"
+      ],
+      correctAnswer: 1,
+      explanation: "In the split second between waking and chasing, the Fire Beings would likely stand rigid with shock — eyes wide, staring at the gap in their fire — before their surprise turned to fury and they launched into pursuit."
+    },
+    {
+      type: "story",
+      text: "Squirrel's tail caught fire from carrying the burning branch, but he bravely kept running until he reached Chipmunk. The flames left black stripes on Squirrel's tail forever. Chipmunk took the fire and scampered quickly over the rocks with her nimble feet."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "As Squirrel leaped through the trees carrying the burning branch, what would the scene look like against the dark night sky?",
+      options: [
+        "A faint blue glow drifting slowly between branches",
+        "A bright orange streak of flame arcing through the darkness each time he jumped",
+        "A pale white shimmer hovering in the treetops",
+        "A thick cloud of gray smoke with nothing visible inside"
+      ],
+      correctAnswer: 1,
+      explanation: "With a flaming branch carried by a leaping squirrel against a dark sky, each jump would trace a glowing orange arc — a streak of fire briefly suspended in midair before vanishing into the next tree."
+    },
+    {
+      type: "story",
+      text: "The Fire Beings were getting closer! Chipmunk passed the fire to Frog, but as she did, one of the Fire Beings scratched her back, leaving three dark stripes. Frog swallowed the fire to protect it and hopped toward the human village as fast as he could."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "If you imagine Frog hopping toward the village with fire hidden inside him, what unusual thing might you notice about how he looked from the outside?",
+      options: [
+        "He would look completely normal with no sign of the fire inside",
+        "A faint warm glow might show through his thin belly skin as he moved",
+        "He would have smoke coming from his ears",
+        "His legs would freeze and he would be unable to hop at all"
+      ],
+      correctAnswer: 1,
+      explanation: "Frogs have thin, somewhat translucent skin on their undersides, so fire held inside might cast a faint warm light through the belly — making Frog look like a small living lantern racing through the dark toward the village."
+    },
+    {
+      type: "story",
+      text: "Frog reached the human village just as the Fire Beings caught up to him. He opened his mouth and spit the fire into the wood that the humans had prepared. The fire caught instantly, giving the people light and warmth for the first time!"
+    },
+    {
+      type: "question",
+      domain: "perspective",
+      question: "In your mental picture, from where would you see Frog spitting fire into the village wood?",
+      options: [
+        "From high above looking down at the village",
+        "From behind Frog as he faced the prepared wood",
+        "From deep underground looking up",
+        "From inside the fire looking out"
+      ],
+      correctAnswer: 1,
+      explanation: "To best visualize this important moment, you would picture yourself behind Frog as he faces the wood pile and gives the people their first fire."
+    },
+    {
+      type: "story",
+      text: "The Navajo people say that's why today chipmunks have stripes on their backs, squirrels have striped tails, and frogs have no tails at all—they were burned away by the fire. The animals' brave sacrifice brought the gift of fire to all people forever."
+    },
+    {
+      type: "question",
+      domain: "shape",
+      question: "When you picture frogs today, what shape would their bodies have because of this story?",
+      options: [
+        "Long bodies with very long tails",
+        "Round bodies with no tails at all",
+        "Thin bodies with multiple tails",
+        "Square bodies with curly tails"
+      ],
+      correctAnswer: 1,
+      explanation: "The story explains that frogs have no tails today because their tails were burned away by carrying the fire, so you would picture them as tailless."
+    },
+    {
+      type: "story",
+      moral: "This Navajo story teaches us that when we work together and each do our part, we can accomplish great things. Sometimes helping others requires sacrifice, but the good we do lasts forever."
+    }
+  ]
+};
+
+export default coyoteStealsFire;

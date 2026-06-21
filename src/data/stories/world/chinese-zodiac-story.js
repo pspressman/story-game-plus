@@ -14,15 +14,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "number",
-      question: "When you visualize the starting line of this race, how many animal winners would there be spaces for in the zodiac?",
+      question: "If you were drawing the finishing banner at the Jade Emperor's palace, how many separate winner slots would you need to mark out?",
       options: [
-        "Every animal that tries could win",
-        "Only the single fastest animal",
-        "Exactly twelve animals",
-        "One hundred animals"
+        "Three slots for a podium",
+        "One slot for the single champion",
+        "A hundred slots for every animal",
+        "A dozen slots, one for each honored animal"
       ],
-      correctAnswer: 2,
-      explanation: "The Jade Emperor announced that the first twelve animals to finish would have years named after them."
+      correctAnswer: 3,
+      explanation: "The Jade Emperor promised a year to each of the first twelve finishers, so the banner would need exactly twelve marked slots — one per honored animal."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize Rabbit crossing the river, what kind of path would it take?",
+      question: "When you picture Rabbit's body each time it lands on a new log, what would happen to the log beneath it?",
       options: [
-        "A straight line swimming underwater",
-        "Flying directly over the water",
-        "A zigzag pattern jumping between floating objects",
-        "Walking on the river bottom"
+        "The log would sink steadily and smoothly underwater",
+        "The log would wobble and dip under Rabbit's sudden weight before steadying",
+        "The log would shoot forward like a rocket",
+        "The log would float upward into the air"
       ],
-      correctAnswer: 2,
-      explanation: "Since Rabbit was hopping from log to log, it would follow a zigzag pattern between floating objects."
+      correctAnswer: 1,
+      explanation: "Each time Rabbit landed on a floating log, the sudden impact of its weight would cause the log to dip and wobble in the water before settling — something any floating object would do when jumped upon."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "where",
-      question: "As you imagine Dragon making rain for the villagers, where would it position itself?",
+      question: "As you picture the villagers watching Dragon help them, what would the sky above their fields look like just after Dragon finished its task?",
       options: [
-        "Underground in tunnels",
-        "High up among the clouds",
-        "At the bottom of the river",
-        "Inside the villagers' houses"
+        "Completely clear and sunny with no clouds at all",
+        "Dark and heavy with rain clouds gathered overhead",
+        "Filled with stars as if it were nighttime",
+        "Orange and glowing as if on fire"
       ],
       correctAnswer: 1,
-      explanation: "To make rain, Dragon would need to fly up to the clouds where rain forms."
+      explanation: "After Dragon brought rain for the crops, the sky above the fields would be dark and thick with rain clouds — the kind of overcast sky that produces a downpour."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you watched Goat, Monkey, and Rooster from above, what would their teamwork look like on the raft?",
+      question: "If you watched the raft from the riverbank as it crossed, what would tell you the three animals were cooperating rather than competing?",
       options: [
-        "All three fighting and pushing each other off",
-        "Each working together in different roles",
-        "All asleep on the raft",
-        "Swimming separately beside the raft"
+        "They would all be facing away from each other and ignoring the others",
+        "The raft would move in a steady, guided path rather than spinning wildly",
+        "They would each be swimming separately beside the raft",
+        "The raft would be completely still and motionless in the water"
       ],
       correctAnswer: 1,
-      explanation: "Working as a team, they would each have different roles - paddling, steering, or balancing the raft."
+      explanation: "A raft controlled by animals working together would move in a purposeful, steady direction, whereas animals acting without coordination would cause the raft to spin or drift aimlessly."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "when",
-      question: "Based on Pig's behavior of eating and napping, when would it most likely have arrived at the finish?",
+      question: "If you imagine how much time Pig lost by stopping to eat and then falling asleep, how far ahead of it would most other animals already be?",
       options: [
-        "First, before all other animals",
-        "In the middle of the pack",
-        "The next day after the race ended",
-        "Just in time for the last position"
+        "No distance — the other animals would still be at the start",
+        "Just a few steps ahead",
+        "Halfway across the river at most",
+        "Almost all the way to the palace, nearly finishing the race"
       ],
       correctAnswer: 3,
-      explanation: "Since Pig stopped to eat and nap, it would arrive late, just barely making the twelfth position."
+      explanation: "Stopping for a full meal and a nap would take a long time, so most competitors would have already nearly completed the entire race while Pig rested."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const chineseZodiac = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the moment Rat jumps off Ox's back, what would you see in the background?",
+      question: "When you picture Ox the moment after Rat leaped away, what would Ox's posture and expression most likely look like?",
       options: [
-        "The middle of the river",
-        "The palace gate just ahead on the shore",
-        "A thick forest",
-        "The starting line far behind"
+        "Relaxed and smiling, happy to have helped Rat win",
+        "Frozen mid-step with a look of sudden realization as Rat darted past",
+        "Already turned around and swimming back to the start",
+        "Asleep standing in the shallows"
       ],
       correctAnswer: 1,
-      explanation: "Rat waited until just before the shore, so the palace gate would be visible just ahead."
+      explanation: "Ox would be caught off guard in that instant — still in the motion of stepping ashore but only just registering that Rat had sprung ahead, creating a split-second look of surprised realization."
     },
     {
       type: "story",

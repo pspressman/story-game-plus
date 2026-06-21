@@ -34,15 +34,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture the thirsty dog trying to reach the water in the deep well. How would its body look?",
+      question: "Picture the man climbing back up out of the well while carefully holding a water-filled shoe in his teeth. How would his body move differently compared to a normal climb?",
       options: [
-        "Strong and jumping high",
-        "Weak and struggling, tongue hanging out",
-        "Running in circles",
-        "Standing still and proud"
+        "Faster and more confidently than usual",
+        "Stiffly and slowly, head tilted upward to avoid spilling a drop",
+        "Swinging freely from side to side",
+        "Sliding down instead of climbing up"
       ],
       correctAnswer: 1,
-      explanation: "The dog was suffering from thirst, too weak to help itself."
+      explanation: "With a full shoe gripped in his teeth, he would need to keep his head raised and move with extreme care — every muscle tense against the fear of spilling the only water the dog would get!"
     },
     {
       type: "story",
@@ -68,15 +68,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "size",
-      question: "Picture the man's small act of giving water versus the huge reward of paradise. What does this teach about kindness?",
+      question: "Picture the man carefully climbing in and out of a well, teeth clenched around a soggy shoe, just for a stray dog. What does the gap between that awkward effort and its outcome suggest?",
       options: [
-        "Only big acts matter",
-        "Small acts of kindness have great value",
-        "Helping animals doesn't count",
-        "Rewards match exactly what we do"
+        "The effort was too great to be worthwhile",
+        "Only the difficulty of an act determines its value",
+        "An uncomfortable, unglamorous deed can carry an enormous weight of goodness",
+        "Rewards are always proportional to how clean the method is"
       ],
-      correctAnswer: 1,
-      explanation: "The story teaches that even small kindnesses to any living being are precious and valuable!"
+      correctAnswer: 2,
+      explanation: "The man's clumsy, humble method — no bucket, no glory — makes the reward all the more striking. Goodness doesn't need to look impressive to count deeply!"
     },
     
     // === THE WISE JUDGE ===
@@ -121,15 +121,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the judge's view, what did the women's different reactions reveal?",
+      question: "Imagine the judge watching both women's faces the moment he announced his verdict. What difference between the two women's expressions would have confirmed his suspicion?",
       options: [
-        "Nothing important",
-        "Who was stronger",
-        "Who truly loved the child",
-        "Who was older"
+        "One looked older and more tired than the other",
+        "One looked relieved while the other showed no distress at the threat",
+        "One was better dressed than the other",
+        "One was taller and therefore more trustworthy"
       ],
-      correctAnswer: 2,
-      explanation: "Wise judges look beyond words to see what actions reveal about our hearts!"
+      correctAnswer: 1,
+      explanation: "A person with nothing to lose would not be horrified by the threat. The judge read the invisible fear of loss on one face — a feeling no imposter could fake convincingly!"
     },
     
     // === THE GUEST'S GIFT ===
@@ -140,15 +140,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "Picture the poor man giving away his only chicken. What would his dinner table look like after serving the guest?",
+      question: "Picture the poor man's kitchen the morning after his guest's meal. What sounds and smells would be absent that would normally fill a home at breakfast time?",
       options: [
-        "Full of many dishes",
-        "Empty for himself but full for the guest",
-        "Equally divided food",
-        "Hidden food he saved"
+        "The smell of fresh bread baking and children laughing",
+        "The clucking of a chicken and the sizzle of something cooking",
+        "Rain on the roof and wind through the windows",
+        "Neighbors talking loudly outside"
       ],
       correctAnswer: 1,
-      explanation: "He gave everything he had to honor his guest, keeping nothing for himself!"
+      explanation: "With his only chicken gone and nothing left to cook, the kitchen would be unusually silent — no clucking from the yard, no sizzle from the pot. The absence itself tells the story of what he gave away!"
     },
     {
       type: "story",
@@ -157,15 +157,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Visualize the couple running after their guest. Why would they chase someone to give money BACK?",
+      question: "Visualize the couple sprinting down the road after their guest, arms waving to get his attention. What would a passing stranger think they were doing?",
       options: [
-        "They wanted more money",
-        "They were angry",
-        "Their kindness wasn't for reward",
-        "They forgot something"
+        "Chasing a thief who stole from them",
+        "Racing each other for fun",
+        "Desperately trying to return something they felt did not belong to them",
+        "Inviting him back for another meal"
       ],
       correctAnswer: 2,
-      explanation: "True hospitality comes from the heart, not from hoping for payment!"
+      explanation: "To an outsider, chasing someone to hand money back would look baffling — yet that urgency reveals how deeply they felt the coin was out of place in their hands!"
     },
     {
       type: "story",
@@ -174,15 +174,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Picture how you feel when you help someone just to be kind versus helping to get something back. Which feels better in your heart?",
+      question: "Imagine two children who each help a friend carry heavy bags home. One secretly hopes for a treat in return; the other simply enjoys seeing their friend relieved. Picture their faces an hour later when no treat appears. Whose expression would look more at peace?",
       options: [
-        "Helping for rewards feels better",
-        "Both feel the same",
-        "Helping just to help feels more joyful",
-        "Neither feels good"
+        "The one who hoped for a reward, because effort deserves recognition",
+        "Both would look equally disappointed",
+        "The one who expected nothing, because their good feeling never depended on a reward",
+        "Neither — both would have forgotten the whole event"
       ],
       correctAnswer: 2,
-      explanation: "The purest joy comes from kindness that expects nothing in return!"
+      explanation: "When kindness is its own reason, there is nothing to lose and no disappointment waiting at the end. The child who gave freely carries a full heart regardless of what follows!"
     },
     
     // === THE SPIDER'S WEB ===
@@ -193,15 +193,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "Picture a cave that people just entered. What would you NOT expect to see at the entrance?",
+      question: "The pursuers were following a trail of fresh footprints that led directly to the cave entrance. Picture their faces as they arrived and looked at the entrance. What expression would replace their confident pursuit?",
       options: [
-        "Footprints going in",
-        "An unbroken spider's web",
-        "Disturbed dust",
-        "Moved stones"
+        "Rage, because they could hear voices inside",
+        "Confusion and doubt, because what they saw contradicted what the footprints told them",
+        "Boredom, because caves are uninteresting",
+        "Joy, because they knew they had finally succeeded"
       ],
       correctAnswer: 1,
-      explanation: "An unbroken spider web means no one has passed through recently!"
+      explanation: "The footprints said 'someone entered here' — but the entrance said something else entirely. That contradiction would freeze a pursuer mid-step, their certainty suddenly crumbling into puzzlement!"
     },
     {
       type: "story",
@@ -210,15 +210,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "size",
-      question: "Visualize the tiny spider and small dove versus the important people they protected. What does this teach?",
+      question: "Imagine holding a spider's web up to the light — it is thinner than a human hair and tears at a touch. What is strange about such a fragile thing becoming a barrier that turned back armed pursuers?",
       options: [
-        "Only big creatures matter",
-        "Small creatures can play huge roles",
-        "Spiders are magical",
-        "Birds are always helpful"
+        "Nothing — webs are actually very strong",
+        "It shows spiders are the most powerful animals",
+        "Something too delicate to withstand a breeze somehow stopped what weapons could not",
+        "It means the pursuers were weak and easily fooled"
       ],
-      correctAnswer: 1,
-      explanation: "Even the smallest creatures can be part of something much bigger than themselves!"
+      correctAnswer: 2,
+      explanation: "The web's power came not from its physical strength but from what it silently communicated. The most delicate barrier imaginable carried more force than any sword that day!"
     },
     {
       type: "story",
@@ -227,15 +227,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the spider's view, it was just making a web. But from history's view, what was happening?",
+      question: "From the spider's view, it was just making a web. But what would future generations, reading this story centuries later, feel when they see a spider's web?",
       options: [
-        "Nothing special",
-        "A small act becoming part of a great story",
-        "The spider planning everything",
-        "Just another web"
+        "Disgust, since webs are messy",
+        "A quiet wonder — knowing such threads once sheltered something sacred",
+        "Sadness that spiders do not know their own history",
+        "Nothing different from usual"
       ],
       correctAnswer: 1,
-      explanation: "Our simple daily actions might be more important than we realize!"
+      explanation: "The spider never knew its audience. Yet every ordinary web it spins now carries a shadow of that extraordinary moment — proof that humble, unseen work can echo through history!"
     },
     
     // === THE GIVING TREE ===
@@ -246,15 +246,15 @@ const islamicTalesVisualization = {
     {
       type: "question",
       domain: "when",
-      question: "Picture the tree's timeline: tiny seed, young sapling, full fruit tree. When would the old man enjoy its fruit?",
+      question: "Picture the old man kneeling in the soil, hands dirty, back aching. He knows he will never sit in this tree's shade. What expression would most likely be on his face as he works?",
       options: [
-        "When it's a seed",
-        "When it's fully grown",
-        "He won't - it's for future people",
-        "Immediately"
+        "Bitter frustration at his own aging body",
+        "Blank indifference, since the outcome does not affect him",
+        "A calm, contented smile directed at something only he can imagine",
+        "Anxious worry about whether the tree will survive"
       ],
       correctAnswer: 2,
-      explanation: "He planted knowing others, not himself, would enjoy the fruit!"
+      explanation: "He is not planting for a harvest he will taste — he is planting for a vision in his mind: strangers laughing under future branches. That private picture would light his face with peaceful joy!"
     },
     {
       type: "story",

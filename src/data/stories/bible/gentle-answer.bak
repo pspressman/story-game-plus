@@ -1,0 +1,86 @@
+// A Gentle Answer Turns Away Wrath - Proverbs 15:1
+const gentleAnswer = {
+  id: "gentle-answer",
+  title: "A Gentle Answer Turns Away Wrath",
+  icon: "🕊️",
+  difficulty: "Easy",
+  theme: "Kindness",
+  estimatedTime: "10-15 min",
+  description: "Discover how soft words can calm angry situations through visualization.",
+  content: [
+    {
+      type: "story",
+      text: "Emma's brother Jake stormed into the room, face red with anger. 'You broke my model airplane!' he shouted, his fists clenched tight like rocks."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "When you picture Jake's angry face, what color would it be?",
+      options: [
+        "Bright red like a tomato",
+        "Pale white like paper",
+        "Green like grass",
+        "Blue like the sky"
+      ],
+      correctAnswer: 0,
+      explanation: "Anger often makes our faces turn red as our emotions heat up, just like fire!"
+    },
+    {
+      type: "story",
+      text: "Emma could have yelled back, but she remembered the Bible verse: 'A gentle answer turns away wrath.' She spoke softly: 'I'm really sorry, Jake. Let me help you fix it.'"
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "Imagine Jake's body the moment before Emma speaks gently versus a few seconds after. How would his overall posture look different?",
+      options: [
+        "He would grow taller and stiffer",
+        "He would crouch down and cover his ears",
+        "He would shift from puffed-up and rigid to smaller and less tense",
+        "He would spin around and face the wall"
+      ],
+      correctAnswer: 2,
+      explanation: "Anger makes the body expand and tighten — muscles pulled up, chest out. Gentle words begin to deflate that tension before it fully releases, making the person appear to shrink back to their normal, calmer size."
+    },
+    {
+      type: "story",
+      text: "As Emma kept speaking softly, something amazing happened. Jake's shoulders dropped, his fists opened, and the red color faded from his face. 'Okay,' he said quietly. 'Thanks for helping.'"
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "Picture two storm clouds colliding in the sky. Now imagine one cloud suddenly turns into a soft, slow-moving mist. What would happen to the storm?",
+      options: [
+        "The storm would double in size and spin faster",
+        "The storm would freeze into a solid block of ice",
+        "The collision would never happen and both clouds would vanish",
+        "The violent clash would lose its force and the wind would die down"
+      ],
+      correctAnswer: 3,
+      explanation: "When one side of a conflict becomes soft instead of hard, there is nothing to push back against. The storm of anger loses its energy because it needs resistance to keep growing — just like harsh words need harsh replies to escalate."
+    },
+    {
+      type: "story",
+      text: "Together, they fixed the airplane. Jake realized that Emma's gentle answer had helped his anger melt away, just like the proverb promised."
+    },
+    {
+      type: "question",
+      domain: "sound",
+      question: "Picture this: If harsh words sound like thunder, what would gentle words sound like in your mind?",
+      options: [
+        "Like loud drums",
+        "Like breaking glass",
+        "Like a fire alarm",
+        "Like a soft breeze or quiet rain"
+      ],
+      correctAnswer: 3,
+      explanation: "Gentle words are soft and calming, helping to quiet the storm of anger."
+    },
+    {
+      type: "story",
+      moral: "A gentle answer turns away wrath means: speaking softly and kindly can calm someone's anger, while harsh words make it worse. Gentleness has power!"
+    }
+  ]
+};
+
+export default gentleAnswer;

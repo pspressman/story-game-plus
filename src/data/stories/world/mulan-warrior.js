@@ -49,15 +49,15 @@ const mulanWarrior = {
     {
       type: "question",
       domain: "mood",
-      question: "What expression would be on Mulan's face as she cut her hair?",
+      question: "How would Mulan's body language most likely appear as she silently gathered her father's armor in the dark?",
       options: [
-        "Joyful and excited",
-        "Determined but nervous",
-        "Angry and resentful",
-        "Confused and uncertain"
+        "Relaxed and leisurely, taking her time",
+        "Slow and hesitant, moving with trembling and careful pauses",
+        "Loud and confident, moving quickly without concern",
+        "Playful and lighthearted, humming to herself"
       ],
       correctAnswer: 1,
-      explanation: "Given the gravity of her decision to cut her hair (a significant act in ancient China) and impersonate a male soldier, Mulan would most logically appear determined about her choice but also nervous about the consequences and dangers ahead."
+      explanation: "Sneaking around in darkness while her parents slept and preparing to leave everything behind would most likely cause Mulan's body to betray tension — moving slowly, pausing frequently, and handling objects with trembling caution to avoid waking anyone."
     },
     {
       type: "story",

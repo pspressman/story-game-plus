@@ -32,15 +32,15 @@ const noahArk = {
     {
       type: "question",
       domain: "shape",
-      question: "What shape would the ark most likely be?",
+      question: "If you imagined standing beside the finished ark, what would the outer surface feel like to touch?",
       options: [
-        "A perfect cube with flat sides",
-        "Round like a modern cruise ship",
-        "A long rectangular box with a roof",
-        "A sleek narrow triangle like a speedboat"
+        "Smooth and polished like a marble floor",
+        "Rough and sticky from the pitch coating over the wood grain",
+        "Cold and metallic like the hull of a steel ship",
+        "Soft and flexible like leather stretched over a frame"
       ],
-      correctAnswer: 2,
-      explanation: "Based on the biblical description of the ark's dimensions (length, width, and height), it would most logically be visualized as a long rectangular box with a roof, not a cube, modern ship shape, or speedboat design."
+      correctAnswer: 1,
+      explanation: "The story states the ark was made of gopher wood and covered with pitch inside and out. Pitch is a thick, tar-like sealant, so the outer surface would feel rough and sticky where the pitch coated the natural grain and joints of the wooden planks."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const noahArk = {
     {
       type: "question",
       domain: "number",
-      question: "How many windows would you visualize on the ark?",
+      question: "If you imagined the three decks of the ark filled with animals, which deck would most likely hold the largest animals like elephants?",
       options: [
-        "No windows at all",
-        "One window at the top",
-        "Many small windows along the sides",
-        "Large glass windows throughout"
+        "The top deck, for easy access to fresh air",
+        "The middle deck, to balance the weight evenly",
+        "The bottom deck, where the low center of gravity would keep the ark stable",
+        "All three decks equally, with no separation by size"
       ],
-      correctAnswer: 1,
-      explanation: "According to the biblical account, there was one window at the top of the ark, not multiple windows or modern glass designs, which would not have been available in ancient times."
+      correctAnswer: 2,
+      explanation: "Placing the heaviest animals like elephants on the lowest deck would lower the ark's center of gravity, making it far more stable in rough floodwaters. Putting heavy weight high up would cause the ark to tip, so the bottom deck is the most logical place to visualize the largest animals."
     },
     {
       type: "story",

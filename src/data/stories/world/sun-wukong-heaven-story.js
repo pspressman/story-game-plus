@@ -14,15 +14,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the Jade Emperor's point of view, what would be the benefit of giving Sun Wukong a job in Heaven?",
+      question: "If Sun Wukong ever discovered the real reason he was given a position in Heaven, how would his expression most likely change?",
       options: [
-        "To honor him as the greatest immortal",
-        "To keep him busy and under control",
-        "To make him ruler of Heaven",
-        "To teach him to swim"
+        "He would smile wider with gratitude",
+        "His face would soften with humility",
+        "His eyes would narrow with rage and humiliation",
+        "He would laugh and shake hands"
       ],
-      correctAnswer: 1,
-      explanation: "The advisors wanted to keep Sun Wukong busy and out of trouble by giving him a position."
+      correctAnswer: 2,
+      explanation: "Realizing he was tricked into a meaningless role to be controlled would trigger deep humiliation and fury in someone as proud as the Monkey King."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "background",
-      question: "As Sun Wukong enters Heaven, what would you see surrounding the golden palaces?",
+      question: "As Sun Wukong passes through the Southern Heaven Gate, what sound would fill the air from the immortals riding their cranes overhead?",
       options: [
-        "Thick jungle trees",
-        "Ocean waves",
-        "Fluffy clouds and mist",
-        "Desert sand"
+        "The roar of thunder and crashing waves",
+        "Complete silence with no sound at all",
+        "The soft beating of wings and distant chiming bells",
+        "Loud drumming and battle horns"
       ],
       correctAnswer: 2,
-      explanation: "Heavenly palaces would be surrounded by clouds and mist in the celestial realm."
+      explanation: "A celestial realm of graceful immortals on cranes would carry the gentle sound of wingbeats and distant ethereal chimes, befitting its serene and majestic atmosphere."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "mood",
-      question: "When Sun Wukong first starts his job caring for horses, what would his emotional state be?",
+      question: "If you could see Sun Wukong's face while he diligently groomed the horses, not yet knowing the truth about his rank, what expression would he most likely wear?",
       options: [
-        "Furious and insulted",
-        "Happy and proud to have a heavenly position",
-        "Sad and crying",
-        "Bored and sleepy"
+        "A scowl of barely contained rage",
+        "A blank, hollow stare of boredom",
+        "Tears streaming down his cheeks",
+        "A broad grin of someone who believes they are finally respected"
       ],
-      correctAnswer: 1,
-      explanation: "Not knowing it was a low position, he would initially feel happy and proud to work in Heaven."
+      correctAnswer: 3,
+      explanation: "Believing he had earned a worthy heavenly role, Sun Wukong would beam with the satisfaction of someone who thinks their greatness has been recognized."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "size",
-      question: "When Sun Wukong puts up his banner claiming to be 'Equal to Heaven,' what size would such a bold declaration likely be?",
+      question: "Imagine the heavenly soldiers marching toward Sun Wukong's mountain and spotting his banner from a distance. What would that banner look like compared to the trees on the mountain slopes?",
       options: [
-        "A tiny note hidden in a tree",
-        "A small sign by his cave",
-        "An enormous banner visible from far away",
-        "Written in the dirt"
+        "Smaller than a single leaf",
+        "About the same height as a shrub",
+        "Barely peeking above the treetops",
+        "Towering far above the treetops, impossible to miss"
       ],
-      correctAnswer: 2,
-      explanation: "Such a bold declaration would be an enormous banner meant to be seen from far away."
+      correctAnswer: 3,
+      explanation: "A declaration meant to challenge Heaven itself would need to be visible from a great distance, dwarfing the trees around it to announce his defiance to any approaching army."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "number",
-      question: "When Sun Wukong multiplies himself during battle, approximately how many copies would create the most confusion?",
+      question: "If a heavenly general tried to count Sun Wukong's copies to find the real one during battle, what would that experience feel like?",
       options: [
-        "Just two or three copies",
-        "Exactly ten copies",
-        "Thousands of identical monkeys",
-        "No copies at all"
+        "Easy, since there would only be a handful to track",
+        "Simple, as the copies would stand still",
+        "Overwhelming and impossible, like counting raindrops in a storm",
+        "Straightforward because only one copy would move"
       ],
       correctAnswer: 2,
-      explanation: "Creating thousands of copies would cause maximum confusion for the attacking army."
+      explanation: "With identical copies swarming in every direction, a general trying to identify the real Sun Wukong would face an utterly disorienting and impossible task."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "what",
-      question: "In a heavenly garden where immortal peaches grow, what special property would these peaches likely have?",
+      question: "If you held one of the garden's peaches and took a bite, what sensation would you likely feel spreading through your body compared to eating an ordinary peach?",
       options: [
-        "They would be rotten and inedible",
-        "They grant immortality or extended life",
-        "They're just regular peaches",
-        "They turn people into animals"
+        "A burning, painful sting",
+        "No different from eating a normal peach",
+        "A warm, radiant glow spreading from your chest outward",
+        "Instant drowsiness and heaviness"
       ],
-      correctAnswer: 1,
-      explanation: "Peaches in a heavenly garden would be magical, granting immortality or extended life."
+      correctAnswer: 2,
+      explanation: "A fruit grown in a heavenly garden and tended by immortals would likely produce a warm, luminous feeling spreading through the body — quite unlike the ordinary experience of eating fruit."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const sunWukongHeaven = {
     {
       type: "question",
       domain: "shape",
-      question: "When Buddha traps Sun Wukong, what would be the shape of the prison?",
+      question: "If you could see Sun Wukong's hand pressed against the rock just above his head during his 500-year imprisonment, what would the surface pressing down on his palm look like?",
       options: [
-        "A flat piece of paper",
-        "A round ball",
-        "A mountain pressing down from above",
-        "A small box"
+        "Smooth, flat polished marble",
+        "A curved transparent bubble",
+        "Rough, jagged stone with cracks and soil",
+        "Soft padded walls like a cushion"
       ],
       correctAnswer: 2,
-      explanation: "Buddha trapped him under a mountain, which would press down from above in a mountain shape."
+      explanation: "The underside of a mountain would be rough, uneven rock with cracks, dirt, and stone pressing down — a harsh and inescapable ceiling for his prison."
     },
     {
       type: "story",

@@ -15,15 +15,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture Orion walking through the ocean, how deep would the water be around him?",
+      question: "If you stood next to Orion on land, where would the top of your head reach on his body?",
       options: [
-        "Up to his ankles like a puddle",
-        "Up to his waist like a swimming pool",
-        "Over his head like he was drowning",
-        "Up to his chest or shoulders"
+        "All the way up to his chin",
+        "Somewhere around his knee or lower thigh",
+        "Up to his belly button",
+        "Level with his elbow"
       ],
-      correctAnswer: 3,
-      explanation: "Orion was so incredibly tall that even the deepest ocean water only came up to his chest or shoulders."
+      correctAnswer: 1,
+      explanation: "A man tall enough to wade through the deepest ocean with his head above water would be unimaginably gigantic. A normal person standing beside him would barely reach his knee or lower thigh."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "color",
-      question: "When you visualize the Seven Sisters' dresses, what would they look like?",
+      question: "When you visualize the color of the Seven Sisters' dresses, what hues would your mind picture?",
       options: [
-        "Plain brown like tree bark",
-        "Bright red like fire",
-        "Shimmering and sparkling like stars",
-        "Dark black like night"
+        "Muddy browns and dull grays",
+        "Deep reds and burnt oranges",
+        "Cool silvers and pale icy blues",
+        "Dark blacks and charcoal tones"
       ],
       correctAnswer: 2,
-      explanation: "The sisters' dresses sparkled like starlight, beautiful and shimmering as they danced."
+      explanation: "Dresses compared to starlight would most likely shimmer in cool silvers and pale icy blues, the colors we associate with the cold, glittering light of distant stars."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, how would the Seven Sisters be moving as Orion chased them?",
+      question: "As the Seven Sisters fled from Orion across hills and valleys, what expression would you expect to see on their faces?",
       options: [
-        "Standing perfectly still in one place",
-        "Running swiftly together in the same direction",
-        "Walking slowly and calmly",
-        "Jumping up and down in place"
+        "Calm and relaxed, as if out for a leisurely stroll",
+        "Wide-eyed and anxious, glancing back over their shoulders",
+        "Joyful and laughing, enjoying the game",
+        "Angry and scowling, ready to turn and fight"
       ],
       correctAnswer: 1,
-      explanation: "The sisters would be running swiftly together, trying to escape from Orion's pursuit."
+      explanation: "Being chased year after year by a giant hunter would leave the sisters terrified. You would picture their faces showing wide-eyed fear, likely stealing frightened glances back to see how close Orion was."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "what",
-      question: "When you look for the Seven Sisters constellation in the night sky, what would you be searching for?",
+      question: "If you held your hand up to the night sky next to the Seven Sisters constellation, how much of your hand would it fit behind?",
       options: [
-        "Seven stars spread far apart across the whole sky",
-        "A small, tight cluster of stars close together",
-        "One very bright star that changes colors",
-        "A straight line of seven stars"
+        "Your entire outstretched arm span",
+        "Your whole open palm",
+        "Just your thumbnail or a single fingertip",
+        "Three or four fingers held together"
       ],
-      correctAnswer: 1,
-      explanation: "The Pleiades appears as a small, tight cluster of stars grouped close together, like the sisters staying near each other."
+      correctAnswer: 2,
+      explanation: "The Pleiades is described as a tiny group, so the entire cluster would appear very small in the sky — small enough to hide behind just your thumbnail or fingertip when you hold your hand up toward the stars."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture Orion's constellation compared to the Seven Sisters, where would Orion appear?",
+      question: "If you watched the night sky for several hours, what movement would you notice between Orion and the Seven Sisters?",
       options: [
-        "Right next to the Seven Sisters",
-        "Behind the Seven Sisters, as if still chasing them",
-        "In front of the Seven Sisters, blocking their path",
-        "On the opposite side of the sky, very far away"
+        "The Seven Sisters would slowly drift toward Orion and overlap with him",
+        "Both groups would spin in opposite circles around each other",
+        "The gap between them would stay the same as they moved across the sky together",
+        "Orion would gradually overtake and pass the Seven Sisters"
       ],
-      correctAnswer: 1,
-      explanation: "Orion appears to be chasing the Seven Sisters across the sky, so he would be behind them in their direction of movement."
+      correctAnswer: 2,
+      explanation: "Since Orion eternally chases but never catches the Seven Sisters, the distance between them would remain the same as both constellations arc across the sky together through the night."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const orionSevenSisters = {
     {
       type: "question",
       domain: "number",
-      question: "When you visualize Orion's belt in the constellation, how many bright stars would you see in a row?",
+      question: "If you traced a straight line connecting the stars of Orion's belt, what shape would that line most resemble?",
       options: [
-        "Two stars side by side",
-        "Three stars in a line",
-        "Four stars in a square",
-        "Five stars in a circle"
+        "A wide curved arc like a rainbow",
+        "A short diagonal slash like a scar",
+        "A perfect circle like a ring",
+        "A jagged zigzag like a lightning bolt"
       ],
       correctAnswer: 1,
-      explanation: "Orion's belt is famous for having three bright stars lined up in a row, making it easy to spot in the night sky."
+      explanation: "A belt wraps across the body at a slight angle, so the stars forming it would appear as a short diagonal slash cutting across Orion's middle, rather than perfectly horizontal or curved."
     },
     {
       type: "story",

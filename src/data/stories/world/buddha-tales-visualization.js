@@ -34,15 +34,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture the Buddha standing calmly as the elephant charges. How would his body be positioned?",
+      question: "Picture the charging elephant's feet and legs as it gets closer to the Buddha and begins to slow down. How would its stride change?",
       options: [
-        "Running away quickly",
-        "Standing still and peaceful",
-        "Preparing to fight",
-        "Hiding behind something"
+        "Each step would become faster and more thundering",
+        "Its legs would freeze stiff all at once",
+        "Its heavy pounding steps would gradually shorten and soften",
+        "It would leap into the air"
       ],
-      correctAnswer: 1,
-      explanation: "The Buddha's calmness came from inner peace, not from fear or anger."
+      correctAnswer: 2,
+      explanation: "As the elephant's rage melted away in the face of calm kindness, its charging stride would naturally slow and shorten, like a wave losing force as it reaches shore."
     },
     {
       type: "story",
@@ -51,15 +51,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "size",
-      question: "Visualize the elephant's anger shrinking when it meets the Buddha's kindness. How would the anger change?",
+      question: "Imagine the elephant's body right at the moment its fury vanishes — what physical change would you notice in its posture and size compared to when it was charging?",
       options: [
-        "Growing bigger and bigger",
-        "Staying exactly the same",
-        "Getting smaller until it disappears",
-        "Turning into more elephants"
+        "It would seem even larger, muscles tensed and towering",
+        "It would look the same — size does not change with mood",
+        "It would appear to shrink inward, shoulders dropping and body softening",
+        "It would grow taller as it became more alert"
       ],
       correctAnswer: 2,
-      explanation: "Kindness can make anger disappear, even in the biggest, strongest creatures!"
+      explanation: "When rage drains from a body, tension releases — an animal that charged with every muscle flared would visibly deflate, seeming smaller and less threatening as calm took over."
     },
     {
       type: "story",
@@ -68,15 +68,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "What does the elephant story teach us about dealing with angry people?",
+      question: "If you could see anger and kindness as colors colliding — the elephant's rage versus the Buddha's calm — what would happen to the angry color?",
       options: [
-        "Run away from all problems",
-        "Fight anger with more anger",
-        "Kindness can calm anger",
-        "Elephants are always dangerous"
+        "It would blaze brighter and spread outward",
+        "It would stay exactly the same shade",
+        "It would slowly be washed out and fade away",
+        "It would split into many new colors"
       ],
       correctAnswer: 2,
-      explanation: "The Buddha showed that peaceful kindness is stronger than anger or force."
+      explanation: "The Buddha showed that peaceful kindness is stronger than anger or force — just as a calm color can absorb and dissolve a fiercer one."
     },
     
     // === THE MUSTARD SEED ===
@@ -87,15 +87,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "where",
-      question: "Picture the mother going from house to house. At how many houses would she find a family that never lost anyone?",
+      question: "Picture the mother after knocking on dozens of doors. What would her feet and shoulders look like compared to when she first set out full of desperate hope?",
       options: [
-        "Every house she visits",
-        "About half the houses",
-        "Only a few houses",
-        "No houses at all"
+        "Her step would be lighter and quicker with each new door",
+        "She would look exactly as she did at the start",
+        "Her shoulders would droop and her steps would grow heavy with each turned-away answer",
+        "She would be running faster, more determined than ever"
       ],
-      correctAnswer: 3,
-      explanation: "Every family has experienced loss - this is part of being human."
+      correctAnswer: 2,
+      explanation: "With every household that turned her away — seeds available but sorrow also present — the weight of understanding would press down on her body, slowing and bowing her as hope of finding that impossible seed faded."
     },
     {
       type: "story",
@@ -121,15 +121,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "What did the Buddha teach through the mustard seed search?",
+      question: "Imagine the mother returning to the Buddha empty-handed after visiting every home. What would her empty hands tell him without any words?",
       options: [
-        "Mustard seeds are magical",
-        "Loss is part of everyone's life",
-        "Some families never have problems",
-        "Sadness should be hidden"
+        "That mustard seeds are impossible to find",
+        "That she had given up searching too soon",
+        "That she had discovered every household carries its own grief",
+        "That she wanted to keep her child's memory private"
       ],
-      correctAnswer: 1,
-      explanation: "The Buddha helped her see that loss is universal - we can support each other."
+      correctAnswer: 2,
+      explanation: "Her empty hands spoke of a full journey — each door she knocked on had gently shown her that sorrow is woven into every family's story."
     },
     
     // === THE BLIND MEN AND THE ELEPHANT ===
@@ -174,15 +174,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "What does the blind men and elephant story teach about arguments?",
+      question: "Imagine all six blind men finally joining hands in a circle around the elephant, each still touching their own part. What would that circle allow them to do for the first time?",
       options: [
-        "Everyone is always wrong",
-        "Only one person can be right",
-        "People may be seeing different parts of the same truth",
-        "Arguments should be avoided"
+        "Prove that only one of them was correct",
+        "Feel the whole animal together as a shared picture",
+        "Make the elephant disappear",
+        "Agree to stop asking questions"
       ],
-      correctAnswer: 2,
-      explanation: "Understanding different viewpoints helps us see the bigger picture!"
+      correctAnswer: 1,
+      explanation: "By connecting their separate experiences, the men could finally build one complete image — something none of them could achieve alone."
     },
     
     // === THE MONKEY KING'S SACRIFICE ===
@@ -193,15 +193,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "shape",
-      question: "Picture the monkey king stretching his body from the tree to the opposite bank. What shape would he make?",
+      question: "Picture the monkey king's arms and legs while he stretches himself across the gap. What would happen to the curves of his body as he pulled himself taut enough for others to run across?",
       options: [
-        "A straight bridge or line",
-        "A circle",
-        "A square",
-        "A triangle"
+        "His body would curl into a tight ball at the center",
+        "His limbs would fold into sharp angles like a zigzag",
+        "His body would strain into a long, tense arc, nearly flat against the air",
+        "He would spin in a circle to make a rounded loop"
       ],
-      correctAnswer: 0,
-      explanation: "The monkey king became a living bridge to save his tribe!"
+      correctAnswer: 2,
+      explanation: "To bear the weight of running monkeys, the monkey king would have to pull every muscle rigid, stretching his body into the flattest, most taut line possible — like a rope drawn tight between two posts."
     },
     {
       type: "story",
@@ -227,15 +227,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "What does the monkey king's story teach about leadership?",
+      question: "Picture the monkey tribe safe on the far bank, watching their injured king. What would their behavior toward him look like compared to how they treated him before his sacrifice?",
       options: [
-        "Leaders should save themselves first",
-        "Good leaders protect and serve others",
-        "Monkeys can't be leaders",
-        "Bridges are dangerous"
+        "They would ignore him and search for new food",
+        "They would gather close around him, quieter and more gentle than before",
+        "They would argue over who should be the next king",
+        "They would run away deeper into the forest"
       ],
       correctAnswer: 1,
-      explanation: "True leadership means caring for others, even when it's difficult."
+      explanation: "Witnessing a leader give everything for the group transforms how followers see that leader — the tribe would instinctively draw near with a hushed, reverent care that ordinary times never produce."
     },
     
     // === THE BOWL OF RICE ===
@@ -246,15 +246,15 @@ const buddhaTalesVisualization = {
     {
       type: "question",
       domain: "where",
-      question: "Picture where the man's thoughts are focused - on his simple bowl of rice or on his old possessions?",
+      question: "Picture the man sitting alone with his simple bowl of rice. Where would his eyes be looking — at the food in front of him or somewhere far away?",
       options: [
-        "On enjoying his simple meal",
-        "On all the things he gave away",
-        "On helping others",
-        "On the present moment"
+        "Down at the rice, eating with full attention",
+        "Closed in peaceful meditation",
+        "Drifting into the distance, unfocused on the meal",
+        "Watching other people gratefully"
       ],
-      correctAnswer: 1,
-      explanation: "His body was simple but his mind was still attached to possessions!"
+      correctAnswer: 2,
+      explanation: "A mind still clinging to lost possessions cannot settle on what is right in front of it — his gaze would wander just as his thoughts did."
     },
     {
       type: "story",

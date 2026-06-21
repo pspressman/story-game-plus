@@ -15,19 +15,19 @@ const miraclesAuthorityJesus = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture this scene, what sounds would change when Jesus speaks to the storm?",
+      question: "In the seconds just after the storm stopped, what sound would most likely fill the air around the boat?",
       options: [
-        "From loud thunder and waves to quiet stillness",
-        "From silence to chirping birds",
-        "From music to yelling",
-        "From whispering to cheering"
+        "A low rumble of distant thunder still rolling away",
+        "The disciples singing together in celebration",
+        "An eerie, total silence broken only by dripping water",
+        "Seagulls crying loudly overhead"
       ],
-      correctAnswer: 0,
-      explanation: "Jesus calmed the wild storm instantly—everything went from loud to quiet."
+      correctAnswer: 2,
+      explanation: "When a violent storm vanishes instantly, the sudden absence of wind and waves would leave an almost unnatural hush—just the quiet drip of water left on the boat."
     },
     {
       type: "story",
-      text: "Another time, some friends brought a paralyzed man to Jesus. They couldn’t reach him through the crowd, so they made a hole in the roof and lowered their friend down! Jesus said, 'Get up and walk.' The man stood up and walked away."
+      text: "Another time, some friends brought a paralyzed man to Jesus. They couldn't reach him through the crowd, so they made a hole in the roof and lowered their friend down! Jesus said, 'Get up and walk.' The man stood up and walked away."
     },
     {
       type: "question",
@@ -49,19 +49,19 @@ const miraclesAuthorityJesus = {
     {
       type: "question",
       domain: "mood",
-      question: "When you imagine the man’s face after Jesus removed the spirits, what would his expression show?",
+      question: "If you could see the man's hands moments after the spirits left, what would they most likely be doing?",
       options: [
-        "Wild anger and fear",
-        "Blank and sleepy",
-        "Peace, relief, and maybe tears",
-        "Excited laughter"
+        "Shaking uncontrollably and clenched into fists",
+        "Resting still and open in his lap for the first time in a long while",
+        "Reaching out to push people away",
+        "Covering his ears against loud noise"
       ],
-      correctAnswer: 2,
-      explanation: "The man had suffered for a long time. Being free would bring peace and emotional relief."
+      correctAnswer: 1,
+      explanation: "A man who had been tormented and thrashing would finally have hands that could go still and open—no longer fighting, no longer in pain, just quietly at rest."
     },
     {
       type: "story",
-      text: "One day, Jairus asked Jesus to heal his dying daughter. On the way, someone said, 'She’s already dead.' But Jesus said, 'She’s only sleeping.' He took her hand and said, 'Little girl, get up.' She opened her eyes and stood up!"
+      text: "One day, Jairus asked Jesus to heal his dying daughter. On the way, someone said, 'She's already dead.' But Jesus said, 'She's only sleeping.' He took her hand and said, 'Little girl, get up.' She opened her eyes and stood up!"
     },
     {
       type: "question",
@@ -83,19 +83,19 @@ const miraclesAuthorityJesus = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture Jesus walking with the crowd amazed behind him, what would be in the background?",
+      question: "When you picture the landscape where Jesus walked among the people, what would the sky and surroundings most likely look like?",
       options: [
-        "Empty desert with no people",
-        "A busy crowd filled with people pointing and following",
-        "A castle with guards",
-        "A spaceship on a hill"
+        "Dark storm clouds still lingering overhead",
+        "A snowy mountain covered in ice",
+        "Bright open sky above dusty roads and stone buildings",
+        "A thick jungle with tall trees blocking the sun"
       ],
-      correctAnswer: 1,
-      explanation: "Jesus’ miracles drew crowds—many amazed people would follow in the background."
+      correctAnswer: 2,
+      explanation: "The setting of Jesus' ministry was the ancient Middle East—dry, sun-lit terrain with dirt paths and stone structures would fill the background as he walked among the people."
     },
     {
       type: "story",
-      moral: "Jesus’ power wasn’t just for show—it brought peace, healing, and hope to those who needed it most."
+      moral: "Jesus' power wasn't just for show—it brought peace, healing, and hope to those who needed it most."
     }
   ]
 };

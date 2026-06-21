@@ -32,15 +32,15 @@ const ironSharpensIron = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture what happens when the blacksmith rubs two iron pieces together. How would tiny bits of metal move?",
+      question: "Imagine the blacksmith's hands as he rubs the two iron pieces together. Which direction would his arms most likely move to sharpen both pieces evenly?",
       options: [
-        "They stay perfectly still",
-        "Small rough parts rub off, leaving smooth sharp edges",
-        "They melt completely",
-        "They stick together forever"
+        "Straight up and down in the air",
+        "Back and forth in opposite directions against each other",
+        "In wide circles away from the iron",
+        "Completely still while the iron moves on its own"
       ],
       correctAnswer: 1,
-      explanation: "Just like friends help each other remove rough edges and become better people!"
+      explanation: "To sharpen both pieces evenly, the blacksmith would push them back and forth against each other - the friction from this opposing movement is what creates the sharpening effect!"
     },
     {
       type: "story",

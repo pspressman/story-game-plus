@@ -10,7 +10,7 @@ const resurrectionOfJesus = {
   content: [
     {
       type: "story",
-      text: "Early Sunday morning, women came to Jesus’ tomb. The stone was rolled away, and an angel said, 'He is not here. He has risen!'"
+      text: "Early Sunday morning, women came to Jesus' tomb. The stone was rolled away, and an angel said, 'He is not here. He has risen!'"
     },
     {
       type: "question",
@@ -32,7 +32,7 @@ const resurrectionOfJesus = {
     {
       type: "question",
       domain: "sound",
-      question: "How might Jesus’ voice sound when he gently says her name?",
+      question: "How might Jesus' voice sound when he gently says her name?",
       options: [
         "Rough and angry",
         "Joyful, calm, and full of love",
@@ -44,12 +44,12 @@ const resurrectionOfJesus = {
     },
     {
       type: "story",
-      text: "Later, Jesus walked with two followers on the road to Emmaus. They didn’t know who he was until he broke bread with them—and then he disappeared!"
+      text: "Later, Jesus walked with two followers on the road to Emmaus. They didn't know who he was until he broke bread with them—and then he disappeared!"
     },
     {
       type: "question",
       domain: "what",
-      question: "What might the travelers’ faces look like when they suddenly realize who he is?",
+      question: "What might the travelers' faces look like when they suddenly realize who he is?",
       options: [
         "Sleepy and confused",
         "Excited, amazed, and wide-eyed",
@@ -66,15 +66,15 @@ const resurrectionOfJesus = {
     {
       type: "question",
       domain: "mood",
-      question: "How might the disciples’ feelings change from beginning to end in that moment?",
+      question: "What might the disciples' bodies do without thinking the moment they fully believed it was truly Jesus standing before them?",
       options: [
-        "From fear to joy",
-        "From laughter to boredom",
-        "From anger to sleep",
-        "From pride to sadness"
+        "Slump down and fall asleep",
+        "Tremble, reach out, and pull him into an embrace",
+        "Turn away and walk out the door",
+        "Cross their arms and stand very still"
       ],
-      correctAnswer: 0,
-      explanation: "At first they were afraid, but then they were filled with joy at seeing him alive."
+      correctAnswer: 1,
+      explanation: "Overwhelming relief and love would likely move them physically—trembling with emotion and instinctively reaching toward him, a response not described but easy to imagine from the depth of the moment."
     }
   ]
 };

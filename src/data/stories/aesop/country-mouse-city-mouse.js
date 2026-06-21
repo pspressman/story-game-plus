@@ -15,15 +15,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the country mouse's home, what would you see in the surrounding area?",
+      question: "When you picture the country mouse stepping outside his burrow on a typical morning, what would the air and light feel like around him?",
       options: [
-        "Tall buildings and busy streets with cars",
-        "Green fields, trees, and peaceful nature",
-        "Desert sand with no plants anywhere",
-        "An underground cave with no sunlight"
+        "Thick with smoke and dimmed by tall buildings blocking the sky",
+        "Fresh and cool, with open sky stretching wide overhead",
+        "Blazing hot with no shade anywhere in sight",
+        "Completely dark and silent like a sealed underground tunnel"
       ],
       correctAnswer: 1,
-      explanation: "The country mouse lived in nature, so you'd see green fields, trees, and peaceful natural surroundings."
+      explanation: "Living in a rural burrow surrounded by fields, the country mouse would step into fresh, cool open air with an unobstructed sky above — a sensory detail the story implies through its setting but never directly describes."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize the city mouse's appearance compared to his country cousin, what would make him look different?",
+      question: "When you visualize the country mouse standing next to his city cousin, what would his own fur and paws likely look like by comparison?",
       options: [
-        "Messy fur and dirty paws from outdoor work",
-        "Shiny, well-groomed fur and clean appearance",
-        "The exact same appearance as the country mouse",
-        "Colorful feathers instead of fur"
+        "More polished and elegant than the city mouse",
+        "Rougher and more weathered from outdoor living",
+        "Identical in every way to the city mouse",
+        "Covered in colorful paint and decorations"
       ],
       correctAnswer: 1,
-      explanation: "The city mouse would look well-groomed and shiny from his comfortable city life, unlike his simple country cousin."
+      explanation: "Living outdoors in fields and a burrow, the country mouse's fur would look rougher and more weathered compared to his sleek city cousin — a contrast the story implies but never directly describes."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the city sounds compared to the country, what would the country mouse hear?",
+      question: "When you imagine the country mouse's first moments in the city, what expression would appear on his face as he took in all the unfamiliar sounds?",
       options: [
-        "Only peaceful bird songs and wind in trees",
-        "Loud honking, shouting, and machinery noises",
-        "Complete silence with no sounds at all",
-        "The same gentle sounds as the countryside"
+        "Calm and relaxed, completely at ease",
+        "Wide-eyed and tense, overwhelmed by the assault on his senses",
+        "Bored and uninterested in his surroundings",
+        "Laughing and dancing with delight"
       ],
       correctAnswer: 1,
-      explanation: "The city would be full of loud, harsh sounds like honking cars and shouting, very different from peaceful country sounds."
+      explanation: "Having only ever known quiet countryside, the country mouse would look wide-eyed and tense — his face showing the shock and overwhelm of encountering so many loud, unfamiliar sounds all at once."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the house cat compared to the two mice, how would it appear?",
+      question: "When you picture the house cat moving through the dining room, what would each of its paw steps look like from the mice's point of view on the floor?",
       options: [
-        "Much smaller than both mice",
-        "About the same size as the mice",
-        "Enormous and dangerous compared to the tiny mice",
-        "Invisible and impossible to see"
+        "Tiny and barely noticeable, like a small insect passing by",
+        "About eye level, since the cat would be roughly the same height as the mice",
+        "Thunderous and massive, each paw landing like a heavy shadow looming over them",
+        "Floating above them so far up it would be nearly invisible"
       ],
       correctAnswer: 2,
-      explanation: "The house cat would appear enormous and very dangerous compared to the two tiny mice, making them terrified."
+      explanation: "The story never describes the cat's movements from the mice's perspective on the floor — but imagining their tiny vantage point, each enormous paw step would seem thunderous and terrifying, looming like a giant shadow from below."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental image of the mice hiding, how long would they need to wait before feeling safe?",
+      question: "When you picture the two mice pressed together behind the curtains, what physical signs would show how frightened they were while waiting?",
       options: [
-        "Just a few seconds",
-        "A very long, scary time until the cat left",
-        "They never had to wait at all",
-        "Exactly one minute"
+        "Yawning and stretching, perfectly relaxed",
+        "Trembling bodies and wide, darting eyes scanning for danger",
+        "Smiling and nudging each other cheerfully",
+        "Sitting up straight and completely still with no reaction"
       ],
       correctAnswer: 1,
-      explanation: "They would have to wait a very long, scary time until the cat finally left, making every moment feel dangerous."
+      explanation: "Even though the story tells us their hearts were pounding, it never describes how fear would show on their bodies — you'd have to visualize the trembling limbs and wide, darting eyes of two tiny creatures too terrified to move."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the mice escaping from the humans, how would they be moving?",
+      question: "When you visualize the mice darting away from the approaching human footsteps, what would their bodies look like as they moved across the floor?",
       options: [
-        "Walking slowly and calmly",
-        "Running as fast as possible in panic",
-        "Standing perfectly still",
-        "Dancing in circles"
+        "Upright and strolling leisurely with no urgency",
+        "Low to the ground, legs blurring with speed, bodies stretched flat to stay hidden",
+        "Hopping slowly in long, relaxed jumps",
+        "Spinning in tight circles without moving forward"
       ],
       correctAnswer: 1,
-      explanation: "The mice would be running as fast as possible in panic, trying to escape the danger of being caught by humans."
+      explanation: "The story never describes how the mice physically looked while fleeing — but picturing two tiny mice escaping across an open floor, you'd imagine them pressed low, legs pumping in a blur, instinctively making themselves as small and fast as possible."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const countryMouseCityMouse = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the country mouse at the end of the story, where would you see him?",
+      question: "When you picture the country mouse settling back in for the night after his city adventure, what would his sleeping spot look and feel like compared to the mansion?",
       options: [
-        "Still hiding in the dangerous city mansion",
-        "Back in his safe, cozy burrow under the oak tree",
-        "Lost somewhere between the city and country",
-        "Living permanently in the city with his cousin"
+        "Cold and hard, making him regret leaving the city",
+        "Soft, warm, and snug in a way the grand mansion never felt",
+        "Identical in comfort to the fancy city bedroom",
+        "Dark and frightening, full of unknown dangers"
       ],
       correctAnswer: 1,
-      explanation: "The country mouse would be back in his safe, cozy burrow where he feels peaceful and secure."
+      explanation: "The story never describes how the burrow feels to sleep in after the trip — but you can infer that the soft grass bedding and familiar surroundings would feel deeply comforting and safe in a way the dangerous, unfamiliar mansion never could."
     },
     {
       type: "story",

@@ -32,15 +32,15 @@ const prideBeforeFall = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture what happens to someone's balance when they're waving their arms and not watching their feet. How would their body move?",
+      question: "Imagine the moment just before the branch cracked completely. How would Marcus's arms most likely be positioned in that instant?",
       options: [
-        "They would become more stable",
-        "They would stay perfectly still",
-        "They would float upward",
-        "They would start to wobble and sway"
+        "Pressed tightly against his sides for balance",
+        "Gripping a nearby branch firmly with both hands",
+        "Spread wide and raised as he gestured while boasting",
+        "Reaching carefully downward to test the branch"
       ],
-      correctAnswer: 3,
-      explanation: "Being too proud makes us careless, like Marcus not watching where he stepped!"
+      correctAnswer: 2,
+      explanation: "Because Marcus was busy boasting and showing off rather than focusing on safety, his arms would have been raised and spread wide mid-gesture — leaving him with nothing to grab when the branch gave way."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const prideBeforeFall = {
     {
       type: "question",
       domain: "perspective",
-      question: "Picture two climbers: one looking carefully at each branch, another looking away to show off. From a bird's view above, which climber would you trust to reach the top safely?",
+      question: "Picture Marcus's face as he climbs trees today compared to the day he fell. How would the expression in his eyes most likely be different now?",
       options: [
-        "The show-off climber",
-        "Neither climber",
-        "The careful climber",
-        "Both equally"
+        "Wide and darting around to impress onlookers",
+        "Closed and relaxed, trusting his natural talent",
+        "Steady and focused, scanning each branch below him",
+        "Lifted upward, dreaming about reaching the very top"
       ],
       correctAnswer: 2,
-      explanation: "Being humble and careful helps us succeed, while too much pride leads to falling - just like the proverb teaches!"
+      explanation: "Humility shows in how we pay attention — a climber who has learned from a fall would have calm, focused eyes fixed on each step, replacing the distracted gaze of someone busy showing off."
     },
     {
       type: "story",

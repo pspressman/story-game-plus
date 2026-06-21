@@ -14,15 +14,15 @@ const butterflyLovers = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture Zhu Yingtai preparing for school, what would she need to change about her appearance?",
+      question: "When you picture Zhu Yingtai walking among male students every day, what physical detail would she have to be most careful to hide?",
       options: [
-        "Only carry different books",
-        "Dress and style herself to look like a boy",
-        "Paint her face blue",
-        "Wear a crown"
+        "The color of her shoes",
+        "The softness of her hands and the delicacy of her facial features",
+        "The weight of her school bag",
+        "The length of her fingernails only"
       ],
       correctAnswer: 1,
-      explanation: "To attend a boys-only school, she would need to dress and style herself to look like a boy."
+      explanation: "Living among boys daily, the greatest risk of discovery would come from naturally feminine features like soft hands and delicate facial features, which male clothing alone could not conceal."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const butterflyLovers = {
     {
       type: "question",
       domain: "perspective",
-      question: "From Shanbo's point of view, why would he laugh at the marriage suggestion?",
+      question: "If Shanbo had paused to study Yingtai's face closely while she suggested the marriage, what expression might have given him a clue something deeper was happening?",
       options: [
-        "He thought it was his male friend making a brotherly joke",
-        "He already knew she was a girl",
-        "He hated the idea of marriage",
-        "He couldn't hear what was said"
+        "A wide, carefree grin showing it meant nothing to her",
+        "A flushed cheek and eyes that held too much hope for a simple joke",
+        "A completely blank and emotionless stare",
+        "Obvious anger at being refused"
       ],
-      correctAnswer: 0,
-      explanation: "Thinking Yingtai was his male friend, he would see the marriage suggestion as a brotherly joke."
+      correctAnswer: 1,
+      explanation: "Someone confessing feelings in disguise would struggle to keep emotion off their face — a flush and eyes full of genuine hope would betray that the suggestion was far more than a joke."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const butterflyLovers = {
     {
       type: "question",
       domain: "sound",
-      question: "When the grave mysteriously cracks open during the wedding procession, what would this sound like?",
+      question: "As the wedding procession halted near Shanbo's grave and Yingtai wept, what would the sounds around the mourning guests likely fade into?",
       options: [
-        "Soft whispering",
-        "Musical bells",
-        "Complete silence",
-        "Deep rumbling and stone splitting"
+        "Cheerful music growing louder",
+        "A hush broken only by wind and sobbing",
+        "Laughter from the crowd",
+        "The steady beat of celebration drums continuing"
       ],
-      correctAnswer: 3,
-      explanation: "A grave cracking open would create deep rumbling sounds and the noise of stone splitting."
+      correctAnswer: 1,
+      explanation: "When grief suddenly overtakes a celebration, festive music and chatter would fall silent, leaving only the eerie quiet of wind and the sound of Yingtai's crying — a stark contrast not described in the text but natural to visualize."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const butterflyLovers = {
     {
       type: "question",
       domain: "movement",
-      question: "As you visualize the two butterflies emerging from the grave, how would they fly?",
+      question: "As you picture the two butterflies flying together, what would happen whenever one of them drifted slightly away from the other?",
       options: [
-        "In opposite directions away from each other",
-        "Straight down into the ground",
-        "Dancing together in intertwining patterns",
-        "Sitting still on the ground"
+        "It would fly off alone and disappear into the distance",
+        "It would immediately curve back, keeping the pair always within a wing's reach of each other",
+        "It would land on the ground and wait",
+        "It would fly straight upward while the other flew downward"
       ],
-      correctAnswer: 2,
-      explanation: "Butterflies representing reunited lovers would dance together in intertwining flight patterns."
+      correctAnswer: 1,
+      explanation: "Two souls reunited after being forcibly separated would instinctively mirror each other's movements, curving back whenever apart — an expression of the inseparable bond the story describes, not stated as a physical detail in the text."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const butterflyLovers = {
     {
       type: "question",
       domain: "where",
-      question: "When the butterfly souls fly away together at the end, in which direction would they ascend?",
+      question: "As the wedding guests watched the butterflies disappear from sight, where in the landscape would they most likely have last glimpsed them before losing sight completely?",
       options: [
-        "Down into the earth",
-        "Sideways along the ground",
-        "Into the nearest building",
-        "Upward toward the heavens"
+        "Skimming along the surface of a nearby puddle",
+        "Hovering just above the grave they came from",
+        "Melting into the bright open sky beyond the treetops",
+        "Landing on the merchant's wedding carriage"
       ],
-      correctAnswer: 3,
-      explanation: "Souls transforming into butterflies would ascend upward toward the heavens together."
+      correctAnswer: 2,
+      explanation: "Butterflies rising higher and higher would eventually become too small to see against the vast open sky, vanishing beyond the treetops — a detail not written in the story but naturally constructed by imagining the scene from the guests' viewpoint."
     },
     {
       type: "story",

@@ -31,15 +31,15 @@ const atalantaGoldenApples = {
     {
       type: "question",
       domain: "perspective",
-      question: "In your mental image, when young men heard they would die if they lost the race, how would most react?",
+      question: "In your mental image of a young man standing at the start of the race, staring down the track, what expression would most likely be on his face?",
       options: [
-        "Eagerly line up to race",
-        "Laugh at the silly rule",
-        "Run toward her immediately",
-        "Decide not to try"
+        "Relaxed and bored",
+        "Wide-eyed and pale with fear",
+        "Grinning with absolute confidence",
+        "Sleepy and distracted"
       ],
-      correctAnswer: 3,
-      explanation: "Most young men would decide not to try when they heard losing meant death - the risk was too great."
+      correctAnswer: 1,
+      explanation: "Knowing that losing means death, a young man at the starting line would likely look wide-eyed and pale — his body betraying the terror of the stakes before the race even begins."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const atalantaGoldenApples = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental image of Hippomenes, knowing he's NOT a fast runner but wants to race Atalanta, what quality would he need most?",
+      question: "When you picture Hippomenes watching Atalanta race past other men with ease, what would his posture and expression most likely show?",
       options: [
-        "Stronger muscles",
-        "Longer legs",
-        "A clever plan",
-        "Better shoes"
+        "Puffed chest and a triumphant smile",
+        "Slumped shoulders and a worried frown",
+        "Arms crossed and a dismissive smirk",
+        "Eyes closed and a peaceful smile"
       ],
-      correctAnswer: 2,
-      explanation: "Since Hippomenes wasn't fast enough to win by running, he would need a clever plan to have any chance of winning."
+      correctAnswer: 1,
+      explanation: "Seeing how effortlessly Atalanta outpaces every opponent, Hippomenes — knowing he is slower — would likely stand with slumped shoulders and a worried expression, aware that raw speed alone cannot save him."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const atalantaGoldenApples = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture apples that 'gleamed like small suns,' what would their golden surface look like?",
+      question: "When you picture Hippomenes cupping the golden apples in his hands just before the race, what color would the glow they cast leave on his skin?",
       options: [
-        "Dull and brown",
-        "Shining bright like polished metal",
-        "Dark purple",
-        "Transparent like glass"
+        "A cold blue tint",
+        "A warm amber-gold wash",
+        "A deep red flush",
+        "No color change at all"
       ],
       correctAnswer: 1,
-      explanation: "Apples that gleam like small suns would have a shining, bright surface like polished golden metal."
+      explanation: "Apples radiating a sun-like golden gleam held close to the skin would cast a warm amber-gold light across his palms and fingers, the way bright golden light tints whatever it touches."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const atalantaGoldenApples = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental image of the race, where would Hippomenes throw the apple to best distract Atalanta?",
+      question: "In your mental image of the race, how far off the racing path would Atalanta need to chase the rolling apple before Hippomenes could gain a useful lead?",
       options: [
-        "Straight ahead on the path",
-        "Behind them",
-        "To the side of the racing path",
-        "High up in the air"
+        "Just one small step away",
+        "Far enough that turning aside and returning would cost her several strides",
+        "All the way to the edge of the crowd",
+        "Across a river or obstacle"
       ],
-      correctAnswer: 2,
-      explanation: "The story says he threw it to the side of the path, making Atalanta leave the race route to get it."
+      correctAnswer: 1,
+      explanation: "For the apple trick to work, it would need to roll far enough that Atalanta's detour to retrieve it — leaving the path, picking it up, and returning — would cost her enough strides to let Hippomenes pull ahead."
     },
     {
       type: "story",

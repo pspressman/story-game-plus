@@ -15,15 +15,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "number",
-      question: "When you picture the sky during this time, how many suns would you see shining together?",
+      question: "If you could look at shadows cast by trees during this time, how many overlapping shadows would each tree likely cast?",
       options: [
-        "One sun, like we see today",
-        "Three suns in a triangle",
-        "Ten bright suns all at once",
-        "No suns at all, just darkness"
+        "No shadow at all, since heat dissolves shadows",
+        "One shadow, just like on a normal day",
+        "Multiple shadows stretching in different directions",
+        "A single perfectly round shadow directly below"
       ],
       correctAnswer: 2,
-      explanation: "The story tells us that all ten suns came out together at the same time, so you would visualize ten bright suns filling the sky."
+      explanation: "With ten suns positioned across the sky, each one would cast its own shadow from a different angle, so a single tree would produce many overlapping shadows pointing in different directions — something not stated in the story but inferable from how light and shadow work."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "background",
-      question: "In your mental image, what would the landscape look like with ten suns shining?",
+      question: "If you could touch the ground in this scorched world, what sensation would you most likely feel underfoot?",
       options: [
-        "Green and lush with flowers blooming everywhere",
-        "Covered in snow and ice from the cold",
-        "Dry and cracked with no water or plants",
-        "Exactly the same as it looks today"
+        "Cool and damp like wet mud after rain",
+        "Soft and springy like thick grass",
+        "Burning hot and rough like crumbling powder",
+        "Smooth and slippery like polished stone"
       ],
       correctAnswer: 2,
-      explanation: "The story describes rivers drying up, crops dying, and rocks cracking from heat, so you would picture a dry, cracked landscape with no water or living plants."
+      explanation: "The story describes extreme heat, dried rivers, and cracking rocks, but never describes the texture of the ground. By imagining what happens to soil under such intense, prolonged heat, you can infer it would feel scorching hot and crumbly underfoot."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize Yi the archer, what would he be carrying?",
+      question: "When you visualize Yi standing before the Jade Emperor, what expression would most likely be on Yi's face?",
       options: [
-        "A fishing net and a bucket of water",
-        "A bow and arrows for shooting",
-        "A large shield and heavy armor",
-        "A basket full of food and supplies"
+        "Laughing and relaxed, as if told a funny joke",
+        "Calm and focused, showing quiet confidence",
+        "Tearful and trembling with fear",
+        "Bored and distracted, looking away"
       ],
       correctAnswer: 1,
-      explanation: "The story identifies Yi as the greatest archer, so you would picture him carrying a bow and arrows, which are an archer's main tools."
+      explanation: "The story calls Yi the greatest archer, known for incredible skill — but never describes his expression. A warrior of that legendary reputation, given a critical mission, would most likely project calm, focused confidence rather than fear or amusement."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "size",
-      question: "In your mind, how would Yi's bow compare in size to a regular bow?",
+      question: "When you picture Yi drawing his bow at the mountain's peak, what would his body posture and muscles look like under the strain?",
       options: [
-        "Much smaller, like a toy bow",
-        "About the same size as normal bows",
-        "Much larger and more powerful",
-        "Invisible, so you couldn't see it"
+        "Relaxed and upright, with arms barely extended",
+        "Slightly leaning forward, fingers barely gripping the string",
+        "Whole body braced, muscles visibly straining, feet planted wide apart",
+        "Sitting cross-legged, pulling the string lazily with one hand"
       ],
       correctAnswer: 2,
-      explanation: "The story mentions it was a powerful bow that required all of Yi's strength to pull back, suggesting you would visualize a much larger and stronger bow than normal."
+      explanation: "The story says Yi needed all his strength to pull back the string, but never describes his posture or body. Imagining that kind of extreme physical effort, you would picture a braced stance, wide-planted feet, and visibly straining muscles throughout his whole body."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture Yi's magic arrow flying toward the sun, how would it move?",
+      question: "When you picture the three-legged crow falling to earth after the sun disappeared, how would its descent look compared to a normal bird's fall?",
       options: [
-        "Slowly wobbling side to side through the air",
-        "Straight and fast, directly to its target",
-        "Falling down to the ground immediately",
-        "Flying in circles around the mountain"
+        "Gracefully gliding down with wings spread wide",
+        "Tumbling and spinning awkwardly due to the uneven number of legs",
+        "Shooting upward before curving back down",
+        "Hovering motionless before gently drifting to the ground"
       ],
       correctAnswer: 1,
-      explanation: "The story says the arrow 'flew straight and true,' so you would visualize it moving in a perfectly straight line, quickly and accurately to its target."
+      explanation: "The story mentions a three-legged crow falling to earth but never describes how it fell. Imagining a crow with three legs — an unbalanced, unusual body — suggests its fall would be awkward and uneven rather than the smooth glide of a typical bird."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "mood",
-      question: "In your mental picture, how would the people's faces look as Yi shot down each sun?",
+      question: "As the earth cooled and people emerged from hiding, what would the air itself feel like against their skin compared to when they had retreated into caves?",
       options: [
-        "Angry and upset at Yi for shooting the suns",
-        "Relieved and happy, cheering with joy",
-        "Scared and hiding their faces",
-        "Confused and unsure what was happening"
+        "Hotter and stickier than inside the cave",
+        "Noticeably cooler and easier to breathe, like a weight lifting off",
+        "Exactly the same temperature as inside the cave",
+        "Icy cold and biting, making them shiver uncontrollably"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions people came out to cheer for Yi, so you would picture faces showing relief, happiness, and gratitude toward their hero."
+      explanation: "The story states the earth began to cool but never describes the physical sensation of that change. Imagining people who had been sheltering from unbearable heat finally stepping outside as suns were removed, you can picture the air feeling noticeably cooler and easier to breathe — like a suffocating pressure finally releasing."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const yiTenSuns = {
     {
       type: "question",
       domain: "when",
-      question: "When you imagine the world if Yi had shot all ten suns, what time would it always be?",
+      question: "If Yi had shot all ten suns, what would the stars in the night sky eventually look like compared to how we see them now?",
       options: [
-        "Bright sunny daytime all the time",
-        "Complete darkness like nighttime forever",
-        "Sometimes day and sometimes night, like now",
-        "A beautiful sunset that never changes"
+        "Completely invisible, blocked out by thick clouds of ash and cold",
+        "Far brighter and more numerous, now the only source of light in the sky",
+        "Replaced by ten glowing spots where the suns used to be",
+        "Exactly the same, since stars are unaffected by the suns"
       ],
       correctAnswer: 1,
-      explanation: "The story warns that without any suns, the world would be 'cold and dark forever,' so you would picture permanent nighttime darkness."
+      explanation: "The story warns the world would go cold and dark, but never mentions the stars. By imagining a sky with no sun at all, you can infer that stars — freed from competition with any solar light — would appear dramatically brighter and more visible, becoming humanity's only remaining light source."
     },
     {
       type: "story",

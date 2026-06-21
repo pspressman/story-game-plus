@@ -49,32 +49,32 @@ const callingDisciplesMiracles = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture the fishermen leaving their boats, how would their bodies be moving?",
+      question: "When you picture the fishermen walking away from their boats, what would likely happen to the fishing nets they had just been using?",
       options: [
-        "Hesitating slowly with unsure steps",
-        "Running in circles",
-        "Leaping confidently onto the shore",
-        "Sitting completely still"
+        "They would be folded neatly and packed into bags",
+        "They would be left tangled or half-cast, trailing in the water",
+        "They would be handed to Jesus to carry",
+        "They would be burned on the shore before leaving"
       ],
-      correctAnswer: 2,
-      explanation: "They left their boats immediately and eagerly followed Jesus."
+      correctAnswer: 1,
+      explanation: "Since the fishermen left so suddenly, they would have had no time to tidy or store their nets—leaving them draped over the boat or drifting in the water mid-cast."
     },
     {
       type: "story",
-      text: "In one town, a sick boy was near death. Jesus didn’t go to him—instead, he simply said, 'Go home, your son will live.' And the boy got better that very moment!"
+      text: "In one town, a sick boy was near death. Jesus didn't go to him—instead, he simply said, 'Go home, your son will live.' And the boy got better that very moment!"
     },
     {
       type: "question",
       domain: "when",
-      question: "When you picture the moment the boy is healed, what time of day would you imagine it happening?",
+      question: "When you picture the father traveling home after Jesus spoke, what would the expression on his face likely look like before he knew the boy was healed?",
       options: [
-        "Late at night with stars above",
-        "Exactly when Jesus said the words",
-        "Hours later after medicine",
-        "The day before Jesus spoke"
+        "Completely relaxed and laughing loudly",
+        "Tense and anxious, hoping with every step",
+        "Angry and ready to argue",
+        "Sleepy and unaware of what happened"
       ],
       correctAnswer: 1,
-      explanation: "The boy got better the instant Jesus spoke—it was a miracle of perfect timing."
+      explanation: "The father had just trusted Jesus' words but hadn't yet seen his son—he would be walking home full of nervous hope, not yet knowing what he would find."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const callingDisciplesMiracles = {
     {
       type: "question",
       domain: "mood",
-      question: "When you imagine the faces of the people hearing about Jesus’ miracles, what expressions would they show?",
+      question: "When you imagine two people who heard about Jesus whispering to each other, what would their body language most likely look like?",
       options: [
-        "Tired and yawning",
-        "Shocked and full of wonder",
-        "Uninterested and blank",
-        "Sleepy and bored"
+        "Slumped and looking at the ground with no interest",
+        "Leaning in close with wide eyes and raised eyebrows",
+        "Standing far apart, ignoring each other",
+        "Yawning and stretching as if about to sleep"
       ],
       correctAnswer: 1,
-      explanation: "People hearing about water turning to wine and healing at a distance would be amazed!"
+      explanation: "Hearing reports of unexplained healings and water turning to wine would make people lean in curiously, their bodies showing they could hardly believe what they were discussing."
     },
     {
       type: "story",

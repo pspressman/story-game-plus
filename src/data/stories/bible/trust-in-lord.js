@@ -15,12 +15,12 @@ const trustInLord = {
     {
       type: "question",
       domain: "where",
-      question: "Picture Noah choosing between his own guess about direction and the official trail markers. Where would following only his understanding likely lead?",
+      question: "Picture the trail markers Noah ignored — signs nailed to trees pointing toward the campsite. If you could see Noah's footprints from above, what shape would his path through the woods most likely form?",
       options: [
-        "Straight to the destination",
-        "In perfect circles",
-        "Lost in the wrong direction",
-        "Immediately home"
+        "A straight line toward the campsite",
+        "A neat loop back to the start",
+        "A tangled, wandering pattern going nowhere clear",
+        "A perfectly mapped grid"
       ],
       correctAnswer: 2,
       explanation: "Our own understanding is limited - we can't see the whole forest from inside it!"

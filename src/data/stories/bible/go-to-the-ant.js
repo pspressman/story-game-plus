@@ -15,15 +15,15 @@ const goToTheAnt = {
     {
       type: "question",
       domain: "number",
-      question: "When you picture the ant trail, how many ants would you see resting and doing nothing?",
+      question: "If you could zoom in and watch the ant trail for five minutes, what would you notice about the direction the ants are moving?",
       options: [
-        "About half of them",
-        "None - they're all working",
-        "Most of them",
-        "All of them are sleeping"
+        "Half going one way, half going the opposite way in an organized flow",
+        "All moving in random circles with no pattern",
+        "Most standing still while a few move slowly",
+        "Scattered in every direction with no order"
       ],
-      correctAnswer: 1,
-      explanation: "Ants are always busy working together - that's what makes them special!"
+      correctAnswer: 0,
+      explanation: "Ants form two-way trails - some carry loads toward the colony while others head out to gather more, creating a steady, organized flow in both directions!"
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const goToTheAnt = {
     {
       type: "question",
       domain: "when",
-      question: "Picture the ants' underground home in winter when snow covers the ground. Because they worked hard in summer, what would you see in their storage rooms?",
+      question: "Imagine a lazy bug that mocked the ants all summer for working so hard. Picture that same bug in the middle of winter. What would its body look like?",
       options: [
-        "Empty rooms with nothing",
-        "Just a few old leaves",
-        "Only ice and snow",
-        "Rooms full of food they gathered"
+        "Plump and healthy from eating well",
+        "Thin, shivering, and weak from hunger",
+        "Exactly the same as in summer",
+        "Bigger and stronger from resting all season"
       ],
-      correctAnswer: 3,
-      explanation: "The ants' hard work in good weather means they have plenty when times are hard!"
+      correctAnswer: 1,
+      explanation: "Without preparing like the ants did, the lazy bug would have no food stored - its body would show the cost of not working while the weather was good!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const goToTheAnt = {
     {
       type: "question",
       domain: "background",
-      question: "Picture Leo's room after a week of ant-like behavior - cleaning a little each day. What would the background of his room look like?",
+      question: "Imagine Leo's face when his mom walks into his room after a week. What expression would she most likely be wearing?",
       options: [
-        "Neat, organized, and pleasant",
-        "Messier than before",
-        "Exactly the same as always",
-        "Completely empty"
+        "A frustrated frown from seeing the mess",
+        "A confused, worried look",
+        "A wide smile of surprise and pride",
+        "A blank, uninterested expression"
       ],
-      correctAnswer: 0,
-      explanation: "Small, steady work each day creates big, positive changes - just like the ants teach us!"
+      correctAnswer: 2,
+      explanation: "A parent seeing unexpected steady effort from their child would feel genuinely surprised and proud - Leo's new habits would show on her face!"
     },
     {
       type: "story",

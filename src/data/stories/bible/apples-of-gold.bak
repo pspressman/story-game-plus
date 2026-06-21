@@ -1,0 +1,86 @@
+// Apples of Gold in Silver Settings - Proverbs 25:11
+const applesOfGold = {
+  id: "apples-of-gold",
+  title: "Apples of Gold in Silver Settings",
+  icon: "🍎",
+  difficulty: "Hard",
+  theme: "Wise Words",
+  estimatedTime: "10-15 min",
+  description: "Learn how the right words at the right time are precious through visualization.",
+  content: [
+    {
+      type: "story",
+      text: "In art class, Sophia created a beautiful picture - golden apples sitting in a shiny silver bowl. 'A word fitly spoken is like apples of gold in settings of silver,' her teacher read from Proverbs."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "When you picture golden apples in a silver bowl, how would this combination look compared to regular apples in a plain bowl?",
+      options: [
+        "Extra special and beautiful",
+        "Exactly the same",
+        "Less attractive",
+        "Invisible"
+      ],
+      correctAnswer: 0,
+      explanation: "The precious metals make the apples look extra special - just like perfect timing makes words special!"
+    },
+    {
+      type: "story",
+      text: "That day, Sophia's friend Ben was struggling with his painting. Everyone else had finished, and Ben looked ready to cry. Sophia knew this was the perfect moment for the right words."
+    },
+    {
+      type: "question",
+      domain: "when",
+      question: "Picture Ben hunched over his unfinished painting while classmates pack up around him. What physical sign would tell you he is closest to giving up entirely?",
+      options: [
+        "He starts painting faster than ever",
+        "He stands up and stretches confidently",
+        "He sets down his brush and stares blankly at the canvas",
+        "He asks the teacher for extra time cheerfully"
+      ],
+      correctAnswer: 2,
+      explanation: "When someone is on the edge of quitting, they stop trying - setting down the brush and going blank signals the moment encouragement is most urgently needed!"
+    },
+    {
+      type: "story",
+      text: "'Your sunset colors are amazing, Ben. I've been watching how carefully you blend them.' Ben's face lit up. Those words at that exact moment were worth more than gold to him."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "Visualize Ben's expression changing when he hears Sophia's perfectly timed encouragement. What would you see happen to his face?",
+      options: [
+        "It stays sad and frustrated",
+        "It transforms from despair to hope",
+        "It becomes angry",
+        "Nothing changes at all"
+      ],
+      correctAnswer: 1,
+      explanation: "The right words at the right time can completely change someone's day - that's their golden value!"
+    },
+    {
+      type: "story",
+      text: "Later, the teacher praised Sophia. 'You understood the proverb! Your encouragement to Ben was perfectly timed - like placing golden apples in the perfect silver setting.'"
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "Imagine two identical silver bowls — one holds shiny golden apples, the other holds plain brown pebbles. What does the difference between those two bowls represent about the words we choose to speak?",
+      options: [
+        "Louder words fill the bowl more completely",
+        "Repeating words makes them shinier over time",
+        "The inner quality and care behind words determine their true worth",
+        "Writing words down preserves them better than speaking"
+      ],
+      correctAnswer: 2,
+      explanation: "The golden apples are precious because of what they truly are, not how many there are or how loudly they are placed — just as words gain their worth from the genuine care and thoughtfulness behind them!"
+    },
+    {
+      type: "story",
+      moral: "Words fitly spoken are like apples of gold in settings of silver means: the right words at the right time are incredibly valuable and beautiful, bringing hope and joy!"
+    }
+  ]
+};
+
+export default applesOfGold;

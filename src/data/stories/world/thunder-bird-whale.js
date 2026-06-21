@@ -15,15 +15,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture Thunderbird flying overhead, how large would his wings appear?",
+      question: "If you were standing on the ground as Thunderbird flew overhead, what would happen to the daylight around you?",
       options: [
-        "About the size of a regular bird's wings",
-        "Twice as big as an eagle's wings",
-        "So enormous they could block out the sun",
-        "Too small to see from the ground"
+        "It would stay exactly the same brightness",
+        "It would flicker slightly like a candle",
+        "It would go completely dark as if night had fallen",
+        "It would become brighter as he reflected sunlight"
       ],
       correctAnswer: 2,
-      explanation: "The story tells us Thunderbird's wings were so enormous they blocked out the sun when he flew, so you would visualize incredibly massive wings."
+      explanation: "Since Thunderbird's wings were enormous enough to block out the sun, a person standing beneath him would experience sudden, total darkness — like the sun being switched off."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental image, where would Thunderbird make his home?",
+      question: "If you tried to climb to Thunderbird's nest, what kind of conditions would you encounter as you got closer?",
       options: [
-        "Deep underwater in the ocean",
-        "In a cave beneath the ground",
-        "On the highest mountain peak with storm clouds",
-        "In a forest clearing among the trees"
+        "Warm sunshine and gentle breezes",
+        "Thick swirling storm clouds and biting cold winds",
+        "Calm clear air with a beautiful view",
+        "Tropical heat and heavy rainfall"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Thunderbird living on the highest mountain peak where storm clouds gathered around his nest."
+      correctAnswer: 1,
+      explanation: "Since Thunderbird's nest sat at the highest mountain peak surrounded by gathered storm clouds, anyone climbing toward it would be enveloped in cold, stormy, cloud-covered conditions — none of which are spelled out as a climbing experience in the text."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "number",
-      question: "When you visualize Whale's size, how would his length compare to canoes?",
+      question: "If a village needed to line up their canoes to measure Whale from head to tail, what would nearby observers most likely feel as they watched?",
       options: [
-        "Shorter than one small canoe",
-        "About the same as two canoes",
-        "Longer than ten canoes placed end to end",
-        "Exactly the same size as five canoes"
+        "Boredom, since the measuring would go quickly",
+        "Disbelief and awe as canoe after canoe still didn't reach his full length",
+        "Amusement because Whale would seem smaller than expected",
+        "Irritation because the canoes would block their view of the ocean"
       ],
-      correctAnswer: 2,
-      explanation: "The story specifically states that Whale was longer than ten canoes placed end to end, helping you picture his enormous size."
+      correctAnswer: 1,
+      explanation: "Picturing ten canoes lined up end to end and still not surpassing Whale's length would make observers feel stunned disbelief — the sheer accumulation of boats that still fall short communicates a scale that is hard to accept."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would the ocean waves move when Whale became angry?",
+      question: "As one of Whale's enormous waves approached a village, what would a person watching from the shore most likely see first?",
       options: [
-        "Gently lapping quietly at the shore",
-        "Staying perfectly still and flat",
-        "Crashing violently over the villages",
-        "Moving backward away from the land"
+        "A thin white line of foam far out at sea slowly drifting inward",
+        "A towering dark wall of water rising up and blotting out the horizon",
+        "The ocean pulling back from the shore before gently refilling",
+        "Small ripples growing gradually larger over many hours"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes huge waves that crashed over villages when Whale was angry, so you would picture violent, destructive wave motion."
+      correctAnswer: 1,
+      explanation: "A wave powerful enough to crash over entire villages and sweep away homes would not creep in gently — you would picture an immense dark wall of water rearing up against the horizon, blocking the view of the sea beyond it entirely."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "what",
-      question: "In your visualization, what would Thunderbird use to grab Whale during their battle?",
+      question: "In your visualization, what sounds would fill the air as Thunderbird's wings beat furiously during the battle?",
       options: [
-        "His sharp beak like a spear",
-        "His enormous talons (claws)",
-        "His wing feathers as ropes",
-        "His bright lightning bolts"
+        "A soft whistling like a gentle breeze through feathers",
+        "Complete silence, since spirits move without sound",
+        "Deafening booms and howling winds from the hurricane force",
+        "A steady rhythmic flapping like a large flag"
       ],
-      correctAnswer: 1,
-      explanation: "The story says Thunderbird grabbed Whale in his enormous talons, so you would picture him using his giant bird claws to grasp the whale."
+      correctAnswer: 2,
+      explanation: "Since Thunderbird's wing beats were powerful enough to create hurricanes, you would picture the air filled with thunderous booming and shrieking winds — far beyond any ordinary wing sound the story describes directly."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental picture, how would Whale move after being dropped into the deep ocean?",
+      question: "As Whale descended through the water after being dropped, what would the ocean around him most likely look like?",
       options: [
-        "Flying up into the sky to continue fighting",
-        "Sinking down to the bottom of the deep ocean",
-        "Swimming quickly back toward shore",
-        "Floating motionless on the water's surface"
+        "Perfectly clear and undisturbed all the way down",
+        "Churning with bubbles and turbulence as his massive body displaced the water",
+        "Freezing solid into ice around him",
+        "Turning bright colors from his scales reflecting light"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us Whale sank to the bottom after being dropped in the deepest part of the ocean, so you would picture him descending downward."
+      explanation: "A creature the length of ten canoes plunging through deep water would displace an enormous volume — you can picture the ocean erupting in swirling currents and cascading bubbles around his sinking body, even though the story never describes the water's reaction."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const thunderbirdWhale = {
     {
       type: "question",
       domain: "when",
-      question: "According to this story, when would you know that Thunderbird is still watching over the people?",
+      question: "If Whale is restless on the ocean floor and begins to move, what would people on the coast feel or notice before they could see anything?",
       options: [
-        "When the ocean is perfectly calm and still",
-        "When you see lightning flash and hear thunder",
-        "When all the birds stop singing",
-        "When the mountains are covered in snow"
+        "A sudden drop in temperature and snowfall",
+        "The ground trembling beneath their feet",
+        "The sky turning an unusual shade of green",
+        "All the birds flying away from the shore at once"
       ],
       correctAnswer: 1,
-      explanation: "The story explains that lightning and thunder are signs of Thunderbird still watching over the people, so you would connect these weather events to his presence."
+      explanation: "The story links Whale's movement on the ocean floor to earthquakes. So before anyone could see Whale or the ocean changing, they would first feel the earth shaking under them — an inference about which sense would be triggered first that the story never spells out."
     },
     {
       type: "story",

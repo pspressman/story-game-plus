@@ -15,15 +15,15 @@ const danielLionsDen = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture Daniel praying, where in his room would he most likely be positioned?",
+      question: "When you picture Daniel praying by his window, what would you most likely see outside that window?",
       options: [
-        "Kneeling by the window facing Jerusalem",
-        "Hiding under his bed",
-        "Standing in the corner",
-        "Sitting on his bed"
+        "A stormy ocean with crashing waves",
+        "A snowy mountain covered in ice",
+        "Rooftops and the city of Babylon stretching into the distance",
+        "A thick jungle with tall trees"
       ],
-      correctAnswer: 0,
-      explanation: "Daniel prayed by his window because that's where he could look toward Jerusalem and feel close to God."
+      correctAnswer: 2,
+      explanation: "Daniel lived in Babylon, a great ancient city, so looking out his window he would have seen the rooftops and buildings of the city spread out around him."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const danielLionsDen = {
     {
       type: "question",
       domain: "sound",
-      question: "In your mental image of the lions' den at night, what sounds would you most likely hear?",
+      question: "Before God's angel arrived to calm the lions, what sounds would Daniel most likely have heard when he first entered the den?",
       options: [
         "Loud music and singing",
-        "Quiet breathing and peaceful silence",
-        "Lions roaring loudly",
-        "Birds chirping"
+        "Deep growling and the scrape of claws on stone",
+        "Birds chirping cheerfully",
+        "The sound of rushing water"
       ],
       correctAnswer: 1,
-      explanation: "God sent an angel to keep the lions calm and quiet, so Daniel would hear peaceful silence."
+      explanation: "When Daniel first entered the den, the hungry lions would not yet have been calmed, so he would likely have heard threatening growls and the scratch of their claws on the stone floor of the cave."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const danielLionsDen = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you picture the king looking down into the lions' den, from what angle would he be viewing Daniel?",
+      question: "When you picture the king peering into the lions' den to find Daniel, what part of the king's body would be closest to the opening of the den?",
       options: [
-        "Looking up from below",
-        "Looking down from above",
-        "Looking straight across",
-        "Looking sideways"
+        "His feet, as he sat on the edge with legs dangling in",
+        "His head and shoulders, as he leaned forward over the opening",
+        "His back, as he faced away from the den",
+        "His hands, as he reached in blindly without looking"
       ],
       correctAnswer: 1,
-      explanation: "The lions' den was like a deep pit or cave, so the king would look down from above to see Daniel inside."
+      explanation: "To call down and look for Daniel inside the pit-like den, the king would lean forward over the opening, bringing his head and shoulders closest to the entrance as he peered anxiously inside."
     },
     {
       type: "story",

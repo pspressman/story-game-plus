@@ -15,15 +15,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the goddess Nuwa, what would her body look like?",
+      question: "If you watched Nuwa move through the forest, what kind of trail would she leave behind on soft ground?",
       options: [
-        "A normal woman walking on two legs",
-        "A woman's head and arms with a long snake body",
-        "A giant bird with colorful feathers",
-        "A fish swimming in the ocean"
+        "A trail of muddy footprints from two feet",
+        "A wide, winding groove from a long body dragging along the earth",
+        "No trail at all, since she floats above the ground",
+        "A row of hoofprints like a horse would leave"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Nuwa as having the head and arms of a woman but the long, winding body of a snake."
+      explanation: "Because Nuwa has the long, winding body of a snake, you can infer she would slither and leave a wide, winding groove in soft ground rather than footprints."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "color",
-      question: "In your mental image, what color would the clay be that Nuwa used to make people?",
+      question: "When Nuwa looked at her reflection in the river to use as a model, what color would the finished clay figures most likely appear?",
       options: [
-        "Bright red like fire",
-        "Pure white like snow",
-        "Yellow like golden sunshine",
-        "Deep black like night"
+        "Bright blue like the river water",
+        "Pale white like river foam",
+        "A warm yellowish-brown tone similar to the clay",
+        "Bright green like river moss"
       ],
       correctAnswer: 2,
-      explanation: "The story specifically mentions that Nuwa scooped up yellow clay from the riverbank to make her companions."
+      explanation: "Since the figures were shaped from clay and never described as being painted or changed, you can infer they would retain the warm yellowish-brown color of the clay they were made from."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the first clay figure coming to life, how would it move?",
+      question: "Just before the clay figure came to life, how would its surface most likely feel if you could touch it?",
       options: [
-        "It would stay completely still like a statue",
-        "It would melt back into clay immediately",
-        "It would stand up and begin moving like a living person",
-        "It would break into many pieces"
+        "Warm and soft like skin",
+        "Cold, damp, and firm like shaped clay",
+        "Rough and dry like crumbling rock",
+        "Slippery and wet like river water"
       ],
-      correctAnswer: 2,
-      explanation: "The story tells us the clay figure came to life, stood up, smiled, and began to talk and laugh, so you would picture it moving like a real person."
+      correctAnswer: 1,
+      explanation: "The figure had just been shaped from riverbank clay, so before Nuwa breathed life into it, you can infer it would still feel cold, damp, and firm the way freshly worked clay does."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "mood",
-      question: "In your mind, what expression would be on Nuwa's face as she worked to make more people?",
+      question: "As the hours passed and Nuwa kept shaping figures one by one, what would her hands most likely look and feel like?",
       options: [
-        "Angry and frustrated with the work",
-        "Happy but tired from the careful work",
-        "Scared and worried about making mistakes",
-        "Bored and uninterested in continuing"
+        "Clean and dry, because clay does not stick to a goddess",
+        "Caked with clay and aching from the long, careful work",
+        "Glowing with magical light that melted the clay instantly",
+        "Completely still, because she used only her breath to shape the figures"
       ],
       correctAnswer: 1,
-      explanation: "The story shows Nuwa loved making companions and wanted to fill the world with friendship, but the work was slow, so you would picture her as happy but getting tired."
+      explanation: "Working all day pressing and shaping wet clay by hand would coat her hands in clay and cause them to tire and ache, even though neither detail is stated directly in the story."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "shape",
-      question: "When you imagine the vine that Nuwa used, what shape would it have?",
+      question: "When Nuwa flicked the vine through the air, what shape would the clay drops most likely be as they flew?",
       options: [
-        "Short and stubby like a pencil",
-        "Round like a ball",
-        "Long and flexible like a rope",
-        "Square like a block"
+        "Perfect cubes with sharp flat edges",
+        "Tiny irregular blobs stretched by the speed of flight",
+        "Flat discs spinning like coins",
+        "Long straight rods like pencils"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes a vine that Nuwa could dip into clay and flick through the air, so you would visualize something long and flexible that could bend and move."
+      correctAnswer: 1,
+      explanation: "Clay flung from a vine at speed would be pulled and stretched by the air into small, uneven blobs rather than any neat geometric shape, even though the story never describes their form."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const nuwaMakesPeople = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental picture, how many people would you see in the world after Nuwa finished her work?",
+      question: "If you could compare the number of people made by hand to those made by the flicked vine, which group would most likely be larger?",
       options: [
-        "Just one or two people",
-        "About ten people total",
-        "Many, many people covering the land",
-        "No people at all"
+        "The hand-shaped group, because Nuwa worked harder on them",
+        "Both groups would be exactly the same size",
+        "The vine-flicked group, because each flick sent countless drops flying at once",
+        "Neither group, because they all disappeared afterward"
       ],
       correctAnswer: 2,
-      explanation: "The story says Nuwa filled the whole world with people of all sizes, so you would picture many, many people spread across the land."
+      explanation: "You can infer that flicking a vine once sent many drops flying in all directions, creating far more people at a time than Nuwa could shape one by one with her hands."
     },
     {
       type: "story",

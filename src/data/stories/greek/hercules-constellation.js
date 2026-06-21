@@ -15,15 +15,15 @@ const herculesConstellation = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture Hercules standing next to ordinary people, how would his size compare?",
+      question: "If Hercules walked through a doorway built for an average person, what would most likely happen?",
       options: [
-        "He would be the same height as everyone else",
-        "He would be much taller and more muscular than other people",
-        "He would be shorter but very wide",
-        "He would be thin and lanky like a basketball player"
+        "He would walk through easily with plenty of room to spare",
+        "He would have to turn sideways and duck to fit through",
+        "He would need to crawl on his hands and knees",
+        "He would fit perfectly since all heroes are average sized"
       ],
       correctAnswer: 1,
-      explanation: "Hercules was famous for being incredibly strong and large, much bigger than ordinary people."
+      explanation: "As the strongest man in all of Greece, Hercules would have been exceptionally broad and powerfully built, making a standard doorway too narrow and low for him to pass through upright without squeezing."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const herculesConstellation = {
     {
       type: "question",
       domain: "shape",
-      question: "When you visualize the constellation Leo in the night sky, what shape would the connected stars most likely form?",
+      question: "When you look at the Leo constellation on a star map, which part of the lion's body would you expect the brightest star to mark?",
       options: [
-        "A perfect circle of bright dots",
-        "A lion's head and mane with a curved body",
-        "A straight line across the sky",
-        "A triangle with no other features"
+        "The tip of the tail, far from the center",
+        "The heart or chest, at the lion's powerful core",
+        "One of the back paws near the ground",
+        "The very end of the nose pointing forward"
       ],
       correctAnswer: 1,
-      explanation: "The Leo constellation is shaped like a lion, showing the head, mane, and body of the great beast Hercules defeated."
+      explanation: "The brightest star in Leo is Regulus, which sits at the lion's chest or heart — the natural focal point of a proud, powerful beast frozen in the sky."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const herculesConstellation = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the Hydra constellation in the night sky, where would it appear compared to other constellations?",
+      question: "If you looked at a star map, how many other constellations would you expect the Hydra constellation to pass near or border compared to a small constellation?",
       options: [
-        "Bunched up in a tiny corner",
-        "Stretched very long across a large part of the sky",
-        "Perfectly centered in one small area",
-        "Split into pieces in different corners"
+        "Just one or two, like a small cluster",
+        "None, because it floats alone in empty space",
+        "Many more constellations than average, given its enormous span",
+        "Exactly the same number as every other constellation"
       ],
-      correctAnswer: 1,
-      explanation: "Hydra is the longest constellation, stretching far across the sky like the monster's long, serpentine body."
+      correctAnswer: 2,
+      explanation: "Hydra is the longest constellation in the sky, so its vast reach means it borders far more neighboring constellations than a typical small constellation would."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const herculesConstellation = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you visualize the Hercules constellation, from what position would the star pattern show the hero?",
+      question: "If you traced the stars of the Hercules constellation with your finger, which part of the pattern would you draw first to capture what makes his pose most recognizable?",
       options: [
-        "Standing tall and straight with arms at his sides",
-        "Lying flat on his back looking up",
-        "Kneeling down with one foot forward",
-        "Sitting cross-legged like in school"
+        "A tall vertical line showing him standing at full height",
+        "A bent leg angled downward to anchor his lowered stance",
+        "A wide horizontal line showing him lying flat",
+        "A perfect square representing his broad shoulders only"
       ],
-      correctAnswer: 2,
-      explanation: "The Hercules constellation shows the hero in a kneeling position, as if he's ready to spring into action."
+      correctAnswer: 1,
+      explanation: "The most distinctive feature of the Hercules constellation is his bent, lowered leg reflecting his crouched, action-ready posture — tracing that bent limb first would best capture his pose."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const herculesConstellation = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture Draco the Dragon constellation, how would it appear to be positioned around the North Star?",
+      question: "If you watched the Draco constellation over several hours on a clear night, how would it appear to move relative to the North Star at its center?",
       options: [
-        "Flying straight away from the North Star",
-        "Wrapped in circles around the North Star",
-        "Pointing directly at the North Star",
-        "Moving back and forth in a straight line"
+        "It would drift steadily away toward the horizon",
+        "It would rotate around the North Star without ever setting",
+        "It would rise in the east and set in the west like the moon",
+        "It would stay completely frozen in one fixed spot all night"
       ],
       correctAnswer: 1,
-      explanation: "Draco appears to coil or wrap around the North Star, like a dragon guarding its treasure."
+      explanation: "Because Draco encircles the North Star, it is a circumpolar constellation — it rotates around that central point throughout the night and never dips below the horizon."
     },
     {
       type: "story",

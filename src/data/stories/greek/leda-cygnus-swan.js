@@ -15,15 +15,15 @@ const ledaCygnusSwan = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture Queen Leda's favorite place, where would you see her walking?",
+      question: "When you imagine Leda standing at her favorite spot, what would the ground beneath her feet feel like?",
       options: [
-        "On a busy street in the marketplace",
-        "Along the shore of a peaceful lake",
-        "On top of a tall mountain",
-        "Inside a dark cave"
+        "Hard and dusty like a dirt road",
+        "Soft and damp like the muddy bank of a lake",
+        "Sharp and rocky like a mountain path",
+        "Smooth and wooden like a palace floor"
       ],
       correctAnswer: 1,
-      explanation: "Leda loved to walk by the lake, enjoying the peaceful water and watching the birds."
+      explanation: "Standing at the edge of a lake, Leda would feel soft, damp, muddy ground beneath her feet — the kind of wet earth found along a watershore."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const ledaCygnusSwan = {
     {
       type: "question",
       domain: "shape",
-      question: "When you picture the swan's neck as it swam toward Leda, what shape would it form?",
+      question: "When you picture the swan's body reflected in the still lake water as it glided toward Leda, what would the reflection look like?",
       options: [
-        "Perfectly straight like a ruler",
-        "Curved and elegant like the letter S",
-        "Twisted in a tight spiral",
-        "Bent at sharp angles like stairs"
+        "A perfect mirror image creating a full circle with the swan above",
+        "A jagged, broken outline scattered across the ripples",
+        "A flat, shapeless white smear with no detail",
+        "A dark silhouette pointing straight downward"
       ],
-      correctAnswer: 1,
-      explanation: "A swan's neck curves gracefully in an S-shape, especially when the swan is swimming elegantly."
+      correctAnswer: 0,
+      explanation: "On calm water, a swan's curved neck and round body reflected below would form a complete oval or heart-like circle with the real swan above — a shape you must picture rather than read."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const ledaCygnusSwan = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Leda's face as she met the swan, what expression would you see?",
+      question: "When you imagine how Leda felt kneeling at the water's edge with the swan, what would her body language most likely show?",
       options: [
-        "Frightened and wanting to run away",
-        "Gentle and happy with a warm smile",
-        "Angry and shouting at the bird",
-        "Bored and looking the other way"
+        "Stiff and tense with arms crossed tightly",
+        "Relaxed and leaning forward with open, reaching hands",
+        "Jumping back with arms raised in alarm",
+        "Standing tall with hands on her hips"
       ],
       correctAnswer: 1,
-      explanation: "Leda would have a gentle, warm smile because she was kind and delighted by the beautiful, friendly swan."
+      explanation: "Since the swan was calm and friendly, Leda would feel at ease — her body relaxed and leaning gently forward, hands open and reaching out with curiosity and warmth."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const ledaCygnusSwan = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the swan constellation, how would it appear to be moving across the sky?",
+      question: "When you imagine watching Cygnus move slowly across the night sky over many hours, what would it look like the swan is doing?",
       options: [
-        "Standing still on the ground",
-        "Flying gracefully with wings spread wide",
-        "Swimming in circles",
-        "Running on thin legs"
+        "Sinking straight down like a stone into water",
+        "Drifting steadily forward as if riding a gentle current of air",
+        "Spinning rapidly in tight circles",
+        "Hopping up and down in short bursts"
       ],
       correctAnswer: 1,
-      explanation: "The Cygnus constellation appears to be flying with wings spread wide, soaring across the celestial sky."
+      explanation: "As the Earth rotates, Cygnus would appear to drift slowly and steadily across the sky, giving the impression of a great bird gliding effortlessly on invisible currents high above."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const ledaCygnusSwan = {
     {
       type: "question",
       domain: "what",
-      question: "When you look for the brightest star in the swan constellation, what part of the swan would it represent?",
+      question: "If you could compare the brightness of Deneb to something you might see on a dark night, what would it most resemble?",
       options: [
-        "The swan's beak at the front",
-        "The swan's eye on its head",
-        "The swan's tail at the back",
-        "The swan's wing tips"
+        "A barely visible flicker like a dying candle far away",
+        "A steady, bold glow like a bright lighthouse beacon",
+        "A soft dim smudge like fog over a streetlamp",
+        "A rapid blinking like a camera flash"
       ],
-      correctAnswer: 2,
-      explanation: "The bright star Deneb represents the swan's tail, making it easy to identify the back end of the flying swan."
+      correctAnswer: 1,
+      explanation: "Since Deneb is described as one of the brightest stars in the whole sky, it would shine with a strong, steady, unmistakable glow — much like a powerful lighthouse standing out clearly against the darkness."
     },
     {
       type: "story",

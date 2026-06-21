@@ -15,15 +15,15 @@ const gentleAnswer = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture Jake's angry face, what color would it be?",
+      question: "If you could see the heat rising off Jake's skin the moment he stormed in, what color would that heat shimmer look like?",
       options: [
-        "Bright red like a tomato",
-        "Pale white like paper",
-        "Green like grass",
-        "Blue like the sky"
+        "A cool blue shimmer like ice",
+        "A deep purple glow like a bruise",
+        "A fiery orange-red haze like hot coals",
+        "A bright yellow flash like sunlight"
       ],
-      correctAnswer: 0,
-      explanation: "Anger often makes our faces turn red as our emotions heat up, just like fire!"
+      correctAnswer: 2,
+      explanation: "Intense anger generates a sensation of burning heat in the body. Imagining that heat as visible energy, it would radiate as a fiery orange-red haze — the color our minds associate with extreme heat and blazing emotion."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const gentleAnswer = {
     {
       type: "question",
       domain: "size",
-      question: "Picture Jake's clenched fists when Emma speaks gently. How would they change compared to tight rocks?",
+      question: "Imagine Jake's body the moment before Emma speaks gently versus a few seconds after. How would his overall posture look different?",
       options: [
-        "They would squeeze even tighter",
-        "They would stay exactly the same",
-        "They would slowly start to open and relax",
-        "They would grow bigger"
+        "He would grow taller and stiffer",
+        "He would crouch down and cover his ears",
+        "He would shift from puffed-up and rigid to smaller and less tense",
+        "He would spin around and face the wall"
       ],
       correctAnswer: 2,
-      explanation: "Gentle words help angry feelings shrink and soften, like ice melting in warm water."
+      explanation: "Anger makes the body expand and tighten — muscles pulled up, chest out. Gentle words begin to deflate that tension before it fully releases, making the person appear to shrink back to their normal, calmer size."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const gentleAnswer = {
     {
       type: "question",
       domain: "movement",
-      question: "Visualize anger as a fire. When someone pours gentle words on it like cool water, how does the fire change?",
+      question: "Picture two storm clouds colliding in the sky. Now imagine one cloud suddenly turns into a soft, slow-moving mist. What would happen to the storm?",
       options: [
-        "It grows bigger and hotter",
-        "It stays exactly the same size",
-        "It slowly gets smaller and calmer",
-        "It turns into ice"
+        "The storm would double in size and spin faster",
+        "The storm would freeze into a solid block of ice",
+        "The collision would never happen and both clouds would vanish",
+        "The violent clash would lose its force and the wind would die down"
       ],
-      correctAnswer: 2,
-      explanation: "Gentle words work like water on fire - they cool down hot anger!"
+      correctAnswer: 3,
+      explanation: "When one side of a conflict becomes soft instead of hard, there is nothing to push back against. The storm of anger loses its energy because it needs resistance to keep growing — just like harsh words need harsh replies to escalate."
     },
     {
       type: "story",

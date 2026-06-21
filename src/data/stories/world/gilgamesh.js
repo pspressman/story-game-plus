@@ -1,4 +1,3 @@
-
 const gilgamesh = {
   id: "gilgamesh",
   title: "The Epic of Gilgamesh",
@@ -15,15 +14,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "environment",
-      question: "In your mind, what do the walls around the city of Uruk look like?",
+      question: "If you were standing outside Uruk and looked up at the walls, what material do you imagine they would be built from?",
       options: [
-        "Short wooden fences that a person could step over",
-        "Tall stone walls with towers where guards can watch for danger",
-        "Walls made of paper and sticks that blow in the wind",
-        "Invisible magic walls that only Gilgamesh can see"
+        "Woven reeds and dried grass bundled together",
+        "Thick fired brick or stone blocks stacked tightly together",
+        "Smooth polished glass that reflects the sunlight",
+        "Soft mud packed loosely into low mounds"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions that Gilgamesh built 'tall, strong walls' around the city, so imagining high stone walls with guard towers creates a realistic mental picture of an ancient protected city."
+      explanation: "The story says Gilgamesh built 'tall, strong walls' but never names the material. In ancient Mesopotamia, durable city walls were constructed from fired brick or stone. Picturing thick, tightly stacked masonry helps you mentally reconstruct what those walls would realistically look and feel like."
     },
     {
       type: "question",
@@ -45,15 +44,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "what",
-      question: "How do you picture Enkidu when he's living in the forest?",
+      question: "When Enkidu drinks from a stream alongside the gazelles, what do you imagine his hands look like?",
       options: [
-        "Wearing fancy clothes and sleeping in a comfortable bed",
-        "Looking exactly like Gilgamesh but with a crown of flowers",
-        "Covered in hair, with a wild appearance, moving like the animals around him",
-        "As a tiny person the size of a mouse hiding under leaves"
+        "Soft and smooth, like someone who has never done hard work",
+        "Decorated with golden rings and painted nails",
+        "Rough and calloused, with dirt under the nails from living outdoors",
+        "Wrapped in fine cloth to keep them clean and protected"
       ],
       correctAnswer: 2,
-      explanation: "Since Enkidu is described as a 'wild man' who lives with animals in the forest, imagining him with a natural, untamed appearance helps create a clear mental picture that contrasts with the civilized king Gilgamesh."
+      explanation: "The story never describes Enkidu's hands, but it tells us he lives wild in the forest with animals. Imagining rough, calloused, dirt-stained hands helps you construct a realistic physical detail of someone who has spent his entire life outdoors with no shelter or tools."
     },
     {
       type: "question",
@@ -75,15 +74,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, what does the wrestling match between Gilgamesh and Enkidu look like?",
+      question: "As the wrestling match drags on with no winner, how do you picture the two fighters looking compared to when they started?",
       options: [
-        "A quiet game where they take turns pushing each other's hands",
-        "A fierce contest where they use all their strength, causing the earth to shake",
-        "A dance where they circle each other but never touch",
-        "A short match that ends as soon as it begins with Gilgamesh winning easily"
+        "Perfectly fresh and clean, as if they had just arrived",
+        "Sweating heavily, breathing hard, and covered in dust from their struggle",
+        "Sitting down calmly and eating a meal together",
+        "Growing taller and more relaxed with each passing moment"
       ],
       correctAnswer: 1,
-      explanation: "The story describes their wrestling match as so powerful that 'the ground shook,' and mentions that neither could easily defeat the other, suggesting an intense physical contest between two extremely strong individuals."
+      explanation: "The story says the match was a 'long struggle' between two equally matched fighters. Visualizing the physical toll — heavy breathing, sweat, and dust — helps you infer what such an exhausting contest would actually look like on their bodies, details the story never describes."
     },
     {
       type: "story",
@@ -105,15 +104,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "what",
-      question: "How do you picture the monster Humbaba in your mind?",
+      question: "The story never describes Humbaba's face. What do you imagine it looks like?",
       options: [
-        "A tiny creature the size of a mouse that can only squeak",
-        "A huge creature with a frightening face and a terrifying roar",
-        "A friendly-looking animal that waves hello to visitors",
-        "An invisible spirit that can only be heard but not seen"
+        "A soft, round face with a gentle smile and kind eyes",
+        "A twisted, snarling face with wild eyes that glow with menace",
+        "A perfectly ordinary human face, calm and expressionless",
+        "A featureless blank surface with no eyes, nose, or mouth"
       ],
       correctAnswer: 1,
-      explanation: "Since Humbaba is described as a 'fearsome monster' who guards the entire forest and roars at intruders, visualizing a large, frightening creature helps create a mental picture that matches the challenging opponent Gilgamesh and Enkidu face."
+      explanation: "The story calls Humbaba a 'fearsome monster' but never describes its face. To picture a creature whose roar alone warns away all visitors, you have to mentally construct the face yourself — and a twisted, snarling face with threatening eyes fits the sense of dread the story builds around Humbaba."
     },
     {
       type: "story",
@@ -122,15 +121,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "expression",
-      question: "How do you picture Gilgamesh after Enkidu dies?",
+      question: "In the days after Enkidu's death, how do you imagine Gilgamesh's body language as he walks through the city he once ruled with pride?",
       options: [
-        "Celebrating and laughing because he's now the strongest again",
-        "Deeply sad, with tears in his eyes, maybe not eating or sleeping well",
-        "Completely unchanged and immediately looking for a new adventure",
-        "Happy but pretending to be sad in front of other people"
+        "Chest out and chin raised, striding confidently through the streets",
+        "Shoulders hunched and head down, moving slowly as if carrying a great weight",
+        "Skipping lightly and waving cheerfully at everyone he passes",
+        "Running at full speed and shouting orders to his guards"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us Gilgamesh was 'overcome with sadness' after losing his friend. Imagining physical signs of grief creates a mental picture that reflects the emotional impact this loss had on him."
+      explanation: "The story says Gilgamesh was 'overcome with sadness' but never describes how he carried himself afterward. Grief typically shows in the body — slumped shoulders, a lowered head, heavy steps. Picturing him this way lets you visualize what his inner loss would look like from the outside."
     },
     {
       type: "story",
@@ -182,15 +181,15 @@ const gilgamesh = {
     {
       type: "question",
       domain: "expression",
-      question: "What expression do you see on Gilgamesh's face when he hears Utnapishtim's advice?",
+      question: "The moment Gilgamesh absorbs Utnapishtim's words, what do you picture happening to his posture and face before he says anything?",
       options: [
-        "Angry, with reddened face and clenched fists",
-        "Bored, yawning and looking away",
-        "Thoughtful and surprised, as if seeing things in a new way",
-        "Laughing loudly and making fun of the old man"
+        "He puffs up his chest and crosses his arms, looking proud and unmoved",
+        "He breaks into loud laughter and slaps his knee in amusement",
+        "His shoulders drop slightly and his eyes go distant, as if turning inward",
+        "He spins around and immediately sprints away without reacting"
       ],
       correctAnswer: 2,
-      explanation: "Since the story tells us Gilgamesh 'realized he had been searching for the wrong thing,' visualizing him with a thoughtful, surprised expression helps create a mental picture of his moment of understanding and change."
+      explanation: "The story says Gilgamesh 'realized he had been searching for the wrong thing,' but never shows us the physical moment of that realization. Picturing his shoulders dropping and his gaze turning inward lets you visualize the silent, physical beat of a deeply held belief quietly shifting — something the text leaves entirely to your imagination."
     },
     {
       type: "story",

@@ -32,15 +32,15 @@ const samsonStrength = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, when Samson flexes to break the ropes, how would the rope pieces move?",
+      question: "In your mental image, how would Samson's body posture change in the moment just before the ropes broke?",
       options: [
-        "Float gently like feathers",
-        "Snap apart and fly outward quickly",
-        "Melt into puddles",
-        "Stay perfectly still"
+        "He would curl inward and shrink down",
+        "He would sway side to side slowly",
+        "His muscles would bulge and his whole frame would expand outward",
+        "He would remain completely relaxed and still"
       ],
-      correctAnswer: 1,
-      explanation: "When something breaks under great force, the pieces snap apart and fly away from each other."
+      correctAnswer: 2,
+      explanation: "When someone exerts enormous force, their muscles tighten and their body expands with the effort, visibly swelling before the ropes give way."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const samsonStrength = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Samson's face as he finally tells his secret, what expression would he most likely have?",
+      question: "When you visualize Samson's body language as he finally gives Delilah his answer, how would he be sitting?",
       options: [
-        "Excited and happy",
-        "Angry and shouting",
-        "Laughing joyfully",
-        "Tired and worn down"
+        "Sitting upright with shoulders back and chest out proudly",
+        "Leaning forward eagerly with a wide smile",
+        "Slumped with drooping shoulders and a lowered head",
+        "Standing tall and gesturing boldly with his hands"
       ],
-      correctAnswer: 3,
-      explanation: "Someone who gives in after being asked the same thing every day would look tired and worn out."
+      correctAnswer: 2,
+      explanation: "Someone worn down by repeated daily pressure would show it physically, with slumped posture and a bowed head rather than confident, upright body language."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const samsonStrength = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental picture, what would Samson's head look like after being shaved?",
+      question: "In your mental picture, how would the shape of Samson's head appear different compared to earlier in the story?",
       options: [
-        "Still covered with long braids",
-        "Smooth with no hair at all",
-        "Covered in feathers",
-        "Painted bright blue"
+        "It would look wider and rounder because of extra hair added",
+        "The outline of his skull would now be fully visible with no hair framing his face",
+        "Long braids would still hang down on one side",
+        "His head would be hidden beneath a hood"
       ],
       correctAnswer: 1,
-      explanation: "When someone's head is shaved, all the hair is removed, leaving it smooth."
+      explanation: "Before, seven long braids would frame and surround his head. After shaving, that framing would be gone and the bare curve of his skull would be visible for the first time."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const samsonStrength = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were looking at the temple from far away when Samson pushed the pillars, what would you see happening to the building?",
+      question: "If you were watching from far away when Samson pushed the pillars, which part of the temple building would you most likely see move first?",
       options: [
-        "It would start collapsing downward",
-        "It would grow taller",
-        "It would float into the sky",
-        "It would turn different colors"
+        "The roof would bow and crack in the middle before anything else shifted",
+        "The outer walls would grow taller",
+        "The ground around the temple would rise up",
+        "The doorways would glow brightly"
       ],
       correctAnswer: 0,
-      explanation: "When support pillars break, a building falls down and collapses."
+      explanation: "When central support pillars fail, the roof above them loses its support first, causing it to sag and crack at the center before the walls follow and the whole structure comes down."
     },
     {
       type: "story",

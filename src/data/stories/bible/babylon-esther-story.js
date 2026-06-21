@@ -15,15 +15,15 @@ const babylonEsther = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture an army surrounding a city with siege walls, what would the people inside the city see when they look out?",
+      question: "When you picture Jerusalem completely surrounded by siege walls, what would the sky look like above the city as time passed?",
       options: [
-        "Empty fields and freedom",
-        "Enemy soldiers and walls blocking every exit",
-        "Beautiful gardens",
-        "The ocean"
+        "Clear and bright blue with birds flying freely",
+        "Filled with rising smoke from cooking fires inside and enemy camps outside",
+        "Glowing pink and peaceful at sunset",
+        "Covered in thick storm clouds bringing rain"
       ],
       correctAnswer: 1,
-      explanation: "A surrounded city would see enemy soldiers and siege walls blocking all exits."
+      explanation: "A city under prolonged siege with thousands of soldiers camped outside and desperate people inside would produce constant smoke from fires, darkening the sky above."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const babylonEsther = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Mordecai sitting at the palace gates daily, where would he position himself?",
+      question: "When you visualize Mordecai waiting at the palace gates day after day, what expression would likely appear on his face as time passed without news?",
       options: [
-        "Where he could see and hear palace comings and goings",
-        "Hidden in the palace kitchen",
-        "On the palace roof",
-        "In the throne room"
+        "Relaxed and carefree, enjoying the sunshine",
+        "Growing lines of worry mixed with watchful alertness",
+        "Broad smiles and laughter with passersby",
+        "Boredom and drowsiness"
       ],
-      correctAnswer: 0,
-      explanation: "To gather news while staying outside, Mordecai would sit where he could watch palace activity."
+      correctAnswer: 1,
+      explanation: "A guardian waiting anxiously for news of a beloved cousin in a royal palace, unsure of her safety, would show deepening worry alongside careful watchfulness on his face."
     },
     {
       type: "story",

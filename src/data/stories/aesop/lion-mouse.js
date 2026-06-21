@@ -15,15 +15,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the sleeping lion compared to the tree he's under, how big would he appear?",
+      question: "When you picture the lion's shadow cast by the afternoon sun, how much ground would it cover?",
       options: [
-        "Tiny like a small cat under a giant tree",
-        "Large and powerful, taking up much space under the tree",
-        "The same size as the tree trunk",
-        "Bigger than the entire tree"
+        "A shadow no bigger than a house cat's",
+        "A shadow stretching several body-lengths across the grass",
+        "No shadow at all since he is under a tree",
+        "A shadow exactly the same size as his body"
       ],
       correctAnswer: 1,
-      explanation: "The lion would appear large and powerful, taking up a lot of space under the tree, showing his impressive size."
+      explanation: "A mighty lion with a huge head and spreading mane would cast a broad shadow stretching well beyond his body across the savanna grass, reflecting his impressive bulk."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the mouse running across the lion's nose, how would the mouse be moving?",
+      question: "When you visualize the lion's nose twitching just before he woke up, how would it look?",
       options: [
-        "Slowly and carefully on tiptoes",
-        "Quickly and carelessly without looking",
-        "Flying through the air with wings",
-        "Standing perfectly still"
+        "Completely still and frozen",
+        "Wrinkling and flinching from the tickle",
+        "Growing larger to catch the mouse",
+        "Glowing bright red like a light"
       ],
       correctAnswer: 1,
-      explanation: "The mouse would be moving quickly and carelessly, not paying attention to where he was going, which caused the accident."
+      explanation: "The lion's nose would wrinkle and flinch involuntarily as the mouse's tiny feet tickled it, triggering the awakening of the sleeping lion."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the mouse's voice compared to the lion's roar, what would you hear?",
+      question: "When you imagine the mouse's promise echoing across the open savanna, how far would his voice carry?",
       options: [
-        "Both voices exactly the same volume",
-        "A tiny squeak versus a deep, loud roar",
-        "Complete silence from both animals",
-        "The mouse louder than the lion"
+        "Across the entire savanna to distant hills",
+        "Barely beyond the lion's own paw",
+        "All the way to the nearest village",
+        "Exactly as far as the lion's roar"
       ],
       correctAnswer: 1,
-      explanation: "You would hear a tiny, high-pitched squeak from the mouse compared to the lion's deep, powerful roar."
+      explanation: "The mouse's tiny voice would barely travel past the lion's paw, fading almost immediately into the vast open savanna around them."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize the lion's face as he lets the mouse go, what expression would you see?",
+      question: "When you picture the lion watching the mouse disappear into the grass, what would his eyes look like?",
       options: [
-        "Angry and ready to attack",
-        "Amused and slightly kind",
-        "Very sad and crying",
-        "Scared and worried"
+        "Narrowed and burning with anger",
+        "Wide and bright with alarm",
+        "Soft and relaxed, half-lidded with ease",
+        "Tightly shut as if ignoring the mouse"
       ],
-      correctAnswer: 1,
-      explanation: "The lion would look amused by the mouse's promise and slightly kind since he decided to show mercy."
+      correctAnswer: 2,
+      explanation: "A lion who just chuckled and chose to be generous would have soft, relaxed eyes — not tense or alarmed — reflecting his calm, unbothered mood as he watched the tiny mouse go."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize how the mouse could free the lion, what would you see the mouse using?",
+      question: "When you visualize the rope strands as the mouse worked through them, what would they look like over time?",
       options: [
-        "Tiny hands to untie knots",
-        "Sharp teeth to bite through the ropes",
-        "Magic spells to make the net disappear",
-        "A large knife to cut the ropes"
+        "Getting thicker and stronger as the mouse chewed",
+        "Fraying and splitting apart strand by strand",
+        "Changing color from brown to bright white",
+        "Melting away like ice in the sun"
       ],
       correctAnswer: 1,
-      explanation: "The mouse would use his sharp little teeth to gnaw and bite through the rope strands, since that's his natural tool."
+      explanation: "The rope strands would gradually fray and split apart as the mouse gnawed through them, unraveling piece by piece until the net gave way."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const lionMouse = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the lion after escaping the net, where would you see him compared to the mouse?",
+      question: "When you picture the freed lion lowering his head toward the tiny mouse, how far down would he need to bend?",
       options: [
-        "Running far away from the mouse",
-        "Standing close to the mouse, looking grateful",
-        "High up in a tree above the mouse",
-        "Swimming in a lake away from the mouse"
+        "Just a slight tilt, since they are nearly the same height",
+        "All the way to the ground, his chin almost touching the grass",
+        "Only halfway, stopping at the height of a bush",
+        "Not at all — the mouse would climb up to his ear"
       ],
       correctAnswer: 1,
-      explanation: "The lion would be standing close to the mouse, showing his gratitude and friendship after being rescued."
+      explanation: "The lion's head is enormous and held high off the ground, so to bring his eyes level with the tiny mouse he would have to lower his chin almost all the way down to the grass."
     },
     {
       type: "story",

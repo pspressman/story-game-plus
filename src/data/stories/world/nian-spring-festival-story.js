@@ -14,15 +14,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "when",
-      question: "If Nian comes when food is scarce in the mountains, what time of year would villagers most fear its arrival?",
+      question: "If Nian only descends when mountain food runs out, what would the mountain landscape most likely look like at the moment it begins its journey down?",
       options: [
-        "Middle of summer when crops are growing",
-        "Late winter when mountain animals hibernate",
-        "Early spring when flowers bloom",
-        "Autumn harvest time"
+        "Covered in green leaves and full of ripening berries",
+        "Blanketed in deep snow with bare frozen ground",
+        "Dotted with wildflowers and flowing streams",
+        "Warm and dry with golden grasses"
       ],
       correctAnswer: 1,
-      explanation: "Food would be most scarce in late winter when snow covers everything and animals hibernate."
+      explanation: "When food becomes scarce enough to drive Nian down, the mountain would be buried in snow with no vegetation visible, making foraging impossible."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture the villagers preparing for Nian's arrival, how would they be moving through the village?",
+      question: "If you imagine the road leading out of the village during the evacuation, what would it most likely look like underfoot?",
       options: [
-        "Walking slowly and casually",
-        "Sitting quietly in their homes",
-        "Rushing frantically to pack and leave",
-        "Dancing in the streets"
+        "Smooth and clean with neatly arranged carts",
+        "Churned up and muddy from many hurrying feet and wheels",
+        "Empty and undisturbed",
+        "Lined with people sitting and resting"
       ],
-      correctAnswer: 2,
-      explanation: "People fleeing from a monster would be rushing frantically to gather belongings and escape."
+      correctAnswer: 1,
+      explanation: "A road used by an entire fleeing village would become torn up and trampled from the weight of many people, animals, and loaded carts all moving quickly at once."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "color",
-      question: "When you imagine the village after the beggar's preparations, what would be the dominant visual impression?",
+      question: "When you imagine the empty village after the beggar finishes his work and night falls, how would the unlit surroundings make the lanterns appear by contrast?",
       options: [
-        "Dark and shadowy with no lights",
-        "Bright red decorations everywhere",
-        "Natural green from plants",
-        "White from fresh snow"
+        "Dull and barely visible against the darkness",
+        "Glowing warmly like embers floating in black space",
+        "Blending into the snowy white ground",
+        "Invisible behind the thick tree branches"
       ],
       correctAnswer: 1,
-      explanation: "With red paper on doors and windows and red lanterns hanging, the village would be dominated by bright red color."
+      explanation: "Red lanterns hanging in a dark, deserted winter village would glow vividly against the blackness, standing out like warm embers suspended in the night."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "sound",
-      question: "In your mental image of this scene, what would the exploding bamboo sound most similar to?",
+      question: "If you were standing at the edge of the village listening to the bamboo explode, what physical sensation might you feel along with the sound?",
       options: [
-        "Soft whispers in the wind",
-        "Beautiful musical notes",
-        "Loud firecrackers or fireworks",
-        "Ocean waves crashing"
+        "A cool, gentle breeze brushing your cheek",
+        "A sharp vibration in your chest from each blast",
+        "A low hum traveling through the soles of your feet",
+        "A warm tingling in your fingertips"
       ],
-      correctAnswer: 2,
-      explanation: "Bamboo exploding in fire makes sharp, loud cracking sounds similar to firecrackers."
+      correctAnswer: 1,
+      explanation: "Loud explosive sounds create pressure waves that cause a physical thud felt in the chest, something the story never mentions but physics and experience allow us to infer."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Nian fleeing in terror, in which direction would it most likely run?",
+      question: "As Nian fled the village in terror, what would the trail it left behind most likely look like?",
       options: [
-        "Deeper into the village center",
-        "Back to its mountain home",
-        "Into the ocean",
-        "Underground into the earth"
+        "A neat, narrow path of small footprints in the snow",
+        "Deep, widely spaced gouges tearing through the ground",
+        "No trace at all, as if it floated away",
+        "A trail of shed feathers leading to a river"
       ],
       correctAnswer: 1,
-      explanation: "Since Nian came from the mountains, it would flee back to its familiar mountain home when scared."
+      explanation: "A huge, panicked monster running as fast as it could would leave behind heavily torn earth and deep impact craters rather than delicate prints, though the story never describes the escape route itself."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const nianSpringFestival = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were looking down from the sky at villages celebrating New Year today, what visual pattern would you notice?",
+      question: "If you were looking down from the sky at a single family home during New Year celebrations, what would the people inside likely look like compared to the same family on an ordinary winter day?",
       options: [
-        "Everything painted black and grey",
-        "Bursts of red decorations and flashing lights",
-        "All buildings torn down",
-        "Everything covered in blue paint"
+        "Hunched over and working in silence just as usual",
+        "Dressed in matching vivid colors, gathered closely together",
+        "Scattered in separate rooms doing individual chores",
+        "Wrapped in grey blankets and sleeping"
       ],
       correctAnswer: 1,
-      explanation: "Modern New Year celebrations still feature red decorations and fireworks, creating bursts of red and light."
+      explanation: "New Year traditions bring families together in celebration, so you would infer they'd be gathered as a group and dressed in the festive red clothes worn for the occasion, a contrast to ordinary daily routines."
     },
     {
       type: "story",

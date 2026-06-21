@@ -83,15 +83,15 @@ const davidKing = {
     {
       type: "question",
       domain: "when",
-      question: "When you picture David walking on the palace roof, what time of day would it most likely be?",
+      question: "When you picture David standing on his palace roof looking out over Jerusalem, what would the sky above the city most likely look like?",
       options: [
-        "Early morning sunrise",
-        "Middle of the hot afternoon",
-        "Cool evening time",
-        "Middle of the night"
+        "Bright white with a blazing midday sun directly overhead",
+        "Deep black with no light at all",
+        "Pale pink and orange with the first light of dawn",
+        "Deepening blue with the first stars beginning to appear"
       ],
-      correctAnswer: 2,
-      explanation: "People often walked on flat roofs in the cool evening to enjoy fresh air after hot days."
+      correctAnswer: 3,
+      explanation: "In the ancient Near East, people retreated to flat rooftops in the cooler part of the day after the sun had dropped, when the sky would be darkening and early stars would be emerging on the horizon."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const davidKing = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were looking at Absalom after his hair caught in the tree, what would you see?",
+      question: "If you imagine Absalom struggling after his hair tangled in the tree branches, what would his face most likely look like?",
       options: [
-        "Him standing on the ground",
-        "Him hanging from the branches by his hair",
-        "Him sitting comfortably",
-        "Him flying through the air"
+        "Calm and peaceful with eyes closed",
+        "Twisted with pain and panic, face flushed red",
+        "Smiling and relaxed",
+        "Pale and sleeping quietly"
       ],
       correctAnswer: 1,
-      explanation: "With his hair tangled in branches and his mule gone, he would be hanging from the tree."
+      explanation: "Someone trapped and dangling by their hair would be in great pain, their face showing panic and strain, with blood rushing to their head turning it red."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const davidKing = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine David crying out for his lost son, how would his voice sound?",
+      question: "When you picture the throne room falling completely silent after David finishes crying out for Absalom, what sound would fill the air next?",
       options: [
-        "Quiet and whispered",
-        "Broken with grief and sobs",
-        "Happy and singing",
-        "Angry and shouting commands"
+        "Cheering and celebration from the soldiers",
+        "Loud music being played",
+        "Only the echo of David's weeping and perhaps quiet, uneasy shuffling from his men",
+        "Commands being shouted across the room"
       ],
-      correctAnswer: 1,
-      explanation: "A father grieving for his child would have a voice broken with sobs and deep sorrow."
+      correctAnswer: 2,
+      explanation: "After a king's raw outburst of grief, those present would grow uncomfortable and silent, leaving only the fading sounds of his sobs and the uneasy shifting of soldiers who had disobeyed his order."
     },
     {
       type: "story",

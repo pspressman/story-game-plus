@@ -15,15 +15,15 @@ const wordIsLamp = {
     {
       type: "question",
       domain: "where",
-      question: "Picture walking on a rocky path in complete darkness versus with a flashlight showing each step. Where would you place your feet more safely?",
+      question: "Imagine Luna suddenly dropping her flashlight on the dark trail and the light going out. Where on the path would she most likely freeze or stop moving?",
       options: [
-        "Anywhere randomly in the dark",
-        "Only where the light shows solid ground",
-        "The same in both cases",
-        "Nowhere - stand still forever"
+        "At the widest, flattest section of the trail",
+        "Exactly where she stood when darkness fell",
+        "Near the campfire glow in the distance",
+        "At the beginning of the trail entrance"
       ],
       correctAnswer: 1,
-      explanation: "The psalm shows God's word like a light - helping us see where to 'step' in life!"
+      explanation: "Without light to reveal what lies ahead, a person instinctively stops moving forward from their current spot — stepping blindly into unknown terrain risks tripping or falling."
     },
     {
       type: "story",

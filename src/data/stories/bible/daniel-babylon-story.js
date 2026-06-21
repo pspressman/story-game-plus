@@ -32,15 +32,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental image, when Daniel chose vegetables over the king's rich foods, what was he trying to follow?",
+      question: "In your mental image, when Daniel refused the king's rich food and wine, what does that refusal tell you about what he was protecting inside himself?",
       options: [
-        "A diet to lose weight",
-        "His favorite foods",
-        "God's laws about eating",
-        "The latest food trends"
+        "His preference for bland tastes",
+        "His desire to impress the official",
+        "His inner loyalty to beliefs he would not trade away",
+        "His concern about gaining weight"
       ],
       correctAnswer: 2,
-      explanation: "Daniel wanted to follow Jewish dietary laws even in a foreign palace."
+      explanation: "Refusing privileged food at personal risk, rather than blending in, reveals a person guarding a deep inner conviction — something no amount of royal comfort could replace."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were watching when the three men were thrown into the super-heated furnace, what would happen to the soldiers who threw them in?",
+      question: "If you were watching from a safe distance as the three men were thrown into the super-heated furnace, what color would the flames appear compared to a normal fire?",
       options: [
-        "They would be killed by the extreme heat",
-        "They would feel nice and warm",
-        "Nothing would happen to them",
-        "They would become invisible"
+        "Dim orange, barely visible",
+        "The same pale yellow as a candle",
+        "A blinding white or blue-white at the core",
+        "Completely black with no glow"
       ],
-      correctAnswer: 0,
-      explanation: "The story tells us the furnace was so hot it killed the soldiers who got too close."
+      correctAnswer: 2,
+      explanation: "A furnace heated far beyond normal would burn at extreme temperatures, producing a fierce blue-white core rather than the softer orange of an ordinary flame."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture the three men walking around inside the blazing furnace unharmed, how would they be moving?",
+      question: "When you picture the three men emerging from the furnace after the king called them out, how would their bodies move and carry themselves?",
       options: [
-        "Calmly and normally",
-        "Running frantically",
-        "Crawling on the ground",
-        "Floating in the air"
+        "Hunched over and trembling from shock",
+        "Upright and steady, as though nothing extraordinary had happened",
+        "Crawling weakly on hands and knees",
+        "Stumbling and disoriented from the heat"
       ],
-      correctAnswer: 0,
-      explanation: "Protected by God, they would walk calmly even in the furnace, showing no fear."
+      correctAnswer: 1,
+      explanation: "Men who had just been supernaturally protected and felt no harm would walk out composed and upright, their posture reflecting complete physical wholeness rather than the collapse one would expect after such an ordeal."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental image, when Daniel heard about the law forbidding prayer, when would he go to pray as he always did?",
+      question: "In your mental image, after Daniel heard about the dangerous new law, how long would he wait before praying again for the first time?",
       options: [
-        "Never again",
-        "Only in secret at midnight",
-        "Three times daily as always",
-        "Once a week"
+        "He would wait until the thirty days passed",
+        "He would wait until deep in the night when no one could see",
+        "He would not wait at all and pray at his very next usual time",
+        "He would wait one week to be safe"
       ],
       correctAnswer: 2,
-      explanation: "Daniel was so faithful he continued his regular prayer routine despite the danger."
+      explanation: "A man of unshakeable faith like Daniel would not delay or rearrange his devotion out of fear — he would return home and pray at his very next opportunity, just as he always had."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize Daniel in the lions' den at night, what would the space around him look like?",
+      question: "When you visualize the sealed entrance of the lions' den after Daniel was thrown in, what would the stone covering it look like from the outside?",
       options: [
-        "A deep pit with lions and shadows",
-        "A comfortable bedroom",
-        "An open meadow",
-        "A swimming pool"
+        "A polished marble door with a golden handle",
+        "A rough heavy boulder pressed flat against a dark opening in the earth",
+        "A wooden gate painted bright white",
+        "A decorative iron fence with a visible lock"
       ],
-      correctAnswer: 0,
-      explanation: "A lions' den would be a deep pit or cave with dangerous animals in the shadows."
+      correctAnswer: 1,
+      explanation: "An ancient den used to hold dangerous animals would be sealed with a crude, massive stone heaved over a dark pit entrance — rough, heavy, and final-looking, not decorative."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const danielBabylon = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the king calling down into the lions' den at dawn, how would his voice sound?",
+      question: "When you imagine the king calling down into the lions' den at dawn, what quality in his voice would reveal what had been happening inside him all night?",
       options: [
-        "Anxious and hopeful",
-        "Angry and commanding",
-        "Sleepy and bored",
-        "Laughing and joking"
+        "A steady, commanding tone showing he had slept well",
+        "A cracking, strained urgency betraying a sleepless night of dread",
+        "A slow, bored drawl showing little concern",
+        "A loud, laughing shout as though it were a game"
       ],
-      correctAnswer: 0,
-      explanation: "A king who couldn't sleep from worry would sound anxious but hopeful when calling."
+      correctAnswer: 1,
+      explanation: "A person who spent the whole night unable to sleep from worry would arrive at dawn with a voice worn thin by exhaustion and fear — the strain in it would expose the emotional weight he had been carrying through the dark hours."
     },
     {
       type: "story",

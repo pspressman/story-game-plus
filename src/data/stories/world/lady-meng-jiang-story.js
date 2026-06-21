@@ -31,15 +31,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "when",
-      question: "If Meng Jiang is making warm padded clothes for her husband, what season would be approaching?",
+      question: "If Meng Jiang sews day and night without rest, what would her fingertips likely look like by the time she finishes the coat?",
       options: [
-        "Hot summer",
-        "Spring planting time",
-        "Cold winter months",
-        "Autumn harvest"
+        "Smooth and unblemished",
+        "Painted with bright colors",
+        "Raw, calloused, and marked by the needle",
+        "Perfectly manicured"
       ],
       correctAnswer: 2,
-      explanation: "She would make thick padded clothes because cold winter months were approaching."
+      explanation: "Days and nights of continuous sewing with a needle would leave her fingertips raw, calloused, and marked from the repeated pricks and pressure of the work."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "size",
-      question: "When you imagine the distance from Meng Jiang's home to the Great Wall, how far would this journey be?",
+      question: "After crossing mountains and rivers for such a long journey on foot, what would Meng Jiang's sandals or shoes look like upon arrival?",
       options: [
-        "Just next door",
-        "A few minutes' walk",
-        "Hundreds of miles across the country",
-        "To the moon"
+        "Brand new and shining",
+        "Worn through, torn, and caked with mud",
+        "Perfectly clean and intact",
+        "Decorated with fresh flowers"
       ],
-      correctAnswer: 2,
-      explanation: "The Great Wall construction sites would be hundreds of miles from her home village."
+      correctAnswer: 1,
+      explanation: "Crossing mountains and rivers over such a grueling journey would leave her footwear worn through, torn apart, and covered in mud and dust."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "shape",
-      question: "As Meng Jiang sees the Great Wall stretching across mountain peaks, what would its shape resemble?",
+      question: "If you looked down at the Great Wall from high above a mountain peak, what pattern would its path across the landscape form?",
       options: [
-        "A perfect straight line",
-        "A winding dragon following the mountain curves",
-        "A round circle",
-        "A square box"
+        "A perfectly straight horizontal line",
+        "A series of sharp right angles",
+        "A sweeping series of curves bending with every ridge and valley",
+        "A large unbroken circle"
       ],
-      correctAnswer: 1,
-      explanation: "The Great Wall winds like a dragon as it follows the natural curves of mountains."
+      correctAnswer: 2,
+      explanation: "Because the wall must follow the natural terrain of mountains and valleys, viewed from above it would form sweeping, irregular curves rather than any straight or geometric shape."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "where",
-      question: "According to the old worker, where was Fan Xiliang's body placed?",
+      question: "If Fan Xiliang's remains were sealed inside the wall's structure, what would Meng Jiang see on the wall's surface directly above where he rests?",
       options: [
-        "Sent home for proper burial",
-        "Inside the wall structure itself",
-        "At the bottom of the ocean",
-        "On top of the highest mountain"
+        "A carved nameplate marking the spot",
+        "An open grave with visible bones",
+        "Ordinary stone blocks with no trace or marking at all",
+        "A golden door leading inside"
       ],
-      correctAnswer: 1,
-      explanation: "Workers who died were buried within the wall structure as they built it."
+      correctAnswer: 2,
+      explanation: "Workers were sealed within the wall as it was built, so the surface above would show nothing but ordinary fitted stone blocks, with no visible sign of what lies within."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "movement",
-      question: "As the Great Wall section collapses from Meng Jiang's tears, how would the massive stones move?",
+      question: "As the Great Wall begins to crack and crumble, what would happen to the workers laboring on top of the wall in that moment?",
       options: [
-        "Floating gently upward",
-        "Staying perfectly in place",
-        "Tumbling and crashing downward",
-        "Arranging into neat piles"
+        "They would continue working without noticing",
+        "They would scramble and lunge desperately toward stable ground",
+        "They would sit down calmly and wait",
+        "They would float gently to the ground"
       ],
-      correctAnswer: 2,
-      explanation: "Collapsing wall sections would have stones tumbling and crashing downward with great force."
+      correctAnswer: 1,
+      explanation: "Workers standing on a crumbling wall would feel the stone shifting beneath them and desperately scramble to leap or crawl toward any section of ground that was still stable, driven by pure survival instinct."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "color",
-      question: "When Meng Jiang's blood drops identify her husband's bones, what would make this recognition magical?",
+      question: "As Meng Jiang wraps Fan Xiliang's bones in the padded coat she sewed for him, what contrast in color would a witness standing nearby observe?",
       options: [
-        "The blood would disappear",
-        "The blood would flow only to his bones",
-        "The blood would turn to gold",
-        "The blood would freeze solid"
+        "Golden bones wrapped in silver fabric",
+        "Pale white bones cradled against the warm fabric of a lovingly made coat",
+        "Black bones placed into a bright red box",
+        "Glowing bones that light up the coat from within"
       ],
       correctAnswer: 1,
-      explanation: "In this magical moment, her blood would flow specifically to her husband's bones, recognizing their connection."
+      explanation: "The bleached, pale white bones of the dead would stand in stark visual contrast against the warm, soft fabric of the coat she had so lovingly sewn, making the moment both tender and heartbreaking."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const ladyMengJiang = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the boat's deck, which direction would Meng Jiang leap to join her husband in the afterlife?",
+      question: "In the moment just before Meng Jiang jumps, what expression would those watching on the boat see cross her face?",
       options: [
-        "Upward into the sky",
-        "Down into the river waters",
-        "Onto the distant shore",
-        "Back toward the palace"
+        "Confusion and fear about what to do next",
+        "Anger directed at the river below",
+        "Serene resolve and final peace",
+        "Excitement and anticipation"
       ],
-      correctAnswer: 1,
-      explanation: "To join her husband in death, she would leap down into the river waters from the boat."
+      correctAnswer: 2,
+      explanation: "Having secured her husband's proper burial and made her final decision, she would wear an expression of serene resolve — the calm of someone who has chosen their path and found peace in it."
     },
     {
       type: "story",

@@ -1,0 +1,137 @@
+// Chinese mythology story for visualization-based reading comprehension
+const yiTenSuns = {
+  id: "yi-ten-suns",
+  title: "Yi and the Ten Suns",
+  icon: "🏹",
+  difficulty: "Hard",
+  theme: "Heroism",
+  estimatedTime: "10-15 min",
+  description: "The great archer Yi saves the world by shooting down nine of the ten suns that were burning the earth.",
+  content: [
+    {
+      type: "story",
+      text: "Long ago in ancient China, there were ten suns in the sky instead of just one. These suns were the sons of the Jade Emperor, ruler of heaven. Usually, only one sun would shine each day while the others rested. But one day, all ten suns decided to come out together."
+    },
+    {
+      type: "question",
+      domain: "number",
+      question: "If you could look at shadows cast by trees during this time, how many overlapping shadows would each tree likely cast?",
+      options: [
+        "No shadow at all, since heat dissolves shadows",
+        "One shadow, just like on a normal day",
+        "Multiple shadows stretching in different directions",
+        "A single perfectly round shadow directly below"
+      ],
+      correctAnswer: 2,
+      explanation: "With ten suns positioned across the sky, each one would cast its own shadow from a different angle, so a single tree would produce many overlapping shadows pointing in different directions — something not stated in the story but inferable from how light and shadow work."
+    },
+    {
+      type: "story",
+      text: "With ten suns blazing in the sky, the earth became terribly hot. Rivers dried up completely, crops withered and died, and even rocks began to crack from the heat. People and animals suffered greatly, hiding in caves to escape the burning light."
+    },
+    {
+      type: "question",
+      domain: "background",
+      question: "If you could touch the ground in this scorched world, what sensation would you most likely feel underfoot?",
+      options: [
+        "Cool and damp like wet mud after rain",
+        "Soft and springy like thick grass",
+        "Burning hot and rough like crumbling powder",
+        "Smooth and slippery like polished stone"
+      ],
+      correctAnswer: 2,
+      explanation: "The story describes extreme heat, dried rivers, and cracking rocks, but never describes the texture of the ground. By imagining what happens to soil under such intense, prolonged heat, you can infer it would feel scorching hot and crumbly underfoot."
+    },
+    {
+      type: "story",
+      text: "The people prayed to the Jade Emperor for help. Seeing how his sons were destroying the earth, the emperor called upon Yi, the greatest archer in all the heavens. Yi was known for his incredible skill with a bow and his magic arrows that never missed their target."
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "When you visualize Yi standing before the Jade Emperor, what expression would most likely be on Yi's face?",
+      options: [
+        "Laughing and relaxed, as if told a funny joke",
+        "Calm and focused, showing quiet confidence",
+        "Tearful and trembling with fear",
+        "Bored and distracted, looking away"
+      ],
+      correctAnswer: 1,
+      explanation: "The story calls Yi the greatest archer, known for incredible skill — but never describes his expression. A warrior of that legendary reputation, given a critical mission, would most likely project calm, focused confidence rather than fear or amusement."
+    },
+    {
+      type: "story",
+      text: "Yi climbed to the top of the highest mountain where he could see all ten suns clearly. He pulled out his powerful bow, made from the wood of a sacred tree, and notched his first magic arrow. The bow was so large that Yi had to use all his strength to pull back the string."
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "In your mind, how would Yi's bow compare in size to a regular bow?",
+      options: [
+        "Much smaller, like a toy bow",
+        "About the same size as normal bows",
+        "Much larger and more powerful",
+        "Invisible, so you couldn't see it"
+      ],
+      correctAnswer: 2,
+      explanation: "The story mentions it was a powerful bow that required all of Yi's strength to pull back, suggesting you would visualize a much larger and stronger bow than normal."
+    },
+    {
+      type: "story",
+      text: "Yi aimed carefully at the first sun and released his arrow. It flew straight and true, striking the sun with a brilliant flash of light. The sun exploded into golden sparks and disappeared, leaving behind only a three-legged crow that fell to earth."
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "When you picture the three-legged crow falling to earth after the sun disappeared, how would its descent look compared to a normal bird's fall?",
+      options: [
+        "Gracefully gliding down with wings spread wide",
+        "Tumbling and spinning awkwardly due to the uneven number of legs",
+        "Shooting upward before curving back down",
+        "Hovering motionless before gently drifting to the ground"
+      ],
+      correctAnswer: 1,
+      explanation: "The story mentions a three-legged crow falling to earth but never describes how it fell. Imagining a crow with three legs — an unbalanced, unusual body — suggests its fall would be awkward and uneven rather than the smooth glide of a typical bird."
+    },
+    {
+      type: "story",
+      text: "One by one, Yi shot down eight more suns. Each time, there was a flash of light and a three-legged crow fell from the sky. The earth began to cool, and people came out of their hiding places to cheer for the brave archer."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "In your mental picture, how would the people's faces look as Yi shot down each sun?",
+      options: [
+        "Angry and upset at Yi for shooting the suns",
+        "Relieved and happy, cheering with joy",
+        "Scared and hiding their faces",
+        "Confused and unsure what was happening"
+      ],
+      correctAnswer: 1,
+      explanation: "The story mentions people came out to cheer for Yi, so you would picture faces showing relief, happiness, and gratitude toward their hero."
+    },
+    {
+      type: "story",
+      text: "Just as Yi was about to shoot the tenth and final sun, a wise man stopped him. 'Wait!' the man said. 'If you shoot all the suns, the world will be cold and dark forever. We need one sun to give us light and warmth.' Yi lowered his bow and smiled, knowing the wise man was right."
+    },
+    {
+      type: "question",
+      domain: "when",
+      question: "If Yi had shot all ten suns, what would the stars in the night sky eventually look like compared to how we see them now?",
+      options: [
+        "Completely invisible, blocked out by thick clouds of ash and cold",
+        "Far brighter and more numerous, now the only source of light in the sky",
+        "Replaced by ten glowing spots where the suns used to be",
+        "Exactly the same, since stars are unaffected by the suns"
+      ],
+      correctAnswer: 1,
+      explanation: "The story warns the world would go cold and dark, but never mentions the stars. By imagining a sky with no sun at all, you can infer that stars — freed from competition with any solar light — would appear dramatically brighter and more visible, becoming humanity's only remaining light source."
+    },
+    {
+      type: "story",
+      moral: "Yi's story teaches us that true heroes know when to stop. Sometimes the greatest wisdom is knowing that we don't need to solve every problem completely, but just enough to restore balance."
+    }
+  ]
+};
+
+export default yiTenSuns;

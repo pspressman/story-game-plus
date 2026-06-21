@@ -19,15 +19,15 @@ const aladdinLamp = {
     {
       type: "question",
       domain: "mood",
-      question: "What expression would most likely be on the sorcerer's face when talking to Aladdin?",
+      question: "How would the sorcerer most likely position his body and hands while speaking to Aladdin?",
       options: [
-        "Openly angry and threatening",
-        "Visibly sad and tearful",
-        "Friendly on the surface but with hidden malice",
-        "Confused and disoriented"
+        "Arms crossed tightly, standing far away with a scowl",
+        "Leaning in warmly, perhaps placing a hand on Aladdin's shoulder with an open smile",
+        "Pacing nervously back and forth while avoiding eye contact",
+        "Standing rigidly upright with hands clasped behind his back"
       ],
-      correctAnswer: 2,
-      explanation: "Since the sorcerer was pretending to be Aladdin's uncle to trick him, he would logically appear friendly on the surface while hiding his true malicious intentions."
+      correctAnswer: 1,
+      explanation: "A sorcerer pretending to be a long-lost uncle would need to win Aladdin's trust quickly. He would likely use warm, familiar physical gestures — leaning in closely and perhaps touching Aladdin's shoulder — to physically perform the role of a caring relative while concealing his true motives."
     },
     {
       type: "story",
@@ -36,15 +36,15 @@ const aladdinLamp = {
     {
       type: "question",
       domain: "background",
-      question: "What would the inside of the cave most likely look like?",
+      question: "How would the air inside the cave most likely feel and smell to Aladdin as he entered?",
       options: [
-        "A modern bank vault with metal walls",
-        "A small, dark hole with a single lamp",
-        "A vast cavern glittering with treasures and jewels",
-        "An underwater grotto filled with fish"
+        "Warm and breezy with the scent of fresh flowers",
+        "Cool, stale, and musty from being sealed away for ages",
+        "Hot and smoky like a blacksmith's forge",
+        "Wet and salty like the ocean shore"
       ],
-      correctAnswer: 2,
-      explanation: "Based on the description of magnificent jewels, gold coins, and beautiful objects, the cave would most logically be visualized as a vast cavern filled with glittering treasures."
+      correctAnswer: 1,
+      explanation: "A hidden cave that had been sealed and undisturbed for a long time would most likely have trapped, stagnant air that felt cool underground and carried a musty, aged smell — details not stated in the story but logical to visualize."
     },
     {
       type: "story",

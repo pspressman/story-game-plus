@@ -32,15 +32,15 @@ const lordMyShepherd = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize a sheep's body language in green pastures by still water. What emotion would their relaxed bodies show?",
+      question: "Imagine a sheep lying in soft green grass by a quiet pond with its shepherd nearby. What would the sheep's ears and muscles look like compared to a frightened sheep?",
       options: [
-        "Fear and tension",
-        "Anger and frustration",
-        "Boredom and sadness",
-        "Peace and contentment"
+        "Ears pinned back, muscles rigid and trembling",
+        "Ears upright and alert, muscles coiled to sprint",
+        "Ears drooping softly, muscles loose and heavy",
+        "Ears twitching rapidly, muscles jerking side to side"
       ],
-      correctAnswer: 3,
-      explanation: "The psalm uses this image to help us feel God's peaceful care for us!"
+      correctAnswer: 2,
+      explanation: "A sheep fully at ease would show physically loose, drooping ears and relaxed muscles - the body naturally releases all tension when it feels completely safe!"
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const lordMyShepherd = {
     {
       type: "question",
       domain: "background",
-      question: "Picture walking through a dark valley alone versus with a strong protector beside you. How would the same valley feel different?",
+      question: "Picture the valley in the psalm - rocky, shadowy, and winding. What details would you expect to see on either side of the narrow path as you visualize walking through it?",
       options: [
-        "Scarier with someone there",
-        "Exactly the same",
-        "Less frightening with protection",
-        "Darker with company"
+        "Bright open meadows and friendly animals",
+        "Towering dark cliffs, deep shadows, and jagged rocks",
+        "A straight flat road with streetlamps",
+        "A shallow puddle and low shrubs"
       ],
-      correctAnswer: 2,
-      explanation: "The psalm teaches that God's presence changes how we feel in scary times!"
+      correctAnswer: 1,
+      explanation: "A valley 'of the shadow of death' would visually feature looming cliff walls that block light and create deep, threatening shadows - that physical image is what makes the presence of a protector so meaningful!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const lordMyShepherd = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize feeling scared at night, what would comfort you more - seeing protective tools nearby or having nothing?",
+      question: "Visualize a sheep that has wandered off and is now stuck on a steep ledge. Which part of the shepherd's tool would physically reach the sheep to bring it back to safety?",
       options: [
-        "Having protective tools and a protector",
-        "Being completely alone",
-        "Having only darkness",
-        "Neither would help"
+        "The pointed tip of the rod used for fighting",
+        "The curved hook at the top of the staff",
+        "The flat side of the rod used for striking ground",
+        "The leather strap tied around the staff's handle"
       ],
-      correctAnswer: 0,
-      explanation: "The psalm helps us picture God's protection making us feel safe like sheep with their shepherd!"
+      correctAnswer: 1,
+      explanation: "A shepherd's staff has a curved crook at the top specifically designed to hook gently around a sheep's body and guide it back - that curved shape is what makes rescue and guidance physically possible!"
     },
     {
       type: "story",

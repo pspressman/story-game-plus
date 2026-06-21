@@ -32,15 +32,15 @@ const crucifixionBurial = {
     {
       type: "question",
       domain: "when",
-      question: "What time of day does the story say it became dark?",
+      question: "If it was midday when the darkness began, how would the sky appear compared to a normal afternoon?",
       options: [
-        "Morning before sunrise",
-        "Noon to three in the afternoon",
-        "Late at night",
-        "During sunset"
+        "Brighter and more colorful than usual",
+        "Exactly the same as any clear afternoon",
+        "Unexpectedly dim, as though the sun had vanished",
+        "Filled with stars like a typical night"
       ],
-      correctAnswer: 1,
-      explanation: "The Gospels say darkness came at midday—an unusual and powerful moment."
+      correctAnswer: 2,
+      explanation: "Midday is normally the brightest part of the day, so darkness at that hour would make the sky look shockingly and unnaturally dim rather than gradually darkening as at sunset."
     },
     {
       type: "story",
@@ -49,36 +49,36 @@ const crucifixionBurial = {
     {
       type: "question",
       domain: "background",
-      question: "What would the background look like as Jesus died?",
+      question: "How might the faces of bystanders watching at Golgotha look as the ground began to shake?",
       options: [
-        "A quiet countryside with blue skies",
-        "Dark skies, trembling ground, temple curtain torn",
-        "A busy market full of noise",
-        "Fields with animals grazing"
+        "Calm and unaffected, continuing their conversations",
+        "Joyful and clapping at the spectacle",
+        "Wide-eyed, pale, and frozen with fear",
+        "Sleepy and bored as if nothing unusual happened"
       ],
-      correctAnswer: 1,
-      explanation: "The story includes signs of great power and disruption when Jesus died."
+      correctAnswer: 2,
+      explanation: "People witnessing an earthquake and splitting rocks would likely show visible terror — pale faces, wide eyes, and stunned expressions — even though the story never describes the bystanders' faces directly."
     },
     {
       type: "story",
-      text: "A man named Joseph of Arimathea asked for Jesus’ body. He wrapped it in linen and laid it in a new tomb carved from rock."
+      text: "A man named Joseph of Arimathea asked for Jesus' body. He wrapped it in linen and laid it in a new tomb carved from rock."
     },
     {
       type: "question",
       domain: "movement",
-      question: "How might Joseph move while placing Jesus in the tomb?",
+      question: "What might Joseph's hands look like as he worked with the linen wrappings?",
       options: [
-        "Hurried and excited",
-        "Careful, gentle, and respectful",
-        "Playful and dancing",
-        "Dragging with anger"
+        "Shaking and trembling from the weight of grief",
+        "Moving quickly and carelessly to finish fast",
+        "Steady and deliberate, smoothing each fold with slow attention",
+        "Stiff and rigid, barely touching the cloth"
       ],
-      correctAnswer: 1,
-      explanation: "Joseph would be moving with great respect and care."
+      correctAnswer: 2,
+      explanation: "Someone performing a solemn burial for a person they honored would likely move their hands with slow, deliberate care — taking time with each fold — even though the story never describes Joseph's hands or pace directly."
     },
     {
       type: "story",
-      text: "A large stone was rolled in front of the tomb’s entrance. Guards stood watch."
+      text: "A large stone was rolled in front of the tomb's entrance. Guards stood watch."
     },
     {
       type: "question",

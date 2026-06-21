@@ -32,15 +32,15 @@ const trainUpChild = {
     {
       type: "question",
       domain: "when",
-      question: "Visualize trying to bend a thick, old tree trunk versus bending a young, thin sapling. When is it easier to shape how a tree grows?",
+      question: "Imagine gripping a thick, ancient oak trunk with both hands and trying to push it sideways. What would you feel in your arms and hands?",
       options: [
-        "When it's old and thick",
-        "When it's young and flexible",
-        "Both times are equally easy",
-        "Trees can't be shaped"
+        "It would sway easily with little effort",
+        "It would snap right away",
+        "Strain and resistance — it would barely move at all",
+        "It would feel soft and spongy"
       ],
-      correctAnswer: 1,
-      explanation: "Just like the proverb says - training works best when we're young and still learning!"
+      correctAnswer: 2,
+      explanation: "An old, hardened trunk resists force completely — which is why shaping must happen early, while growth is still possible!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const trainUpChild = {
     {
       type: "question",
       domain: "movement",
-      question: "Visualize a child learning to ride a bike with training wheels, then picture them years later. How would they ride?",
+      question: "Picture Lily's hands moving across the piano keys during a difficult song she has practiced for years. How would her fingers look as they play?",
       options: [
-        "Still needing training wheels",
-        "Unable to ride at all",
-        "Confidently without thinking about it",
-        "Only able to walk the bike"
+        "Slow and hesitant, pausing between each note",
+        "Stiff and pressing the wrong keys repeatedly",
+        "Smooth and flowing, moving almost on their own",
+        "Lifted high above the keys before each press"
       ],
       correctAnswer: 2,
-      explanation: "Good training becomes natural - we don't forget what we learned when young!"
+      explanation: "Deeply practiced movements become fluid and automatic — the hands know what to do without the mind having to direct each motion!"
     },
     {
       type: "story",

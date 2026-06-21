@@ -49,15 +49,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the land around Elijah after months without rain, what would the plants look like?",
+      question: "When you visualize the Kerith brook after months without rain, what would the water look like compared to when Elijah first arrived?",
       options: [
-        "Brown and withered",
-        "Green and flowering",
-        "Covered in snow",
-        "Blue and purple"
+        "Deeper and faster moving",
+        "Frozen solid with ice",
+        "Shallow and muddy as it began to dry up",
+        "Overflowing its banks"
       ],
-      correctAnswer: 0,
-      explanation: "After months without rain, plants would turn brown and withered from drought."
+      correctAnswer: 2,
+      explanation: "Without rain for months, a brook would gradually lose water and become shallow and muddy before eventually drying up completely."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental picture, when the very poor widow gathers sticks during a drought, what would she use them for?",
+      question: "In your mental picture, what would the widow's hands look like after gathering sticks during a long drought?",
       options: [
-        "Building a house",
-        "Making a fire for cooking",
-        "Drawing pictures",
-        "Planting a garden"
+        "Smooth and clean",
+        "Wet and dripping",
+        "Rough, scratched, and dusty",
+        "Brightly painted"
       ],
-      correctAnswer: 1,
-      explanation: "Poor people gather sticks to make cooking fires, especially when preparing a meal."
+      correctAnswer: 2,
+      explanation: "Gathering dry sticks by hand during a dusty drought would leave a person's hands rough, scratched from bark, and covered in dust."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the widow's last handful of flour, how much would fit in her hand?",
+      question: "When you picture the widow's oil jug alongside her flour jar, what would both containers have in common in terms of how full they appear?",
       options: [
-        "Enough to fill many bowls",
-        "Just enough for two small bread cakes",
-        "A whole sack full",
-        "Enough for a feast"
+        "Both would be completely full and heavy",
+        "Both would be nearly empty with just a small amount remaining",
+        "Both would be overflowing onto the floor",
+        "Both would be brand new and unused"
       ],
       correctAnswer: 1,
-      explanation: "A handful of flour would only make enough for two small portions of bread."
+      explanation: "Since the widow describes only a handful of flour and a little oil, both containers would appear nearly empty — you would have to peer inside just to see what was left."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were the widow hearing Elijah ask for her last food first, what would seem strange about his request?",
+      question: "If you were the widow in that moment, what emotion would compete most strongly against your fear when you heard Elijah's promise?",
       options: [
-        "The time of day",
-        "The color of the bread",
-        "Giving away your last meal to a stranger",
-        "The shape of the jar"
+        "Boredom, because you had heard such promises before",
+        "A fragile, uncertain hope that the promise might actually be true",
+        "Pure joy with no doubt at all",
+        "Anger that he dared speak of the future"
       ],
-      correctAnswer: 2,
-      explanation: "It would seem very strange to give your very last food to a stranger before feeding your child."
+      correctAnswer: 1,
+      explanation: "Facing starvation, a desperate person would feel a painful conflict — fear that the promise is impossible, yet a fragile hope that it might somehow be real, since hope is the only thing left to hold onto."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image, if the widow checked her flour jar every morning for a whole year, how many times would she find it empty?",
+      question: "In your mental image, if the widow scooped flour from her jar each morning, what would the level of flour inside look like compared to the morning before?",
       options: [
-        "Never - it would always have flour",
-        "About half the time",
-        "Every single day",
-        "Only on Sundays"
+        "Noticeably lower each day until gone",
+        "Completely full to the brim every time",
+        "Roughly the same small amount each morning",
+        "The jar would crack and break after a week"
       ],
-      correctAnswer: 0,
-      explanation: "God promised the jar wouldn't be empty until rain came, so it would never be empty."
+      correctAnswer: 2,
+      explanation: "Since there was just enough each day, the flour would appear at roughly the same modest level every morning — never overflowing, but never fully used up either."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const elijahRavens = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Elijah praying over the boy, where would he take him for privacy?",
+      question: "When you visualize Elijah stretching himself over the boy and praying urgently, what would the expression on his face most likely look like?",
       options: [
-        "To the busy marketplace",
-        "To an upper room away from others",
-        "To the king's palace",
-        "To the bottom of a well"
+        "Bored and distracted",
+        "Laughing and cheerful",
+        "Intense and desperate with eyes tightly shut",
+        "Calm and smiling"
       ],
-      correctAnswer: 1,
-      explanation: "For private, urgent prayer, Elijah would take the boy to a quiet upper room away from crowds."
+      correctAnswer: 2,
+      explanation: "Someone praying earnestly and begging God to restore a child's life would have an intense, desperate expression with eyes shut in deep concentration."
     },
     {
       type: "story",

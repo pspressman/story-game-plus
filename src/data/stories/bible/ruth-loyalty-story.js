@@ -32,15 +32,15 @@ const ruthLoyalty = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image of Ruth gathering grain, how would she be moving throughout the day?",
+      question: "If you could watch Ruth's hands as she gathered grain under the hot sun, how would they most likely look by the end of the day?",
       options: [
-        "Running and jumping quickly",
-        "Sitting still in one spot",
-        "Dancing in circles",
-        "Bending down and standing up many times"
+        "Smooth and clean with painted nails",
+        "Rough, dusty, and reddened from hours of work",
+        "Wet and dripping with water",
+        "Wrapped in soft white gloves"
       ],
-      correctAnswer: 3,
-      explanation: "To pick up grain from the ground all day, she would need to bend down and stand up repeatedly."
+      correctAnswer: 1,
+      explanation: "Hours of reaching and grabbing at dry grain stalks and dusty ground in the hot sun would leave hands roughened, dirty, and reddened — details not stated in the story but visible in the imagination."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const ruthLoyalty = {
     {
       type: "question",
       domain: "background",
-      question: "If you could see Ruth's life changing from the beginning to the end of the story, how would her surroundings change?",
+      question: "If you could picture the clothes Ruth wore at the beginning of the story compared to after she married Boaz, how would they most likely differ?",
       options: [
-        "From empty fields to a comfortable home",
-        "From a palace to a poor cottage",
-        "From the ocean to the mountains",
-        "Everything would stay exactly the same"
+        "Plain, worn garments early on, replaced by finer, well-kept clothing later",
+        "Expensive robes at the start, turning into rags by the end",
+        "Exactly the same throughout since clothing never changes",
+        "Bright armor at the start, turning into a farmer's outfit"
       ],
       correctAnswer: 0,
-      explanation: "Ruth went from having nothing to marrying Boaz and having a home and family."
+      explanation: "Someone living in poverty and doing field labor would wear simple, worn clothing, while joining a wealthy household would bring access to finer garments — an image not described in the story but naturally constructed from the change in circumstances."
     },
     {
       type: "story",

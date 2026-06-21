@@ -15,15 +15,15 @@ const odinRavens = {
     {
       type: "question", 
       domain: "what",
-      question: "When you picture Odin, what would be sitting on his shoulders?",
+      question: "When you picture Odin standing in his palace, what would his overall silhouette look like from a distance?",
       options: [
-        "Two white doves",
-        "Two black ravens",
-        "Two red cardinals", 
-        "Two brown owls"
+        "A clean-shaven young man in bright armor",
+        "A tall figure with a long beard, dark cloak, and two winged shapes perched on his frame",
+        "A small bald man carrying a large sword",
+        "A robed figure with a pointed hat and no animals nearby"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us that two black ravens named Huginn and Muninn sat on Odin's shoulders."
+      explanation: "Combining Odin's long gray beard, blue cloak, and the two ravens on his shoulders, you would picture a commanding, broad-shouldered silhouette with dark winged shapes flanking his head."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const odinRavens = {
     {
       type: "question",
       domain: "perspective", 
-      question: "In your mental image, from what angle would the ravens see the world below them?",
+      question: "In your mental image, what would a dense forest look like to the ravens as they soared high above it?",
       options: [
-        "Looking up from the ground",
-        "Looking straight ahead at eye level",
-        "Looking down from high above",
-        "Looking from inside a cave"
+        "A towering wall of tree trunks blocking their path at eye level",
+        "A flat, dark-green carpet of treetops stretching out beneath them",
+        "A single large tree filling their entire field of vision",
+        "A bright open meadow with no trees visible at all"
       ],
-      correctAnswer: 2,
-      explanation: "Since the ravens were flying high in the sky, you would picture them looking down from above at the world below."
+      correctAnswer: 1,
+      explanation: "Flying high above a forest, the ravens would see the treetops compressed into a continuous canopy far below — a broad, dark-green carpet rather than individual tall trees."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const odinRavens = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the ravens flying over the countryside, what scenes would you see below?",
+      question: "When you visualize the ravens soaring high above a stormy sea, what would the water look like from their height?",
       options: [
-        "Only empty desert sand",
-        "Farmers, sailors, and villages with people",
-        "Just wild animals and no people", 
-        "Only tall mountains with no life"
+        "A perfectly flat, mirror-like silver surface with no movement",
+        "A swirling mass of dark churning waves with whitecaps and no land in sight",
+        "A shallow, calm, light-blue pond surrounded by flowers",
+        "A frozen sheet of ice with no waves at all"
       ],
       correctAnswer: 1,
-      explanation: "The story describes farmers working, sailors on seas, and children in villages, so you would picture a world full of people doing different activities."
+      explanation: "Picturing ravens flying high over a stormy sea, you would imagine dark, churning waves far below with white foam at their peaks — a turbulent, vast expanse of water."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const odinRavens = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental picture, what time of day would the ravens return to Odin?",
+      question: "In your mental picture, what would the sky look like as the ravens made their way back to Odin's palace?",
       options: [
-        "Early morning when the sun rises",
-        "Noon when the sun is highest",
-        "Evening as the day ends",
-        "Midnight when it's completely dark"
+        "Bright blue with the sun directly overhead",
+        "Pitch black with no visible light anywhere",
+        "Pale pink and orange with the sun sinking low on the horizon",
+        "Overcast white with midday clouds"
       ],
       correctAnswer: 2,
-      explanation: "The story says when evening came, the ravens flew back, so you would picture them returning as the day was ending."
+      explanation: "Since the ravens returned in the evening, you would picture a sky fading from blue to warm pink and orange hues as the sun dipped toward the horizon."
     },
     {
       type: "story", 
@@ -83,15 +83,15 @@ const odinRavens = {
     {
       type: "question",
       domain: "mood",
-      question: "When you imagine Odin listening to his ravens' news, what expression would be on his face?",
+      question: "When you imagine Odin hearing the warning about the dragon stirring in the mountains, what would his body posture look like?",
       options: [
-        "Angry and upset",
-        "Confused and worried", 
-        "Happy and smiling",
-        "Sleepy and bored"
+        "Slouched and relaxed, looking ready to fall asleep",
+        "Leaning forward with a tense, alert bearing and furrowed brow",
+        "Jumping up and running away in panic",
+        "Lying flat on the ground with eyes closed"
       ],
-      correctAnswer: 2,
-      explanation: "The story says Odin smiled when he heard the news, knowing his ravens helped him watch over everyone, so you would picture him looking happy."
+      correctAnswer: 1,
+      explanation: "Receiving a warning about a dangerous dragon would make Odin visibly tense and alert — you would picture him sitting upright, leaning slightly forward, with a serious, focused expression showing the weight of his responsibility."
     },
     {
       type: "story",

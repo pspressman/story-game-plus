@@ -14,15 +14,15 @@ const jadeRabbit = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture Chang'e alone in her palace before meeting the rabbit, what expression would be on her face?",
+      question: "If you could picture Chang'e sitting inside her jade palace with no one around, what would her posture and body language most likely look like?",
       options: [
-        "A sad, lonely expression",
-        "An angry, fierce look",
-        "A big, happy smile",
-        "A sleepy, bored face"
+        "Standing tall and proud with arms raised in triumph",
+        "Slumped shoulders and head bowed, staring at the floor",
+        "Jumping and spinning with energy and excitement",
+        "Hands on hips, looking boldly out at the stars"
       ],
-      correctAnswer: 0,
-      explanation: "Since Chang'e felt very lonely living alone, she would have a sad expression on her face."
+      correctAnswer: 1,
+      explanation: "Someone enduring years of isolation would naturally carry the weight of that loneliness in their body — shoulders drooping and gaze downward, reflecting a deep inner sadness."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const jadeRabbit = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image of this forest scene, how many animals did the immortals ask for help?",
+      question: "When you picture the immortals disguised as old men speaking to the animals, how many figures would you see standing together in that forest scene?",
       options: [
-        "Five different animals",
-        "Three animals - a fox, monkey, and rabbit",
-        "Only one rabbit",
-        "A dozen forest creatures"
+        "Just one old man alone",
+        "A large crowd of more than ten",
+        "Two old men side by side",
+        "Three old men grouped together"
       ],
-      correctAnswer: 1,
-      explanation: "The story mentions exactly three animals: a fox, a monkey, and a rabbit."
+      correctAnswer: 3,
+      explanation: "The immortals transformed into old men as a group — since there were three immortals, you would picture three disguised figures addressing the animals in the forest."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const jadeRabbit = {
     {
       type: "question",
       domain: "movement",
-      question: "As you picture the rabbit's brave leap toward the fire, in which direction would it be moving?",
+      question: "Just before the rabbit leaped, how would its body most likely be positioned as it gathered the courage to jump into the fire?",
       options: [
-        "Backward, away from the fire",
-        "Straight up into the sky",
-        "Forward, toward the flames",
-        "In circles around the fire"
+        "Lying flat on its back, legs in the air",
+        "Crouched low with hind legs coiled and tensed, ready to spring",
+        "Standing perfectly still on two legs with eyes closed",
+        "Rolling sideways along the ground toward the flames"
       ],
-      correctAnswer: 2,
-      explanation: "The rabbit was jumping into the fire to sacrifice itself, so it would leap forward toward the flames."
+      correctAnswer: 1,
+      explanation: "A rabbit preparing to jump would naturally crouch down and coil its powerful hind legs beneath it, building up the energy needed to launch itself forward."
     },
     {
       type: "story",
@@ -146,15 +146,15 @@ const jadeRabbit = {
     {
       type: "question",
       domain: "shape",
-      question: "During the Moon Festival, what shape would the special rabbit cakes most likely be?",
+      question: "If you were a child at the Moon Festival holding one of the special cakes, what texture would the surface most likely feel like under your fingers?",
       options: [
-        "Perfect squares with sharp corners",
-        "Star shapes with pointed edges",
-        "Round or rabbit-shaped with ears",
-        "Triangle shapes like pyramids"
+        "Rough and jagged like gravel",
+        "Smooth and slightly soft like baked pastry dough",
+        "Hard and sharp like broken glass",
+        "Wet and slippery like raw fish"
       ],
-      correctAnswer: 2,
-      explanation: "Festival cakes made to honor the Jade Rabbit would likely be round like the moon or shaped like rabbits."
+      correctAnswer: 1,
+      explanation: "Festival cakes are baked pastries, so their surface would feel smooth and gently yielding — the soft, slightly firm texture typical of a freshly made cake."
     },
     {
       type: "story",

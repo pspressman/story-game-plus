@@ -32,15 +32,15 @@ const slowToAnger = {
     {
       type: "question",
       domain: "size",
-      question: "Visualize anger as a wild horse inside you. Is it harder to lift a heavy rock or to hold back that wild horse from running?",
+      question: "Imagine David counting to five while holding back his anger. If his anger were a physical object trying to burst out, what size would it be compared to him?",
       options: [
-        "Lifting the rock is much harder",
-        "Both are exactly the same",
-        "Neither is difficult",
-        "Holding back the wild horse is harder"
+        "Tiny, like a pebble he could easily pocket",
+        "The same size as him, like a mirror image",
+        "Enormous, like a giant he has to hold back with all his strength",
+        "Invisible, with no size at all"
       ],
-      correctAnswer: 3,
-      explanation: "Controlling our emotions takes more real strength than physical power!"
+      correctAnswer: 2,
+      explanation: "Containing powerful emotions takes immense inner strength — the force pushing to get out can feel far bigger than the person holding it in!"
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const slowToAnger = {
     {
       type: "question",
       domain: "what",
-      question: "Picture two castles: one protected by thick walls and soldiers, another by a person's self-control over anger. Which castle would be harder to conquer?",
+      question: "Picture a mighty warrior returning home after winning a battle against a city. Now picture David after he calmly controlled his anger on the playground. What expression would each person's face show?",
       options: [
-        "The castle with walls and soldiers",
-        "The castle of self-control",
-        "Both equally easy",
-        "Neither can be conquered"
+        "The warrior looks proud; David looks ashamed",
+        "Both look exhausted and defeated",
+        "The warrior looks proud; David looks equally or more at peace with himself",
+        "The warrior looks calm; David looks frustrated"
       ],
-      correctAnswer: 1,
-      explanation: "The proverb teaches that mastering ourselves is the greatest victory of all!"
+      correctAnswer: 2,
+      explanation: "Winning any great battle — whether outside or inside — brings a sense of pride and peace. The inner battle can leave a person just as fulfilled as a warrior who conquered a city!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const slowToAnger = {
     {
       type: "question",
       domain: "perspective",
-      question: "Imagine watching two people handle the same frustration - one explodes immediately, one stays calm. From an outside view, who would look more powerful?",
+      question: "Imagine Tommy's little sister watching him take deep breaths instead of yelling after she broke his toy. What feeling would likely appear on her face?",
       options: [
-        "The calm person who controls themselves",
-        "The person who explodes in anger",
-        "They look equally powerful",
-        "Neither looks powerful"
+        "Boredom, because his reaction was uninteresting",
+        "Confusion and then relief, seeing kindness instead of the outburst she expected",
+        "Anger, because his calmness upset her",
+        "Pride, because she planned for him to stay calm"
       ],
-      correctAnswer: 0,
-      explanation: "True strength is shown through self-control, not through angry outbursts!"
+      correctAnswer: 1,
+      explanation: "When someone braces for an angry reaction and receives calm kindness instead, surprise and relief naturally show on their face — self-control changes the people around us too!"
     },
     {
       type: "story",

@@ -15,15 +15,15 @@ const thorGiants = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture Thor in your mind, what color would his hair most likely be?",
+      question: "If you could see Thor's eyes in your mental image, what color would they most likely appear?",
       options: [
-        "Golden yellow like wheat",
-        "Dark brown like tree bark", 
-        "Bright red like flames",
-        "Silver white like snow"
+        "Soft violet like lavender flowers",
+        "Pale grey like a calm winter sky",
+        "Bright blue like crackling electricity",
+        "Deep brown like rich soil"
       ],
       correctAnswer: 2,
-      explanation: "The story tells us Thor had red hair like fire, so you would visualize bright red hair like flames."
+      explanation: "Since Thor is the god of thunder and lightning, you would likely picture his eyes as a fierce electric blue, matching the crackling energy of the lightning he commands."
     },
     {
       type: "story", 
@@ -32,15 +32,15 @@ const thorGiants = {
     {
       type: "question",
       domain: "size",
-      question: "When you imagine the frost giants, how tall would they appear compared to a regular person?",
+      question: "If you pictured a frost giant reaching down to pick up a full-grown adult human, how would that look?",
       options: [
-        "About the same height as a person",
-        "Twice as tall as a person",
-        "As tall as a large pine tree", 
-        "As small as a child"
+        "The giant would struggle and strain to lift the person",
+        "The giant would need both hands and bend low to reach",
+        "The giant could scoop the person up the way you might pick up a small toy",
+        "The person and giant would be close enough in size to shake hands easily"
       ],
       correctAnswer: 2,
-      explanation: "The story says the giants were as tall as pine trees, so you would picture them much taller than any person."
+      explanation: "Since the giants tower as tall as pine trees, a full-grown person would be tiny by comparison, so you would picture the giant plucking a human off the ground as effortlessly as picking up a small figurine."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const thorGiants = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, how would Thor's hammer move through the air?",
+      question: "When you picture the hammer returning to Thor's outstretched hand, what would his hand and arm look like bracing for the catch?",
       options: [
-        "It would fall straight down to the ground",
-        "It would fly in a circle and return to Thor",
-        "It would stick in a tree and stay there",
-        "It would break into many pieces"
+        "His arm would be limp and relaxed at his side",
+        "His arm would be stretched forward with fingers spread wide, muscles tensed",
+        "His hands would be covering his face in fear",
+        "Both arms would be crossed calmly over his chest"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us the hammer always came back to Thor's hand, so you would picture it flying back to him."
+      explanation: "Catching a powerful returning weapon would require readiness, so you would picture Thor thrusting his arm forward with fingers splayed open and muscles tightened, braced to grip the handle as it flies back."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const thorGiants = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the scene above Thor, what would you see in the sky?",
+      question: "If you could see the mountains in the background during Thor's battle, what would they look like?",
       options: [
-        "Bright sunshine and clear blue sky",
-        "Dark storm clouds and lightning",
-        "Colorful rainbow and white clouds",
-        "Stars and a full moon"
+        "Dry and dusty with no vegetation",
+        "Lush and green with blooming flowers",
+        "Shrouded in mist with rain-slicked rock faces",
+        "Glowing warmly in bright afternoon sunlight"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes storm clouds gathering when Thor raised his hammer, so you would picture a stormy, dark sky with lightning."
+      correctAnswer: 2,
+      explanation: "With rain pouring down and wind howling through the mountains, you would picture the peaks wrapped in grey mist and soaked with rain, making the rocky surfaces dark and wet."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const thorGiants = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental picture, where would the giants go after being defeated?",
+      question: "In your mind, what would the entrance to the frost giants' home look like from the outside?",
       options: [
-        "To a warm, sunny beach",
-        "To a green meadow with flowers", 
-        "To dark, icy caves in the mountains",
-        "To a busy marketplace in town"
+        "A wide wooden door painted bright red",
+        "A jagged opening rimmed with ice and hanging icicles",
+        "A neat stone archway covered in vines",
+        "A sandy tunnel entrance surrounded by palm trees"
       ],
-      correctAnswer: 2,
-      explanation: "The story says the giants retreated to their icy caves in the far mountains, so that's where you would picture them going."
+      correctAnswer: 1,
+      explanation: "Since the giants live in icy caves deep in cold mountains, you would picture a rough, jagged cave mouth fringed with thick ice and long icicles dripping from above."
     },
     {
       type: "story",

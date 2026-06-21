@@ -14,15 +14,15 @@ const abraham = {
     {
       type: "question",
       domain: "what",
-      question: "When you imagine Abram preparing for his journey, what do you see?",
+      question: "As Abram leaves Ur at age 75, what do you imagine the expressions on the faces of his neighbors and relatives who stay behind might look like?",
       options: [
-        "Abram traveling alone with just a small backpack",
-        "Abram and his wife packing a few things in a modern suitcase",
-        "Abram organizing tents, loading camels and donkeys with supplies, and gathering his household",
-        "Abram building a boat to sail to the new land"
+        "Cheerful and excited, waving flags to celebrate his departure",
+        "Completely blank and uninterested, as if nothing unusual is happening",
+        "Puzzled or worried, watching an old man walk away from everything he has ever known",
+        "Angry and shouting, demanding that he stay in the city"
       ],
       correctAnswer: 2,
-      explanation: "Genesis tells us Abram took his wife Sarai, his nephew Lot, all their possessions, and the people who joined their household. Visualizing the loading of animals and organizing of a large traveling group helps create an accurate mental picture of this major life change."
+      explanation: "The story does not describe anyone watching Abram leave, but picturing the scene requires imagining how onlookers would react to an elderly man abandoning his home and family for an unknown destination. Concern, bewilderment, or quiet disbelief would be the most natural responses to witness."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const abraham = {
     {
       type: "question",
       domain: "expression",
-      question: "In your mind, what is Abraham's reaction when God tells him Sarah will have a baby?",
+      question: "Imagine Abraham's body language and posture in the moments just after God promises him a son at age 99. What do you picture?",
       options: [
-        "Abraham becomes angry and walks away from God",
-        "Abraham laughs in disbelief because they are so old",
-        "Abraham looks confused but doesn't say anything",
-        "Abraham immediately builds a crib for the baby"
+        "Standing tall and confident, arms raised in celebration",
+        "Sitting calmly at a table, nodding and writing down the promise",
+        "His knees buckling or his body sinking low, overwhelmed by news that seemed physically impossible",
+        "Running quickly to tell Sarah, showing no sign of surprise at all"
       ],
-      correctAnswer: 1,
-      explanation: "Genesis 17:17 tells us Abraham fell facedown and laughed, saying to himself, 'Will a son be born to a man a hundred years old?' Visualizing his surprised, doubtful reaction helps create a realistic human response to news that seemed impossible."
+      correctAnswer: 2,
+      explanation: "The story emphasizes that Abraham was 99 years old and that having a child seemed impossible. The story does not describe his physical reaction, but inferring his body language from the weight of the moment — hearing that an elderly, childless man would father a nation within a year — requires the reader to construct a believable human response rather than recall stated facts."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const abraham = {
     {
       type: "question",
       domain: "movement",
-      question: "How do you picture Abraham welcoming the three visitors?",
+      question: "As Abraham prepares the meal for his three visitors, what do you imagine the inside of his tent looking like?",
       options: [
-        "Ignoring them and continuing his work in the fields",
-        "Standing at the door with his arms crossed, looking suspicious",
-        "Running to meet them, bowing respectfully, and eagerly offering food and water",
-        "Hiding inside his tent, peeking out through a small opening"
+        "A bare, empty space with nothing but a table and three chairs",
+        "A modern kitchen with shelves, pots, and a stove",
+        "A dimly lit space with animal-skin rugs, clay pots, and hurried activity as servants rush to help",
+        "A large stone room with torches on the walls and a long banquet table"
       ],
       correctAnswer: 2,
-      explanation: "Genesis describes Abraham running to meet the visitors, bowing to the ground, and hurriedly preparing a meal for them. Visualizing his enthusiastic hospitality helps create a mental picture of the cultural importance of welcoming travelers in Abraham's time."
+      explanation: "The story mentions a tent and a meal, but does not describe the interior at all. Picturing the likely scene — an ancient nomadic dwelling filled with simple tools, dim light, and the bustle of hasty food preparation — requires visualizing life in Abraham's time rather than recalling anything directly stated."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const abraham = {
     {
       type: "question",
       domain: "expression",
-      question: "When you imagine Sarah holding baby Isaac for the first time, what expression is on her face?",
+      question: "Picture Abraham and Sarah's neighbors and servants the day Isaac is born. What do you imagine their reaction looks like?",
       options: [
-        "Anger and frustration at having to care for a baby at her age",
-        "Confusion, not understanding where the baby came from",
-        "Joy and wonder, with tears of happiness and perhaps gentle laughter",
-        "Boredom, as if nothing special had happened"
+        "Ignoring the birth entirely and continuing their daily chores without interest",
+        "Frightened and backing away, believing something unnatural had occurred",
+        "Wide-eyed and murmuring to one another, struggling to make sense of a hundred-year-old man becoming a father",
+        "Laughing mockingly at Abraham and refusing to believe the child was real"
       ],
       correctAnswer: 2,
-      explanation: "Sarah had waited decades for this child, and his name means 'laughter.' Visualizing her face showing deep emotional joy helps create a meaningful mental picture of this miraculous moment when God's impossible promise was fulfilled."
+      explanation: "The story states Abraham was 100 years old and Sarah 90, but it says nothing about how those around them responded to the birth. Constructing the likely reaction of witnesses — people who knew the couple's age and had perhaps stopped expecting this day — requires the reader to infer a realistic crowd response rather than recall anything written in the text."
     },
     {
       type: "story",

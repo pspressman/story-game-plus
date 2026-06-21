@@ -34,15 +34,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture the tea overflowing from the full cup. Where does the extra tea go?",
+      question: "Picture the professor's hands as the tea spreads across the table toward him. What would he most likely do with them?",
       options: [
-        "It stays in the cup somehow",
-        "It spills out onto the table",
-        "It disappears",
-        "It turns into something else"
+        "Fold them calmly in his lap",
+        "Snatch them back away from the spreading liquid",
+        "Press them flat onto the table",
+        "Wave them slowly in the air"
       ],
       correctAnswer: 1,
-      explanation: "Just like the cup, when our minds are too full, nothing new can enter!"
+      explanation: "Hot tea spreading fast would make anyone pull their hands back quickly - the physical shock of the moment shows how unprepared the professor was for the master's lesson!"
     },
     {
       type: "story",
@@ -68,15 +68,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Picture a student who says 'I already know that' to everything versus one who listens with curiosity. Which one would learn more?",
+      question: "Picture a student who crosses their arms and looks away each time a teacher speaks versus one who leans forward with wide eyes. What would the teacher most likely feel after trying to teach each of them?",
       options: [
-        "The know-it-all student",
-        "Neither would learn",
-        "The curious listener",
-        "Both would learn the same"
+        "Equally excited to teach both students",
+        "More energized by the arms-crossed student",
+        "Drained by the first, inspired by the second",
+        "Bored by both students equally"
       ],
       correctAnswer: 2,
-      explanation: "The Zen master taught that being open and 'empty' helps us learn and grow!"
+      explanation: "An open, eager learner draws out the best teaching - the Zen master's lesson about emptying the cup works both ways!"
     },
     
     // === THE SOUND OF ONE HAND ===
@@ -104,15 +104,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "When someone asks 'What color is happiness?' - this is like the one-hand clapping question. What kind of thinking does it require?",
+      question: "Imagine the student's face after days of failed attempts - then picture it the moment he finally sat still and something shifted inside him. What physical change would appear between those two moments?",
       options: [
-        "Looking up facts in a book",
-        "Thinking creatively and differently",
-        "Asking someone else for the answer",
-        "Giving up immediately"
+        "His brow would stay just as furrowed and tense",
+        "His eyes would squeeze shut even tighter",
+        "The tension in his forehead would melt and his eyes would soften",
+        "His face would turn red with frustration"
       ],
-      correctAnswer: 1,
-      explanation: "Zen questions help us think beyond ordinary answers and see things freshly!"
+      correctAnswer: 2,
+      explanation: "The shift from effortful striving to quiet understanding shows on the face - the release of that mental struggle would visibly relax every tightened muscle!"
     },
     {
       type: "story",
@@ -121,15 +121,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "perspective",
-      question: "Visualize the difference between a regular question ('What's 2+2?') and a Zen question ('What is the sound of one hand?'). How do they affect your thinking?",
+      question: "Imagine your brain as a room. When you work on a math problem with one correct answer, the room has one door. When you sit with a Zen question, what does that room look like?",
       options: [
-        "Both need the same type of thinking",
-        "Regular questions have one answer, Zen questions open your mind",
-        "Zen questions are just silly",
-        "Neither type matters"
+        "A smaller, darker room with no doors",
+        "The same room with the same single door",
+        "A room where the walls open up into endless space",
+        "A locked room with no way in"
       ],
-      correctAnswer: 1,
-      explanation: "Zen questions aren't meant to have simple answers - they help us think in new ways!"
+      correctAnswer: 2,
+      explanation: "Zen questions aren't meant to have simple answers - they expand our thinking into territory we've never explored before!"
     },
     
     // === IS THAT SO? ===
@@ -140,15 +140,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Picture the master's face when accused and when apologized to. How would his expression change?",
+      question: "Most people accused of something they didn't do would show it on their face. What emotion would you expect to see that the master did NOT show?",
       options: [
-        "From angry to happy",
-        "From sad to excited",
-        "It stays calm both times",
-        "From calm to angry"
+        "Boredom and tiredness",
+        "Flushed cheeks, wide eyes, and a clenched jaw",
+        "A slight smile of amusement",
+        "Confusion about where he was"
       ],
-      correctAnswer: 2,
-      explanation: "The master stayed peaceful whether people blamed or praised him!"
+      correctAnswer: 1,
+      explanation: "When falsely accused, most people feel hot, tense anger that shows all over their face - but the master's inner stillness meant his face never showed those reactions at all!"
     },
     {
       type: "story",
@@ -157,15 +157,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "Imagine if someone called you the best artist ever, then later said you were terrible. How would the master's way help you?",
+      question: "Picture a mountain during a wild thunderstorm and then under warm sunshine. What part of the mountain would look different between those two moments, and what would stay exactly the same?",
       options: [
-        "Get very happy then very sad",
-        "Stay balanced, knowing you're the same person either way",
-        "Only believe the good things",
-        "Only believe the bad things"
+        "The whole mountain would change completely each time",
+        "Only the peak would remain the same while the base shifted",
+        "The surface weather would differ but the mountain's core shape would be unchanged",
+        "Nothing about the mountain would ever change at all"
       ],
-      correctAnswer: 1,
-      explanation: "Not getting too high or too low helps us stay peaceful and strong!"
+      correctAnswer: 2,
+      explanation: "The mountain metaphor shows us what the master understood - outer conditions change constantly, but a deep inner core can remain unmoved by praise or blame!"
     },
     {
       type: "story",
@@ -193,15 +193,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "where",
-      question: "Picture where the older monk left the woman after helping her. Where was she?",
+      question: "Visualize the woman's silk robes at the very start of the crossing versus the moment she was set down on the other side. What would be different about the robes in those two images?",
       options: [
-        "He kept carrying her",
-        "On the other side of the mud, safe and clean",
-        "Back where she started",
-        "In the middle of the mud"
+        "The robes would be completely soaked and brown with mud at the hem",
+        "The robes would look identical - perfectly clean both times",
+        "The robes would have changed color entirely",
+        "The robes would have torn apart during the crossing"
       ],
-      correctAnswer: 1,
-      explanation: "He simply helped her across and put her down - job done!"
+      correctAnswer: 0,
+      explanation: "The older monk carried her through deep mud - picturing the journey means imagining the mud that would have splashed onto her robes, even while she was spared the worst of it!"
     },
     {
       type: "story",
@@ -210,15 +210,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "movement",
-      question: "Visualize thoughts like packages. The older monk put his 'package' down at the river. Where is the younger monk still carrying his?",
+      question: "Visualize the younger monk's face and shoulders during those hours of silent walking after leaving the river. How would his body look compared to the older monk's?",
       options: [
-        "He put it down too",
-        "In his hands",
-        "In his mind, getting heavier",
-        "Nowhere at all"
+        "Relaxed and upright, same as the older monk",
+        "Tense and hunched, weighed down by churning thoughts",
+        "Skipping ahead with extra energy",
+        "Drooping with physical exhaustion from the mud"
       ],
-      correctAnswer: 2,
-      explanation: "Worrying about something keeps us carrying it long after it's over!"
+      correctAnswer: 1,
+      explanation: "Carrying an unresolved worry for hours shows in the body - tight shoulders, a furrowed brow, a heavy stride - even when nothing physical is being held!"
     },
     {
       type: "story",
@@ -227,15 +227,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "what",
-      question: "What's the difference between the two monks after helping the woman?",
+      question: "If you could see the two monks' thoughts as physical objects floating above their heads after the journey, what would each monk's space above him look like?",
       options: [
-        "One broke rules, one didn't",
-        "One let go, one held on to worry",
-        "One was wrong, one was right",
-        "No difference at all"
+        "Both monks would have the same swirling cloud of thoughts",
+        "The older monk's space would be clear and open; the younger monk's would be cluttered and tangled",
+        "The younger monk's space would be clear; the older monk's crowded with regret",
+        "Both monks' spaces would be completely empty"
       ],
       correctAnswer: 1,
-      explanation: "The story teaches us to help when needed, then let go instead of carrying worry!"
+      explanation: "The story teaches us to help when needed, then let go - a cleared mind looks very different from one still tangled in worry hours after an event is finished!"
     },
     
     // === MAYBE ===
@@ -246,15 +246,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "perspective",
-      question: "Picture the same event - the horse running away. The neighbors see disaster, but what does the farmer see?",
+      question: "Picture the farmer's eyes and the neighbors' eyes when the horse first runs away. How would the expression in their eyes most likely differ?",
       options: [
-        "Definitely bad news",
-        "Definitely good news",
-        "Something that might lead to anything",
-        "Nothing at all"
+        "Both sets of eyes would go wide with identical panic",
+        "The neighbors' eyes would be wide and alarmed while the farmer's would remain soft and steady",
+        "The farmer's eyes would fill with tears while the neighbors' stayed dry",
+        "All eyes would close as everyone looked away from the problem"
       ],
-      correctAnswer: 2,
-      explanation: "The farmer knows we can't always tell if something is good or bad right away!"
+      correctAnswer: 1,
+      explanation: "The farmer's 'Maybe' comes from somewhere deep inside - it would show in his calm, unhurried gaze even as his neighbors' expressions tightened with alarm!"
     },
     {
       type: "story",
@@ -280,15 +280,15 @@ const zenTalesVisualization = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize riding a roller coaster of emotions versus walking a steady path. Which is more like the farmer's approach?",
+      question: "Picture the farmer's posture and breathing as each new event arrives - a loss, then a gain, then injury, then rescue. What would stay consistent in his body through all of it?",
       options: [
-        "The emotional roller coaster",
-        "The steady, balanced path",
-        "Standing completely still",
-        "Running in circles"
+        "His shoulders would rise and fall sharply with each new event",
+        "His breathing would grow faster and more ragged each time",
+        "His posture would remain upright and his breathing slow and even",
+        "He would pace back and forth with every change"
       ],
-      correctAnswer: 1,
-      explanation: "The farmer's wisdom helps us stay balanced through life's ups and downs!"
+      correctAnswer: 2,
+      explanation: "The farmer's inner balance would show in his body - the same steady breath and unhurried posture through every twist, because his calm comes from within, not from what happens outside!"
     },
     {
       type: "story",

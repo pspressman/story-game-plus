@@ -14,15 +14,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "number",
-      question: "When you picture this group of legendary figures at the shore, how many immortals would be standing together?",
+      question: "If each immortal brought one guest along, how many figures would be standing at the shore in total?",
       options: [
-        "Exactly eight immortals",
-        "Three or four immortals",
-        "Dozens of immortals",
-        "Just one immortal"
+        "Eight figures",
+        "Sixteen figures",
+        "Four figures",
+        "Twenty figures"
       ],
-      correctAnswer: 0,
-      explanation: "The story is about the Eight Immortals, so exactly eight would be gathered at the shore."
+      correctAnswer: 1,
+      explanation: "If each of the eight immortals brought one guest, you would need to double the original group, resulting in sixteen figures at the shore."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "movement",
-      question: "If the immortals usually ride clouds to travel, how would they typically move through the sky?",
+      question: "If an immortal switched from riding a cloud to walking on solid ground, how would the feeling under their feet change?",
       options: [
-        "Walking on invisible stairs",
-        "Swimming through the air",
-        "Floating or gliding smoothly above",
-        "Jumping from star to star"
+        "From soft and shifting to hard and firm",
+        "From rough and jagged to perfectly smooth",
+        "From icy cold to scorching hot",
+        "From wet and slippery to dry sand"
       ],
-      correctAnswer: 2,
-      explanation: "Riding clouds would mean floating or gliding smoothly through the sky."
+      correctAnswer: 0,
+      explanation: "A cloud would feel soft, yielding, and constantly shifting underfoot, whereas solid ground would feel hard, stable, and firm — a very different physical sensation entirely."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "shape",
-      question: "When Li Tieguai's iron crutch transforms on the water, what shape would it need to take to carry him?",
+      question: "Before it transformed, Li Tieguai's iron crutch would have been long and narrow. How would its weight compare to a real wooden boat of the same length?",
       options: [
-        "Remaining a thin straight stick",
-        "A curved boat-like form to float",
-        "A perfect square platform",
-        "A tall tower pointing up"
+        "Much heavier, since iron is denser than wood",
+        "Much lighter, since it is hollow inside",
+        "Exactly the same weight",
+        "Weightless, because it belongs to an immortal"
       ],
-      correctAnswer: 1,
-      explanation: "To carry someone across water, the crutch would need to become a curved, boat-like shape."
+      correctAnswer: 0,
+      explanation: "Iron is far denser and heavier than wood, so a solid iron crutch the length of a boat would weigh considerably more than a wooden boat of similar size."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "size",
-      question: "For a lotus flower to carry a person across the sea, how would its size need to change?",
+      question: "If He Xiangu's lotus grew large enough to carry her like a floating island, roughly how wide would each petal need to be compared to a normal lotus petal?",
       options: [
-        "Shrink to tiny size",
-        "Stay normal flower size",
-        "Grow enormous like a platform",
-        "Disappear completely"
+        "About the same width as a normal petal",
+        "Twice as wide as a normal petal",
+        "Many times wider than a person is tall",
+        "Slightly smaller than a human hand"
       ],
       correctAnswer: 2,
-      explanation: "The lotus would need to grow enormous to support a person's weight on water."
+      explanation: "A normal lotus petal is only a few centimeters wide. To support a person standing on it like an island, each petal would need to be many times wider than a person's height."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "sound",
-      question: "As Han Xiangzi plays his magical flute while crossing, what might sea creatures below hear?",
+      question: "As Han Xiangzi plays his flute while sitting cross-legged on the open sea, how might the sound of his music differ from playing indoors?",
       options: [
-        "Thunderous drums",
-        "Complete silence",
-        "Melodious flute music drifting over water",
-        "Loud shouting voices"
+        "It would echo loudly off stone walls",
+        "It would sound muffled and absorbed by carpets",
+        "It would carry far and wide with nothing to stop it",
+        "It would become too quiet to hear at all"
       ],
       correctAnswer: 2,
-      explanation: "The magical flute would create melodious music that would drift across the water."
+      explanation: "Out on the open sea there are no walls or obstacles to reflect or absorb sound, so the flute music would travel outward in all directions and carry much farther than it would indoors."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture Lan Caihe crossing on floating flowers, what kind of movement would this require?",
+      question: "If each floating flower could only support one foot at a time, what would happen to a flower the moment Lan Caihe shifted their full weight onto the next one?",
       options: [
-        "Swimming underneath the flowers",
-        "Light hopping from flower to flower",
-        "Rolling across in a ball",
-        "Digging through the flowers"
+        "It would sink lower or bob downward under the released pressure",
+        "It would grow bigger and rise higher",
+        "It would immediately fly into the air",
+        "It would turn to stone and stay rigid"
       ],
-      correctAnswer: 1,
-      explanation: "Dancing across floating flowers would require light hopping movements from one to another."
+      correctAnswer: 0,
+      explanation: "When Lan Caihe steps off a flower onto the next one, the flower left behind is suddenly relieved of the weight pressing it down, causing it to bob back up or float more freely on the surface."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "color",
-      question: "When a royal jade tablet creates a bridge of light, what color would this magical bridge likely be?",
+      question: "Jade is naturally a deep green stone, yet it creates a golden bridge of light. What color might the glow around the tablet itself appear as the magic activates?",
       options: [
-        "Dark black shadows",
-        "Golden glowing light",
-        "Muddy brown",
-        "Invisible clearness"
+        "Pure green matching the jade's natural color",
+        "A shifting blend of green and gold where the stone meets the light",
+        "Completely black with no visible glow",
+        "Bright red like burning fire"
       ],
       correctAnswer: 1,
-      explanation: "A royal magical bridge of light would likely glow with golden radiance."
+      explanation: "Since the tablet itself is green jade but produces golden light, the area closest to the stone would likely show a blending of the jade's natural green color and the magical golden radiance it emits."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "where",
-      question: "If Zhongli Quan's fan creates winds that lift him like a balloon, where would he be in relation to the water?",
+      question: "While Zhongli Quan floats like a balloon over the sea, what would he be able to see that the immortals traveling at wave level could not?",
       options: [
-        "Deep under the water",
-        "Floating high above the waves",
-        "Skimming along the surface",
-        "Inside a underwater cave"
+        "The sand and mud under the water",
+        "A wide bird's-eye view of the sea and distant shoreline ahead",
+        "Only the clouds directly above him",
+        "The inside of the waves"
       ],
       correctAnswer: 1,
-      explanation: "Wind lifting someone like a balloon would carry them high above the water."
+      explanation: "Being lifted high into the air like a balloon would give Zhongli Quan an elevated bird's-eye view, letting him see far across the sea and spot the distant shore ahead — something impossible to see from water level."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const eightImmortals = {
     {
       type: "question",
       domain: "background",
-      question: "When the Dragon King becomes angry and creates a storm, how would the sky change?",
+      question: "When the Dragon King's rage begins to affect the sea, how would the color of the water likely change compared to a calm, clear day?",
       options: [
-        "Becoming bright and sunny",
-        "Turning completely white",
-        "Showing rainbow colors",
-        "Filling with dark storm clouds"
+        "Turning bright turquoise and sparkling",
+        "Becoming pale and almost white",
+        "Darkening to deep gray or greenish-black with churning foam",
+        "Glowing orange like sunset"
       ],
-      correctAnswer: 3,
-      explanation: "An angry Dragon King creating a storm would fill the sky with dark storm clouds."
+      correctAnswer: 2,
+      explanation: "Stormy, agitated seas reflect less sky and churn up sediment and foam, causing the water to shift from clear blue to a dark, murky gray or greenish-black — very different from the calm, lighter-colored sea on a clear day."
     },
     {
       type: "story",

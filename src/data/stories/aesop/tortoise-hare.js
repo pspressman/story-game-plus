@@ -19,15 +19,15 @@ const tortoiseHare = {
     {
       type: "question",
       domain: "mood",
-      question: "What expression would be on the Hare's face when the Tortoise challenged him to a race?",
+      question: "How would the Hare's body language most likely look as he listened to the Tortoise propose the race?",
       options: [
-        "Angry and offended",
-        "Worried and concerned",
-        "Smug and overconfident",
-        "Sad and disappointed"
+        "Hunched over with hands on knees, leaning in seriously",
+        "Standing tall with arms crossed and chin raised dismissively",
+        "Trembling and stepping backward in surprise",
+        "Bowing his head respectfully toward the Tortoise"
       ],
-      correctAnswer: 2,
-      explanation: "Since the Hare was making fun of the Tortoise and was amused at the idea of racing him, he would most likely look smug and overconfident, not taking the challenge seriously."
+      correctAnswer: 1,
+      explanation: "A creature who finds the challenge amusing and has been mocking his opponent would most likely stand tall with arms crossed and chin raised — a posture of dismissive superiority that matches his contemptuous attitude, though this physical stance is never described in the story."
     },
     {
       type: "story",
@@ -53,15 +53,15 @@ const tortoiseHare = {
     {
       type: "question",
       domain: "number",
-      question: "How many times would the Hare likely have stopped during the race?",
+      question: "How far ahead of the Tortoise would the Hare most likely have been when he decided to nap?",
       options: [
-        "No stops at all",
-        "Just once for the nap",
-        "Two or three brief stops",
-        "Many stops throughout the race"
+        "Only a few steps ahead",
+        "Roughly halfway along the course",
+        "So far ahead the Tortoise was barely visible",
+        "Already past the finish line"
       ],
-      correctAnswer: 1,
-      explanation: "In the story, the Hare is described as stopping once to take a nap to show his contempt for the Tortoise. There's no mention of other stops."
+      correctAnswer: 2,
+      explanation: "The Hare 'darted almost out of sight at once,' suggesting he built an enormous lead before stopping. Only a racer confident of being far, far ahead would feel safe enough to nap out of contempt."
     },
     {
       type: "story",

@@ -1,4 +1,3 @@
-
 const moses = {
   id: "moses",
   title: "Moses and the Exodus",
@@ -15,15 +14,15 @@ const moses = {
     {
       type: "question",
       domain: "environment",
-      question: "In your mind, what do you see when you imagine the Israelites working as slaves in Egypt?",
+      question: "If you could step into the scene of the Israelite slaves at work, what sounds would fill the air around you?",
       options: [
-        "People relaxing under palm trees and occasionally picking up a brick",
-        "Smiling workers happily building small sandcastles on a beach",
-        "People straining to carry heavy loads in the hot sun, with Egyptian overseers watching them",
-        "Children playing games while adults watch from comfortable chairs"
+        "Cheerful singing and laughter echoing across an open field",
+        "Silence, because everyone would be resting quietly in the shade",
+        "The crack of whips, the scrape of heavy stones, and the grunts of exhausted workers",
+        "Music from instruments and the splashing of a nearby fountain"
       ],
       correctAnswer: 2,
-      explanation: "Exodus describes the slavery as 'bitter' with 'harsh labor' making bricks and working in fields. Visualizing people struggling under heavy burdens in hot conditions creates an accurate mental picture of the suffering the Israelites experienced."
+      explanation: "The story describes brutal slavery with forced hard labor. Imagining the soundscape of that environment—whips, straining workers, scraping stone—requires constructing sensory details that are never written in the text but fit the harsh reality of what is described."
     },
     {
       type: "question",
@@ -45,28 +44,28 @@ const moses = {
     {
       type: "question",
       domain: "what",
-      question: "How do you picture the basket Jochebed made for her baby?",
+      question: "What materials do you think Jochebed would have gathered from her surroundings to build the basket that could keep her baby safe and dry?",
       options: [
-        "A modern plastic laundry basket with holes all over it",
-        "A tiny basket that could only fit a doll",
-        "A carefully woven basket covered with tar and pitch to make it waterproof, lined with soft cloth",
-        "A large wooden boat with sails and oars"
+        "Metal sheets and rubber strips found at a hardware market",
+        "Plastic bags and wooden planks collected from the city",
+        "River reeds woven tightly together and sealed with natural tar or pitch from the riverbank",
+        "Cotton blankets wrapped around a clay pot"
       ],
       correctAnswer: 2,
-      explanation: "Exodus describes a 'papyrus basket' coated with tar and pitch to make it waterproof. Visualizing a carefully crafted container designed both for safety and comfort helps create a mental picture of a mother's loving protection in desperate circumstances."
+      explanation: "The story only says she made a waterproof basket. To picture what she actually used, you must think about what materials would be available near the Nile—river reeds for weaving and natural tar or pitch for waterproofing—none of which are named in the text."
     },
     {
       type: "question",
       domain: "perspective",
-      question: "When you imagine Miriam watching her baby brother in the basket, what do you see from her point of view?",
+      question: "As Miriam watches from a distance, what physical sensations might she be experiencing while she waits?",
       options: [
-        "Standing in plain sight on the riverbank right next to the basket",
-        "Hiding among tall reeds, peeking out carefully to see the basket bobbing in the water",
-        "Flying high above like a bird, seeing everything from the sky",
-        "Sitting at home far away, not actually watching at all"
+        "Feeling warm and comfortable, enjoying a pleasant afternoon stroll",
+        "Heart pounding, hands trembling, and barely breathing as she strains to keep watch",
+        "Feeling bored and drowsy, struggling to stay awake",
+        "Laughing quietly to herself because she knows everything will be fine"
       ],
       correctAnswer: 1,
-      explanation: "The story says Miriam 'watched from a distance.' Visualizing her hiding among reeds while still being able to see what happens to her brother creates a realistic mental picture of how a child might hide while keeping watch."
+      explanation: "The story tells us Miriam watched from a distance, but says nothing about how she felt physically. Constructing what it would feel like to watch your baby brother floating in a river under a death sentence—the racing heart, the trembling, the held breath—requires the reader to imagine her inner experience."
     },
     {
       type: "story",
@@ -75,15 +74,15 @@ const moses = {
     {
       type: "question",
       domain: "expression",
-      question: "When you imagine Pharaoh's daughter finding the basket, what expression do you see on her face?",
+      question: "When you imagine Pharaoh's daughter lifting the crying baby from the basket, what do you think her hands and body language look like?",
       options: [
-        "Angry and annoyed at finding a baby",
-        "Frightened and running away immediately",
-        "Surprised at first, then softening with compassion when she sees the crying baby",
-        "Bored and uninterested in what she found"
+        "Tossing the basket aside roughly and crossing her arms",
+        "Cradling the baby carefully and drawing him close against her chest",
+        "Holding the basket at arm's length and turning her face away",
+        "Dropping the basket immediately and calling for guards"
       ],
-      correctAnswer: 2,
-      explanation: "Exodus tells us she 'felt sorry for him' despite knowing he was a Hebrew baby who should have been killed. Visualizing her expression changing from surprise to compassion creates a mental picture of the pivotal moment when Moses' life was spared."
+      correctAnswer: 1,
+      explanation: "The story says she felt sorry for the baby, but describes no physical gestures. Visualizing how compassion would appear in her body language—gently cradling and drawing the infant close—requires the reader to translate an emotion into physical movement that is never depicted in the text."
     },
     {
       type: "story",
@@ -126,15 +125,15 @@ const moses = {
     {
       type: "question",
       domain: "what",
-      question: "When you imagine the burning bush, what do you see?",
+      question: "As Moses stands before the burning bush, what do you imagine he would notice about the air and ground around him that would tell him something supernatural was happening?",
       options: [
-        "A small, barely visible flame on one leaf",
-        "A normal fire gradually consuming the bush and turning it to ash",
-        "Bright flames covering the entire bush without consuming it, perhaps with an unusual color or glow",
-        "Fireworks shooting out from behind a normal-looking bush"
+        "The air would feel cold and damp, with puddles forming on the ground",
+        "Everything would look completely normal with no unusual signs at all",
+        "An intense warmth radiating outward, perhaps a strange stillness, and the ground feeling charged or holy beneath his feet",
+        "Rain pouring down from a dark cloud directly above the bush"
       ],
       correctAnswer: 2,
-      explanation: "Exodus describes 'flames of fire' coming from the middle of the bush, yet 'the bush was not consumed.' Visualizing bright, supernatural fire that doesn't destroy the bush creates a mental picture of this miraculous sign that caught Moses' attention."
+      explanation: "The story describes the bush burning without being consumed, but says nothing about what Moses sensed in the surrounding environment. Imagining the radiating heat, the eerie stillness, and the charged atmosphere around such a supernatural event requires constructing sensory details entirely absent from the text."
     },
     {
       type: "question",
@@ -156,15 +155,15 @@ const moses = {
     {
       type: "question",
       domain: "environment",
-      question: "When you picture the parting of the Red Sea, what do you see?",
+      question: "As the Israelites walk through the parted Red Sea, what do you imagine they would see and feel on either side of them?",
       options: [
-        "A tiny stream that people could easily step across",
-        "Two walls of water standing up on either side, creating a dry path through the middle",
-        "People swimming across the sea with no miracle happening",
-        "A bridge made of rocks appearing above the water"
+        "Soft sandy beaches with calm waves lapping gently at their ankles",
+        "Towering walls of churning water beside them, sea creatures visible within, and damp ground beneath their feet",
+        "Nothing unusual—it would look like walking through a dry meadow",
+        "Thick walls of solid ice glittering in the sunlight on both sides"
       ],
       correctAnswer: 1,
-      explanation: "Exodus describes the sea divided with water forming walls on both sides and dry ground in the middle. Visualizing two towering walls of water with a path between them creates a mental picture that captures the miraculous nature of this famous biblical event."
+      explanation: "The story only says God miraculously parted the Red Sea, giving no description of what the experience looked like from inside it. Imagining the towering water walls, the sea life suspended within them, and the texture of the exposed seabed requires constructing a vivid scene from details the text never provides."
     },
     {
       type: "story",

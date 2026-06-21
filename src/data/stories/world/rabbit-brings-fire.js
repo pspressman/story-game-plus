@@ -15,15 +15,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture where the fire was kept, what would you see?",
+      question: "If you could see the animals trying to reach the fire, what obstacle would stand between them and it?",
       options: [
-        "A fire burning in the middle of a forest",
-        "Fire kept on a high island by Thunder Beings",
-        "Fire hidden deep underground in a cave",
-        "Fire floating in the clouds above"
+        "A dense forest full of tangled trees",
+        "A stretch of open water surrounding the island",
+        "A tall mountain covered in snow",
+        "A deep canyon with no bridge"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us the Thunder Beings kept the only fire in the world on a high island, so you would visualize fire on an island surrounded by water."
+      explanation: "Because the fire was kept on a high island, you would need to picture a body of water separating the animals from it — the story never describes this water directly, but an island requires it."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "color",
-      question: "In your mental image, what color would Raven's feathers become after his attempt to get fire?",
+      question: "Before Raven's failed attempt, what color would you imagine his feathers had originally been?",
       options: [
-        "Bright white like fresh snow",
-        "Golden yellow like sunshine",
-        "Black from being singed by flames",
-        "Green like forest leaves"
+        "Jet black, the same as they are now",
+        "Bright white or pale, contrasting with his burnt appearance",
+        "Spotted brown like a hawk",
+        "Deep blue like the night sky"
       ],
-      correctAnswer: 2,
-      explanation: "The story explains that the flames singed Raven's feathers and turned them black forever, so you would picture his feathers changing to black."
+      correctAnswer: 1,
+      explanation: "The story says the flames turned Raven's feathers black 'forever,' implying they were a different color before. You must infer and visualize what he looked like originally — most likely pale or white — since the change to black was the consequence of the fire."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "size",
-      question: "When you visualize Water Spider compared to the other animals, how would she appear?",
+      question: "If you pictured Water Spider's woven basket sitting next to an ordinary pebble, how would its size compare?",
       options: [
-        "Much larger than all the other animals",
-        "About the same size as Raven",
-        "Very small compared to the other animals",
-        "Invisible, so you couldn't see her"
+        "Much larger than the pebble, about the size of a bucket",
+        "Roughly the same size or smaller than the pebble",
+        "About as big as a cooking pot",
+        "Large enough for a small bird to sit in"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Water Spider as very small, which helped her move quietly without being noticed by the Thunder Beings."
+      correctAnswer: 1,
+      explanation: "The story calls Water Spider very small and says she wove a tiny basket. To carry a single coal on her back, the basket would need to be proportional to her size — roughly pebble-sized or smaller — something you must visualize since no exact dimensions are given."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would Water Spider move as she tried to carry the heavy coal back?",
+      question: "How would Water Spider's eight legs likely move differently once the coal's weight started pulling her down?",
       options: [
-        "Flying quickly through the air",
-        "Sinking down into the water from the weight",
-        "Running across the surface easily",
-        "Floating motionless on top of the water"
+        "Stretching out wide and still on the surface to stay balanced",
+        "Churning frantically in all directions just to keep moving",
+        "Folding neatly beneath her body as she glided smoothly",
+        "Kicking in long, powerful strokes like a swimmer"
       ],
       correctAnswer: 1,
-      explanation: "The story says the coal was too heavy for the small spider and she sank into the water, so you would picture her struggling and sinking down."
+      explanation: "The story only says she sank; it never describes her leg movements. You must visualize a tiny spider overloaded by weight and infer that her many legs would scramble desperately rather than move in any controlled way."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture Rabbit preparing for his mission, what would be on top of his head?",
+      question: "How would Rabbit's head look to the other animals while he was applying the sap, before any fire touched it?",
       options: [
-        "A hat made of leaves and twigs",
-        "Sticky tree sap making his fur stand up",
-        "Nothing different from normal",
-        "Colorful feathers like a bird"
+        "Smooth and flat, pressed down by the wet sap",
+        "Spiky and glistening, with clumped fur pointing upward",
+        "Completely shaved and bare on top",
+        "Covered in colorful feathers he had borrowed"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us Rabbit rubbed sticky tree sap all over the top of his head until his fur stood up straight as part of his plan."
+      explanation: "The story says the sap made his fur stand up straight, but never describes the glistening, clumped, spiky texture that sticky sap on fur would create. You must visualize that detail yourself."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "mood",
-      question: "In your visualization, what would Rabbit's expression look like as he stuck his head in the fire?",
+      question: "As Rabbit crouched behind the rocks waiting for the right moment, what would his body language most likely look like?",
       options: [
-        "Scared and ready to run away quickly",
-        "Sleepy and moving very slowly",
-        "Angry and wanting to fight",
-        "Confused about what to do"
+        "Tense and coiled, with ears pressed flat and muscles ready to spring",
+        "Relaxed and sprawled out, resting before making his move",
+        "Standing tall and proud, looking around boldly",
+        "Trembling so hard that the rocks around him shook"
       ],
       correctAnswer: 0,
-      explanation: "Since Rabbit was doing something dangerous and needed to escape quickly, you would picture him looking determined but ready to run fast."
+      explanation: "The story never describes Rabbit hiding behind the rocks — only that he did. You must infer what a small, clever animal in a dangerous situation would look like while waiting for the perfect moment: tightly wound, low to the ground, ears down to avoid detection."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you imagine looking at Rabbit swimming back to shore, what would you see on his head?",
+      question: "If you were one of the Thunder Beings watching Rabbit escape across the water, what would the scene look like from your viewpoint on the island?",
       options: [
-        "Nothing unusual at all",
-        "A bright flame burning like a torch",
-        "Water dripping down his face",
-        "A nest with baby birds"
+        "A dark silhouette slowly sinking below the surface",
+        "A small moving light shrinking into the distance as Rabbit swam away",
+        "A large creature walking calmly across the water toward shore",
+        "Nothing visible because it was too dark to see anything"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Rabbit swimming with fire still burning on his head like a torch, creating a dramatic image of him carrying the flame across the water."
+      explanation: "The story never describes what the Thunder Beings saw. You must infer their perspective: Rabbit carrying fire on his head would appear as a tiny, glowing point of light moving away and growing smaller as the distance increased."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const rabbitBringsFire = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture rabbits today, what would you see on top of their heads because of this story?",
+      question: "If you looked closely at the skin underneath the bald spot on a rabbit's head, what texture would you expect it to have compared to the rest of its skin?",
       options: [
-        "Extra thick, fluffy fur",
-        "Colorful patterns and designs",
-        "A small bald spot where the fire burned",
-        "Tiny horns like a deer"
+        "Smoother and slightly toughened, like healed scar tissue",
+        "Exactly the same as the rest of its body",
+        "Covered in tiny scales like a reptile",
+        "Soft and pink like a newborn animal"
       ],
-      correctAnswer: 2,
-      explanation: "The story explains that Rabbit's fur was burned away, which is why rabbits today have a little bald spot on their heads as a reminder of his sacrifice."
+      correctAnswer: 0,
+      explanation: "The story only says the fur was burned away — it never describes the skin beneath. You must infer that skin exposed to fire and healed over time would likely feel smoother and tougher than undamaged skin, like a scar."
     },
     {
       type: "story",

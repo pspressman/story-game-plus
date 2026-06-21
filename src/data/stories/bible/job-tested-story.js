@@ -32,15 +32,15 @@ const jobTested = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture these messengers arriving one after another with terrible news, how would they be moving?",
+      question: "As each messenger delivered his devastating report, what would happen to Job's body posture with each new piece of news?",
       options: [
-        "Walking slowly and calmly",
-        "Running and stumbling in panic",
-        "Dancing happily",
-        "Crawling on their stomachs"
+        "He would stand taller and straighter with each report",
+        "He would gradually sink lower, shoulders collapsing under the weight",
+        "He would spin around looking for someone to blame",
+        "He would leap up and pace faster and faster"
       ],
       correctAnswer: 1,
-      explanation: "Messengers bringing urgent terrible news would run in panic and distress."
+      explanation: "Each successive blow of terrible news would physically weigh a person down, causing their posture to crumple and shoulders to cave inward as the cumulative shock overwhelmed them."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const jobTested = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental picture, when Job tears his robe after losing everything, what is he expressing?",
+      question: "If you could see Job's hands immediately after hearing that all his children were dead, what would they look like?",
       options: [
-        "Extreme grief and sorrow",
-        "Happiness and celebration",
-        "Being too warm",
-        "Fashion preferences"
+        "Steady and relaxed, resting calmly at his sides",
+        "Shaking and clenched, perhaps clutching torn fabric",
+        "Busy writing down a list of what was lost",
+        "Clapping together in a steady rhythm"
       ],
-      correctAnswer: 0,
-      explanation: "Tearing clothes was an ancient way to express extreme grief and mourning."
+      correctAnswer: 1,
+      explanation: "The sudden shock of losing all his children at once would cause Job's hands to tremble uncontrollably, and having just torn his robe, his fingers would likely still grip the torn cloth tightly."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const jobTested = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you were watching Job worship after losing everything, what would seem most surprising about his response?",
+      question: "If you could see Job's face as he worshiped God right after losing his children and wealth, what expression would you most likely see?",
       options: [
-        "That he fell on the ground",
-        "That he spoke at all",
-        "That he went home",
-        "That he blessed God instead of cursing"
+        "A wide, carefree smile of someone with no worries",
+        "Tear-streaked cheeks and a trembling jaw still turned upward in reverence",
+        "A blank, unfeeling stare showing he felt nothing",
+        "Bright, excited eyes like someone receiving a gift"
       ],
-      correctAnswer: 3,
-      explanation: "Most people would curse or blame God after such losses, but Job blessed Him instead."
+      correctAnswer: 1,
+      explanation: "Job had just suffered devastating losses, so his face would still carry visible grief — wet with tears and trembling — yet tilted upward in worship, showing that his faith coexisted with his pain rather than replacing it."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const jobTested = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Job sitting and scraping his sores, where would he be?",
+      question: "When you picture Job sitting in ashes scraping his sores, what would the ground immediately around him look like?",
       options: [
-        "On a comfortable bed",
-        "In an ash heap outside town",
-        "In the palace throne room",
-        "At the dinner table"
+        "Soft green grass with scattered flowers",
+        "Gray and powdery with shards of broken pottery nearby",
+        "Polished marble tiles kept clean by servants",
+        "Wet mud churned up by heavy rain"
       ],
       correctAnswer: 1,
-      explanation: "People with diseases were often isolated outside town, and Job sat in ashes showing mourning."
+      explanation: "Job sat in ashes and used broken pottery to scrape himself, so the ground around him would be covered in gray ash dust with fragments of shattered pottery scattered close by."
     },
     {
       type: "story",

@@ -49,15 +49,15 @@ const godOurRefuge = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture your body in a tiny boat on huge waves versus in a steady fortress watching those same waves. How would your body feel different?",
+      question: "Imagine a tall stone fortress wall and a raging flood crashing against its base. Picture what the water would do when it hits those immovable walls. What movement would you see?",
       options: [
-        "Tossing and unsteady versus calm and secure",
-        "Both would feel the same",
-        "Calmer in the boat",
-        "Sick in both places"
+        "The water would push the walls inward",
+        "The walls would dissolve into the flood",
+        "The flood would surge and churn but the walls would not budge",
+        "The water would flow smoothly through the gates"
       ],
-      correctAnswer: 0,
-      explanation: "The psalm contrasts chaos outside with stability inside God's protection!"
+      correctAnswer: 2,
+      explanation: "The psalm contrasts chaos outside with stability inside God's protection — the fortress stands firm no matter how violently the waters move against it!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const godOurRefuge = {
     {
       type: "question",
       domain: "what",
-      question: "When the psalm says 'Be still,' picture what happens to churning, worried thoughts when we become physically still and quiet. What would happen in your mind?",
+      question: "Imagine a glass of muddy, swirling water. Picture what happens to the mud and sediment if you set the glass down and leave it completely still for a long time. What would the water look like?",
       options: [
-        "Thoughts speed up more",
-        "Thoughts stay churning",
-        "Nothing changes",
-        "Thoughts slow and calm down"
+        "The mud would swirl faster on its own",
+        "The water would stay murky and cloudy",
+        "The mud would settle and the water would gradually become clear",
+        "The water would turn completely solid"
       ],
-      correctAnswer: 3,
-      explanation: "The psalm teaches that stillness helps us remember God's protection and feel His peace!"
+      correctAnswer: 2,
+      explanation: "The psalm teaches that stillness helps us remember God's protection and feel His peace — just as settled water becomes clear, a still heart can see God's truth more clearly!"
     },
     {
       type: "story",

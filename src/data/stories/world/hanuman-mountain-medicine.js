@@ -15,15 +15,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture Hanuman, what kind of animal would he be?",
+      question: "If you were to imagine Hanuman standing next to an ordinary forest monkey, how would he appear different?",
       options: [
-        "A large elephant with big ears",
-        "A golden-orange monkey with a long tail",
-        "A colorful peacock with fancy feathers",
-        "A strong tiger with black stripes"
+        "Smaller and quieter than an ordinary monkey",
+        "Identical in every way to a normal monkey",
+        "Far larger and radiating a powerful, heroic presence",
+        "Thinner and more fragile looking"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes Hanuman as a monkey with golden-orange fur and a long tail that helped him balance."
+      correctAnswer: 2,
+      explanation: "Since Hanuman had the strength of a hundred elephants and could fly through the sky, you would picture him as far larger and more powerful looking than an ordinary forest monkey."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "size",
-      question: "When you visualize Hanuman preparing for his journey, how big would he make himself?",
+      question: "When you imagine Hanuman spreading his arms wide like giant wings before leaping, what would the trees and hills around him look like by comparison?",
       options: [
-        "As small as a regular monkey",
-        "About the size of a person",
-        "As large as a mountain",
-        "So tiny you couldn't see him"
+        "Towering above him since he stayed small",
+        "About the same height as his shoulders",
+        "Tiny like blades of grass next to his enormous body",
+        "Completely hidden behind thick clouds"
       ],
       correctAnswer: 2,
-      explanation: "The story tells us Hanuman made himself grow as large as a mountain before his great leap, so you would picture him becoming enormous."
+      explanation: "Since Hanuman grew as large as a mountain, everything around him — trees, hills, and buildings — would look tiny like blades of grass compared to his enormous form."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "perspective",
-      question: "In your mind, if you were a person on the ground looking up, what would you see flying overhead?",
+      question: "If you imagine standing on the ground as Hanuman passed overhead, what would the sound around you be like?",
       options: [
-        "A normal bird flying slowly",
-        "A giant golden monkey racing across the sky",
-        "Nothing at all in the empty sky",
-        "A regular airplane with passengers"
+        "Complete silence with no disturbance at all",
+        "A gentle birdsong getting louder then fading",
+        "A powerful rushing whoosh of wind shaking the trees",
+        "A soft tinkling like distant wind chimes"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes people looking up and seeing a giant flying monkey, with his golden fur gleaming like a shooting star crossing the sky."
+      correctAnswer: 2,
+      explanation: "Since Hanuman was enormous and flying faster than the wind, you would imagine a powerful rush of displaced air roaring past, shaking the trees around you as he streaked overhead."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the scene on the mountain where Hanuman searched, what would the setting look like?",
+      question: "When you picture Hanuman searching the mountain, what would the sky look like on the horizon to show how little time he had left?",
       options: [
-        "Bright daylight with clear visibility",
-        "Dark nighttime with many plants everywhere",
-        "A desert with no plants at all",
-        "Inside a cave with no plants visible"
+        "Completely pitch black with no change in color",
+        "A faint pale glow beginning to creep along the edge of the sky",
+        "A bright blazing sun already fully risen",
+        "A deep red sunset with colorful clouds"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions Hanuman searching in darkness with dawn approaching, and there were hundreds of healing plants growing everywhere on the mountain."
+      explanation: "Since dawn was approaching and time was running out, you would picture a faint pale glow just beginning to appear on the horizon — a warning that sunrise and the deadline were very close."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "movement",
-      question: "In your visualization, how would Hanuman carry the mountain through the sky?",
+      question: "When you picture Hanuman digging his hands into the earth to lift the mountain peak, what would the ground around him look like as he pulled it free?",
       options: [
-        "Dragging it slowly along the ground",
-        "Holding the whole mountain peak above his head while flying",
-        "Pushing it in front of him like a wheelbarrow",
-        "Carrying it in a small bag"
+        "Perfectly smooth and undisturbed, as if nothing happened",
+        "Cracking apart with chunks of rock and soil flying outward",
+        "Slowly melting away like ice in warm water",
+        "Covered in a soft blanket of fresh snow"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Hanuman lifting the entire mountain peak and carrying it back through the sky, so you would picture him holding it overhead while flying."
+      explanation: "Since Hanuman had the strength of a hundred elephants and was tearing a mountain peak from the earth, you would picture the ground cracking and splitting apart with huge chunks of rock and soil bursting outward from the force."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const hanumanMountainMedicine = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental picture, what time would it be when Hanuman returned with the mountain?",
+      question: "In your mental picture, what would Lakshmana's face look like the moment after he was healed, compared to how he looked while unconscious?",
       options: [
-        "The middle of a dark night",
-        "Bright afternoon with the sun high overhead",
-        "Early morning as the sun was beginning to rise",
-        "Late evening as the sun was setting"
+        "Still pale and motionless, unchanged from before",
+        "Twisted in pain and confusion",
+        "Flushed with color returning and eyes brightening with life",
+        "Deeply asleep and impossible to wake"
       ],
       correctAnswer: 2,
-      explanation: "The story says Hanuman flew back just as the sun was beginning to rise, so you would picture the early morning with sunrise starting."
+      explanation: "Since Lakshmana went from lying unconscious and near death to being completely healed, you would picture color flooding back into his face and his eyes brightening with life as he opened them and smiled."
     },
     {
       type: "story",

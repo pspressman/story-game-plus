@@ -14,15 +14,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture the giant's footsteps approaching the cave, what would they sound like?",
+      question: "When you picture the men huddled inside the cave hearing the owner approach, what sound would arrive first before anything came into view?",
       options: [
-        "Soft tiptoeing like a cat",
-        "Quick tapping like rain",
-        "Splashing through water",
-        "Deep booming thuds that shake the ground"
+        "A high-pitched whistle from the wind",
+        "A rhythmic splashing like oars in water",
+        "A slow, thunderous impact with each step, growing louder",
+        "A light rustling like leaves underfoot"
       ],
-      correctAnswer: 3,
-      explanation: "A giant would make deep, booming footsteps that would shake the ground with each step."
+      correctAnswer: 2,
+      explanation: "A creature large enough to shake the ground would send slow, thunderous vibrations through the stone floor with every step, each impact louder than the last as it drew closer — a terrifying sound the men would feel as much as hear."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental image of the cyclops's face, where would his single eye be located?",
+      question: "In your mental image of the cyclops's face, where would his nose be positioned relative to his single eye?",
       options: [
-        "On the left side of his face",
-        "In the center of his forehead",
-        "On his chin",
-        "On the right side of his face"
+        "Above the eye, near his hairline",
+        "Directly below the eye, centered on his face",
+        "Off to the left side of the eye",
+        "Behind the eye, hidden from view"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us the cyclops had one eye in the middle of his forehead, so it would be centered above his nose."
+      explanation: "Since the cyclops has only one eye where two would normally be, his nose would still sit directly below it, centered on his face just as on a human, giving his face a strangely symmetrical look despite the single eye."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "shape",
-      question: "In your mental image, what would the sharpened end of the pole look like?",
+      question: "In your mental image, how would the sharpened end of the pole compare in appearance to the unsharpened end?",
       options: [
-        "Flat like a paddle",
-        "Round like a ball",
-        "Pointed like a giant pencil",
-        "Square like a box"
+        "Both ends would look identical and flat",
+        "The sharpened end would be wider and rounder than the other",
+        "The sharpened end would taper to a narrow tip while the other stayed thick and blunt",
+        "The sharpened end would be curved like a hook"
       ],
       correctAnswer: 2,
-      explanation: "They sharpened the pole to a point, so it would look like a giant pencil or spear tip."
+      explanation: "Sharpening a wooden pole means carving away the wood so it narrows gradually to a fine tip, creating a stark contrast with the thick, rough, unworked end — like a massive wooden spike."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize the blinded cyclops shouting for help, what would his eye look like now?",
+      question: "When you visualize the cyclops's face as he stumbles around the cave after being blinded, what expression would you expect to see?",
       options: [
-        "Wide open and clear",
-        "Glowing bright red",
-        "Closed or injured and unable to see",
-        "Turned completely white"
+        "A calm, peaceful look with eyes gently closed",
+        "A wide grin showing he found it amusing",
+        "A twisted grimace of agony with his ruined eye screwed shut",
+        "A look of mild surprise with his eye wide open"
       ],
       correctAnswer: 2,
-      explanation: "After being blinded, the cyclops's eye would be closed or damaged and unable to see."
+      explanation: "A creature in tremendous pain from a blinding injury would instinctively contort its face — screwing the damaged eye tightly shut and baring teeth in a grimace of agony, an expression of raw suffering that matches his terrible cries."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "touch",
-      question: "When you picture the cyclops feeling the sheep's backs, what would he be checking for?",
+      question: "When you picture the cyclops pressing his hand down on a sheep's back, what would the wool feel like against his palm?",
       options: [
-        "Soft wool only",
-        "The sheep's heartbeat",
-        "Cold or warmth",
-        "Men riding on top"
+        "Smooth and slippery like wet stone",
+        "Hard and rigid like wood",
+        "Thick and dense like a cushion",
+        "Sharp and bristly like thorns"
       ],
-      correctAnswer: 3,
-      explanation: "The cyclops was checking for men trying to escape by riding on the sheep's backs."
+      correctAnswer: 2,
+      explanation: "Sheep wool is thick and densely packed, so it would feel like pressing into a cushion — soft but with resistance. This dense texture is also what made it possible for men to cling underneath without being easily noticed."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const odysseusCyclops = {
     {
       type: "question",
       domain: "perspective",
-      question: "In your mental image, from the cyclops's position above, what would he be able to feel?",
+      question: "In your mental image, what would a man clinging to a sheep's belly look like from the side as the sheep walked past?",
       options: [
-        "The men hanging underneath",
-        "Only the tops of the sheep's woolly backs",
-        "The sheep's feet on the ground",
-        "The cave ceiling"
+        "Clearly visible, dangling below the sheep's body",
+        "Hidden from view, tucked up close against the underside with the wool covering him",
+        "Sitting upright on the sheep's back in plain sight",
+        "Crawling on the ground behind the sheep"
       ],
       correctAnswer: 1,
-      explanation: "Standing above and reaching down, the cyclops could only feel the tops of the sheep's backs, not underneath where the men were hidden."
+      explanation: "Clinging tightly to the belly and wrapped in thick wool, a man would be pressed up against the underside of the sheep, making him nearly invisible from the side — especially to a blind cyclops who could only reach down from above."
     },
     {
       type: "story",

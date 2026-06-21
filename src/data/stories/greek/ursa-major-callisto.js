@@ -15,15 +15,15 @@ const ursaMajorCallisto = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture Callisto in the forest, what would she be carrying?",
+      question: "When you picture Callisto returning home after a long day of hunting, what would her hair most likely look like?",
       options: [
-        "A basket of flowers and fruits",
-        "A silver bow and arrows for hunting",
-        "A golden mirror and jewelry",
-        "A fishing net and pole"
+        "Perfectly neat and decorated with flowers",
+        "Tangled and wild from moving through forest branches",
+        "Freshly washed and braided smoothly",
+        "Hidden completely under a hat"
       ],
       correctAnswer: 1,
-      explanation: "Callisto was a huntress who carried a silver bow and arrows, just like the goddess Diana."
+      explanation: "After a long day hunting through dense forest, Callisto's long, flowing hair would almost certainly become tangled and wild from brushing against branches and bushes — something the story never describes but a reader can easily imagine."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const ursaMajorCallisto = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Hera's face as she planned to curse Callisto, what expression would you see?",
+      question: "When you picture Hera watching Zeus admire Callisto, what would Hera's hands most likely be doing?",
       options: [
-        "Happy and smiling with joy",
-        "Angry and frowning with jealousy",
-        "Confused and puzzled",
-        "Sleepy and yawning"
+        "Clapping enthusiastically with approval",
+        "Clenched tightly into fists at her sides",
+        "Relaxed and open, resting gently in her lap",
+        "Waving cheerfully at Callisto"
       ],
       correctAnswer: 1,
-      explanation: "Hera would look angry and jealous, with a frowning face as she planned her revenge against Callisto."
+      explanation: "A person consumed by jealousy and rage typically clenches their fists — it is a natural physical response to those emotions. The story tells us how Hera felt, but never describes what her body was doing in that moment."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const ursaMajorCallisto = {
     {
       type: "question",
       domain: "shape",
-      question: "When you picture Callisto after the transformation, what shape would her body have?",
+      question: "When you picture Callisto the moment the transformation began, what would the change look like halfway through?",
       options: [
-        "Tall and thin like a person standing up",
-        "Round and furry like a large bear on four legs",
-        "Long and slithery like a snake",
-        "Small and delicate like a butterfly"
+        "She would glow white and then vanish completely",
+        "Her human features would blur and stretch as fur slowly covered her skin",
+        "She would shrink into a tiny seed before growing back as a bear",
+        "She would split into two separate creatures"
       ],
       correctAnswer: 1,
-      explanation: "Callisto was transformed into a bear, so she would have a round, furry body walking on four legs."
+      explanation: "The story only describes the before and after of the transformation. To imagine what the mid-transformation moment looked like — features blurring, limbs stretching, fur spreading — a reader must construct that image entirely from their own visualization."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const ursaMajorCallisto = {
     {
       type: "question",
       domain: "where",
-      question: "When you imagine this dangerous moment, where would Arcas be positioned compared to the bear?",
+      question: "When you imagine the bear recognizing Arcas in the forest, where would the bear most likely be standing?",
       options: [
-        "Far away, unable to see the bear",
-        "Standing close with his bow aimed at the bear",
-        "Running away from the bear in fear",
-        "Sitting down eating lunch"
+        "High on a hill looking down at Arcas from a great distance",
+        "Partially hidden among the trees at the edge of a clearing",
+        "Sitting openly in the center of a wide, open field",
+        "Submerged in a river with only its head above water"
       ],
       correctAnswer: 1,
-      explanation: "Arcas would be close enough to hunt, with his bow aimed at the bear, not knowing it was his mother."
+      explanation: "Bears naturally seek cover near the tree line rather than standing exposed in the open. The story does not describe the setting of this encounter, so picturing the bear half-hidden among forest trees requires the reader to construct the scene mentally."
     },
     {
       type: "story",

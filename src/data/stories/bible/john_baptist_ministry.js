@@ -1,7 +1,7 @@
 // src/data/stories/bible/john-baptist-ministry.js
 const johnBaptistMinistry = {
   id: "john-baptist-ministry",
-  title: "John the Baptist and the Beginning of Jesus’ Ministry",
+  title: "John the Baptist and the Beginning of Jesus' Ministry",
   icon: "🌊",
   difficulty: "Medium",
   theme: "Calling",
@@ -15,7 +15,7 @@ const johnBaptistMinistry = {
     {
       type: "question",
       domain: "shape",
-      question: "When you picture John’s wild hair and camel-skin clothes, what shape might his overall look remind you of?",
+      question: "When you picture John's wild hair and camel-skin clothes, what shape might his overall look remind you of?",
       options: [
         "A smooth and perfect triangle",
         "A fuzzy, tangled cloud",
@@ -23,7 +23,7 @@ const johnBaptistMinistry = {
         "A flat, blank sheet of paper"
       ],
       correctAnswer: 1,
-      explanation: "John’s wild look would be rough and tangled—like a fuzzy cloud!"
+      explanation: "John's wild look would be rough and tangled—like a fuzzy cloud!"
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const johnBaptistMinistry = {
     {
       type: "question",
       domain: "movement",
-      question: "When you imagine people being baptized in a river, how would their movements look?",
+      question: "If you watched someone walk into the Jordan River for baptism, what would the water around their legs most likely look like?",
       options: [
-        "Dancing with fast twirls",
-        "Splashing and leaping around",
-        "Slowly stepping into water and gently dipping down",
-        "Jumping like frogs on lily pads"
+        "Completely still like glass with no ripples",
+        "Boiling and bubbling from the heat",
+        "Splashing in wide circular ripples spreading outward",
+        "Frozen solid around their feet"
       ],
       correctAnswer: 2,
-      explanation: "Baptism is calm and careful—people step slowly into the water and dip down."
+      explanation: "As a person wades into a river, their legs push against the current and create ripples that spread outward in circles around them."
     },
     {
       type: "story",
@@ -49,19 +49,19 @@ const johnBaptistMinistry = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine the sky opening and God's voice speaking, what sound would fill the air?",
+      question: "If everyone standing at the river heard the voice from heaven, what would likely happen to the crowd in the moments right after?",
       options: [
-        "A whisper like leaves",
-        "A deep and powerful voice",
-        "A barking dog",
-        "A baby laughing"
+        "They would all burst into loud cheering and clapping",
+        "They would fall completely silent, holding their breath",
+        "They would laugh and go back to their conversations",
+        "They would run away in opposite directions"
       ],
       correctAnswer: 1,
-      explanation: "God’s voice from heaven would likely sound deep, strong, and powerful."
+      explanation: "A sudden, unexpected voice from an open sky would most likely freeze people into stunned silence—too overwhelmed to make a sound."
     },
     {
       type: "story",
-      text: "Right after this, Jesus went into the wilderness alone. For forty days, he didn’t eat. He was tired and hungry. Satan came to tempt him with food, power, and safety—but Jesus said no every time."
+      text: "Right after this, Jesus went into the wilderness alone. For forty days, he didn't eat. He was tired and hungry. Satan came to tempt him with food, power, and safety—but Jesus said no every time."
     },
     {
       type: "question",
@@ -83,19 +83,19 @@ const johnBaptistMinistry = {
     {
       type: "question",
       domain: "number",
-      question: "When you visualize Jesus teaching for the first time, how many people would you see gathering around him?",
+      question: "If you could see the expressions on the faces of the people gathering around Jesus, what would they most likely look like?",
       options: [
-        "None—he was completely alone",
-        "Just one curious animal",
-        "A small but growing group of people",
-        "A huge stadium crowd with fireworks"
+        "Bored and yawning, looking away",
+        "Wide-eyed and leaning in with curiosity",
+        "Angry and crossing their arms",
+        "Asleep standing up"
       ],
-      correctAnswer: 2,
-      explanation: "At first, people came in smaller groups—but his crowd grew as more followed him."
+      correctAnswer: 1,
+      explanation: "People amazed by wisdom and kindness would lean in with wide, curious eyes—drawn in by something they had never quite seen before."
     },
     {
       type: "story",
-      moral: "John prepared people’s hearts, and Jesus began with obedience, strength, and quiet power. True beginnings often come after quiet preparation."
+      moral: "John prepared people's hearts, and Jesus began with obedience, strength, and quiet power. True beginnings often come after quiet preparation."
     }
   ]
 };

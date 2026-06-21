@@ -14,15 +14,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture a patriotic poet writing about his beloved homeland, what emotion would show on his face?",
+      question: "If you could see Qu Yuan's hands as he wrote poems praising his homeland's rivers and mountains, what would they look like?",
       options: [
-        "Boredom and disinterest",
-        "Deep love and passion",
-        "Anger and hatred",
-        "Confusion and fear"
+        "Trembling with rage and pressing hard into the page",
+        "Moving slowly and tenderly, as if touching something precious",
+        "Fidgeting and restless, unable to stay still",
+        "Stiff and mechanical, rushing to finish quickly"
       ],
       correctAnswer: 1,
-      explanation: "A patriotic poet writing about his homeland would show deep love and passion on his face."
+      explanation: "A poet writing with deep devotion about a beloved homeland would handle the task with tenderness and care — his hands moving gently, as though the act of writing were itself an act of love."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "where",
-      question: "When banished from the capital city, where would Qu Yuan have to go?",
+      question: "Banished and forced to wander far from the royal court, what kind of shelter would Qu Yuan most likely have to sleep in?",
       options: [
-        "To a bigger palace",
-        "To remote countryside villages",
-        "To the moon",
-        "Under the ocean"
+        "A grand palace with servants",
+        "A comfortable inn paid by the king",
+        "Humble huts or rough outdoor shelters",
+        "A fortified military camp"
       ],
-      correctAnswer: 1,
-      explanation: "Being banished from the capital means being sent to remote countryside areas far from power."
+      correctAnswer: 2,
+      explanation: "A banished minister stripped of power and position would have no access to luxury, and would likely find shelter in humble rural huts or sleep outdoors during his wandering exile."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "what",
-      question: "When Qu Yuan walks to the river carrying a heavy stone, what does this suggest about his intentions?",
+      question: "As Qu Yuan walked toward the Miluo River clutching a heavy stone, what would his footsteps most likely look and sound like?",
       options: [
-        "He wants to build a bridge",
-        "He plans to throw it at enemies",
-        "He intends to sink himself in the river",
-        "He's going to sharpen his sword"
+        "Light and quick, sprinting with excitement",
+        "Shuffling and unsteady, weighed down physically and emotionally",
+        "Loud and stomping, filled with rage",
+        "Bouncy and skipping, as if carefree"
       ],
-      correctAnswer: 2,
-      explanation: "Carrying a heavy stone to water suggests he intends to use it to sink himself in grief."
+      correctAnswer: 1,
+      explanation: "A man crushed by grief and carrying a heavy stone would move with slow, dragging steps — his body reflecting the unbearable weight he carried both in his arms and in his heart."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "sound",
-      question: "As fishermen rush to save Qu Yuan, what would fill the air?",
+      question: "As the fishermen desperately searched the river for Qu Yuan without success, what sounds would gradually fade as hope diminished?",
       options: [
-        "Complete silence",
-        "Soft lullabies",
-        "Drum beats and splashing oars",
-        "Bird songs"
+        "Soft lullabies growing quieter",
+        "Bird songs dying down at sunset",
+        "The frantic shouting of his name and urgent calls between boats",
+        "Temple bells ringing in the distance"
       ],
       correctAnswer: 2,
-      explanation: "The rescue attempt would fill the air with drum beats and the sound of splashing oars."
+      explanation: "During a desperate search that ultimately fails, the fishermen would have been calling out Qu Yuan's name and shouting urgently to one another across the water — sounds that would grow quieter as the grim reality set in."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture dragon boat races with many teams, how would the boats move?",
+      question: "When you picture the front of a dragon boat cutting through river water at racing speed, what would the water around the bow look like?",
       options: [
-        "Slowly drifting with the current",
-        "In fast, synchronized rowing rhythm",
-        "Spinning in circles",
-        "Sinking underwater"
+        "Perfectly flat and undisturbed",
+        "Churned into white foam and spreading waves",
+        "Frozen solid beneath the hull",
+        "Draining away in a whirlpool"
       ],
       correctAnswer: 1,
-      explanation: "Dragon boat racing involves fast, synchronized rowing with all paddlers moving in rhythm."
+      explanation: "A heavy boat moving at racing speed forces water violently aside, creating white foamy spray at the bow and spreading wake waves on either side."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const quYuanDragonBoat = {
     {
       type: "question",
       domain: "when",
-      question: "If the Dragon Boat Festival happens on the fifth day of the fifth lunar month, how often does it occur?",
+      question: "If a child first witnesses the Dragon Boat Festival at age five, how old would they be the third time they experience it?",
       options: [
-        "Once a year",
-        "Every five days",
-        "Every five months",
-        "Only once ever"
+        "Still five years old",
+        "Six years old",
+        "Seven years old",
+        "Fifteen years old"
       ],
-      correctAnswer: 0,
-      explanation: "A specific day in a specific month comes once per year in the lunar calendar."
+      correctAnswer: 2,
+      explanation: "Because the festival occurs on the same date each year, a child who first sees it at age five would experience it again at six and then seven — making them seven years old on their third time."
     },
     {
       type: "story",

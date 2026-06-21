@@ -15,15 +15,15 @@ const geminiTwins = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the twin brothers, what would make them special compared to other siblings?",
+      question: "If you saw Castor and Pollux as old men standing side by side, what would look physically different between them?",
       options: [
-        "They looked exactly the same in every way",
-        "One could live forever, the other could not",
-        "They were both invisible",
-        "They could both fly like birds"
+        "They would look completely identical with the same wrinkles and white hair",
+        "Castor would look aged and weathered while Pollux still looked young and unchanged",
+        "Pollux would appear older because being immortal is exhausting",
+        "Both brothers would glow with golden light to show their power"
       ],
       correctAnswer: 1,
-      explanation: "What made them special was that Pollux was immortal (could live forever) while Castor was mortal (would eventually die)."
+      explanation: "Because Castor was mortal, time would mark his body with wrinkles, gray hair, and signs of aging, while immortal Pollux would look exactly as young as the day they were born — a striking and eerie difference between two people born at the same moment."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const geminiTwins = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Pollux after his brother died, what expression would be on his face?",
+      question: "Imagining Pollux standing alone after the battle, what would his body language and posture tell you about how he felt?",
       options: [
-        "Laughing and celebrating",
-        "Very sad and crying with grief",
-        "Angry and ready to fight more",
-        "Confused and scratching his head"
+        "Standing tall and proud with his fists raised in victory",
+        "Slumped forward with his head bowed, unable to look at the world around him",
+        "Pacing back and forth eagerly, ready for the next adventure",
+        "Jumping and waving his arms to call for help"
       ],
       correctAnswer: 1,
-      explanation: "Pollux would be devastated and crying with grief because he loved his brother deeply and could not bear to be without him."
+      explanation: "A person crushed by the loss of their closest companion would collapse inward — shoulders drooping, head hanging low — as if the weight of grief made it impossible to hold themselves upright."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const geminiTwins = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental image of their shared life, how would the twins take turns living?",
+      question: "If you could watch the twins over several days of their shared arrangement, what pattern would you notice in how they appeared?",
       options: [
-        "Both alive at the same time every day",
-        "One brother alive one day, the other brother alive the next day",
-        "Both dead for half the year",
-        "Living together only on weekends"
+        "Both brothers always visible and active together",
+        "Each brother present every other day, never overlapping",
+        "Both brothers invisible all week except on birthdays",
+        "One brother awake during daytime, the other only at night on the same day"
       ],
       correctAnswer: 1,
-      explanation: "They would alternate days - when one brother was alive and present, the other would be absent, then they would switch."
+      explanation: "Because they alternated days, you would see a repeating pattern where each brother was present one day and gone the next, never appearing at the same time."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const geminiTwins = {
     {
       type: "question",
       domain: "where",
-      question: "When you look for the Gemini constellation, where would the two main stars be positioned?",
+      question: "If a sailor at sea spotted Gemini in the night sky, what would the space between the two main stars look like compared to distant, unrelated stars?",
       options: [
-        "On opposite sides of the sky, very far apart",
-        "Right next to each other, side by side",
-        "One above the other in a straight line",
-        "Spinning around each other rapidly"
+        "An enormous gap, wider than any other stars nearby",
+        "A very small, close gap — as if the two stars are almost touching",
+        "No gap at all because the stars overlap completely",
+        "A zigzag shape separating them across the sky"
       ],
       correctAnswer: 1,
-      explanation: "The twin stars of Gemini appear side by side, representing the brothers who are now together forever."
+      explanation: "Because the twin stars represent brothers who never wanted to be separated, they appear unusually close together — the gap between them would look tiny compared to other stars scattered across the sky."
     },
     {
       type: "story",

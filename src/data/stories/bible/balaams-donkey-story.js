@@ -49,15 +49,15 @@ const balaamsDonkey = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize the narrow path between the vineyard walls, where would the donkey position herself to avoid the angel?",
+      question: "When you visualize the angel blocking the narrow path between the vineyard walls, which part of the path would he most likely be standing in?",
       options: [
-        "In the exact center of the path",
-        "Pressed tightly against one wall",
-        "Lying down on the ground",
-        "Backing up the way she came"
+        "Hovering above the walls looking down",
+        "The middle of the path directly ahead",
+        "Behind Balaam at the path entrance",
+        "Seated on top of one of the walls"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us she pressed against the wall to avoid what she saw in the path."
+      explanation: "An angel blocking a narrow path would stand in the middle, making it impossible to pass without moving to one side."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const balaamsDonkey = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture Balaam's face right after his donkey asks him a question, what expression would he most likely have?",
+      question: "When you picture Balaam answering his donkey, what would his body posture most likely look like?",
       options: [
-        "Smiling with joy and happiness",
-        "Mouth open in complete shock",
-        "Angry with narrowed eyes",
-        "Peacefully sleeping"
+        "Kneeling humbly with head bowed",
+        "Leaning forward with fists clenched",
+        "Standing relaxed with arms at his sides",
+        "Dancing around in circles"
       ],
-      correctAnswer: 2,
-      explanation: "Balaam was so angry that he answered without even noticing how amazing it was that his donkey spoke."
+      correctAnswer: 1,
+      explanation: "Someone furious enough to wish for a sword would likely lean forward aggressively with tense, clenched hands rather than standing calmly."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const balaamsDonkey = {
     {
       type: "question",
       domain: "perspective",
-      question: "If you could see both Balaam and his donkey when Balaam finally sees the angel, who would look more surprised?",
+      question: "If you could see both Balaam and his donkey when Balaam finally sees the angel, whose body language would appear more calm and settled?",
       options: [
-        "The donkey would look very surprised",
-        "Balaam would look much more surprised",
-        "They would both look equally surprised",
-        "Neither would look surprised at all"
+        "Balaam would appear far more calm than the donkey",
+        "The donkey would appear more calm and steady",
+        "They would both be trembling equally",
+        "Neither would show any reaction at all"
       ],
       correctAnswer: 1,
-      explanation: "The donkey had been seeing the angel all along, but this was Balaam's first time seeing him."
+      explanation: "The donkey had already seen the angel multiple times and had stopped reacting, while Balaam was encountering the terrifying sight for the very first time."
     },
     {
       type: "story",

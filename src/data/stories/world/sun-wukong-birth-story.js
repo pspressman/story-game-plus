@@ -14,15 +14,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "sound",
-      question: "When you imagine an ancient magical stone cracking open after thousands of years, what would it sound like?",
+      question: "After the stone cracked open, what kind of sound would linger in the air on the mountain around it?",
       options: [
-        "A soft whisper",
-        "Complete silence",
-        "A gentle musical chime",
-        "A deep, thunderous crack echoing across the mountain"
+        "A gentle humming that slowly built up",
+        "Silence, as if the mountain held its breath, followed by distant ringing echoes",
+        "Cheerful birdsong immediately filling the air",
+        "A low rumbling that never stopped"
       ],
-      correctAnswer: 3,
-      explanation: "An ancient stone splitting open would create a deep, loud cracking sound that echoes."
+      correctAnswer: 1,
+      explanation: "A sudden explosive crack on a mountainside would cause vibrations to ripple outward, leaving a ringing echo that fades into eerie silence — the kind of quiet that follows a shocking event in nature."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "where",
-      question: "As you visualize the golden light beams from the monkey's eyes, in which direction would they travel?",
+      question: "If you were standing on a distant hilltop watching the golden beams leave the monkey's eyes, where on your body would you need to tilt your head to follow them?",
       options: [
-        "Down into the earth",
-        "Straight up toward the heavens",
-        "Sideways along the ground",
-        "Backwards into the mountain"
+        "Chin down toward your chest",
+        "Head turning left or right",
+        "Head tilting backward to look upward",
+        "No movement needed, they would be at eye level"
       ],
-      correctAnswer: 1,
-      explanation: "The beams reached Heaven's palace, so they would shoot straight upward toward the sky."
+      correctAnswer: 2,
+      explanation: "Since the beams travel skyward toward Heaven, an observer would have to tilt their head back and look upward to follow the light."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "perspective",
-      question: "When the Jade Emperor's advisors look down from Heaven to see the monkey, from what viewpoint would they be observing?",
+      question: "If you could see through an advisor's eyes in Heaven's palace, how large would the Mountain of Flowers and Fruit appear compared to everything around it?",
       options: [
-        "From underground looking up",
-        "At the same level as the monkey",
-        "From high above looking down at Earth",
-        "From inside the mountain"
+        "Enormous and filling the entire view",
+        "The same size as it looks from the ground",
+        "Tiny and distant, like a small bump among many",
+        "Completely invisible beneath clouds"
       ],
       correctAnswer: 2,
-      explanation: "Heavenly beings would look down from their celestial palace high above Earth."
+      explanation: "Viewed from the great height of Heaven's palace, the mortal mountain would appear tiny and far away, just one small feature among the vast landscape of Earth below."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture the newborn stone monkey moving for the first time, how would it differ from a normal baby monkey?",
+      question: "Compared to the other baby monkeys in the forest who were still learning, how would the stone monkey's body posture look as it moved through the trees?",
       options: [
-        "Crawling slowly and clumsily",
-        "Unable to move at all",
-        "Already climbing and leaping with perfect skill",
-        "Flying through the air"
+        "Hunched and trembling with uncertain balance",
+        "Upright and controlled, moving with fluid confidence",
+        "Dragging along the ground unable to lift itself",
+        "Stiff and frozen in one position"
       ],
-      correctAnswer: 2,
-      explanation: "Being born from magic stone fully formed, it could already move with perfect skill unlike normal baby monkeys."
+      correctAnswer: 1,
+      explanation: "Unlike ordinary baby monkeys who wobble and fumble while learning, the stone monkey would move with an upright, fluid confidence, its body fully in control from the very start."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "what",
-      question: "When the stone monkey lands behind the waterfall, what kind of space would he find himself in?",
+      question: "As the stone monkey first stepped deeper into the cave away from the waterfall entrance, what would the light conditions be like?",
       options: [
-        "Empty solid rock with no space",
-        "A furnished cave with stone furniture",
-        "An underwater lake",
-        "An open meadow with flowers"
+        "Brighter than full daylight with no shadows",
+        "Dimmer and shadowy, with only faint light filtering through",
+        "Flashing with colorful neon lights",
+        "Pitch black with no light at all"
       ],
       correctAnswer: 1,
-      explanation: "He discovered a cave with stone furniture, making it like a hidden kingdom behind the water."
+      explanation: "Deep inside a cave behind a waterfall, natural light would struggle to penetrate, making the interior dim and shadowy compared to the sunlit world outside."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "number",
-      question: "After becoming king, how many groups of monkeys would the stone monkey be leading?",
+      question: "If the monkeys on the mountain were divided into family groups scattered across different areas, how would those groupings change once the stone monkey became king?",
       options: [
-        "None - he would be alone",
-        "Just two or three monkeys",
-        "All the monkeys of the mountain as one large group",
-        "Only baby monkeys"
+        "Each family group would pick its own separate king",
+        "All the separate groups would unite under a single ruler",
+        "Only the largest family group would follow him",
+        "The groups would disappear and each monkey would live alone"
       ],
-      correctAnswer: 2,
-      explanation: "As king, he would lead all the monkeys who lived on the mountain as their single leader."
+      correctAnswer: 1,
+      explanation: "Being crowned king by all the monkeys means the previously scattered groups would merge their loyalties, uniting under one ruler rather than remaining divided."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize the Monkey King at the feast realizing mortality, what expression would replace his usual joy?",
+      question: "How would the atmosphere among the other monkeys at the feast change once they saw their usually joyful king fall silent with a troubled look?",
       options: [
-        "Angry rage at his subjects",
-        "Thoughtful sadness and worry",
-        "Increased happiness and laughter",
-        "Sleepy boredom"
+        "They would grow louder and more excited to cheer him up",
+        "The lively chatter would hush into uneasy, worried quiet",
+        "They would ignore him and keep celebrating without pause",
+        "They would immediately fall asleep out of boredom"
       ],
       correctAnswer: 1,
-      explanation: "Contemplating death for the first time would bring thoughtful sadness and worry to his face."
+      explanation: "When a leader suddenly goes quiet and troubled during a celebration, those around him would sense something is wrong and the festive noise would naturally die down into anxious, uncertain silence."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const sunWukongBirth = {
     {
       type: "question",
       domain: "color",
-      question: "As the Monkey King's eyes 'light up' with determination to find immortality, how would they appear?",
+      question: "When you picture the Monkey King's face at the moment he decides to seek immortality, what would happen to the color in his cheeks compared to his gloomy expression just moments before?",
       options: [
-        "Dull and closing with sleep",
-        "Bright and gleaming with excited energy",
-        "Turning completely black",
-        "Becoming invisible"
+        "They would turn pale and ashen with fear",
+        "They would remain exactly the same dull shade",
+        "They would flush warmer and livelier with renewed energy",
+        "They would turn a sickly greenish tone"
       ],
-      correctAnswer: 1,
-      explanation: "Eyes lighting up with determination would appear bright and gleaming with excited energy."
+      correctAnswer: 2,
+      explanation: "Shifting from fearful sadness to bold determination would bring warmth and color rushing back into the Monkey King's face, replacing the pallor of worry with a livelier, energized flush."
     },
     {
       type: "story",

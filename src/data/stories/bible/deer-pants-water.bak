@@ -1,0 +1,103 @@
+// As the Deer Pants for Water - Psalm 42:1
+const deerPantsWater = {
+  id: "deer-pants-water",
+  title: "As the Deer Pants for Water",
+  icon: "🦌",
+  difficulty: "Medium",
+  theme: "Longing",
+  estimatedTime: "10-15 min",
+  description: "Learn how poetry expresses deep feelings through nature images.",
+  content: [
+    {
+      type: "story",
+      text: "On a nature show, Jake watched a thirsty deer searching for water. His teacher opened Psalm 42: 'As the deer pants for streams of water, so my soul pants for you, O God. My soul thirsts for God, for the living God.'"
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "Picture a deer that hasn't had water for days in hot weather. What would its body show about how badly it needs water?",
+      options: [
+        "Casual walking and looking around",
+        "Sleeping peacefully",
+        "Desperate searching, heavy breathing",
+        "Playing and jumping"
+      ],
+      correctAnswer: 2,
+      explanation: "The psalm uses this powerful image to show how strongly our hearts can need God!"
+    },
+    {
+      type: "story",
+      text: "Jake felt thirsty just watching. 'That's what poetry does,' his teacher explained. 'It helps us feel things by painting pictures. The psalm writer felt their need for God like desperate thirst.'"
+    },
+    {
+      type: "question",
+      domain: "where",
+      question: "Imagine a deer desperately searching for water across a dry landscape. Where would you expect to find its hoofprints most concentrated?",
+      options: [
+        "On hilltops far from any low ground",
+        "Deep in thick forest away from open land",
+        "Along dry riverbeds and low muddy hollows",
+        "On flat dusty plains with no vegetation"
+      ],
+      correctAnswer: 2,
+      explanation: "A thirsty deer instinctively follows low terrain where water collects - just as the psalm writer instinctively turned toward God in times of deep need!"
+    },
+    {
+      type: "story",
+      text: "The teacher continued: 'My tears have been my food day and night, while men say to me all day long, Where is your God?' Jake thought about times he felt really sad - it did feel like a kind of thirst."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "Picture your body when you're really worried or sad. What physical feeling might remind you of thirst?",
+      options: [
+        "Feeling full and satisfied",
+        "Feeling energetic and strong",
+        "Feeling an empty ache inside",
+        "Feeling sleepy and relaxed"
+      ],
+      correctAnswer: 2,
+      explanation: "The psalm connects physical thirst to emotional need - both create an empty feeling that needs filling!"
+    },
+    {
+      type: "story",
+      text: "The psalm continued: 'Deep calls to deep in the roar of your waterfalls; all your waves and breakers have swept over me.' Jake realized the poet was using water pictures to express overwhelming emotions."
+    },
+    {
+      type: "question",
+      domain: "size",
+      question: "When the psalm says 'all your waves and breakers have swept over me,' visualize ocean waves. What size waves would match feeling overwhelmed by sadness?",
+      options: [
+        "Huge waves taller than a person",
+        "Tiny ripples",
+        "No waves at all",
+        "Medium splashes"
+      ],
+      correctAnswer: 0,
+      explanation: "Poetry uses size to show emotion's power - big waves represent big feelings!"
+    },
+    {
+      type: "story",
+      text: "But the psalm ended with hope: 'By day the Lord directs his love, at night his song is with me - a prayer to the God of my life.' Even in the 'thirsty' times, God's love was like finding water."
+    },
+    {
+      type: "question",
+      domain: "when",
+      question: "Imagine someone singing quietly to themselves in the middle of a dark, sleepless night. What does it tell you about how that person is coping with their sadness?",
+      options: [
+        "They have forgotten what made them sad",
+        "They are too tired to feel anything",
+        "They are finding a way to hold onto hope even in the hardest hours",
+        "They are pretending the sadness was never real"
+      ],
+      correctAnswer: 2,
+      explanation: "A song in the darkest hour suggests the singer is actively reaching for comfort rather than surrendering to despair - which is exactly the posture the psalm writer models toward God!"
+    },
+    {
+      type: "story",
+      moral: "This psalm teaches us that poetry uses nature pictures to help us understand feelings. Just as deer desperately need water, our hearts deeply need God's love."
+    }
+  ]
+};
+
+export default deerPantsWater;

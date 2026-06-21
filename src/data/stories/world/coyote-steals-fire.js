@@ -15,15 +15,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the world before fire was shared, what would the human villages look like?",
+      question: "When you picture the human villages at night before fire was shared, what would the people be doing to cope?",
       options: [
-        "Bright and warm with fires burning everywhere",
-        "Dark and cold with people shivering",
-        "Covered in colorful flowers and sunshine",
-        "Empty with no people anywhere"
+        "Dancing around bright torches in the streets",
+        "Huddling together under animal skins, pressed close for warmth",
+        "Cooking large meals over glowing hearths",
+        "Reading and working by candlelight"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us humans lived in darkness and cold without fire, so you would visualize a dark, chilly world with people trying to stay warm."
+      explanation: "Without any fire, people would have no heat source at all, so you would visualize them crowding together under whatever coverings they had, trying to share body heat through the cold darkness."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental image, what special feature would Squirrel have that might help with Coyote's plan?",
+      question: "If you imagine Squirrel gripping a burning branch with his tail, what would that look like compared to holding it in a paw?",
       options: [
-        "Sharp claws for climbing trees",
-        "A bushy tail that could carry things",
-        "Very loud voice for calling",
-        "Wings for flying high"
+        "The tail would wrap around the branch like a thick furry sleeve, keeping flames farther from his body",
+        "The tail would flatten completely against the branch",
+        "The tail would make the branch burn faster by fanning it",
+        "The tail would be too small to hold anything at all"
       ],
-      correctAnswer: 1,
-      explanation: "The story specifically mentions Squirrel's bushy tail as a notable feature, suggesting it would be important for the mission."
+      correctAnswer: 0,
+      explanation: "A bushy tail wrapping around a branch would create a thick cushion of fur between the flame and Squirrel's skin, which is why it made sense as a carrying tool — though it would still catch fire from the prolonged contact."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Coyote's plan, where would the animals position themselves?",
+      question: "If you were a bird flying high above and looking down at the animals carrying out Coyote's plan, what pattern would their positions form across the landscape?",
       options: [
-        "All together in one group at the mountain top",
-        "In a long chain from mountain to villages",
-        "Hiding in caves far from the mountain",
-        "Swimming in a lake near the fire"
+        "A tight circle surrounding the mountain base",
+        "A scattered random cluster in one valley",
+        "A long dotted line stretching from the mountain peak down toward the distant villages",
+        "Two parallel rows facing each other"
       ],
-      correctAnswer: 1,
-      explanation: "Coyote's plan involved making a chain from the mountain to the villages, so you would picture animals spaced out in a long line."
+      correctAnswer: 2,
+      explanation: "Seen from above, the animals spaced out between the mountain and the villages would appear as a thin dotted line snaking down through the terrain — each creature a small point of waiting, connected by the path the fire would travel."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would Coyote move as he approached the sleeping Fire Beings?",
+      question: "As Coyote crept past the sleeping Fire Beings with a burning branch in his mouth, what would his body posture look like?",
       options: [
-        "Running loudly and barking to wake everyone",
-        "Moving quietly like a shadow",
-        "Flying through the air above them",
-        "Rolling down the hill like a ball"
+        "Standing tall and proud with his head raised high",
+        "Body low to the ground, belly nearly touching the earth, moving in slow careful steps",
+        "Hopping quickly on his hind legs like a rabbit",
+        "Rolling sideways to stay out of sight"
       ],
       correctAnswer: 1,
-      explanation: "The story says Coyote moved as quietly as a shadow to avoid waking the Fire Beings, so you would picture him being very stealthy."
+      explanation: "To move silently past sleeping creatures without being noticed, Coyote would need to keep his body pressed low, reducing his silhouette and placing each paw down with extreme care to avoid any sound."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture the Fire Beings discovering their fire was stolen, what would their faces look like?",
+      question: "When you picture the Fire Beings the moment they realized their fire was missing, what would their bodies look like before they even started chasing?",
       options: [
-        "Happy and laughing with joy",
-        "Angry and shouting as they chased",
-        "Sleepy and unaware of what happened",
-        "Sad and crying quietly"
+        "Slumped and yawning, slowly stretching awake",
+        "Frozen in stunned disbelief, staring at the empty spot where the branch had been",
+        "Calmly walking toward the edge of the mountain",
+        "Sitting back down and going back to sleep"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions the Fire Beings chased with angry shouts, so you would visualize them looking furious and determined to catch the thief."
+      explanation: "In the split second between waking and chasing, the Fire Beings would likely stand rigid with shock — eyes wide, staring at the gap in their fire — before their surprise turned to fury and they launched into pursuit."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "color",
-      question: "In your visualization, what would happen to Squirrel's tail after carrying the fire?",
+      question: "As Squirrel leaped through the trees carrying the burning branch, what would the scene look like against the dark night sky?",
       options: [
-        "It would turn completely white",
-        "It would grow much longer than before",
-        "It would have black stripes from the flames",
-        "It would disappear completely"
+        "A faint blue glow drifting slowly between branches",
+        "A bright orange streak of flame arcing through the darkness each time he jumped",
+        "A pale white shimmer hovering in the treetops",
+        "A thick cloud of gray smoke with nothing visible inside"
       ],
-      correctAnswer: 2,
-      explanation: "The story explains that the flames left black stripes on Squirrel's tail forever, which is why squirrels today have striped tails."
+      correctAnswer: 1,
+      explanation: "With a flaming branch carried by a leaping squirrel against a dark sky, each jump would trace a glowing orange arc — a streak of fire briefly suspended in midair before vanishing into the next tree."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "what",
-      question: "When you imagine how Frog protected the fire, what would he do with it?",
+      question: "If you imagine Frog hopping toward the village with fire hidden inside him, what unusual thing might you notice about how he looked from the outside?",
       options: [
-        "Hide it under a rock",
-        "Swallow it to keep it safe inside",
-        "Bury it deep in the ground",
-        "Throw it high into the sky"
+        "He would look completely normal with no sign of the fire inside",
+        "A faint warm glow might show through his thin belly skin as he moved",
+        "He would have smoke coming from his ears",
+        "His legs would freeze and he would be unable to hop at all"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us Frog swallowed the fire to protect it from the chasing Fire Beings, showing his clever way of hiding it."
+      explanation: "Frogs have thin, somewhat translucent skin on their undersides, so fire held inside might cast a faint warm light through the belly — making Frog look like a small living lantern racing through the dark toward the village."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const coyoteStealsFire = {
     {
       type: "question",
       domain: "shape",
-      question: "When you picture frogs today, what shape would their bodies have because of this story?",
+      question: "When you try to picture the exact spot where a frog's tail would have been before the fire burned it away, where on its body would you imagine that missing tail connecting?",
       options: [
-        "Long bodies with very long tails",
-        "Round bodies with no tails at all",
-        "Thin bodies with multiple tails",
-        "Square bodies with curly tails"
+        "Just behind the front legs near the shoulders",
+        "At the very base of the spine, where the back legs meet the rounded rear end",
+        "Underneath the belly between all four legs",
+        "On top of the head between the eyes"
       ],
       correctAnswer: 1,
-      explanation: "The story explains that frogs have no tails today because their tails were burned away by carrying the fire, so you would picture them as tailless."
+      explanation: "To visualize this you must mentally place a tail onto a frog's body — it would attach at the rear base of the spine just above the hind legs, the same spot where tadpoles actually do have tails before they transform, which the story says was burned away."
     },
     {
       type: "story",

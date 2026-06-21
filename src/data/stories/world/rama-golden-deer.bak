@@ -1,0 +1,137 @@
+// Indian epic story for visualization-based reading comprehension
+const ramaGoldenDeer = {
+  id: "rama-golden-deer",
+  title: "Rama and the Golden Deer",
+  icon: "🦌",
+  difficulty: "Medium",
+  theme: "Loyalty",
+  estimatedTime: "8-12 min",
+  description: "Prince Rama and Princess Sita encounter a magical golden deer in the forest that leads to an important lesson about trickery.",
+  content: [
+    {
+      type: "story",
+      text: "Prince Rama lived in the forest with his wife Princess Sita and his loyal brother Lakshmana. They had built a simple hut among the tall trees and lived peacefully together. Rama was known for his skill with a bow and arrow, and he protected his family from wild animals."
+    },
+    {
+      type: "question",
+      domain: "where",
+      question: "If you could step inside Rama's world and walk toward the hut, what sounds would you likely hear around you?",
+      options: [
+        "Honking horns and crowds of people talking",
+        "Crashing waves and seagulls calling",
+        "Birds chirping and leaves rustling in the wind",
+        "Merchants selling goods and cart wheels rolling"
+      ],
+      correctAnswer: 2,
+      explanation: "Since Rama's family lives deep in a forest, you would mentally fill in the natural sounds of that environment — birdsong, rustling leaves, and the quiet of the woods — none of which are described in the text."
+    },
+    {
+      type: "story",
+      text: "One morning, Sita was gathering flowers near their hut when she saw the most beautiful deer she had ever seen. Its coat shone like pure gold in the sunlight, and its antlers sparkled like jewels. The deer danced gracefully through the trees, just out of reach."
+    },
+    {
+      type: "question",
+      domain: "color",
+      question: "When you picture the golden deer standing in the shadowy part of the forest away from the sunlight, how would its coat appear compared to when it was in the sun?",
+      options: [
+        "Even brighter and more dazzling than before",
+        "Dimmer and more muted, like dull metal",
+        "Completely invisible, blending into the dark",
+        "Turning deep red like glowing embers"
+      ],
+      correctAnswer: 1,
+      explanation: "The story says the coat shone like gold in the sunlight, so you must infer that away from sunlight its glow would fade — like actual gold, which needs light to gleam brightly."
+    },
+    {
+      type: "story",
+      text: "'Rama!' called Sita excitedly. 'Please catch this wonderful deer for me! I have never seen anything so beautiful.' Rama looked at the golden deer and felt something was not quite right. But he loved Sita and wanted to make her happy."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      question: "When you picture Rama's face as he looks at the golden deer and feels something is not quite right, what expression would he most likely show?",
+      options: [
+        "A wide, carefree smile of pure delight",
+        "A furrowed brow and uncertain, cautious eyes",
+        "A blank, completely relaxed expression",
+        "Tears streaming down his cheeks in sadness"
+      ],
+      correctAnswer: 1,
+      explanation: "The story tells us Rama felt something was not quite right, but does not describe his face. You must visualize the expression that inner unease and suspicion would produce — a furrowed brow and wary eyes."
+    },
+    {
+      type: "story",
+      text: "Rama picked up his bow and began to follow the golden deer through the forest. The deer would let him get close, then bound away playfully, leading him deeper and deeper into the woods. Lakshmana stayed behind to protect Sita at their hut."
+    },
+    {
+      type: "question",
+      domain: "movement",
+      question: "As Rama chased the deer deeper into the forest, how would the trees around him most likely appear to change?",
+      options: [
+        "They would gradually thin out into an open grassy meadow",
+        "They would grow taller and closer together, blocking more light",
+        "They would shrink smaller the further he ran",
+        "They would turn into stone walls on either side of him"
+      ],
+      correctAnswer: 1,
+      explanation: "The story says the deer led Rama deeper and deeper into the woods, but does not describe the forest changing. You must infer that going deeper into a forest means trees becoming denser and the canopy blocking more sunlight."
+    },
+    {
+      type: "story",
+      text: "After chasing the deer for a long time, Rama realized he was very far from home. The golden deer suddenly stopped and looked back at him with strange, glowing red eyes. 'This is not a real deer!' Rama thought. 'It must be magic, and probably dangerous.'"
+    },
+    {
+      type: "question",
+      domain: "what",
+      question: "When you picture Rama's body at the moment he realizes he is very far from home, what physical condition would he most likely be in?",
+      options: [
+        "Completely fresh and rested, as if he had not moved at all",
+        "Breathing hard, sweating, with tired legs from the long chase",
+        "Shivering from cold, wrapped tightly in a blanket",
+        "Floating calmly, showing no signs of effort"
+      ],
+      correctAnswer: 1,
+      explanation: "The story says Rama chased the deer for a long time through the forest, but never describes his physical state. You must infer that running a long distance would leave him breathless, sweaty, and tired."
+    },
+    {
+      type: "story",
+      text: "Rama quickly shot an arrow at the magical deer. When the arrow hit, the deer transformed into a scary demon with long claws and sharp teeth! The demon had been trying to trick Rama and lead him away from Sita. But Rama's arrow was too strong, and the demon disappeared."
+    },
+    {
+      type: "question",
+      domain: "shape",
+      question: "When you visualize the demon after it transformed, how tall would it likely appear compared to Rama?",
+      options: [
+        "Much smaller than Rama, barely reaching his knee",
+        "Exactly the same height as Rama",
+        "Looming much taller than Rama, towering over him",
+        "Flat on the ground with no real height at all"
+      ],
+      correctAnswer: 2,
+      explanation: "The story describes the demon as having long claws and sharp teeth but gives no height. You must infer that a scary, powerful demon meant to intimidate a warrior like Rama would be visualized as a massive, towering figure."
+    },
+    {
+      type: "story",
+      text: "Rama hurried back through the forest to find Sita and Lakshmana safe at their hut. He told them about the magical deer that was really a demon in disguise. 'We must always be careful of things that seem too good to be true,' Rama said wisely."
+    },
+    {
+      type: "question",
+      domain: "perspective",
+      question: "When you imagine Rama rushing back through the forest, from what direction would he be approaching the hut?",
+      options: [
+        "From the same direction where he chased the deer",
+        "From high above, flying through the air",
+        "From underground, coming up from below",
+        "From inside the hut, already there"
+      ],
+      correctAnswer: 0,
+      explanation: "Since Rama chased the deer deep into the woods and then returned, you would picture him coming back from the same direction he left."
+    },
+    {
+      type: "story",
+      moral: "Rama's adventure teaches us to be careful of things that seem too good to be true. Sometimes what appears most beautiful on the outside might be hiding something dangerous. It's important to trust our feelings when something doesn't seem right."
+    }
+  ]
+};
+
+export default ramaGoldenDeer;

@@ -14,15 +14,15 @@ const orpheusEurydice = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture trees 'leaning closer' to hear Orpheus's music, how would their branches be moving?",
+      question: "When you picture a rushing river slowing down to hear Orpheus's music, how would the water's surface look compared to before?",
       options: [
-        "Bending toward Orpheus like reaching arms",
-        "Waving wildly in all directions",
-        "Standing perfectly straight and still",
-        "Bending away from the music"
+        "More turbulent and full of white foam",
+        "Frozen solid like ice",
+        "Calmer and smoother, with fewer ripples",
+        "Rising higher above its banks"
       ],
-      correctAnswer: 0,
-      explanation: "Trees leaning closer would have their branches bending toward Orpheus, like arms reaching to get nearer to the beautiful music."
+      correctAnswer: 2,
+      explanation: "A rushing river slowing down would lose its turbulence, causing the surface to become calmer and smoother with fewer churning ripples and waves."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const orpheusEurydice = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize Orpheus preparing for his journey to the Underworld, what would he be carrying?",
+      question: "When you visualize Orpheus arriving at the entrance to the Underworld, what expression would most likely be on his face?",
       options: [
-        "A sword and shield",
-        "Bags of gold coins",
-        "Only his musical instrument",
-        "Food and water"
+        "Laughing with excitement",
+        "Blank and emotionless",
+        "Determined yet fearful",
+        "Relaxed and comfortable"
       ],
       correctAnswer: 2,
-      explanation: "The story tells us Orpheus took only his lyre, trusting in his music rather than weapons or supplies."
+      explanation: "Orpheus was heartbroken and on a dangerous, unprecedented journey — his face would likely show a mix of determination to save Eurydice and fear of the unknown realm of the dead."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const orpheusEurydice = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture the three-headed guard dog calming down to Orpheus's music, how would the sound change?",
+      question: "When you picture the three-headed dog lying down peacefully after hearing the music, what sound might each of its three heads be making?",
       options: [
-        "From silence to loud barking",
-        "From fierce growling to quiet contentment",
-        "From singing to howling",
-        "No change in sound"
+        "Barking louder than before",
+        "Whimpering and howling in pain",
+        "Slow, steady breathing like a sleeping dog",
+        "Snapping its jaws repeatedly"
       ],
-      correctAnswer: 1,
-      explanation: "The fierce dog would change from growling threateningly to becoming quiet and content as the music soothed it."
+      correctAnswer: 2,
+      explanation: "A giant dog that has been soothed into peaceful stillness would most likely produce the slow, rhythmic breathing of a calm or drowsy animal, its three heads rising and falling gently in sync with the music."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const orpheusEurydice = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you visualize Orpheus leading Eurydice out, with him unable to look back, what could he use to know she was following?",
+      question: "When you visualize Orpheus walking the dark tunnel ahead of Eurydice, how would his body posture most likely look?",
       options: [
-        "A mirror to see behind",
-        "His eyes looking backward",
-        "Nothing - he couldn't know",
-        "The sound of her footsteps"
+        "Slouched and relaxed, strolling casually",
+        "Rigid and straining, fighting the urge to turn around",
+        "Skipping forward with arms swinging freely",
+        "Crouching low to the ground"
       ],
-      correctAnswer: 3,
-      explanation: "Since Orpheus couldn't look back, he would have to rely on hearing her footsteps to know Eurydice was following him."
+      correctAnswer: 1,
+      explanation: "Knowing Eurydice was just behind him but forbidden to look, Orpheus would likely appear tense and rigid, his whole body straining with the effort of resisting the overwhelming urge to turn around."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const orpheusEurydice = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture Eurydice 'fading like smoke' back to the Underworld, how would she disappear?",
+      question: "When you picture Eurydice fading away, how would her outstretched hand look in the final moment before she fully disappeared?",
       options: [
-        "Suddenly vanishing in a flash",
-        "Slowly becoming transparent and wispy",
-        "Melting into the ground",
-        "Exploding into sparkles"
+        "Solid and vivid, gripping tightly",
+        "Glowing brightly like a flame",
+        "Barely visible, fingers dissolving into nothing",
+        "Turning dark and shadow-like"
       ],
-      correctAnswer: 1,
-      explanation: "Fading like smoke means slowly becoming transparent and wispy, gradually disappearing rather than vanishing suddenly."
+      correctAnswer: 2,
+      explanation: "As she faded away her outstretched hand would be the last part visible, its fingers growing increasingly transparent until they dissolved into nothing, just out of Orpheus's reach."
     },
     {
       type: "story",

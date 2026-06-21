@@ -15,15 +15,15 @@ const creation = {
     {
       type: "question",
       domain: "movement",
-      question: "When you imagine the moment light first appears, what do you see in your mind?",
+      question: "If you could watch the darkness being pushed away by the light, how would the boundary between them look?",
       options: [
-        "Light slowly growing like a sunrise over the earth",
-        "A sudden bright flash that immediately fills everything",
-        "Small dots of light appearing one by one like stars",
-        "A rainbow of colors swirling together to make light"
+        "A sharp, straight line moving steadily across like a curtain being drawn",
+        "A soft, blurry edge where dark and light slowly blend together",
+        "The darkness shattering like broken glass into tiny dark fragments",
+        "The darkness sinking downward as light rises from above"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes God speaking 'Let there be light!' and then light suddenly appearing. Visualizing a dramatic, immediate appearance of light helps capture the powerful moment of creation described in Genesis."
+      correctAnswer: 0,
+      explanation: "The story describes light 'pushing away' the darkness, suggesting an active, forceful movement. Imagining a distinct boundary sweeping across helps visualize how two opposites—light and dark—would meet and separate during this moment of creation."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const creation = {
     {
       type: "question",
       domain: "environment",
-      question: "How do you picture the world at the end of creation?",
+      question: "After six days of creation, what do you imagine the sounds of the world would be like?",
       options: [
-        "Dark and still, with everything sleeping",
-        "Bright, colorful, and full of life with animals, plants, and people",
-        "Empty except for a few trees and animals",
-        "Covered in tall buildings and cities"
+        "Completely silent, since everything was still new and unfamiliar",
+        "A single repeated sound, like ocean waves, with nothing else",
+        "A layered mix of birdsong, rustling leaves, animal calls, and flowing water all at once",
+        "Loud thunderclaps echoing as the final touches of creation settled"
       ],
-      correctAnswer: 1,
-      explanation: "Genesis tells us God saw everything He made and it was 'very good.' Visualizing a vibrant, thriving world full of diverse plants, animals, and people helps us understand the beauty and completeness of creation."
+      correctAnswer: 2,
+      explanation: "The story describes a world filled with birds, fish, animals, plants, and people all existing together. Imagining the soundscape—birdsong, wind through trees, animal calls, rushing water—helps us sense the richness and completeness of a fully alive world, even though no sounds are described directly."
     },
     {
       type: "story",

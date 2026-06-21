@@ -14,15 +14,15 @@ const echoNarcissus = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture someone who 'loves to talk' and tells stories for hours, how would the air around Echo usually sound?",
+      question: "Before her curse, if Echo passed by a quiet forest clearing, how would that silence most likely make her feel?",
       options: [
-        "Completely silent",
-        "Filled with her constant chatter",
-        "Only bird songs",
-        "Deep rumbling noises"
+        "Peaceful and content",
+        "Uncomfortable and restless",
+        "Sleepy and calm",
+        "Frightened and suspicious"
       ],
       correctAnswer: 1,
-      explanation: "Someone who loves to talk and tells stories for hours would fill the air with constant chatter and conversation."
+      explanation: "Someone who loves to talk and fills every moment with stories and jokes would find silence uncomfortable and restless — stillness would feel unnatural to her cheerful, chatty nature."
     },
     {
       type: "story",
@@ -31,15 +31,15 @@ const echoNarcissus = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental image, after Hera's curse, what would happen when someone said 'Hello there' to Echo?",
+      question: "When you picture Echo trying to warn a friend about danger after the curse, what would her face most likely show as her mouth repeated useless words instead?",
       options: [
-        "Echo would say 'Goodbye'",
-        "Echo would say nothing",
-        "Echo would say 'Hello there' in full",
-        "Echo would only say 'there'"
+        "Calm indifference, since she was used to it",
+        "Laughter, finding the situation amusing",
+        "Frustrated anguish, knowing her meaning could not come through",
+        "Blank emptiness, having forgotten how to feel"
       ],
-      correctAnswer: 3,
-      explanation: "The curse made Echo only repeat the last words spoken, so she would only say 'there' - the final word."
+      correctAnswer: 2,
+      explanation: "Unable to speak her own thoughts, Echo would know exactly what she wanted to say but be powerless to say it — her face would betray the desperate frustration of a mind trapped behind borrowed words."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const echoNarcissus = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture a heartbroken Echo hiding from the world, where in the mountains would she most likely go?",
+      question: "When you picture Echo's heartbroken wandering before she found a place to hide, which kind of mountain path would she most likely avoid?",
       options: [
-        "To sunny meadows",
-        "To the highest peaks",
-        "To crowded villages",
-        "Deep into dark caves"
+        "Narrow rocky trails",
+        "Steep icy slopes",
+        "Open paths where hunters might pass",
+        "Paths near loud waterfalls"
       ],
-      correctAnswer: 3,
-      explanation: "The story tells us the heartbroken Echo ran away to hide in caves, dark places where she could be alone."
+      correctAnswer: 2,
+      explanation: "With a broken heart and a curse that forces her to repeat others' words, Echo would dread accidentally encountering people — especially hunters like Narcissus — so she would avoid open paths where she might be seen or spoken to."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const echoNarcissus = {
     {
       type: "question",
       domain: "sound",
-      question: "In your mental image, if you shouted 'Hello beautiful day!' in a canyon where Echo's voice remains, what would you hear back?",
+      question: "If two people stood in a canyon and one shouted a long sentence while the other stayed silent, what difference would a listener notice between what was shouted and what came back?",
       options: [
-        "The entire phrase repeated",
-        "Just 'Hello'",
-        "Just 'day' echoing back",
-        "Complete silence"
+        "The returning sound would be louder than the original",
+        "The returning sound would be a completely different sentence",
+        "Only a small fragment from the end would return, not the whole sentence",
+        "The returning sound would arrive before the shouting finished"
       ],
       correctAnswer: 2,
-      explanation: "Since Echo can only repeat the last words spoken, you would hear just 'day' echoing back."
+      explanation: "Because Echo's curse limits her to repeating only the final words spoken, a long sentence would return as just its tail end — most of the original words would vanish into silence, which no one explicitly describes in the story but follows from imagining the curse in action."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const echoNarcissus = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, when Narcissus touches the water to reach the face, what happens to the reflection?",
+      question: "In your mental image, after the reflection disappears and the water stills again, how would Narcissus position his body to make the face reappear as quickly as possible?",
       options: [
-        "It becomes clearer",
-        "It breaks apart into ripples",
-        "It reaches back to touch him",
-        "It turns into a fish"
+        "He would stand up and walk away to wait",
+        "He would lean back and look at the sky",
+        "He would hold perfectly still and hover just above the surface",
+        "He would splash the water to speed it up"
       ],
-      correctAnswer: 1,
-      explanation: "When you touch still water, it creates ripples that break apart any reflection on the surface."
+      correctAnswer: 2,
+      explanation: "Desperate to see the face again, Narcissus would learn to hold himself completely motionless just above the water, knowing that any movement would disturb the surface and destroy the image he was obsessed with."
     },
     {
       type: "story",

@@ -32,15 +32,15 @@ const estherQueen = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize Esther keeping her secret, what expression would be on her face when talking to the king?",
+      question: "If you could see inside Esther's chest while she hid her secret at the palace, what would her heart feel like?",
       options: [
-        "Worried and nervous about her secret",
-        "Angry and shouting loudly",
-        "Calm and friendly like normal",
-        "Sleepy and yawning constantly"
+        "Heavy and tight, like carrying a hidden burden",
+        "Light and carefree with nothing to worry about",
+        "Cold and frozen like a block of ice",
+        "Empty and hollow with no feelings at all"
       ],
-      correctAnswer: 2,
-      explanation: "Esther would act calm and normal so no one would suspect she was hiding something important."
+      correctAnswer: 0,
+      explanation: "Carrying an important secret that affects your safety would create a constant inner tension and heaviness, even when outwardly composed."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const estherQueen = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize Mordecai sending the urgent message to Esther, how would the messenger be moving?",
+      question: "When you picture Mordecai after learning about Haman's terrible plan, what would his body language look like?",
       options: [
-        "Walking very slowly like he had all day",
-        "Running quickly because the message was urgent",
-        "Skipping happily like he was playing a game",
-        "Crawling on the ground like a baby"
+        "Relaxed and lounging lazily with his feet up",
+        "Stiff and tense with clenched fists and a furrowed brow",
+        "Spinning in circles like he was dancing for joy",
+        "Slumped and asleep like he had no worries"
       ],
       correctAnswer: 1,
-      explanation: "Urgent, important messages would be delivered quickly because people's lives were in danger."
+      explanation: "Discovering a deadly threat against your people would cause visible physical tension — tight muscles, clenched hands, and a deeply troubled expression."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const estherQueen = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the king's throne room, what would you see in the background?",
+      question: "When you visualize the Jewish people fasting and praying for three days, what would the atmosphere around them feel like?",
       options: [
-        "Simple wooden chairs like in a regular house",
-        "Golden decorations and fancy curtains like a palace",
-        "Farm animals and hay like in a barn",
-        "Sand and rocks like in a desert"
+        "Loud and festive like a celebration with music",
+        "Quiet and solemn like a community holding its breath together",
+        "Chaotic and noisy like a busy marketplace",
+        "Breezy and cheerful like a sunny picnic day"
       ],
       correctAnswer: 1,
-      explanation: "A king's throne room would be decorated with expensive, beautiful things like gold and fancy curtains."
+      explanation: "A community fasting and praying over a life-threatening crisis would create a hushed, deeply serious atmosphere, with people gathered in worried, hopeful silence."
     },
     {
       type: "story",

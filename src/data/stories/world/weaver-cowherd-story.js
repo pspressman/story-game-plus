@@ -14,15 +14,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "what",
-      question: "When you imagine Zhinu creating colorful sky decorations, what would she be making?",
+      question: "If you could watch Zhinu's fingers moving across the loom, what would the motion look like?",
       options: [
-        "Stone sculptures",
-        "The colored clouds seen at sunrise and sunset",
-        "Ocean waves",
-        "Mountain peaks"
+        "Slow and heavy like hammering stone",
+        "Light and fluttering like butterfly wings",
+        "Rigid and mechanical like a machine",
+        "Jerky and random like shaking"
       ],
       correctAnswer: 1,
-      explanation: "As a celestial weaver, she would create the beautiful colored clouds we see during sunrise and sunset."
+      explanation: "A weaver working delicate celestial cloth would move with graceful, light, fluttering motions — nimble and quick rather than heavy or stiff."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "where",
-      question: "When the heavenly maidens need their robes to return home, where would home be located?",
+      question: "If Niulang needed to conceal the feathered robes so the maiden could not easily spot them, what kind of hiding spot near the lakeshore would work best?",
       options: [
-        "Under the lake water",
-        "In a nearby village",
-        "Up in the heavenly realm above",
-        "Inside the mountain"
+        "Laid flat in plain sight on a rock",
+        "Floating on the surface of the water",
+        "Tucked beneath dense lakeside reeds or buried under leaves",
+        "Hung high on a tree branch in the open moonlight"
       ],
       correctAnswer: 2,
-      explanation: "Heavenly maidens would need to fly upward to return to their celestial home in Heaven."
+      explanation: "To hide the robes effectively near a lake at night, Niulang would need cover that breaks up the shape and color of the garment — dense reeds or a pile of leaves close to the ground would conceal them from a searching maiden's eyes."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "movement",
-      question: "How would six maidens with magical feathered robes depart from the lake?",
+      question: "If you imagined watching six maidens put on their feathered robes at the lakeshore, what would their bodies look like as they rose from the ground?",
       options: [
-        "Walking down the road",
-        "Swimming across the lake",
-        "Flying upward into the sky",
-        "Digging underground tunnels"
+        "Sinking downward into the mud",
+        "Spinning sideways like rolling logs",
+        "Lifting gracefully upward with wings spreading wide",
+        "Crawling forward on hands and knees"
       ],
       correctAnswer: 2,
-      explanation: "With magical feathered robes, the maidens would fly upward into the sky to return to Heaven."
+      explanation: "Magical feathered robes would act like wings, causing the maidens to lift gracefully upward with the robes spreading wide around them as they ascended."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental picture of their happy family, how many children would be playing around their farm?",
+      question: "If Niulang carried all his children in baskets balanced on a pole across his shoulders, how many baskets would he need?",
       options: [
-        "Seven children",
-        "Two children",
-        "No children",
-        "Dozens of children"
+        "Seven baskets",
+        "One basket",
+        "Two baskets",
+        "A dozen baskets"
       ],
-      correctAnswer: 1,
-      explanation: "The story mentions they had two children together during their happy years."
+      correctAnswer: 2,
+      explanation: "Since Zhinu and Niulang had two children, Niulang would need exactly two baskets — one for each child — to carry them balanced on his pole."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "perspective",
-      question: "From the children's viewpoint watching their mother being taken, in which direction would they be looking?",
+      question: "If you stood in the children's shoes watching the celestial soldiers carry their mother away, what emotions would be written across the children's faces?",
       options: [
-        "Down at the ground",
-        "Straight ahead at eye level",
-        "Up toward the sky",
-        "Behind them"
+        "Calm acceptance and quiet smiling",
+        "Confusion mixed with laughter",
+        "Anguish, fear, and desperate longing as they reached out",
+        "Sleepy disinterest as they looked away"
       ],
       correctAnswer: 2,
-      explanation: "Children watching their mother being carried to Heaven would look up toward the sky."
+      explanation: "Young children witnessing their mother being suddenly seized and taken away by soldiers would show raw anguish on their faces — wide tear-filled eyes, trembling mouths, and arms stretching desperately toward her."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "what",
-      question: "When you look at the night sky and see the Milky Way, what does this celestial river look like?",
+      question: "If you stood beside the Queen Mother as she drew her hairpin across the sky, what would you see happening to the darkness in the moments right after the stroke?",
       options: [
-        "A single bright star",
-        "A wide band of countless stars across the sky",
-        "The moon",
-        "Empty black space"
+        "The sky would turn completely black and empty",
+        "A single pinpoint of light would blink on",
+        "A glowing trail would burst into a vast river of shimmering light",
+        "The clouds would turn dark gray and stormy"
       ],
-      correctAnswer: 1,
-      explanation: "The Milky Way appears as a wide, glowing band of countless stars stretching across the night sky."
+      correctAnswer: 2,
+      explanation: "The dramatic sweep of a divine hairpin conjuring the Milky Way would produce a sudden blaze of light — thousands of stars igniting at once along the stroke, turning the dark gap into a vast, glowing river of shimmering starlight."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "when",
-      question: "If the lovers can only meet on the seventh day of the seventh month, how often do they see each other?",
+      question: "Imagine the long stretch of time Zhinu and Niulang must endure between reunions. What would the waiting feel like compared to a reunion day?",
       options: [
-        "Every day",
-        "Once a week",
-        "Never again",
-        "Once a year"
+        "The wait and the reunion day would feel equally long",
+        "The reunion day would feel endless while the wait felt brief",
+        "An endless, aching separation dwarfing one precious day together",
+        "The wait would feel joyful since they can hear each other"
       ],
-      correctAnswer: 3,
-      explanation: "Meeting on a specific day of a specific month means they reunite once per year."
+      correctAnswer: 2,
+      explanation: "Being separated across the Silver River for nearly an entire year would feel like an endless, painful wait, making their single reunion day together feel heartbreakingly brief and precious by comparison."
     },
     {
       type: "story",
@@ -167,15 +167,15 @@ const weaverCowherd = {
     {
       type: "question",
       domain: "shape",
-      question: "When thousands of magpies link together across the sky, what formation would they create?",
+      question: "If you looked down from above at thousands of magpies packed tightly side by side stretching from one bank of the Silver River to the other, what outline would their bodies trace?",
       options: [
-        "A round ball floating in space",
-        "A bridge-like path across the river of stars",
-        "Random scattered dots",
-        "A deep hole downward"
+        "A wide spiral coiling inward",
+        "A long narrow band with a gentle arc, like a rainbow",
+        "A perfect square grid",
+        "A cluster bunched at the center with nothing at the edges"
       ],
       correctAnswer: 1,
-      explanation: "The magpies form a bridge-like path so the lovers can walk across the celestial river."
+      explanation: "Magpies stretching continuously from one side of the celestial river to the other would form a long, narrow arc curving gently across the expanse, much like a rainbow or an arching bridge viewed from above."
     },
     {
       type: "story",

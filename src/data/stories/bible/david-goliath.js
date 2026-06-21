@@ -1,5 +1,3 @@
-
-
 // src/data/stories/bible/david-goliath.js
 const davidGoliath = {
   id: "david-goliath",
@@ -34,15 +32,15 @@ const davidGoliath = {
     {
       type: "question",
       domain: "what",
-      question: "What would David most likely be carrying when he arrived at the Israelite camp?",
+      question: "What expression would David's brothers most likely have on their faces when they first saw him arrive at the camp?",
       options: [
-        "A modern backpack with zippers",
-        "A bundle wrapped in cloth and a shepherd's staff",
-        "A plastic container with food",
-        "Nothing at all"
+        "Wide smiles of excitement and pride",
+        "Blank, indifferent looks",
+        "Surprised or annoyed looks at seeing a young boy appear",
+        "Tears of joy streaming down their cheeks"
       ],
-      correctAnswer: 1,
-      explanation: "As a shepherd boy in ancient times bringing supplies, David would most logically be visualized carrying a bundle of food wrapped in cloth and his shepherd's staff, not modern items like backpacks or plastic containers."
+      correctAnswer: 2,
+      explanation: "David's brothers were seasoned soldiers in a tense military standoff. Seeing their young shepherd brother suddenly appear at camp would most naturally produce expressions of surprise, irritation, or dismissiveness — emotions that fit the tension of the scene but are never described in the text."
     },
     {
       type: "story",
@@ -72,15 +70,15 @@ const davidGoliath = {
     {
       type: "question",
       domain: "perspective",
-      question: "From what angle would David most likely view Goliath?",
+      question: "How would the distant Israelite soldiers most likely appear in size to Goliath as he stood facing David?",
       options: [
-        "Looking down at Goliath from above",
-        "Looking straight at Goliath at eye level",
-        "Looking up at Goliath from below",
-        "Looking at Goliath from behind"
+        "Looming large and threatening on the horizon",
+        "The same size as David standing before him",
+        "Small and distant, like figures seen from a great height",
+        "Completely invisible behind the hills"
       ],
       correctAnswer: 2,
-      explanation: "Since Goliath was described as over nine feet tall and David was a young boy, David would naturally be looking up at Goliath from below, not at eye level, from above, or from behind."
+      explanation: "Standing at over nine feet tall, Goliath's elevated eye level would make the watching Israelite soldiers in the distance appear even smaller than they would to an ordinary person — tiny, distant figures viewed from an unusually high vantage point, though this perspective is never described in the story."
     },
     {
       type: "story",

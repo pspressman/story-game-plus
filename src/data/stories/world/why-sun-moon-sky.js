@@ -15,15 +15,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture where Sun and Moon lived long ago, what would you see?",
+      question: "If you could step inside Sun and Moon's yard, what kind of light and atmosphere would surround you?",
       options: [
-        "High up in the sky among the clouds",
-        "A beautiful house on Earth with a large yard",
-        "Deep underground in a dark cave",
-        "Floating on a boat in the middle of the ocean"
+        "Cold and dim, like a cave with flickering torches",
+        "Warm golden brightness mixed with soft cool silver glow",
+        "Dark and stormy, with heavy clouds blocking everything",
+        "Completely pitch black with no light at all"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us that Sun and Moon lived on Earth in a beautiful house with a large yard, not in the sky like they do today."
+      explanation: "Since Sun was described as warm and bright and Moon as cool and gentle, living together their yard would radiate a blend of warm golden light and soft, cool silver — a uniquely comfortable atmosphere you would have to imagine."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental image, who would be part of Water's family?",
+      question: "When you picture Water's home before any visit, what sounds would fill the air around it?",
       options: [
-        "Lions, elephants, and zebras from the land",
-        "Fish, frogs, water plants, and sea creatures",
-        "Birds, butterflies, and bees from the air",
-        "Rocks, sand, and mountains from the earth"
+        "Silence and stillness with no sound at all",
+        "Crackling fire and rustling dry leaves",
+        "Splashing, croaking, bubbling, and the swish of fins through water",
+        "Thunderous roaring with howling wind"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes Water's family as including fish, frogs, water plants, and many other sea creatures that live in or near water."
+      correctAnswer: 2,
+      explanation: "Since Water's family included fish, frogs, and many sea creatures, you would need to imagine the layered sounds they create — frogs croaking, fins splashing, water bubbling — none of which are described in the text."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "number",
-      question: "When you picture Water coming to visit, how many would be coming to the dinner?",
+      question: "When you picture Sun and Moon hearing Water's warning, what expression would cross their faces in that moment?",
       options: [
-        "Just Water by himself",
-        "Water and one or two friends",
-        "Water and his entire large family",
-        "No one would come to visit"
+        "Deep understanding and careful concern about what it truly meant",
+        "Blank, cheerful smiles with no real grasp of what was coming",
+        "Immediate terror causing them to take back the invitation",
+        "Boredom and distraction as if they had not heard a word"
       ],
-      correctAnswer: 2,
-      explanation: "Water warned that his whole family always comes with him and they never go anywhere alone, so you would picture a very large group coming to visit."
+      correctAnswer: 1,
+      explanation: "The story says they eagerly said yes without really understanding what it meant, so you must visualize their faces showing happy but oblivious agreement — a subtle expression of unknowing excitement that requires inferring their inner state."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how would Water and his family enter Sun and Moon's house?",
+      question: "As rivers, whales, seaweed, and coral all entered the house together, what would happen to the walls and doorways?",
       options: [
-        "Walking through the door one at a time",
-        "Flying through the air above the house",
-        "Flowing and pouring into the rooms like a flood",
-        "Staying outside in the yard politely"
+        "The walls would glow brighter to welcome the guests",
+        "The doorways would strain and crack under the pressure of so much pushing through",
+        "Everything would remain perfectly still and undamaged",
+        "The walls would instantly dissolve into sand"
       ],
-      correctAnswer: 2,
-      explanation: "Since Water is liquid, you would visualize him and his family flowing and pouring into the house, filling up the rooms like a flood."
+      correctAnswer: 1,
+      explanation: "The story never describes what happened to the house's structure, but visualizing whales and rivers forcing their way through ordinary doorways requires imagining the frames bending and walls cracking under enormous pressure — something you must construct in your mind."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you visualize Sun and Moon in their flooded house, what level would the water reach on their bodies?",
+      question: "As Sun and Moon stood in the rising water trying to act calm, what expression would you picture on their faces?",
       options: [
-        "Just covering their toes",
-        "Up to their knees as described",
-        "Over their heads completely",
-        "Not touching them at all"
+        "Completely relaxed and totally comfortable",
+        "Forced smiles hiding growing panic underneath",
+        "Furious and shouting at Water to leave",
+        "Fast asleep, unbothered by the flooding"
       ],
       correctAnswer: 1,
-      explanation: "The story specifically mentions that Sun and Moon were standing in water up to their knees when Water asked if it was safe to continue."
+      explanation: "The story says they didn't want to be rude even though the house was getting wet and crowded, so you would have to imagine them wearing strained, polite smiles while inwardly feeling alarmed — a detail not written but requiring inference."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "size",
-      question: "In your mental picture, how much of Sun and Moon's house would be filled with water?",
+      question: "As the water rose from waist to chest to neck level, what would happen to the furniture and belongings inside the house?",
       options: [
-        "Just a small puddle in one corner",
-        "About half the house would have water",
-        "The entire house would be completely flooded",
-        "No water would be in the house at all"
+        "Everything would stay perfectly in place on the floor",
+        "Chairs, tables, and objects would float and drift around chaotically",
+        "The furniture would sink instantly to the bottom and disappear",
+        "All belongings would fly out through the windows into the yard"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes the water rising to their necks and the house being completely flooded with no room left for the hosts."
+      correctAnswer: 1,
+      explanation: "The story never mentions the furniture, but visualizing a house flooding to neck height requires imagining chairs, tables, and objects becoming buoyant and floating around — something you must mentally construct, not read."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "where",
-      question: "When you imagine Sun and Moon escaping the flood, where would they go?",
+      question: "Standing on the roof watching the flood spread, what would the landscape around Sun and Moon's house look like?",
       options: [
-        "Into the basement below the house",
-        "Swimming underwater with the fish",
-        "Up onto their roof above the water",
-        "Inside a closet in their house"
+        "Dry and dusty with no water anywhere in sight",
+        "A vast shimmering expanse of water swallowing trees, paths, and land",
+        "Covered in snow and ice stretching to the horizon",
+        "Filled with crowds of people watching from a safe distance"
       ],
-      correctAnswer: 2,
-      explanation: "The story tells us Sun and Moon climbed up on their roof to escape the rising water that was flooding their house."
+      correctAnswer: 1,
+      explanation: "The story says the whole Earth around their house would soon be underwater, but you must visualize what that actually looks like — trees submerged, paths vanished, the land replaced by a spreading sheet of water — details not described in the text."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "movement",
-      question: "In your visualization, how would Sun and Moon move to escape the flood completely?",
+      question: "As Water and all his family flowed back toward the ocean, what would the ground left behind look like?",
       options: [
-        "Swimming down underwater",
-        "Jumping up high into the sky",
-        "Running away across the land",
-        "Hiding inside their flooded house"
+        "Completely unchanged, as if nothing had happened",
+        "Muddy, wet, and scattered with stranded fish and tangled seaweed",
+        "Covered in thick ice that had frozen solid",
+        "Perfectly clean and dry as polished stone"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Sun and Moon jumping up into the sky as their final escape from the overwhelming flood."
+      explanation: "The story only says Water flowed back and the Earth was left dry again, but visualizing the aftermath requires imagining the muddy ground, puddles, and debris Water's enormous family would leave behind — details you must mentally construct."
     },
     {
       type: "story",
@@ -168,15 +168,15 @@ const whySunMoonSky = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you picture Sun and Moon looking down from the sky, what would they be able to see?",
+      question: "When Sun and Moon first rose high into the sky and looked down, how would their old house appear from that great height?",
       options: [
-        "Only their old house and nothing else",
-        "The whole world spread out below them",
-        "Just darkness with no view at all",
-        "Only the inside of clouds around them"
+        "Enormous and towering, filling their entire view",
+        "Tiny and distant, shrunk to a small speck among the vast land below",
+        "Exactly the same size as when they stood inside it",
+        "Completely invisible because the sky is too dark to see anything"
       ],
       correctAnswer: 1,
-      explanation: "The story says from the sky they could watch over the whole world, so you would picture them having a complete view of everything below."
+      explanation: "The story never describes what Sun and Moon saw when they first looked down, but rising high enough to see the whole world means you must infer that their once-grand house would shrink to a tiny dot — a perspective shift requiring genuine visualization."
     },
     {
       type: "story",

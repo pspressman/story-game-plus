@@ -1,4 +1,3 @@
-
 const jacobLadder = {
   id: "jacob-ladder",
   title: "Jacob's Ladder",
@@ -15,15 +14,15 @@ const jacobLadder = {
     {
       type: "question",
       domain: "what",
-      question: "In your mind, how do you picture Esau and Jacob looking different from each other?",
+      question: "Based on what you know about each brother's lifestyle, how do you picture their hands looking different from each other?",
       options: [
-        "They look exactly the same with no differences at all",
-        "Esau is small and thin while Jacob is very tall and strong",
-        "Esau has red hair and is hairy, while Jacob has smoother skin and is less rugged",
-        "Jacob has bright blue hair while Esau has green hair"
+        "Both brothers would have identical soft, uncalloused hands",
+        "Esau's hands would be rough and scarred from hunting, while Jacob's would be smoother from tent life",
+        "Jacob's hands would be more muscular and darker from outdoor work",
+        "Esau's hands would be delicate and fine from careful craftwork indoors"
       ],
-      correctAnswer: 2,
-      explanation: "Genesis describes Esau as red and hairy, while Jacob had smoother skin. Visualizing these physical differences helps create distinct mental pictures of the two brothers and their contrasting natures."
+      correctAnswer: 1,
+      explanation: "The story tells us Esau was a skilled hunter who loved the outdoors, while Jacob preferred staying among the tents. Inferring what their hands would look like — Esau's roughened by weapons and wilderness, Jacob's less worn from quieter indoor life — requires visualizing the physical effects of each brother's daily routine."
     },
     {
       type: "story",
@@ -45,15 +44,15 @@ const jacobLadder = {
     {
       type: "question",
       domain: "environment",
-      question: "When you imagine the place where Jacob decides to sleep for the night, what do you see?",
+      question: "What sounds do you imagine filling the air around Jacob as he tries to fall asleep that night?",
       options: [
-        "A cozy cave with soft moss for bedding",
-        "An open area with rocks and sand, under a vast starry sky",
-        "A dense forest with tall trees all around",
-        "A busy village with other travelers sleeping nearby"
+        "Loud music and cheerful voices from a nearby celebration",
+        "Total silence with absolutely no sounds at all",
+        "Distant animal calls, wind moving across the land, and the quiet of an empty wilderness",
+        "The crashing of ocean waves and crying of seabirds overhead"
       ],
-      correctAnswer: 1,
-      explanation: "Genesis describes Jacob finding a stone for a pillow and sleeping in the open. Visualizing an open area under the stars helps create a mental image that matches the setting where Jacob would have his significant dream."
+      correctAnswer: 2,
+      explanation: "The story places Jacob alone outdoors in ancient wilderness with only a stone for a pillow. Imagining the sounds of that environment — nocturnal animals, wind, the vast quiet of open land — requires constructing a sensory picture of the setting that goes beyond what the text states."
     },
     {
       type: "story",
@@ -75,15 +74,15 @@ const jacobLadder = {
     {
       type: "question",
       domain: "movement",
-      question: "How do you picture the angels moving on the stairway?",
+      question: "If you could watch the angels on the stairway, how do you imagine their faces and expressions as they pass each other going in opposite directions?",
       options: [
-        "Standing still in a line, not moving at all",
-        "Moving very slowly, almost floating up and down",
-        "Flying quickly with wings spread wide, bypassing the steps",
-        "Walking purposefully up and down, perhaps carrying messages"
+        "Scowling at each other with annoyance at the crowded stairway",
+        "Focused and serene, radiating calm purpose as they continue their separate tasks",
+        "Laughing and joking, pausing to chat on each step",
+        "Looking frightened and rushed, as if fleeing from something above"
       ],
-      correctAnswer: 3,
-      explanation: "Genesis describes angels 'ascending and descending' on the ladder/stairway. Visualizing them walking with purpose helps create a dynamic mental image of these messengers traveling between heaven and earth on divine business."
+      correctAnswer: 1,
+      explanation: "The story tells us angels were ascending and descending on the ladder, suggesting purposeful heavenly activity. Inferring what their expressions would convey — the serene focus of beings on divine missions — requires visualizing something completely absent from the text itself."
     },
     {
       type: "story",
@@ -109,15 +108,15 @@ const jacobLadder = {
     {
       type: "question",
       domain: "what",
-      question: "In your mind, what does Jacob's stone pillar look like after he sets it up?",
+      question: "What do you imagine the ground around Jacob's stone pillar looking like compared to the surrounding land?",
       options: [
-        "A tiny pebble that can barely be seen",
-        "A perfectly carved statue that looks like a person",
-        "A stone standing upright, glistening with oil on top",
-        "A large modern building made of concrete blocks"
+        "Exactly the same as all the land around it, with nothing to set it apart",
+        "Covered in deep snow that has fallen only on that one spot",
+        "Slightly darkened and marked where Jacob knelt, with the soil disturbed around the base of the stone",
+        "Paved with smooth flat stones arranged in a perfect circle"
       ],
       correctAnswer: 2,
-      explanation: "Genesis describes Jacob setting up his stone pillow as a pillar and pouring oil on top. Visualizing this simple yet meaningful monument helps create a mental picture of how Jacob marked this holy place of encounter with God."
+      explanation: "The story tells us Jacob set up the stone and poured oil on it in an act of worship, but says nothing about the surrounding ground. Inferring what traces his actions — kneeling, handling the stone, the ritual itself — would leave on the earth requires visualizing physical details that must be constructed from imagination."
     },
     {
       type: "question",

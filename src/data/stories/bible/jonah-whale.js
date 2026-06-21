@@ -15,15 +15,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture Jonah running away from God, how would he be moving?",
+      question: "When you picture Jonah fleeing toward the ocean, how would his body look as he moved?",
       options: [
-        "Walking very slowly",
-        "Crawling on hands and knees",
-        "Running quickly away",
-        "Skipping happily"
+        "Shoulders relaxed, strolling gently",
+        "Hunched forward, arms pumping urgently",
+        "Arms spread wide, spinning in circles",
+        "Tiptoeing carefully and quietly"
       ],
-      correctAnswer: 2,
-      explanation: "Jonah would be running quickly away from where God wanted him to go because he was trying to escape."
+      correctAnswer: 1,
+      explanation: "Someone desperately trying to escape would lean forward with arms pumping hard, showing urgency and panic in every step."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "sound",
-      question: "In your mental image of the storm, what sounds would you hear?",
+      question: "When you picture sailors trying to speak to each other during the storm, how would they need to use their voices?",
       options: [
-        "Beautiful music",
-        "Complete silence",
-        "Birds chirping",
-        "Thunder and waves crashing"
+        "Whispering softly so others could sleep",
+        "Humming a gentle tune",
+        "Screaming at the top of their lungs to be heard",
+        "Speaking in a normal, calm tone"
       ],
-      correctAnswer: 3,
-      explanation: "Storms at sea are very loud with thunder, wind, and big waves crashing against the ship."
+      correctAnswer: 2,
+      explanation: "With roaring winds and crashing waves all around, the noise would be overwhelming, forcing sailors to scream as loudly as possible just to be heard by someone standing nearby."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize the inside of the fish's belly, what would you see in the background?",
+      question: "When you visualize Jonah standing inside the fish's belly, what would the floor beneath his feet feel like?",
       options: [
-        "Bright sunshine",
-        "Dark curved walls",
-        "People having a party",
-        "Snow-covered mountains"
+        "Hard and flat like stone tiles",
+        "Soft, slippery, and slightly squishy",
+        "Warm and dry like desert sand",
+        "Smooth and shiny like polished wood"
       ],
       correctAnswer: 1,
-      explanation: "The inside of a fish would be dark with curved walls, like being inside a living cave."
+      explanation: "The interior of a living creature would be made of soft tissue and muscle, soaked in liquid, making the surface feel slippery and squishy underfoot, nothing like any solid ground."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture Jonah praying inside the fish, what expression would be on his face?",
+      question: "When you picture Jonah praying inside the dark fish belly, how would his body be positioned?",
       options: [
-        "Angry and mad",
-        "Sorry and asking forgiveness",
-        "Happy and laughing",
-        "Sleepy and tired"
+        "Standing tall with arms crossed",
+        "Curled up small with head bowed low",
+        "Jumping up and down excitedly",
+        "Lying flat and fast asleep"
       ],
       correctAnswer: 1,
-      explanation: "Jonah would look sorry because he realized he should have obeyed God from the beginning."
+      explanation: "Someone feeling humble and desperate while praying in a dark, cramped space would curl up small with their head bowed, showing how helpless and sorry they felt."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "where",
-      question: "When you visualize Jonah being spit out, where would he land?",
+      question: "When you visualize Jonah moments after being spit out, what would his clothes and skin look like?",
       options: [
-        "On dry sand near the ocean",
-        "High up in a tree",
-        "In a busy city",
-        "On a snowy mountain"
+        "Clean and dry as if freshly washed",
+        "Covered in shiny armor",
+        "Soaked through and coated in slippery slime",
+        "Glowing bright white from the light"
       ],
-      correctAnswer: 0,
-      explanation: "The fish would spit Jonah onto the beach, which is the dry sand area next to the ocean."
+      correctAnswer: 2,
+      explanation: "After spending three days inside a fish's stomach surrounded by water and digestive fluids, Jonah's clothes and skin would be thoroughly soaked and coated in slippery, sticky slime."
     },
     {
       type: "story",

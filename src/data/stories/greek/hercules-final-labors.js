@@ -31,15 +31,15 @@ const herculesFinalLabors = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, how would the Amazon warriors react when they believed their queen was in danger?",
+      question: "In your mental image, what expression would you see on the Amazon warriors' faces the moment they heard the lie about Hercules?",
       options: [
-        "Run away in fear",
-        "Continue their daily activities",
-        "Rush to attack with weapons ready",
-        "Start dancing peacefully"
+        "Sleepy and yawning",
+        "Calm and smiling warmly",
+        "Burning with rage and alarm",
+        "Confused and laughing"
       ],
       correctAnswer: 2,
-      explanation: "Fierce warriors who think their queen is in danger would rush to attack with their weapons ready to defend her."
+      explanation: "Fierce warriors who suddenly believe their queen is about to be kidnapped would show burning rage and alarm on their faces — a reaction you have to picture rather than read directly from the text."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const herculesFinalLabors = {
     {
       type: "question",
       domain: "color",
-      question: "When you visualize a belt that 'sparkled like captured sunlight,' what would it look like?",
+      question: "When you picture Hercules escaping on his ship with the belt, what color would the light reflected from the belt cast onto the deck around him?",
       options: [
-        "Dull gray metal",
-        "Bright golden with a warm glow",
-        "Deep blue like the ocean",
-        "Black as night"
+        "Cold blue-white like moonlight",
+        "Warm amber-gold shimmering across the wood",
+        "Deep red like firelight",
+        "Pale gray like fog"
       ],
       correctAnswer: 1,
-      explanation: "Something that sparkles like captured sunlight would be bright golden with a warm, glowing appearance."
+      explanation: "A belt that sparkles like sunlight would throw warm amber-golden reflections onto the ship's deck nearby — something you must picture in your mind rather than read from the story."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const herculesFinalLabors = {
     {
       type: "question",
       domain: "number",
-      question: "If you picture Geryon walking with all his legs, how many footprints would he leave in the sand with each step forward?",
+      question: "If you picture Geryon's three bodies joined at the waist, how many separate waists would you actually see when looking at him from the front?",
       options: [
-        "Two footprints like a normal person",
-        "Three footprints, one from each body",
-        "Six footprints all at once",
-        "No footprints at all"
+        "None, because the bodies merge into one shared waist",
+        "Three separate waists, one per body",
+        "Six waists, two per body",
+        "One waist on each side only"
       ],
-      correctAnswer: 2,
-      explanation: "With three bodies and six legs total, Geryon would leave six footprints when all his feet touched the ground."
+      correctAnswer: 0,
+      explanation: "The story says the three bodies are joined at the waist, meaning they merge into a single shared midsection rather than each having its own distinct waist — something you can only figure out by visualizing how the bodies connect."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const herculesFinalLabors = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture a dragon with a hundred heads guarding a tree, what would make it impossible to sneak past?",
+      question: "When you picture a dragon with a hundred heads, what would the area around the apple tree look like because of the dragon's presence?",
       options: [
-        "Its loud snoring",
-        "Its single eye",
-        "At least some heads would always be watching",
-        "Its tiny size"
+        "Neat and tidy with trimmed grass",
+        "Trampled, scorched, and covered in claw marks",
+        "Filled with colorful flowers",
+        "Completely empty and featureless"
       ],
-      correctAnswer: 2,
-      explanation: "With a hundred heads that never sleep, at least some heads would always be awake and watching, making it impossible to sneak past."
+      correctAnswer: 1,
+      explanation: "A massive dragon with a hundred heads constantly moving around a tree would trample the ground, scorch the earth with its breath, and leave deep claw marks — damage you have to imagine rather than read about in the story."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const herculesFinalLabors = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture a three-headed guard dog barking, what would you hear?",
+      question: "When you picture Hercules arriving at the gates of the Underworld, what would the air around him sound like?",
       options: [
-        "Three different barks at the same time",
-        "Complete silence",
-        "One quiet whimper",
-        "Beautiful singing"
+        "Cheerful birdsong and rustling leaves",
+        "Complete and total silence",
+        "Distant wailing, growling, and eerie echoes",
+        "Gentle ocean waves"
       ],
-      correctAnswer: 0,
-      explanation: "A dog with three heads would produce three different barks at the same time, creating a terrifying chorus of barking."
+      correctAnswer: 2,
+      explanation: "The Underworld is a realm of the dead filled with souls and fearsome guardians, so imagining the atmosphere there you would picture distant wailing, low growling, and eerie echoes — none of which are described in the story but can be inferred by visualizing such a place."
     },
     {
       type: "story",

@@ -15,15 +15,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the walls of Jericho, how tall would they appear compared to Joshua?",
+      question: "When you picture Joshua standing at the base of Jericho's walls, what part of the wall would his head reach?",
       options: [
-        "Much shorter than Joshua",
-        "About the same height",
-        "Invisible walls",
-        "Much taller than Joshua"
+        "He would tower above the top of the walls",
+        "His head would reach about halfway up",
+        "His head would only reach the very bottom section",
+        "He would be eye level with the top"
       ],
-      correctAnswer: 3,
-      explanation: "The walls of Jericho were famous for being very tall and thick, much taller than any person."
+      correctAnswer: 2,
+      explanation: "The walls of Jericho were enormous fortifications built to repel armies. A single person standing at the base would be dwarfed, with their head reaching only the lowest portion of the massive structure."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the army marching around Jericho, how would they be moving?",
+      question: "When you picture the army following God's command to stay completely quiet while marching, how would their feet most likely move?",
       options: [
-        "Marching slowly in a circle",
-        "Running in circles fast",
-        "Walking away from the city",
-        "Dancing and spinning wildly"
+        "Stomping loudly and heavily",
+        "Placed carefully and deliberately to avoid noise",
+        "Shuffling and dragging along the ground",
+        "Skipping lightly and quickly"
       ],
-      correctAnswer: 0,
-      explanation: "The army would march in an organized circle around the city walls, following God's specific instructions."
+      correctAnswer: 1,
+      explanation: "To maintain the required silence during the march, soldiers would need to step with discipline and care, placing their feet deliberately rather than letting their sandals and armor clatter loudly."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you visualize the people of Jericho watching the army, from what angle would they be looking?",
+      question: "When you imagine the expressions on the faces of Jericho's people as they watched in silence, what would they most likely look like?",
       options: [
-        "Looking up from below",
-        "Looking straight across",
-        "Looking down from above",
-        "Looking sideways"
+        "Joyful and celebratory",
+        "Bored and sleepy",
+        "Puzzled and uneasy",
+        "Friendly and welcoming"
       ],
       correctAnswer: 2,
-      explanation: "The people were standing on top of the high walls, so they would look down at the army below."
+      explanation: "Watching a silent army circle your city day after day without attacking would be deeply confusing and unsettling, so their faces would likely show worry and bewilderment."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image of the seventh day, how many times would you see the army circle the city?",
+      question: "In your mental image of the seventh day, how exhausted would the soldiers appear compared to the first day?",
       options: [
-        "Seven complete circles",
-        "One time like other days",
-        "Three times",
-        "Ten times"
+        "Completely fresh, as if just starting",
+        "Noticeably tired, with slower steps and heavy feet",
+        "More energetic than ever",
+        "Asleep on their feet"
       ],
-      correctAnswer: 0,
-      explanation: "God specifically told them to march around seven times on the seventh day, which was different from the other days."
+      correctAnswer: 1,
+      explanation: "Marching around a large walled city seven times in a single day, after already marching for six previous days, would leave even strong soldiers visibly weary and heavy-footed."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "sound",
-      question: "When you picture this moment, what sounds would fill your mental image?",
+      question: "How would the sound of thousands of soldiers shouting together most likely affect someone standing very close to the walls?",
       options: [
-        "Complete silence",
-        "Soft whispers",
-        "Beautiful singing",
-        "Loud trumpets and shouting"
+        "They would barely notice it",
+        "They would feel the vibrations through the ground and air",
+        "They would find it soothing and calming",
+        "They would hear only a faint murmur"
       ],
-      correctAnswer: 3,
-      explanation: "The scene would be incredibly loud with trumpets blowing and thousands of soldiers shouting together."
+      correctAnswer: 1,
+      explanation: "When thousands of voices and instruments release sound at once, the force of the combined noise creates powerful vibrations that a nearby person would physically feel, not just hear."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const joshuaJericho = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the walls falling down, how would the stones be moving?",
+      question: "When you visualize the moment just before the walls fully collapsed, how would the top of the walls most likely appear?",
       options: [
-        "Floating upward",
-        "Tumbling down to the ground",
-        "Staying perfectly still",
-        "Rolling in a straight line"
+        "Perfectly still and straight",
+        "Swaying and leaning outward before breaking apart",
+        "Slowly rising upward",
+        "Spinning in place"
       ],
       correctAnswer: 1,
-      explanation: "When walls collapse, the stones tumble and crash downward because of gravity."
+      explanation: "When a massive structure begins to fail, the top sections typically sway and tilt outward before the whole wall breaks apart and crashes down, a motion that would be terrifying to witness."
     },
     {
       type: "story",

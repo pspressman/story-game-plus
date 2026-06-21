@@ -15,15 +15,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the farmer's cottage compared to a rich person's mansion, how would it look?",
+      question: "When you picture the farmer and his wife sitting down to a meal, what would their dinner table most likely look like?",
       options: [
-        "Much larger with many rooms and towers",
-        "About the same size with fancy decorations",
-        "Much smaller and simpler with basic needs",
-        "Floating in the air like a cloud"
+        "A long banquet table covered with roasted meats and overflowing bowls",
+        "A small worn table with modest portions and mismatched cups",
+        "A table decorated with candles, fine plates, and expensive wine",
+        "A table completely bare with nothing on it at all"
       ],
-      correctAnswer: 2,
-      explanation: "A poor farmer's cottage would be much smaller and simpler than a rich person's mansion, with just the basic rooms needed."
+      correctAnswer: 1,
+      explanation: "A poor farming couple would likely eat at a plain, small table with simple food — enough to survive but nothing lavish, reflecting their everyday struggle to get by."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "color",
-      question: "When you visualize the special egg in the nest, what would it look like?",
+      question: "When you visualize the goose sitting beside the golden egg in the nest, what contrast would you notice between the two?",
       options: [
-        "Plain white like a normal egg",
-        "Bright golden and shining like metal",
-        "Dark black with no shine",
-        "Clear like glass with nothing inside"
+        "They would look exactly the same dull color",
+        "The egg's warm golden glow would stand out sharply against the goose's plain white feathers",
+        "The goose would appear brighter and more colorful than the egg",
+        "Both would blend together so you could barely tell them apart"
       ],
       correctAnswer: 1,
-      explanation: "The golden egg would be bright golden and shining like precious metal, completely different from a normal white egg."
+      explanation: "The rich, warm golden color of the egg would create a striking contrast against the goose's ordinary white feathers, making it immediately eye-catching in the nest."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "when",
-      question: "In your mental image of the goose's egg-laying schedule, how often would you see new golden eggs?",
+      question: "If you imagined watching the farmer's trips to town over several weeks, what pattern would you notice in how he traveled?",
       options: [
-        "Once every year",
-        "Once every day",
-        "Once every hour",
-        "Only on special holidays"
+        "He would make one very large trip carrying many eggs at once",
+        "He would make short, regular trips, arriving with just one egg each time",
+        "He would only travel during rainstorms to hide his secret",
+        "He would send his wife while he stayed home sleeping"
       ],
       correctAnswer: 1,
-      explanation: "The goose laid one golden egg every single day, giving the farmer a steady income."
+      explanation: "Because the goose produced one egg at a time, the farmer would need to make frequent individual trips to town, each time carrying a single egg rather than a large haul."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "mood",
-      question: "When you picture the farmer thinking about cutting open the goose, what expression would be on his face?",
+      question: "When you picture the farmer's wife hearing his plan to cut open the goose, what would her body language most likely show?",
       options: [
-        "Kind and gentle like someone caring for pets",
-        "Greedy and excited about getting rich quickly",
-        "Sad and crying about the goose",
-        "Confused and unable to make decisions"
+        "Clapping her hands with excitement and nodding eagerly",
+        "Shrugging with total indifference and walking away",
+        "Leaning forward with raised hands, eyes wide, shaking her head",
+        "Laughing and patting him on the back approvingly"
       ],
-      correctAnswer: 1,
-      explanation: "The farmer would look greedy and excited, thinking only about getting rich quickly rather than caring for the goose."
+      correctAnswer: 2,
+      explanation: "Since the wife warned against the plan, she would likely show alarm and protest through tense, urgent body language — reaching out, shaking her head, trying to stop him."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "what",
-      question: "When you visualize the inside of the goose after the farmer cut it open, what would you see?",
+      question: "When you visualize the farmer's hands immediately after cutting open the goose, what would they look like?",
       options: [
-        "Hundreds of golden eggs piled up",
-        "Normal bird parts with no gold anywhere",
-        "A tiny golden factory making eggs",
-        "Magical sparkles and fairy dust"
+        "Covered in golden dust and sparkling with magic",
+        "Stained and empty, holding nothing of value",
+        "Clutching a huge pile of solid gold coins",
+        "Perfectly clean as if he had touched nothing"
       ],
       correctAnswer: 1,
-      explanation: "Inside the goose would be normal bird parts just like any other goose - no golden eggs or special magic visible."
+      explanation: "Finding no gold inside, the farmer's hands would be stained from the deed yet holding nothing valuable — a vivid image of his wasted action and destroyed hope."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image, how many golden eggs can the farmer get now that the goose is dead?",
+      question: "If you could compare the stack of golden eggs the farmer collected before killing the goose to the stack he collected after, what would those two stacks look like side by side?",
       options: [
-        "One egg per day like before",
-        "Zero eggs ever again",
-        "Ten eggs per day",
-        "One hundred eggs per day"
+        "Both stacks would be equally tall and impressive",
+        "The second stack would be much taller than the first",
+        "A growing stack on the left, and nothing but empty space on the right",
+        "Both stacks would be tiny and barely visible"
       ],
-      correctAnswer: 1,
-      explanation: "With the goose dead, the farmer can never get any more golden eggs - zero eggs forever."
+      correctAnswer: 2,
+      explanation: "The contrast would be stark — a meaningful collection built up over weeks on one side, and a completely empty space on the other, since the dead goose could never produce another egg."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const gooseGoldenEggs = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the farmer's life after losing the goose, what would you see around his cottage?",
+      question: "When you picture the empty pen behind the farmer's cottage after the goose is gone, what feeling would the space give off?",
       options: [
-        "Piles of golden treasure and luxury items",
-        "The same simple, poor surroundings as before",
-        "A magical castle with servants",
-        "Nothing but empty space"
+        "A warm, lively feeling with sounds and movement",
+        "A grand, impressive feeling like a royal stable",
+        "A hollow, abandoned feeling with straw scattered and silence",
+        "A cheerful feeling with colorful decorations everywhere"
       ],
-      correctAnswer: 1,
-      explanation: "The farmer would be back to his original poor life, with the same simple cottage and basic surroundings as when the story began."
+      correctAnswer: 2,
+      explanation: "Without the goose, the pen would feel hollow and neglected — just leftover straw and silence where there was once something precious, reflecting the farmer's loss perfectly."
     },
     {
       type: "story",

@@ -28,15 +28,15 @@ const egyptNile = {
     {
       type: "question",
       domain: "expression",
-      question: "How do you picture the faces of the Egyptian people when they worry about not having food?",
+      question: "If you could see the Egyptian villagers gathered together during the food shortage, what would their body language most likely look like?",
       options: [
-        "Smiling and laughing, not concerned at all",
-        "Angry and fighting with each other over the remaining food",
-        "Worried with furrowed brows, thin faces, and anxious eyes",
-        "Sleeping peacefully without any concern"
+        "Standing tall and proud with arms raised in celebration",
+        "Slouched and huddled close together, with heads bowed and arms crossed tightly",
+        "Jumping and skipping through the streets with energy",
+        "Stretching and yawning as if bored and relaxed"
       ],
-      correctAnswer: 2,
-      explanation: "The story mentions people were worried about having enough food. Visualizing faces showing concern and anxiety creates a realistic mental picture of how people would look during a time when their food supply is threatened."
+      correctAnswer: 1,
+      explanation: "When people face hunger and uncertainty, their bodies often reflect their distress through closed, protective postures. Visualizing villagers huddled and slouched together creates a mental image of a community weighed down by fear and hardship, details not described in the story."
     },
     {
       type: "story",
@@ -58,15 +58,15 @@ const egyptNile = {
     {
       type: "question",
       domain: "environment",
-      question: "How do you picture the celebration for Hapi at night?",
+      question: "What would the surface of the Nile most likely look like where the lantern boats drifted during the celebration?",
       options: [
-        "People sleeping quietly in their beds",
-        "Tiny boats with glowing lights floating on the dark river while people sing on the shore",
-        "People arguing and fighting with each other",
-        "A single person whispering quietly to the river"
+        "Completely still and pitch black with nothing visible",
+        "Covered in ice that the boats slide across",
+        "Shimmering with scattered patches of golden light reflected from the lanterns",
+        "Bright blue from the midday sun shining overhead"
       ],
-      correctAnswer: 1,
-      explanation: "The story describes people creating 'small boats with lanterns' set afloat on the river at night, along with music, dance, and offerings. Visualizing this nighttime scene with glowing boats creates a vivid mental picture of the celebration."
+      correctAnswer: 2,
+      explanation: "The story mentions lantern boats floating on the river at night, but does not describe the water's appearance. Inferring that lantern light would cast shimmering golden reflections across the dark water surface requires visualizing the physics of light on a moving river at night."
     },
     {
       type: "story",
@@ -88,15 +88,15 @@ const egyptNile = {
     {
       type: "question",
       domain: "movement",
-      question: "How do you picture the Nile River beginning to rise after the rain?",
+      question: "As the Nile rises after the distant mountain rains, what would the riverbanks most likely look like where they meet the advancing water?",
       options: [
-        "Suddenly exploding into a giant tidal wave that crashes over the land",
-        "Staying exactly the same with no visible change at all",
-        "Gradually getting higher, with the water level slowly creeping up the riverbanks",
-        "Turning bright pink and bubbling like a hot spring"
+        "The banks glow bright red as the water touches them",
+        "The dry cracked earth at the edges slowly darkens and softens as water seeps into it",
+        "The banks instantly collapse and disappear all at once",
+        "The soil floats upward and hovers above the rising water"
       ],
-      correctAnswer: 2,
-      explanation: "The story mentions the river 'began to rise' after rain fell in distant mountains. Visualizing a gradual, natural rise in water level helps create a realistic mental picture of how rivers flood after rainfall in their headwaters."
+      correctAnswer: 1,
+      explanation: "The story tells us rain fell in distant mountains and the river began to rise, but does not describe the riverbanks. Picturing dry, parched earth gradually darkening and softening as water creeps into it requires visualizing how arid soil responds when moisture slowly reaches it for the first time."
     },
     {
       type: "story",

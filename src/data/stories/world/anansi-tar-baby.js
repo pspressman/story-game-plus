@@ -15,15 +15,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the village's problem, what was being stolen each night?",
+      question: "When you picture the community well in the morning after water had been stolen, what would it look like compared to a full well?",
       options: [
-        "Food from the market stalls",
-        "Fresh water from the community well",
-        "Tools from the workshops",
-        "Clothes from the houses"
+        "Overflowing with more water than usual",
+        "Exactly the same level as always",
+        "Noticeably lower with far less water than expected",
+        "Completely dry with cracked mud at the bottom"
       ],
-      correctAnswer: 1,
-      explanation: "The story tells us that someone was stealing the village's fresh water from their community well every night."
+      correctAnswer: 2,
+      explanation: "Since much of the water was gone each morning, you would visualize the well with a clearly lower water level than villagers expected to find after filling it the day before."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "color",
-      question: "In your mental image, what color would the figure that Anansi made appear to be?",
+      question: "In your mental image, how would the surface of Anansi's figure contrast with the surrounding soil and grass near the well?",
       options: [
-        "Bright white like fresh cotton",
-        "Golden yellow like ripe corn",
-        "Sticky black like tar and tree sap",
-        "Green like fresh leaves"
+        "It would blend in perfectly with the pale sandy ground",
+        "It would stand out as a dark, glossy shape against the earthy surroundings",
+        "It would glow bright white against the dark night ground",
+        "It would look colorful and bright like tropical flowers"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Anansi mixing sticky black tar with tree sap to create the figure, so you would visualize it as black and sticky."
+      correctAnswer: 1,
+      explanation: "Made from dark tar and tree sap, the figure would appear as a dark, shiny silhouette that contrasts sharply against the lighter natural colors of soil, grass, and earth around the well."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "when",
-      question: "When you visualize Anansi waiting to catch the thief, what time would it be?",
+      question: "When you visualize Anansi hiding in the bushes waiting for the thief, what would the lighting conditions look like around him?",
       options: [
-        "Early morning when the sun was rising",
-        "Noon when the sun was highest",
-        "Night when the moon was high",
-        "Late afternoon before sunset"
+        "Bright daylight casting sharp shadows everywhere",
+        "A warm orange glow from a setting sun on the horizon",
+        "Dim silvery moonlight with dark patches of shadow",
+        "Complete pitch darkness with no light at all"
       ],
       correctAnswer: 2,
-      explanation: "The story mentions Anansi waiting as the moon rose high and seeing the thief approach at night."
+      explanation: "Since Anansi was waiting at night as the moon rose, you would picture a scene lit by cool, pale moonlight with deep shadows — enough light to make out shapes but still quite dark overall."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "mood",
-      question: "In your mind, how would Rabbit's voice sound when he first spoke to the tar figure?",
+      question: "In your mind, how would Rabbit's ears and shoulders appear as he greeted the tar figure for the first time?",
       options: [
-        "Angry and demanding water immediately",
-        "Polite and asking permission nicely",
-        "Scared and whispering very quietly",
-        "Loud and trying to wake everyone up"
+        "Ears flat and shoulders hunched in fear",
+        "Ears upright and relaxed with an easy, confident posture",
+        "Ears twisted sideways with shoulders shaking nervously",
+        "Ears folded back tightly with shoulders pulled forward in anger"
       ],
       correctAnswer: 1,
-      explanation: "The story shows Rabbit speaking politely and asking 'May I please get some water?' showing he was being respectful at first."
+      explanation: "Approaching a stranger politely and calmly, Rabbit would carry himself in a relaxed, open way — ears perked upright and shoulders loose, the body language of someone who feels unthreatened and is simply being neighborly."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "movement",
-      question: "When you picture the tar figure during Rabbit's conversation, how would it be moving?",
+      question: "When you picture Rabbit's body language as he grew annoyed at being ignored, what gesture would you imagine him making?",
       options: [
-        "Waving its arms and dancing around",
-        "Standing perfectly still without any movement",
-        "Running away from Rabbit quickly",
-        "Nodding and shaking its head in response"
+        "Curling up calmly and going to sleep beside the well",
+        "Leaning forward with ears pinned back and a raised paw",
+        "Skipping happily around the tar figure in circles",
+        "Lying flat on the ground looking up at the sky"
       ],
       correctAnswer: 1,
-      explanation: "The story emphasizes that the tar figure remained perfectly still, could not speak, and sat silently without moving."
+      explanation: "As Rabbit grew frustrated and threatened to teach the figure manners, you would picture him tensing up, leaning forward aggressively, with his ears flattened and a paw raised in warning."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "what",
-      question: "In your visualization, what would happen when Rabbit touched the tar figure?",
+      question: "In your visualization, what would Rabbit's face look like in the moment he realized his paw was not coming free?",
       options: [
-        "The figure would fall over and break apart",
-        "Rabbit's paw would stick fast to the sticky tar",
-        "The figure would start talking and moving",
-        "Nothing would happen at all"
+        "Calm and unsurprised, as if he expected this",
+        "Wide-eyed and alarmed, suddenly understanding the trap",
+        "Laughing and finding the whole situation funny",
+        "Sleepy and barely noticing anything was wrong"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us that when Rabbit slapped the tar figure, his paw stuck fast to the sticky tar material."
+      explanation: "The moment Rabbit realized his paw was trapped would produce a sudden shift from anger to shock — you would picture his eyes going wide and his expression filling with alarm as the situation became clear."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "size",
-      question: "When you imagine Rabbit after struggling with the tar figure, how much of him would be stuck?",
+      question: "When you imagine the shape that Rabbit and the tar figure formed together after all his struggling, what would it look like?",
       options: [
-        "Just one small paw touching the tar",
-        "About half of his body stuck to it",
-        "Completely stuck from head to toe",
-        "Not stuck at all, completely free"
+        "Two separate shapes still clearly apart from each other",
+        "A single tangled mass with Rabbit and figure merged together",
+        "Rabbit floating freely above the figure",
+        "The figure broken into pieces around a free Rabbit"
       ],
-      correctAnswer: 2,
-      explanation: "The story describes Rabbit becoming more and more stuck until he was 'completely stuck to the tar figure from head to toe.'"
+      correctAnswer: 1,
+      explanation: "After using both paws and both feet trying to escape, Rabbit would be pressed against the tar figure on multiple sides, forming one confused, lumpy shape where it would be hard to tell where Rabbit ended and the figure began."
     },
     {
       type: "story",
@@ -134,15 +134,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "perspective",
-      question: "When you picture Anansi discovering Rabbit in the morning, from what viewpoint would you see this scene?",
+      question: "When you picture Anansi approaching the trapped Rabbit at dawn, what would the light and shadows look like across the scene at that early hour?",
       options: [
-        "From inside the tar figure looking out",
-        "From Anansi's perspective as he came out of hiding",
-        "From high above looking down at the well",
-        "From underground looking up at them"
+        "Harsh bright overhead light with no shadows at all",
+        "Pale golden light coming in low from one side, casting long soft shadows across the well",
+        "Flickering orange firelight from torches the villagers carried",
+        "Total darkness with only the well faintly visible"
       ],
       correctAnswer: 1,
-      explanation: "To best visualize this discovery moment, you would picture it from Anansi's viewpoint as he emerged from hiding and found the trapped Rabbit."
+      explanation: "At dawn the sun sits low on the horizon, so you would picture a scene washed in cool, pale golden light arriving at a low angle — stretching long, soft shadows across the ground beside the well and giving everything an early-morning stillness."
     },
     {
       type: "story",
@@ -151,15 +151,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, how would Anansi help Rabbit get unstuck?",
+      question: "In your mental image, how would Rabbit's body posture change as Anansi worked to free him from the tar?",
       options: [
-        "Pulling Rabbit away from the tar with great force",
-        "Using warm water and soap to dissolve the tar gently",
-        "Cutting the tar figure into small pieces",
-        "Waiting for the tar to melt in the sun"
+        "Growing more rigid and tense the longer it took",
+        "Gradually relaxing limb by limb as each part came free",
+        "Staying completely frozen in one position throughout",
+        "Thrashing and struggling even harder against the tar"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Anansi carefully using warm water and gentle soap to dissolve the tar and free Rabbit safely."
+      explanation: "As the tar dissolved section by section, you would picture Rabbit's body slowly loosening — first one paw dropping free, then another, his posture gradually shifting from stiff and trapped to relieved and upright."
     },
     {
       type: "story",
@@ -168,15 +168,15 @@ const anansiTarBaby = {
     {
       type: "question",
       domain: "mood",
-      question: "When you visualize the final meeting with the village elders, what would everyone's expressions show?",
+      question: "When you visualize the final meeting with the village elders, what physical details in the scene would show that the mood had shifted from tension to resolution?",
       options: [
-        "Angry and wanting to punish Rabbit severely",
-        "Happy that they found a fair solution for everyone",
-        "Confused about what had happened",
-        "Sad that the problem couldn't be solved"
+        "Elders standing with crossed arms and turned backs toward Rabbit",
+        "People sitting close together, bodies open and turned toward one another",
+        "Everyone standing far apart in silence staring at the ground",
+        "Rabbit cowering in a corner while elders towered over him"
       ],
       correctAnswer: 1,
-      explanation: "The story says everyone was happy with the arrangement they worked out, so you would picture satisfied, pleased expressions on all their faces."
+      explanation: "A mood of agreement and shared satisfaction would show in how people physically arrange themselves — leaning in, facing each other openly, with relaxed postures that signal trust rather than the closed, guarded stances of conflict."
     },
     {
       type: "story",

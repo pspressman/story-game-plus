@@ -15,15 +15,15 @@ const elishaMiracles = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mental image, when the fiery chariot appears and takes Elijah in a whirlwind, which direction would Elisha need to look?",
+      question: "When you picture Elisha watching Elijah disappear into the whirlwind, what would the fiery horses and chariot look like as they moved farther away?",
       options: [
-        "Down at the ground",
-        "Straight ahead at eye level",
-        "Up into the sky",
-        "Behind him"
+        "Growing larger and filling the whole sky",
+        "Staying exactly the same size the whole time",
+        "Shrinking smaller until they vanished into a distant point",
+        "Dropping down toward the ground"
       ],
       correctAnswer: 2,
-      explanation: "A whirlwind carrying someone to heaven would go upward, so Elisha would look up."
+      explanation: "As the fiery chariot carried Elijah upward and away, it would appear to shrink smaller and smaller from Elisha's viewpoint until it disappeared entirely into the distance."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const elishaMiracles = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental picture, if the widow collected empty jars from many neighbors as Elisha said, how many would fill her small house?",
+      question: "When you picture the widow carrying jar after jar into her small house, how would the floor space look once all the empty jars were arranged inside?",
       options: [
-        "Just two or three",
-        "Exactly five",
-        "Dozens crowding the room",
-        "Only one"
+        "Mostly empty with room to walk freely",
+        "Barely covered with a jar in each corner",
+        "Crowded with almost no room left to move around",
+        "Completely unchanged with open space everywhere"
       ],
       correctAnswer: 2,
-      explanation: "Following Elisha's instruction to get many jars from all neighbors would result in dozens."
+      explanation: "Collecting jars from many neighbors and bringing them all inside a small house would crowd the floor, leaving little room to move around."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const elishaMiracles = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the special room built for Elisha, where on the house would it be located?",
+      question: "When you picture Elisha climbing up to his special room each evening, what would he likely use to get there?",
       options: [
-        "On the flat roof above",
-        "Deep underground",
-        "In the garden shed",
-        "Floating in the air"
+        "An outside staircase or ladder along the wall",
+        "A tunnel dug beneath the house",
+        "A rope swing from a nearby tree",
+        "A door that opened from underground"
       ],
       correctAnswer: 0,
-      explanation: "The story tells us they built his room on their roof, which was common for guest rooms."
+      explanation: "Rooftop rooms in ancient times were typically reached by an exterior staircase or ladder attached to the outside wall of the house."
     },
     {
       type: "story",

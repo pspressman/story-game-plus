@@ -15,15 +15,15 @@ const stitchInTime = {
     {
       type: "question",
       domain: "size",
-      question: "When you picture the hole in Maya's backpack before Grandma fixes it, how big would it be compared to a coin?",
+      question: "Imagine Grandma's needle passing through the fabric around the tiny hole. How many times would she likely need to push the needle through to close it?",
       options: [
-        "As big as a dinner plate",
-        "Smaller than a penny",
-        "The size of a basketball",
-        "Bigger than Maya's hand"
+        "Dozens and dozens of times",
+        "Just once or twice",
+        "At least twenty times",
+        "She would need scissors first"
       ],
       correctAnswer: 1,
-      explanation: "The hole is tiny - that's why it only needs one stitch to fix it right now."
+      explanation: "A tiny hole needs very little work to close - just one or two passes of the needle, which is why fixing it early is so easy."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const stitchInTime = {
     {
       type: "question",
       domain: "movement",
-      question: "Picture what happens to a small hole in a backpack when Maya puts heavy books in it every day. How would the hole change?",
+      question: "Picture the fabric threads around the huge rip in the second backpack. Compared to the threads around Maya's tiny hole, how would those threads look?",
       options: [
-        "It would stay exactly the same size",
-        "It would slowly get smaller",
-        "It would stretch and tear bigger",
-        "It would move to a different spot"
+        "Neat, straight, and tightly woven together",
+        "Frayed, loose, and pulling away from each other",
+        "Darker in color and thicker than normal",
+        "Perfectly smooth with clean edges"
       ],
-      correctAnswer: 2,
-      explanation: "Just like in your mental picture, small problems grow bigger when we don't fix them!"
+      correctAnswer: 1,
+      explanation: "When a hole grows into a huge rip over time, the threads around it become frayed and unraveled, making it much harder to repair neatly."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const stitchInTime = {
     {
       type: "question",
       domain: "number",
-      question: "Visualize Maya's math homework over many days. If she doesn't understand one concept today and doesn't ask for help, how many problems might confuse her by next week?",
+      question: "Imagine Maya's face during a math test next month if she never got help with that one confusing concept. What expression would she most likely have when she sees a difficult problem on the page?",
       options: [
-        "Still just one problem",
-        "Many problems that build on that concept",
-        "No problems at all",
-        "Problems in other subjects only"
+        "A calm, confident smile",
+        "A look of surprise and delight",
+        "A furrowed brow and wide, panicked eyes",
+        "A bored, sleepy expression"
       ],
-      correctAnswer: 1,
-      explanation: "When we don't fix one small problem, it can cause many bigger problems later - just like the hole!"
+      correctAnswer: 2,
+      explanation: "Without fixing the small gap in understanding early, Maya would feel overwhelmed and anxious when harder problems built on that missing concept appear on a test."
     },
     {
       type: "story",

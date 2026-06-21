@@ -31,15 +31,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "mood",
-      question: "As you visualize the other birds watching Fenghuang work hard, what expression would be on their faces?",
+      question: "As you visualize the other birds watching Fenghuang work hard, what body language would they likely show?",
       options: [
-        "Serious and worried looks",
-        "Amused, laughing expressions",
-        "Angry, fierce scowls",
-        "Sad, crying faces"
+        "Hunched over with wings drooping in shame",
+        "Puffed up with beaks turned away dismissively",
+        "Standing tall with wings spread in admiration",
+        "Cowering low to the ground in fear"
       ],
       correctAnswer: 1,
-      explanation: "The story says the other birds laughed at Fenghuang, so they would have amused, mocking expressions."
+      explanation: "Birds mocking someone they find foolish would likely puff themselves up and turn away dismissively, showing arrogance and scorn without a care for what Fenghuang was doing."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "background",
-      question: "When you imagine the land during the drought, what would the landscape look like?",
+      question: "When you imagine the sky above the drought-stricken land, what would it look like compared to a normal day?",
       options: [
-        "Green and lush with flowing rivers",
-        "Dry and brown with withered plants",
-        "Covered in deep snow and ice",
-        "Flooded with too much water"
+        "Dark and filled with heavy rain clouds",
+        "Pale, hazy, and bleached with no sign of moisture",
+        "Brilliant blue with soft white clouds",
+        "Purple and glowing at all hours"
       ],
       correctAnswer: 1,
-      explanation: "During a drought, the landscape would be dry and brown with withered, dead plants."
+      explanation: "During a severe drought the sky would appear pale and hazy, washed out by relentless sun with no rain clouds in sight, giving it a bleached, oppressive look very different from a healthy day."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "movement",
-      question: "As you picture the hungry birds hearing about the food, how would they be moving toward the cave?",
+      question: "As you picture the weakened, hungry birds trying to reach the cave, how would their flying look different from normal?",
       options: [
-        "Flying away from the cave in fear",
-        "Walking very slowly, looking bored",
-        "Hurrying eagerly toward the cave",
-        "Standing still and not moving"
+        "Perfectly smooth and effortless as usual",
+        "Unsteady and low to the ground, with frequent rests",
+        "Faster and more powerful than ever",
+        "Perfectly straight lines at great height"
       ],
-      correctAnswer: 2,
-      explanation: "Hungry birds hearing about food would hurry eagerly toward the source of food."
+      correctAnswer: 1,
+      explanation: "Birds weakened by hunger and drought would struggle to fly properly, moving unsteadily close to the ground and needing to stop and rest frequently rather than soaring confidently."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "number",
-      question: "In your mental image of birds gathering for food, approximately how many different types of birds would you see?",
+      question: "If you pictured the line of birds waiting for food, how would the size difference between the largest and smallest birds in that line look?",
       options: [
-        "Just one or two birds",
-        "Exactly three birds",
-        "Many different types - dozens or more",
-        "No birds at all"
+        "All birds would appear exactly the same size",
+        "The difference would be tiny and hard to notice",
+        "The largest bird would tower dramatically over the smallest one",
+        "The smallest birds would somehow appear bigger than the large ones"
       ],
       correctAnswer: 2,
-      explanation: "The story mentions many types and says 'all the birds,' suggesting dozens of different species."
+      explanation: "With eagles and hummingbirds both in line, the size contrast would be dramatic — an eagle can be hundreds of times heavier than a hummingbird, making the difference striking to visualize."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "when",
-      question: "When you visualize the great meeting of birds, when would this gathering take place in the story?",
+      question: "When you visualize the hundred birds arriving for the great meeting, what sounds would fill the air around them?",
       options: [
-        "Before the drought began",
-        "During the worst of the drought",
-        "After the rains returned and the drought ended",
-        "Years before Fenghuang was born"
+        "Complete silence with no noise at all",
+        "A single slow drumbeat in the distance",
+        "A loud chorus of overlapping chirps, calls, and wingbeats",
+        "Only the sound of rushing water"
       ],
       correctAnswer: 2,
-      explanation: "The meeting happened after the rains returned and the drought ended, when the birds wanted to show gratitude."
+      explanation: "A gathering of a hundred different bird species would produce a rich, overlapping chorus of their unique calls and the beating of many wings, creating a vibrant, celebratory noise."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture the collection of feathers from all different birds, what would you see?",
+      question: "If you held the eagle's flight feather and the peacock's eye feather side by side, how would their appearances differ?",
       options: [
-        "All feathers the exact same gray color",
-        "A rainbow of many different colors and patterns",
-        "Only black feathers",
-        "Transparent invisible feathers"
+        "They would look completely identical in color and texture",
+        "Both would be entirely white with no markings",
+        "One would be broad and earthy-toned while the other would shimmer with vivid iridescent color and a distinct circular pattern",
+        "Both would be the same deep black"
       ],
-      correctAnswer: 1,
-      explanation: "Different birds have different colored feathers, so the collection would show many colors like a rainbow."
+      correctAnswer: 2,
+      explanation: "An eagle's flight feather is large, broad, and earthy brown or dark, built for power, while a peacock's eye feather is famous for its vivid iridescent blues and greens with a striking circular eye-like pattern — a dramatic visual contrast."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "where",
-      question: "As you visualize the ceremony, where would the birds place the special feathers on Fenghuang?",
+      question: "As you visualize the ceremony, how would the smaller birds like the wren reach high enough to add their feathers to Fenghuang?",
       options: [
-        "Under its feet like a carpet",
-        "On its head as a crown and tail",
-        "Inside its beak to eat",
-        "Far away in another cave"
+        "They would dig a hole and place feathers underground",
+        "They would hover, flutter up briefly, or be helped by taller birds nearby",
+        "They would throw the feathers from far away",
+        "They would wait until Fenghuang left and place feathers on the ground"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions the feathers creating a crown and tail, so they'd be placed on the head and tail area."
+      explanation: "Tiny birds like the wren cannot reach as high as an eagle, so they would need to flutter and hover upward momentarily or be assisted by larger birds standing nearby to deliver their feathers properly."
     },
     {
       type: "story",
@@ -163,15 +163,15 @@ const chinesePhoenix = {
     {
       type: "question",
       domain: "size",
-      question: "After receiving feathers from a hundred different birds, how would Fenghuang's appearance compare to before?",
+      question: "If you could see Fenghuang's shadow on the ground after receiving all the gifted feathers, how would it differ from the shadows of the other birds nearby?",
       options: [
-        "Much smaller and harder to see",
-        "Exactly the same size",
-        "Completely invisible",
-        "More grand and magnificent with a larger, fuller appearance"
+        "It would be the smallest and faintest shadow",
+        "It would look identical to every other bird's shadow",
+        "It would cast a dramatically wider and more elaborate silhouette due to the crown and sweeping tail",
+        "It would cast no shadow at all"
       ],
-      correctAnswer: 3,
-      explanation: "With added crown feathers and a tail made from hundred birds' feathers, Fenghuang would appear more grand and magnificent."
+      correctAnswer: 2,
+      explanation: "With a towering crown of feathers and a long sweeping tail added to its form, Fenghuang's shadow would spread far wider and show a far more elaborate, regal silhouette than the plain outlines of the other birds."
     },
     {
       type: "story",

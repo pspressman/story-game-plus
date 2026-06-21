@@ -14,15 +14,15 @@ const jasonGoldenFleece = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture the Golden Fleece hanging in the tree, what would it look like?",
+      question: "When you picture the tree holding the Golden Fleece, how would the surrounding leaves and branches look compared to the fleece itself?",
       options: [
-        "A white sheet blowing in the wind",
-        "A shimmering golden woolly coat",
-        "A brown leather blanket",
-        "A pile of silver coins"
+        "The leaves would glow the same golden color as the fleece",
+        "The dark green leaves would make the fleece's golden color stand out brilliantly",
+        "The branches would be bare and white, matching the fleece",
+        "The tree would be invisible, letting only the fleece be seen"
       ],
       correctAnswer: 1,
-      explanation: "The Golden Fleece was the wool from a magical ram, so it would look like a golden-colored sheep's fleece."
+      explanation: "A golden fleece hanging among ordinary dark green leaves would create a strong color contrast, making the golden wool blaze visibly against the natural backdrop of the tree."
     },
     {
       type: "story",
@@ -51,7 +51,7 @@ const jasonGoldenFleece = {
       question: "When you visualize the Argo sailing, how would the fifty oars be moving?",
       options: [
         "Each moving at different random times",
-        "Only the front ones moving", 
+        "Only the front ones moving",
         "Staying still while wind pushed the ship",
         "All moving together in the same rhythm"
       ],
@@ -82,15 +82,15 @@ const jasonGoldenFleece = {
     {
       type: "question",
       domain: "what",
-      question: "When you picture the fire-breathing bulls, what would be coming from their nostrils?",
+      question: "When you picture the field after the fire-breathing bulls had crossed it repeatedly, what would the soil look like?",
       options: [
-        "Steam like hot breath on a cold day",
-        "Streams of orange and red flames",
-        "Black smoke clouds",
-        "Sparkling gold dust"
+        "Lush and green, covered in fresh grass",
+        "Scorched black and smoldering, with patches of ash",
+        "Frozen and white like a snowfield",
+        "Wet and muddy from heavy rain"
       ],
       correctAnswer: 1,
-      explanation: "Fire-breathing bulls would have actual flames coming from their nostrils, which would appear as streams of orange and red fire."
+      explanation: "Bulls that breathe fire would leave the ground scorched and blackened wherever they walked, turning the soil to ash and leaving a smoldering, charred field behind them."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const jasonGoldenFleece = {
     {
       type: "question",
       domain: "touch",
-      question: "In your mental image, after Jason applies the magic ointment, how would his skin feel if he touched the bulls' flames?",
+      question: "When you imagine Jason rubbing Medea's ointment onto his skin before facing the bulls, what texture would it most likely feel like on his hands?",
       options: [
-        "Cool or normal temperature",
-        "Burning hot like touching a stove",
-        "Freezing cold like ice",
-        "Tingly like pins and needles"
+        "Dry and powdery like chalk dust",
+        "Rough and gritty like wet sand",
+        "Smooth and slick like oil or wax",
+        "Scratchy and coarse like tree bark"
       ],
-      correctAnswer: 0,
-      explanation: "The magic ointment protected Jason from fire, so the flames wouldn't burn him - his skin would feel normal temperature even when touched by fire."
+      correctAnswer: 2,
+      explanation: "Magical protective ointments in ancient stories were typically herb-based and oil-derived, so the substance would feel smooth and slick as Jason spread it across his skin, similar to a thick oil or wax."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const jasonGoldenFleece = {
     {
       type: "question",
       domain: "movement",
-      question: "When you visualize the warriors growing from the planted teeth, which direction would they be moving?",
+      question: "When you visualize the warriors emerging from the earth, what would their bodies look like at the very first moment they appeared?",
       options: [
-        "Sideways like crabs",
-        "Downward into the earth",
-        "Upward from the ground",
-        "In circles around Jason"
+        "Fully formed and standing tall immediately",
+        "Only their helmets and raised weapons visible, the rest still buried",
+        "Floating down gently from above",
+        "Rolling sideways out of cracks in the ground"
       ],
-      correctAnswer: 2,
-      explanation: "The warriors sprang from the ground where the teeth were planted, so they would be rising upward from the earth."
+      correctAnswer: 1,
+      explanation: "Since the warriors were rising up through the soil, the very first thing visible would be the tops of their helmets and the tips of their raised weapons breaking through the surface before the rest of their bodies emerged."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const jasonGoldenFleece = {
     {
       type: "question",
       domain: "where",
-      question: "When you picture the Argo constellation in the night sky, where would the ship appear to be sailing?",
+      question: "When you picture the Argo constellation, which part of the night sky would it most likely fill — and why?",
       options: [
-        "Deep underwater with fish",
-        "On land between mountains",
-        "Among the stars in the darkness",
-        "Inside a cave"
+        "A small, tight cluster near the horizon",
+        "A wide, spread-out shape stretching across a large portion of sky",
+        "A single bright point like one star",
+        "A perfectly circular ring shape"
       ],
-      correctAnswer: 2,
-      explanation: "As a constellation, the ship Argo would appear to be sailing among the stars in the night sky."
+      correctAnswer: 1,
+      explanation: "A ship large enough to carry fifty rowers would need to be represented by a sprawling constellation, stretching across a wide area of the sky to show its great size — which is why Argo Navis is actually one of the largest constellations known."
     },
     {
       type: "story",

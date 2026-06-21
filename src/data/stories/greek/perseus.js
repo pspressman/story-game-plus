@@ -15,15 +15,15 @@ const perseus = {
     {
       type: "question",
       domain: "what",
-      question: "In your mind, what do you see when you imagine Perseus?",
+      question: "Imagine Perseus walking through his village the day before he sets off on his quest. What expression do you picture on his face?",
       options: [
-        "A young boy with a wooden sword hiding behind his mother",
-        "A strong young man standing tall with determined eyes",
-        "An old man with a long white beard",
-        "A tiny baby wrapped in blankets"
+        "A wide, carefree smile as if nothing worries him at all",
+        "A tight jaw and steady gaze, hiding fear behind quiet resolve",
+        "Tears streaming down his cheeks as he says goodbye",
+        "A bored, blank stare showing he does not care about the journey"
       ],
       correctAnswer: 1,
-      explanation: "The story describes Perseus as brave and strong, so picturing him as a confident young man fits best with how the story presents him."
+      explanation: "The story does not describe Perseus's facial expression at any point. Imagining the moment before a dangerous quest, someone brave would likely mask their inner fear with quiet determination, showing tension in their jaw and a focused gaze rather than open emotions."
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const perseus = {
     {
       type: "question",
       domain: "what",
-      question: "When you imagine the shield Athena gave Perseus, what do you see?",
+      question: "If you could feel the weight of the gifts the gods gave Perseus, which set would feel heaviest to carry all at once?",
       options: [
-        "A wooden shield with many dents and scratches",
-        "A shield made of leaves tied together",
-        "A shiny metal shield that reflects like a mirror",
-        "A tiny shield that only covers his hand"
+        "The winged sandals, because wings are made of thick feathers and heavy bones",
+        "The special bag, because it needs to be large enough to hold a monster's head",
+        "The shield and curved sword together, because metal weapons are dense and solid",
+        "All the gifts would feel completely weightless because they came from gods"
       ],
       correctAnswer: 2,
-      explanation: "The story mentions a 'shiny shield' from Athena. Imagining it as reflective is important because Perseus will use it to see Medusa without looking at her directly."
+      explanation: "The story does not describe the weight of any item. However, imagining the physical reality of the gifts, a metal shield and a sword would logically feel the heaviest together, since both are solid metal objects, while sandals and a bag would be lighter materials."
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const perseus = {
     {
       type: "question",
       domain: "movement",
-      question: "In your mind, how does Perseus move through the cave?",
+      question: "As Perseus steps deeper into the cave holding his shield up as a mirror, what do you imagine happening to his breathing?",
       options: [
-        "He walks straight ahead looking directly forward",
-        "He walks backward the entire time",
-        "He moves sideways with his shield held up, looking at its reflection",
-        "He closes his eyes and feels his way through the dark"
+        "He breathes loudly and quickly, panting from running so fast",
+        "He holds his breath completely and does not breathe at all",
+        "His breaths become slow and shallow as he tries to stay silent and steady",
+        "He breathes normally because he feels no fear at all inside the cave"
       ],
       correctAnswer: 2,
-      explanation: "Perseus needs to see where he's going but can't look directly at Medusa. Using his shield as a mirror allows him to move forward while only looking at reflections."
+      explanation: "The story does not mention Perseus's breathing. However, imagining someone creeping through a dark cave toward a deadly monster, a person trying to stay calm and undetected would naturally take slow, controlled, shallow breaths to keep quiet and steady their nerves."
     },
     {
       type: "story",

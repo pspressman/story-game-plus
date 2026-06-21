@@ -15,15 +15,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental picture, if Nineveh is to the east and Jonah sails to Tarshish in the west, where is he trying to go compared to where God told him?",
+      question: "In your mental picture, if Jonah is standing at the port with Nineveh behind him and the open sea ahead, what posture would best show what he is choosing to do?",
       options: [
-        "Exactly where God said",
-        "As far away as possible in the opposite direction",
-        "Just a little bit off course",
-        "In circles around Nineveh"
+        "Turning around and walking back inland",
+        "Standing frozen and unable to move",
+        "Striding forward onto the ship without looking back",
+        "Kneeling on the dock to pray toward Nineveh"
       ],
-      correctAnswer: 1,
-      explanation: "Jonah was trying to go as far as possible in the opposite direction from Nineveh."
+      correctAnswer: 2,
+      explanation: "Someone deliberately fleeing a command would stride purposefully onto the departing ship, not hesitate or look back — a posture of determined avoidance that the story implies but never describes."
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "background",
-      question: "When you picture the sea right after Jonah is thrown overboard, what would the water surface look like?",
+      question: "When you picture the sailors' faces right after throwing Jonah overboard and seeing the sea change, what expression would they wear?",
       options: [
-        "Huge crashing waves",
-        "Completely smooth and calm",
-        "Frozen solid ice",
-        "Boiling hot bubbles"
+        "Bored and uninterested",
+        "Wide-eyed and open-mouthed with shock",
+        "Angry and ready to fight",
+        "Sleepy and yawning"
       ],
       correctAnswer: 1,
-      explanation: "The story tells us the raging sea immediately became calm when Jonah went overboard."
+      explanation: "Witnessing a raging storm instantly stop after throwing a man overboard would leave sailors frozen in wide-eyed, open-mouthed disbelief — an expression of pure shock and awe."
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "what",
-      question: "In your mental picture of Jonah inside the fish for three days, what would he be surrounded by?",
+      question: "After three days inside the fish, what would Jonah's clothing and hair most likely look like when he was finally spat out?",
       options: [
-        "Darkness, wetness, and awful smells",
-        "Bright lights and fresh air",
-        "Comfortable furniture",
-        "Other happy people"
+        "Clean, dry, and neatly pressed",
+        "Soaked, slimy, and tangled with seaweed",
+        "Brightly colored and shining",
+        "Completely gone, replaced by fish scales"
       ],
-      correctAnswer: 0,
-      explanation: "Inside a fish would be dark, wet, and smell terrible from digestive fluids."
+      correctAnswer: 1,
+      explanation: "Three days submerged in a fish's wet belly would leave Jonah's clothes soaked through and his hair tangled and slimy — something the story describes the conditions of but never states about his appearance."
     },
     {
       type: "story",
@@ -100,15 +100,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "size",
-      question: "When you visualize Jonah walking through the great city of Nineveh for three days to warn everyone, how big would the city be?",
+      question: "When you picture Jonah standing at the entrance of Nineveh and looking ahead, what would the view in front of him suggest about the scale of the journey ahead?",
       options: [
-        "Small like a village",
-        "Just one street long",
-        "So large it took days to cross",
-        "Only one building"
+        "A tiny cluster of huts he could cross in minutes",
+        "A single road leading to one large building",
+        "Streets and buildings stretching so far into the distance they blur at the horizon",
+        "An empty field with no signs of people"
       ],
       correctAnswer: 2,
-      explanation: "A city that took three days to walk through must have been enormous."
+      explanation: "A city described as huge, requiring days to walk through, would present a view of streets and structures extending far beyond what the eye can clearly see — an overwhelming sense of scale that the story implies but never pictures."
     },
     {
       type: "story",
@@ -117,15 +117,15 @@ const jonahWhale = {
     {
       type: "question",
       domain: "mood",
-      question: "If you could see Jonah's face when God spared the city he wanted destroyed, what emotion would show?",
+      question: "Before Jonah even speaks a word of reaction, what would the tension in his body — his jaw, his fists, his shoulders — most likely look like as he watches God spare Nineveh?",
       options: [
-        "Pure joy and celebration",
-        "Anger and disappointment",
-        "Sleepy indifference",
-        "Fear of the people"
+        "Relaxed and loose, like someone at rest",
+        "Tight and clenched, like someone holding back an outburst",
+        "Trembling with grateful tears",
+        "Limp and collapsed with exhaustion"
       ],
       correctAnswer: 1,
-      explanation: "Jonah wanted Nineveh destroyed, so he'd be angry and disappointed when God spared them."
+      explanation: "Someone who hated Nineveh and wanted it destroyed, watching it be spared instead, would show the physical signs of suppressed rage — clenched jaw, tight fists, rigid shoulders — before any emotion is named."
     },
     {
       type: "story",

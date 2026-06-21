@@ -31,15 +31,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "texture",
-      question: "As you imagine running your hand along Kun's body during its transformation, how would the texture change?",
+      question: "As Kun transforms halfway through its change, with neither fully fish nor fully bird, what would the surface of its body feel like if you pressed your palm against its side?",
       options: [
-        "From smooth, wet scales to soft, dry feathers",
-        "From feathers to scales",
-        "It would stay exactly the same",
-        "From fur to metal"
+        "Perfectly smooth like polished glass",
+        "Patchy and uneven, with bumpy quills breaking through a slick surface",
+        "Soft and fluffy like a pillow",
+        "Hard and rigid like a wooden plank"
       ],
-      correctAnswer: 0,
-      explanation: "A fish transforming into a bird would change from having smooth, wet scales to soft, dry feathers."
+      correctAnswer: 1,
+      explanation: "Mid-transformation, new feather quills would be pushing through the existing fish surface, creating an uneven, mixed texture — neither the smoothness of a fish nor the fullness of finished feathers, but something uncomfortable and in-between."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "shape",
-      question: "When you picture Peng's enormous wings spread out, what shape would they create against the sky?",
+      question: "If you could see Peng flying directly overhead and looked straight up at it, what outline would its body and wings make against the sky above you?",
       options: [
-        "A perfect circle like the sun",
-        "A wide curved shape stretching across the horizon",
-        "A narrow straight line",
-        "A square box shape"
+        "A tall narrow spike pointing upward",
+        "A perfect circle with no visible wings",
+        "A broad cross or T-shape, with a long body and vast wings extending on either side",
+        "A sharp zigzag like a lightning bolt"
       ],
-      correctAnswer: 1,
-      explanation: "Bird wings spread out create a wide, curved shape, especially when stretching from horizon to horizon."
+      correctAnswer: 2,
+      explanation: "Looking straight up at a bird in flight from directly below, you would see the body as a central column with wings spreading wide on both sides, forming a broad cross or T-shape — a view not described in the story but inferable from how birds look from underneath."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "movement",
-      question: "As you imagine the ocean responding to Peng's wing beats, how would the water be moving?",
+      question: "As you imagine standing on a distant shore watching Peng launch into flight, how would the smaller boats in the harbor be affected by the disturbance?",
       options: [
-        "Staying perfectly calm and still",
-        "Rising up in enormous waves and swirling",
-        "Freezing into solid ice",
-        "Disappearing completely"
+        "They would float peacefully without any movement",
+        "They would be tossed and spun violently in every direction",
+        "They would slowly drift to shore in a straight line",
+        "They would sink straight down to the bottom"
       ],
       correctAnswer: 1,
-      explanation: "The powerful wing beats would cause the ocean to rise in huge waves and create swirling movements."
+      explanation: "Waves rising thousands of miles high and spiraling winds would violently toss any boats in the harbor in all directions, since such massive force would create chaotic, powerful turbulence."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "perspective",
-      question: "When Peng looks down from its incredible height after flying for six months, how would the earth appear?",
+      question: "At the height where Peng flies, the blue sky is described as being below it. What color would the sky appear to be directly above Peng at that altitude?",
       options: [
-        "Huge and filling its entire view",
-        "The same size as when on the ground",
-        "Completely invisible",
-        "Tiny and curved, like looking at a ball"
+        "Bright blue, the same as the sky below",
+        "Deep black or dark violet, like the edge of space",
+        "Brilliant white like fresh snow",
+        "Orange and red like a sunset"
       ],
-      correctAnswer: 3,
-      explanation: "From extremely high altitudes, the earth would appear small and curved, showing its round shape."
+      correctAnswer: 1,
+      explanation: "Above the blue sky, where the atmosphere thins out toward space, the sky transitions from blue to a deep black or dark violet. Since the blue sky is already below Peng, what lies above it would look like the darkness of near-space — something not stated in the story but requiring visualization of that altitude."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "when",
-      question: "If Peng's complete journey from north to south takes one full year, how long would each half of the trip take?",
+      question: "If a sparrow can cross a forest in a single morning, how does the sparrow's sense of a 'complete journey' compare to Peng's understanding of one?",
       options: [
-        "One day for each half",
-        "Six months for each direction",
-        "Three years going south",
-        "Just a few hours total"
+        "They would feel identical, since both birds complete their journeys",
+        "The sparrow's complete journey would feel enormous compared to Peng's",
+        "The sparrow's complete journey would be a tiny moment compared to Peng's year-long flight",
+        "Peng would finish its journey faster than the sparrow"
       ],
-      correctAnswer: 1,
-      explanation: "The story mentions six months flying up and another six months to reach the Southern Ocean, making each half six months."
+      correctAnswer: 2,
+      explanation: "Peng's complete journey spans a full year of nonstop flying, while a sparrow's journey takes only hours. This means what counts as a finished trip differs enormously between the two birds, requiring the reader to compare scales of travel not stated in the text."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "where",
-      question: "In your mental picture, where would the small quail be flying compared to the mighty Peng?",
+      question: "If both Peng and the quail were flying at the same moment, and you could see them both in one view from the side, where would the quail appear relative to Peng's body?",
       options: [
-        "At the same incredible height as Peng",
-        "Just above the ground near the bushes",
-        "Deep underwater with the fish",
-        "On the moon"
+        "Far above Peng, nearly out of sight",
+        "Level with Peng's chest, since they are both birds",
+        "Somewhere beneath Peng's lowest feathers, almost lost against the ground",
+        "Directly behind Peng's tail"
       ],
-      correctAnswer: 1,
-      explanation: "The quail specifically mentions flying just above the bushes, which means very close to the ground."
+      correctAnswer: 2,
+      explanation: "Peng flies ninety thousand miles high while the quail skims just above the bushes near the ground. Visualizing both at once, the quail would appear as a tiny speck barely above the earth's surface, tucked far below even the underside of Peng's enormous body."
     },
     {
       type: "story",
@@ -133,15 +133,15 @@ const greatPeng = {
     {
       type: "question",
       domain: "background",
-      question: "When you visualize Peng's shadow falling across the land below, what would you see in the background being covered by the shadow?",
+      question: "When you imagine a person standing in one of those kingdoms as Peng's shadow passes overhead, what would happen to the sunlight around them?",
       options: [
-        "Just a small garden",
-        "Entire kingdoms with cities and fields",
-        "Only empty ocean water",
-        "The surface of the moon"
+        "The sunlight would grow brighter and more intense",
+        "The daylight would dim as though a vast stormcloud had swallowed the sun",
+        "Nothing would change since shadows have no effect on light",
+        "The sunlight would turn green"
       ],
       correctAnswer: 1,
-      explanation: "The story mentions Peng's shadow falling across entire kingdoms, showing its enormous size."
+      explanation: "A shadow large enough to cover entire kingdoms would block out an enormous amount of sunlight, causing the day to suddenly darken for anyone standing beneath it, as though an immense cloud had eclipsed the sun."
     },
     {
       type: "question",

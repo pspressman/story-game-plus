@@ -49,15 +49,15 @@ const treeByWater = {
     {
       type: "question",
       domain: "number",
-      question: "Picture counting the fruit on both trees. How many fruits would the water-fed tree have compared to the dry tree?",
+      question: "Imagine picking up a single apple from the stream-side tree and one from the dry tree. How would they feel different in your hand?",
       options: [
-        "Many fruits versus few or none",
-        "No fruits on either",
-        "Same amount on both",
-        "Less on the water tree"
+        "Both would feel equally light and shriveled",
+        "The stream-side apple would feel firm and heavy, the dry tree's would feel hollow and brittle",
+        "The dry tree's apple would feel juicier and heavier",
+        "Both would feel the same solid weight"
       ],
-      correctAnswer: 0,
-      explanation: "The psalm shows that staying close to God's wisdom helps us produce good things in life!"
+      correctAnswer: 1,
+      explanation: "A well-watered tree produces fruit full of moisture and substance, while a dry tree's fruit shrivels — just as wisdom-fed choices produce something real and lasting!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const treeByWater = {
     {
       type: "question",
       domain: "movement",
-      question: "Visualize chaff (dry plant husks) in the wind versus a rooted tree in the same wind. How differently would they move?",
+      question: "Imagine a strong gust of wind hits a handful of chaff and a rooted tree at the same moment. What sound would each make as the wind passed through?",
       options: [
-        "Both blow away easily",
-        "Chaff stands firm, tree blows away",
-        "Both stay perfectly still",
-        "Chaff blows away, tree stands firm"
+        "Both would make a deep, hollow groan",
+        "The chaff would rustle and scatter silently while the tree creaks and holds",
+        "The tree would whistle shrilly and the chaff would thud heavily",
+        "Neither would make any sound at all"
       ],
-      correctAnswer: 3,
-      explanation: "This poetic contrast shows how godly choices give us stability while poor choices leave us rootless!"
+      correctAnswer: 1,
+      explanation: "The chaff, being light and loose, barely makes a sound as it scatters, while the tree's branches creak under pressure yet its trunk holds firm — a picture of how rootedness gives us stability even when life is hard!"
     },
     {
       type: "story",
@@ -83,15 +83,15 @@ const treeByWater = {
     {
       type: "question",
       domain: "when",
-      question: "The psalm says the tree yields fruit 'in its season.' What does this poetic phrase teach about good results in life?",
+      question: "If two children both started reading and following wise teachings today, but one expected immediate rewards and the other waited patiently, which would more likely feel disappointed first — and why?",
       options: [
-        "Good things come at the right time",
-        "Fruit appears instantly",
-        "There is no fruit ever",
-        "Seasons don't matter"
+        "The patient one, because waiting is always discouraging",
+        "Neither, because results always come instantly",
+        "The impatient one, because growth like a tree happens gradually over time",
+        "Both equally, since effort never produces results"
       ],
-      correctAnswer: 0,
-      explanation: "Poetry teaches patience - like trees, we produce good results at the right time when we're well-rooted!"
+      correctAnswer: 2,
+      explanation: "Just as a tree does not bear fruit the moment it is planted, the psalm's imagery suggests that wise living produces good results gradually — patience is part of being well-rooted!"
     },
     {
       type: "story",

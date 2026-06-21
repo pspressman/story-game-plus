@@ -15,15 +15,15 @@ const applesOfGold = {
     {
       type: "question",
       domain: "color",
-      question: "When you picture golden apples in a silver bowl, how would this combination look compared to regular apples in a plain bowl?",
+      question: "Close your eyes and picture golden apples resting in a silver bowl. What would happen to the color of the apples when the silver bowl reflects light onto them?",
       options: [
-        "Extra special and beautiful",
-        "Exactly the same",
-        "Less attractive",
-        "Invisible"
+        "The apples would appear to glow even more brilliantly",
+        "The apples would turn a dull, greenish shade",
+        "The silver would make the apples look completely invisible",
+        "The apples would fade to a pale, washed-out yellow"
       ],
       correctAnswer: 0,
-      explanation: "The precious metals make the apples look extra special - just like perfect timing makes words special!"
+      explanation: "Silver reflects light and warmth, which would make the golden color of the apples appear even more radiant and luminous - each material enhancing the beauty of the other!"
     },
     {
       type: "story",
@@ -32,15 +32,15 @@ const applesOfGold = {
     {
       type: "question",
       domain: "when",
-      question: "Picture Ben's face - frustrated and near tears. When would be the perfect time for encouraging words?",
+      question: "Picture Ben hunched over his unfinished painting while classmates pack up around him. What physical sign would tell you he is closest to giving up entirely?",
       options: [
-        "After he's already given up",
-        "Next week sometime",
-        "Right now, before he quits",
-        "Never"
+        "He starts painting faster than ever",
+        "He stands up and stretches confidently",
+        "He sets down his brush and stares blankly at the canvas",
+        "He asks the teacher for extra time cheerfully"
       ],
       correctAnswer: 2,
-      explanation: "The right words at the right moment are precious - timing makes them valuable!"
+      explanation: "When someone is on the edge of quitting, they stop trying - setting down the brush and going blank signals the moment encouragement is most urgently needed!"
     },
     {
       type: "story",
@@ -49,15 +49,15 @@ const applesOfGold = {
     {
       type: "question",
       domain: "mood",
-      question: "Visualize Ben's expression changing when he hears Sophia's perfectly timed encouragement. What would you see happen to his face?",
+      question: "Imagine watching Ben's painting session from across the room. Before Sophia speaks, what would his body language and posture most likely look like?",
       options: [
-        "It stays sad and frustrated",
-        "It transforms from despair to hope",
-        "It becomes angry",
-        "Nothing changes at all"
+        "Shoulders pulled back, head high, brush moving confidently",
+        "Shoulders hunched forward, head drooping, brush barely moving",
+        "Standing straight, smiling at his canvas with satisfaction",
+        "Leaning casually back in his chair, arms crossed comfortably"
       ],
       correctAnswer: 1,
-      explanation: "The right words at the right time can completely change someone's day - that's their golden value!"
+      explanation: "Someone struggling and near tears would collapse inward - hunched shoulders and a drooping head are the body's physical response to feeling defeated, even before a single tear falls!"
     },
     {
       type: "story",
@@ -66,15 +66,15 @@ const applesOfGold = {
     {
       type: "question",
       domain: "what",
-      question: "Picture someone saying 'Great job!' to a friend. What makes this ordinary phrase become like 'golden apples' instead of regular words?",
+      question: "Imagine two identical silver bowls — one holds shiny golden apples, the other holds plain brown pebbles. What does the difference between those two bowls represent about the words we choose to speak?",
       options: [
-        "Saying it louder",
-        "Saying it at the perfect moment when most needed",
-        "Writing it down",
-        "Saying it many times"
+        "Louder words fill the bowl more completely",
+        "Repeating words makes them shinier over time",
+        "The inner quality and care behind words determine their true worth",
+        "Writing words down preserves them better than speaking"
       ],
-      correctAnswer: 1,
-      explanation: "Timing and genuine care transform ordinary words into precious gifts!"
+      correctAnswer: 2,
+      explanation: "The golden apples are precious because of what they truly are, not how many there are or how loudly they are placed — just as words gain their worth from the genuine care and thoughtfulness behind them!"
     },
     {
       type: "story",

@@ -31,15 +31,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "where",
-      question: "If Jiang Taigong's line hangs three feet above the water surface, where is it positioned?",
+      question: "If a fish leaped as high as it could from the river, could it ever reach Jiang Taigong's line?",
       options: [
-        "Deep underwater",
-        "Touching the water surface",
-        "In the air above the water",
-        "Buried in mud"
+        "Yes, fish routinely leap three feet into the air",
+        "Unlikely, as most river fish cannot leap three feet above the surface",
+        "Yes, because the line touches the water",
+        "Yes, because the line is buried underwater"
       ],
-      correctAnswer: 2,
-      explanation: "Three feet above the water surface means the line is suspended in the air, not even touching water."
+      correctAnswer: 1,
+      explanation: "Since the line hangs three feet above the water, an ordinary river fish leaping from the surface would almost certainly never reach it, making the setup physically impossible for catching fish."
     },
     {
       type: "story",
@@ -48,15 +48,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "mood",
-      question: "When people mock his fishing method, what expression would Jiang Taigong maintain?",
+      question: "When people mock Jiang Taigong, what emotion would a person nearby likely feel watching his reaction?",
       options: [
-        "Angry shouting back",
-        "Sad crying",
-        "Worried frowning",
-        "Calm smiling patience"
+        "Alarmed, because he seems about to explode in anger",
+        "Uncomfortable, because he looks ready to weep",
+        "Surprised, because he seems completely unbothered",
+        "Bored, because he ignores everyone entirely"
       ],
-      correctAnswer: 3,
-      explanation: "A wise man confident in his purpose would maintain calm smiling patience despite mockery."
+      correctAnswer: 2,
+      explanation: "An onlooker watching someone respond to ridicule without irritation or hurt would feel surprised, since most people visibly react to being mocked."
     },
     {
       type: "story",
@@ -65,15 +65,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "perspective",
-      question: "From King Wen's viewpoint, why would the strange fishing method make him curious rather than dismissive?",
+      question: "How would King Wen's dream about meeting a great sage change the way he looked at the strange old fisherman compared to how ordinary passersby looked at him?",
       options: [
-        "He thought it was a new way to catch fish",
-        "He recognized it might indicate unusual wisdom",
-        "He wanted to learn to fish",
-        "He was hungry for fish"
+        "He would see a foolish old man wasting time, just like the others",
+        "He would see a potential sign or omen worth investigating rather than a joke",
+        "He would feel pity and want to teach the man to fish properly",
+        "He would feel annoyed at the distraction from his journey"
       ],
       correctAnswer: 1,
-      explanation: "A king seeking a sage would recognize that unusual behavior might indicate unusual wisdom."
+      explanation: "Because King Wen was actively searching for a prophesied sage, his dream would make him interpret the same strange behavior as a meaningful signal, whereas ordinary people with no such expectation simply saw it as foolishness."
     },
     {
       type: "story",
@@ -82,15 +82,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "sound",
-      question: "When Jiang Taigong speaks mysteriously about his fishing, what tone would his voice have?",
+      question: "When Jiang Taigong says 'I am not fishing for fish,' how would the speed and volume of his words likely compare to someone startled or defensive?",
       options: [
-        "Loud and aggressive",
-        "Quiet and meaningful",
-        "Confused mumbling",
-        "Angry yelling"
+        "Faster and louder, to make sure King Wen hears the correction",
+        "Slower and softer, drawing King Wen in rather than pushing him away",
+        "High-pitched and rushed, showing nervousness at being questioned",
+        "Shouted dramatically, to impress the king"
       ],
       correctAnswer: 1,
-      explanation: "Speaking mysteriously about deeper meanings would use a quiet, meaningful tone."
+      explanation: "A man of deep patience who has waited years for the right listener would deliver a cryptic remark slowly and quietly, inviting the hearer to lean in and think, rather than broadcasting it loudly."
     },
     {
       type: "story",
@@ -99,15 +99,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "movement",
-      question: "When King Wen realizes he's found a sage, how would his posture change?",
+      question: "As King Wen shifts from casually questioning a stranger to addressing a revered master, how would the distance between them likely change?",
       options: [
-        "From casual stance to respectful bowing",
-        "Running away in fear",
-        "Lying down to sleep",
-        "Dancing with joy"
+        "King Wen would back away to show respect",
+        "King Wen would step closer and lower himself to meet the seated sage's eye level",
+        "King Wen would remain perfectly still on horseback",
+        "King Wen would turn sideways to avoid direct eye contact"
       ],
-      correctAnswer: 0,
-      explanation: "Recognizing a sage, the king would change from casual stance to respectful bowing."
+      correctAnswer: 1,
+      explanation: "Showing genuine reverence to a seated elder would naturally lead King Wen to close the gap and physically lower himself rather than loom over the sage from a distance."
     },
     {
       type: "story",
@@ -116,15 +116,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "number",
-      question: "During all his days of strange fishing, how many rulers was Jiang Taigong waiting to find?",
+      question: "How many people passed by Jiang Taigong mocking him before the right person finally arrived?",
       options: [
-        "Any passing traveler",
-        "Just one worthy ruler",
-        "Ten different kings",
-        "Nobody at all"
+        "Nobody ever passed by",
+        "Exactly three people",
+        "Many unnamed people over many days",
+        "Only King Wen ever saw him"
       ],
-      correctAnswer: 1,
-      explanation: "He was specifically waiting for just one worthy ruler who would recognize his wisdom."
+      correctAnswer: 2,
+      explanation: "The story describes people repeatedly laughing at him day after day, implying many strangers passed and mocked him across the long wait before King Wen appeared."
     },
     {
       type: "story",
@@ -150,15 +150,15 @@ const jiangTaigongFishing = {
     {
       type: "question",
       domain: "when",
-      question: "If each step pulling the carriage equals one year of dynasty rule, how long would 808 steps predict?",
+      question: "If King Wen had managed to pull the carriage only halfway before stopping, what would that likely have meant for the Zhou Dynasty's future?",
       options: [
-        "808 years of rule",
-        "80 years of rule",
-        "8 years of rule",
-        "Forever"
+        "The dynasty would have lasted twice as long",
+        "The dynasty would have lasted roughly half as many years",
+        "Nothing would change, the years are fixed",
+        "The dynasty would have lasted forever"
       ],
-      correctAnswer: 0,
-      explanation: "Each step equaling one year means 808 steps would predict 808 years of dynasty rule."
+      correctAnswer: 1,
+      explanation: "Since each step corresponded to a year of rule, stopping at roughly half the steps would predict roughly half the years, meaning a significantly shorter dynasty than 808 years."
     },
     {
       type: "story",
