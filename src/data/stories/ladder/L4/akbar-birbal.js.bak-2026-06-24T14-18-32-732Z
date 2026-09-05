@@ -1,0 +1,194 @@
+// L4 / B4 (deontic_modal: the ought, the counterfactual present)
+// Gating questions weigh must vs may: what a character is FREE to do against what they are BOUND to do.
+// The correct option reads the obligation, never naming the device.
+
+const akbarBirbalStory = {
+  id: "akbar-birbal",
+  title: "Akbar and Birbal",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 4,
+  band: "B4",
+  grammar_online: [
+    "simple_present",
+    "simple_past",
+    "concrete_noun",
+    "locative",
+    "past_progressive",
+    "present_perfect",
+    "sequence",
+    "simple_future",
+    "past_perfect",
+    "infinitive",
+    "gerund",
+    "participle",
+    "present_progressive",
+    "future_progressive",
+    "passive_voice",
+    "future_perfect",
+    "deontic_modal"
+  ],
+  culture: "India",
+  region: "South Asia",
+  tier: "R",
+  saga: null,
+  source_epic: false,
+  threads: [
+    {
+      type: "history",
+      inaccuracy_flag: true
+    }
+  ],
+  edges: [],
+  cultural_care: null,
+  theme: "What is wise and what is only clever",
+  estimatedTime: "5-10 min",
+  description: "Emperor Akbar poses riddles and tests. His advisor Birbal must answer with wit and wisdom. But what is he free to say, and what must he keep to himself?",
+  
+  content: [
+    {
+      type: "story",
+      text: "Emperor Akbar ruled the Mughal Empire with power and wisdom. At his court in Agra, nobles bowed low. Ministers offered advice. But Akbar trusted one man above all others: Birbal, his clever advisor."
+    },
+    {
+      type: "question",
+      gates: false,
+      grammar_cell: "past_progressive",
+      domain: "vantage",
+      question: "What were the nobles doing when Akbar held court?",
+      correct: "They were bowing low before the emperor.",
+      distractors: [
+        "They were standing tall and proud.",
+        "They were laughing at Birbal's jokes.",
+        "They were leaving the palace."
+      ],
+      explanation: "The text says that at court, nobles bowed low."
+    },
+    {
+      type: "story",
+      text: "One morning, Akbar felt playful. He called Birbal to the throne room. 'I have a question for you,' the emperor said. 'How many crows live in my city?' Birbal knew he must answer, but the question seemed impossible."
+    },
+    {
+      type: "question",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      domain: "obligation",
+      question: "What did Birbal know about answering the emperor's question?",
+      correct: "He was required to give an answer.",
+      distractors: [
+        "He was free to refuse to answer.",
+        "He was permitted to ask someone else.",
+        "He was allowed to leave without speaking."
+      ],
+      explanation: "When the emperor asks a direct question, the advisor is bound to respond. Birbal knew he must answer."
+    },
+    {
+      type: "story",
+      text: "Birbal thought for only a moment. Then he smiled. 'Your Majesty, there are exactly ninety-five thousand, four hundred and sixty-three crows in your city.' Akbar raised his eyebrows. 'How can you be so certain?' he asked."
+    },
+    {
+      type: "story",
+      text: "'If Your Majesty doubts me,' Birbal said, 'you may count them yourself. If there are more crows, then relatives from other cities must be visiting. If there are fewer, then some of our crows must have gone to visit their relatives elsewhere.'"
+    },
+    {
+      type: "question",
+      gates: false,
+      grammar_cell: "sequence",
+      domain: "sequence",
+      question: "What did Birbal say the emperor could do if he doubted the answer?",
+      correct: "First doubt the number, then count the crows himself.",
+      distractors: [
+        "First punish Birbal, then ask another advisor.",
+        "First leave the throne room, then forget the question.",
+        "First laugh at the answer, then ask about elephants."
+      ],
+      explanation: "Birbal told Akbar he was free to count the crows if he doubted the number."
+    },
+    {
+      type: "story",
+      text: "Akbar laughed with delight. He could not prove Birbal wrong. Another day, the emperor drew a line on the floor. 'Make this line shorter,' he commanded, 'but you must not touch it or erase any part of it.'"
+    },
+    {
+      type: "question",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      domain: "obligation",
+      question: "What limits did Akbar place on Birbal in the line challenge?",
+      correct: "Birbal was forbidden to touch or erase the line.",
+      distractors: [
+        "Birbal was permitted to erase part of the line.",
+        "Birbal was allowed to touch the line with his hand.",
+        "Birbal was free to draw anywhere except the floor."
+      ],
+      explanation: "Akbar said Birbal must not touch or erase the line. These actions were not permitted."
+    },
+    {
+      type: "story",
+      text: "The courtiers whispered. How could anyone shorten a line without touching it? But Birbal simply drew a longer line beside it. Now the first line looked shorter. Akbar clapped his hands in approval."
+    },
+    {
+      type: "story",
+      text: "Years passed. Birbal solved many riddles. He gave wise judgments. But one day, a jealous courtier went to Akbar. 'Birbal thinks he is cleverer than you, Your Majesty,' the man lied. 'He says you must obey him, not the other way around.'"
+    },
+    {
+      type: "question",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      domain: "obligation",
+      question: "What did the jealous courtier falsely claim about power at court?",
+      correct: "He said Birbal believed the emperor was bound to obey the advisor.",
+      distractors: [
+        "He said Birbal was required to obey all the other courtiers.",
+        "He said Akbar was permitted to ignore Birbal's advice.",
+        "He said Birbal was free to leave the court whenever he wished."
+      ],
+      explanation: "The lie was that Birbal said the emperor must obey him. This reverses the true duty: advisors are bound to serve the emperor, not command him."
+    },
+    {
+      type: "story",
+      text: "Akbar knew his friend. He did not believe the lie. Instead, he decided to test Birbal one more time. The emperor sent for Birbal and said, 'I want you to bring me something that I must accept when I am happy but must refuse when I am angry.'"
+    },
+    {
+      type: "story",
+      text: "Birbal went home. He thought all night. In the morning, he returned to the palace. He waited until Akbar was laughing with his wives and children. Then Birbal approached and said, 'Your Majesty, I have come with the answer.' He whispered four words into the emperor's ear: 'Your Majesty is wrong.'"
+    },
+    {
+      type: "question",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      domain: "obligation",
+      question: "Why did Birbal's answer work for both happy and angry moods?",
+      correct: "A happy ruler must hear correction with grace, but an angry one is bound to reject it.",
+      distractors: [
+        "A happy ruler is free to ignore advice, but an angry one must listen carefully.",
+        "A happy ruler is permitted to punish, but an angry one must forgive.",
+        "A happy ruler must always agree, but an angry one is allowed to disagree."
+      ],
+      explanation: "The wisdom is this: when a ruler is happy and generous, he is obliged to accept even hard truths. But when angry, he is bound to refuse criticism."
+    },
+    {
+      type: "story",
+      text: "Akbar was happy. He smiled and accepted the words. 'You are right, Birbal,' he said. 'When I am joyful, I must listen even to uncomfortable truths. But when I am angry, I would refuse to hear them.' He rewarded Birbal with gold and honor."
+    },
+    {
+      type: "question",
+      gates: false,
+      grammar_cell: "present_perfect",
+      domain: "cause",
+      question: "What had Birbal done to earn the emperor's trust over the years?",
+      correct: "He had solved many riddles and given wise judgments.",
+      distractors: [
+        "He had agreed with every word Akbar said.",
+        "He had refused to answer difficult questions.",
+        "He had told lies to please the courtiers."
+      ],
+      explanation: "The text says Birbal solved many riddles and gave wise judgments. This built Akbar's trust."
+    },
+    {
+      type: "story",
+      text: "The jealous courtier slipped away in shame. From that day forward, no one doubted Birbal's place at court. He remained Akbar's most trusted friend until the end of his days. For true wisdom knows not only what must be done, but when and how to do it."
+    }
+  ]
+};
+
+export default akbarBirbalStory;

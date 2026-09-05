@@ -1,0 +1,170 @@
+// L3 · B3 · the other's feeling and the vantage flip · passive_voice
+// Gating questions flip vantage: make the reader take the side of the one acted upon.
+// Never name the device. Every gate binds band and grammar_cell.
+
+const story = {
+  id: "tempest-storm-mercy",
+  title: "The Tempest",
+  "culture": "England",
+  "region": "British Isles",
+  "tier": "A",
+  "saga": "shakespeare",
+  "source_epic": false,
+  "threads": ["shakespeare"],
+  "edges": [],
+  "cultural_care": null,
+  "theme": "The storm was raised, then the mercy was chosen",
+  "description": "Prospero calls a storm to wreck his enemies on his island. By the end, he must decide whether to take revenge or grant mercy.",
+  "level": "L3",
+  "band": "B3",
+  "grammar_cell": "passive_voice",
+  "content": [
+    {
+      "type": "beat",
+      "text": "Prospero lived on an island with his daughter Miranda. Twelve years before, he had been Duke of Milan. But his brother Antonio stole the throne and set Prospero and the baby Miranda adrift in a small boat."
+    },
+    {
+      "type": "beat",
+      "text": "Prospero survived. He learned magic from his books. Now he lived on the island with Miranda, a spirit named Ariel, and a creature named Caliban."
+    },
+    {
+      "type": "question",
+      "gates": false,
+      "band": "B1",
+      "grammar_cell": "simple_past",
+      "domain": "sequence",
+      "prompt": "What happened first?",
+      "options": [
+        {"text": "Antonio stole the throne.", "correct": true},
+        {"text": "Prospero learned magic.", "correct": false},
+        {"text": "Prospero called a storm.", "correct": false},
+        {"text": "Miranda met Ferdinand.", "correct": false}
+      ],
+      "explanation": "Antonio stole the throne twelve years ago, before everything else."
+    },
+    {
+      "type": "beat",
+      "text": "One day Prospero saw a ship sailing near the island. His enemies were on board: Antonio, the King of Naples, and the king's son Ferdinand. Prospero raised a great storm with his magic."
+    },
+    {
+      "type": "beat",
+      "text": "The ship was wrecked. The passengers were thrown into the sea. But Ariel made sure no one drowned. The people were scattered across the island in small groups."
+    },
+    {
+      "type": "question",
+      "gates": true,
+      "band": "B3",
+      "grammar_cell": "passive_voice",
+      "domain": "vantage",
+      "prompt": "How did the people on the ship experience the storm?",
+      "options": [
+        {"text": "They were thrown into the water and separated from each other.", "correct": true},
+        {"text": "They threw themselves overboard to escape the flames.", "correct": false},
+        {"text": "They raised the sails and tried to steer through the waves.", "correct": false},
+        {"text": "They called for Prospero to stop the wind.", "correct": false}
+      ],
+      "explanation": "The storm happened to them. They were thrown and scattered by forces outside their control."
+    },
+    {
+      "type": "beat",
+      "text": "Ferdinand washed up alone. He thought everyone else had died. Miranda saw him and fell in love at once. Ferdinand loved her too. But Prospero pretended to be angry and made Ferdinand work as a servant."
+    },
+    {
+      "type": "question",
+      "gates": true,
+      "band": "B3",
+      "grammar_cell": "passive_voice",
+      "domain": "feeling",
+      "prompt": "How did Ferdinand feel when Prospero gave him hard work to do?",
+      "options": [
+        {"text": "He was treated like a prisoner, but he bore it for Miranda's sake.", "correct": true},
+        {"text": "He treated Prospero like a servant in return.", "correct": false},
+        {"text": "He felt proud to show his strength to Miranda.", "correct": false},
+        {"text": "He complained loudly until Prospero released him.", "correct": false}
+      ],
+      "explanation": "Ferdinand was being acted upon—treated as a prisoner—but he accepted it because he loved Miranda."
+    },
+    {
+      "type": "beat",
+      "text": "Meanwhile, Antonio and the king wandered the island. Ariel led them in circles and made them tired and confused. Caliban met two sailors and plotted with them to kill Prospero and take the island."
+    },
+    {
+      "type": "question",
+      "gates": false,
+      "band": "B2",
+      "grammar_cell": "simple_past",
+      "domain": "cause",
+      "prompt": "Why did Antonio and the king become lost?",
+      "options": [
+        {"text": "Ariel used magic to confuse them.", "correct": true},
+        {"text": "They followed Caliban into the forest.", "correct": false},
+        {"text": "The storm destroyed all the paths.", "correct": false},
+        {"text": "They were looking for Ferdinand.", "correct": false}
+      ],
+      "explanation": "Ariel led them in circles on purpose. His magic made them confused."
+    },
+    {
+      "type": "beat",
+      "text": "At last Prospero gathered all his enemies in one place. He revealed himself. Antonio and the king were shocked and afraid. Prospero had the power to punish them or even kill them."
+    },
+    {
+      "type": "beat",
+      "text": "But Prospero chose mercy. He forgave his brother. He freed Ariel from service. He blessed the marriage of Ferdinand and Miranda. Then he broke his magic staff and threw his books into the sea."
+    },
+    {
+      "type": "question",
+      "gates": true,
+      "band": "B3",
+      "grammar_cell": "passive_voice",
+      "domain": "vantage",
+      "prompt": "What did Antonio and the king receive at the end?",
+      "options": [
+        {"text": "They were forgiven instead of punished.", "correct": true},
+        {"text": "They forgave Prospero for using magic against them.", "correct": false},
+        {"text": "They punished Caliban for plotting against Prospero.", "correct": false},
+        {"text": "They begged Ferdinand to forgive them.", "correct": false}
+      ],
+      "explanation": "They were the ones acted upon. Mercy was given to them by Prospero."
+    },
+    {
+      "type": "question",
+      "gates": true,
+      "band": "B3",
+      "grammar_cell": "passive_voice",
+      "domain": "feeling",
+      "prompt": "How did Ariel feel when he was released?",
+      "options": [
+        {"text": "He was freed from a long service and could finally go.", "correct": true},
+        {"text": "He freed Prospero from the burden of magic.", "correct": false},
+        {"text": "He felt sad to leave Miranda and Ferdinand.", "correct": false},
+        {"text": "He wanted to stay and serve the new duke.", "correct": false}
+      ],
+      "explanation": "Ariel was being released. Freedom was given to him after years of service."
+    },
+    {
+      "type": "beat",
+      "text": "Everyone sailed back to Italy together. Ferdinand and Miranda would marry. Antonio gave back the dukedom. The storm that began in anger ended in forgiveness."
+    },
+    {
+      "type": "question",
+      "gates": true,
+      "band": "B3",
+      "grammar_cell": "passive_voice",
+      "domain": "vantage",
+      "prompt": "What happened to the dukedom at the end?",
+      "options": [
+        {"text": "It was restored to Prospero by Antonio.", "correct": true},
+        {"text": "Prospero restored it to the King of Naples.", "correct": false},
+        {"text": "Ferdinand inherited it when he married Miranda.", "correct": false},
+        {"text": "Antonio kept it as a gift from his brother.", "correct": false}
+      ],
+      "explanation": "The dukedom was given back. It was returned to Prospero by the one who had taken it."
+    },
+    {
+      "type": "moral",
+      "text": "Mercy is stronger than revenge. The power to forgive heals more than the power to punish."
+    }
+  ]
+};
+
+export default story;

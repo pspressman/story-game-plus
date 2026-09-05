@@ -1,7 +1,7 @@
 // src/components/StoryCard.jsx
 import Link from 'next/link';
 
-export default function StoryCard({ story, moduleId }) {
+export default function StoryCard({ story, moduleId, readStatus }) {
   // Map difficulty to visual indicator
   const difficultyBadge = {
     'Easy': 'bg-green-100 text-green-800',
@@ -17,8 +17,9 @@ export default function StoryCard({ story, moduleId }) {
       href={`/story/${moduleId}/${story.id}`}
       className="block bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow"
     >
-      <div className="mb-3">
+      <div className="mb-3 flex items-start justify-between">
         <span className="text-3xl">{story.icon || '📖'}</span>
+        <ReadBadge status={readStatus} />
       </div>
       <h3 className="font-bold text-lg text-blue-800 mb-2">{story.title}</h3>
       
@@ -50,5 +51,23 @@ export default function StoryCard({ story, moduleId }) {
         </div>
       </div>
     </Link>
+  );
+}
+
+
+function ReadBadge({ status }) {
+  if (!status) return null;
+
+  const styles = {
+    read: 'bg-gray-100 text-gray-600',
+    started: 'bg-amber-100 text-amber-800',
+    unread: 'bg-blue-100 text-blue-800'
+  };
+  const labels = { read: 'Read', started: 'Started', unread: 'New' };
+
+  return (
+    <span className={`ml-2 whitespace-nowrap px-2 py-1 rounded-full text-xs font-medium ${styles[status]}`}>
+      {labels[status]}
+    </span>
   );
 }

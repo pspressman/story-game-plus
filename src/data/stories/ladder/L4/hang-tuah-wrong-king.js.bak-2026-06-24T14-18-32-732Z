@@ -1,0 +1,189 @@
+/**
+ * L4/hang-tuah-wrong-king.js
+ * Level: L4 (Band B4: the ought, the counterfactual present)
+ * Grammar target: deontic_modal
+ * Gate: Gating questions weigh must vs may — what a character is BOUND to do vs FREE to do.
+ * Cultural source: Hikayat Hang Tuah (Malay epic)
+ */
+
+const story = {
+  id: "hang-tuah-wrong-king",
+  title: "Hikayat Hang Tuah",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 4,
+  band: "B4",
+  culture: "Malay",
+  region: "Southeast Asia",
+  tier: "A",
+  saga: null,
+  source_epic: true,
+  threads: [{ type: "history", inaccuracy_flag: true }],
+  edges: [],
+  cultural_care: null,
+  theme: "What do you owe a king who has wronged you",
+  estimatedTime: "5-10 min",
+  description: "Hang Tuah serves his sultan with perfect loyalty. When the sultan orders him killed on a false charge, Hang Tuah must weigh his duty against his life.",
+  grammar_online: [
+    "simple_present",
+    "simple_past",
+    "concrete_noun",
+    "locative",
+    "past_progressive",
+    "present_perfect",
+    "sequence",
+    "simple_future",
+    "past_perfect",
+    "infinitive",
+    "gerund",
+    "participle",
+    "present_progressive",
+    "future_progressive",
+    "passive_voice",
+    "future_perfect",
+    "deontic_modal"
+  ],
+  content: [
+    {
+      type: "story",
+      text: "Hang Tuah is the greatest warrior in Melaka. He serves Sultan Mahmud Shah with perfect loyalty. He has won every battle. He has defeated every enemy. The sultan trusts him above all others."
+    },
+    {
+      type: "question",
+      text: "Before the trouble begins, what has Hang Tuah already done?",
+      answers: [
+        { text: "He has served the sultan faithfully for many years", correct: true },
+        { text: "He will serve the sultan in the future", correct: false },
+        { text: "He is currently betraying the sultan", correct: false },
+        { text: "He must betray the sultan soon", correct: false }
+      ],
+      explanation: "The present perfect tense 'has served' shows completed action with present relevance — Hang Tuah's record of loyalty is established before the crisis.",
+      gates: false,
+      grammar_cell: "present_perfect",
+      domain: "sequence"
+    },
+    {
+      type: "story",
+      text: "One day, jealous courtiers whisper lies to the sultan. They say Hang Tuah has dishonored a palace woman. The sultan grows furious. He does not ask Hang Tuah for the truth. He summons the bendahara, his chief minister, and gives a terrible command: 'Kill Hang Tuah.'"
+    },
+    {
+      type: "question",
+      text: "What is the sultan commanding the bendahara to do?",
+      answers: [
+        { text: "The sultan is ordering him to execute Hang Tuah", correct: true },
+        { text: "The sultan is asking him politely to consider executing Hang Tuah", correct: false },
+        { text: "The sultan has already executed Hang Tuah himself", correct: false },
+        { text: "The sultan will think about executing Hang Tuah later", correct: false }
+      ],
+      explanation: "The sultan's command 'Kill Hang Tuah' places an obligation on the bendahara — he is bound by royal authority to act.",
+      gates: true,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      domain: "obligation"
+    },
+    {
+      type: "story",
+      text: "The bendahara knows Hang Tuah is innocent. But the bendahara also knows the law: he must obey the sultan's command. If he refuses, he will be executed himself. Yet he cannot bring himself to kill an innocent man. He thinks of a plan."
+    },
+    {
+      type: "question",
+      text: "What binds the bendahara?",
+      answers: [
+        { text: "He is required to obey the sultan's orders", correct: true },
+        { text: "He is permitted to obey the sultan if he wants to", correct: false },
+        { text: "He is free to ignore the sultan without consequence", correct: false },
+        { text: "He has already disobeyed the sultan in the past", correct: false }
+      ],
+      explanation: "The bendahara 'must obey' — he is under obligation, bound by law and duty, not merely free to choose.",
+      gates: true,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      domain: "obligation"
+    },
+    {
+      type: "story",
+      text: "The bendahara brings Hang Tuah to a hidden village in the forest. He tells the warrior, 'The sultan has ordered your death. But I cannot kill you for a crime you did not commit. Stay here in secret. If the sultan ever needs you again, I will send word.' Hang Tuah bows. He does not resist. He does not flee to another kingdom."
+    },
+    {
+      type: "question",
+      text: "Why does Hang Tuah stay in the hidden village instead of running away?",
+      answers: [
+        { text: "He still owes loyalty to the sultan, even in exile", correct: true },
+        { text: "He is planning to attack the sultan", correct: false },
+        { text: "He is afraid of the forest animals", correct: false },
+        { text: "He is waiting for the bendahara to bring him food", correct: false }
+      ],
+      explanation: "Hang Tuah 'does not flee to another kingdom' — he remains bound by his sense of duty, even after the sultan wronged him.",
+      gates: true,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      domain: "obligation"
+    },
+    {
+      type: "story",
+      text: "The bendahara returns to the palace. He tells the sultan, 'It is done. Hang Tuah is dead.' The sultan believes him. Years pass. Hang Tuah lives quietly in the forest, waiting."
+    },
+    {
+      type: "question",
+      text: "While Hang Tuah hides in the forest, what is he doing?",
+      answers: [
+        { text: "He is waiting in case the sultan needs him", correct: true },
+        { text: "He has forgotten the sultan completely", correct: false },
+        { text: "He will forget the sultan next year", correct: false },
+        { text: "He was forgetting the sultan before he hid", correct: false }
+      ],
+      explanation: "The present progressive 'is waiting' shows ongoing action — Hang Tuah's patient vigil continues through the years of exile.",
+      gates: false,
+      grammar_cell: "present_progressive",
+      domain: "sequence"
+    },
+    {
+      type: "story",
+      text: "One day, a warrior from Majapahit comes to Melaka. He challenges the sultan: 'Send your best fighter. If he defeats me, I will serve you. If he cannot, you must pay tribute to my king.' The sultan sends fighter after fighter. All of them lose. The sultan grows desperate. He says, 'If only Hang Tuah were still alive! He would have beaten this man.'"
+    },
+    {
+      type: "story",
+      text: "The bendahara hears this. He kneels before the sultan and confesses: 'My lord, Hang Tuah is alive. I could not kill an innocent man. I hid him in the forest. If you wish, I will bring him back.' The sultan is silent for a long moment. Then he says, 'Bring him to me.'"
+    },
+    {
+      type: "question",
+      text: "What choice does Hang Tuah now face?",
+      answers: [
+        { text: "He is free to refuse the sultan's summons, but he is also bound by his old oath", correct: true },
+        { text: "He must refuse the sultan because the sultan wronged him", correct: false },
+        { text: "He is required by law to kill the sultan", correct: false },
+        { text: "He is not allowed to remember the sultan's betrayal", correct: false }
+      ],
+      explanation: "Hang Tuah faces the central tension: he 'is free to refuse' (permission, possibility) yet 'is bound by his old oath' (obligation, duty). The question weighs freedom against obligation.",
+      gates: true,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      domain: "obligation"
+    },
+    {
+      type: "story",
+      text: "Hang Tuah returns to the palace. He does not speak of the years in exile. He does not accuse the sultan of injustice. He bows and says, 'I am ready to serve.' The sultan sends him to fight the warrior from Majapahit. Hang Tuah defeats him in single combat. Melaka is saved."
+    },
+    {
+      type: "question",
+      text: "Why does Hang Tuah return to serve the sultan who ordered his death?",
+      answers: [
+        { text: "He believes he is bound by his oath, no matter what the sultan has done", correct: true },
+        { text: "He is required by the bendahara to forgive the sultan", correct: false },
+        { text: "He is not permitted to remember the sultan's betrayal", correct: false },
+        { text: "He must forget his oath because the sultan broke faith first", correct: false }
+      ],
+      explanation: "Hang Tuah 'is bound by his oath' — he chooses obligation over freedom, duty over grievance, even when wronged.",
+      gates: true,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      domain: "obligation"
+    },
+    {
+      type: "story",
+      text: "The sultan praises Hang Tuah and restores him to honor. But the question remains: when a king breaks faith, does the oath still bind? Hang Tuah answered with his life. Others may answer differently."
+    }
+  ]
+};
+
+export default story;

@@ -1,0 +1,157 @@
+/**
+ * L3 – Pwyll and the Otherworld
+ * Band B3: the other's feeling and the vantage flip
+ * Gate: passive_voice (vantage/feeling)
+ * 
+ * Pwyll trades places with Arawn, king of the Otherworld, for one full year.
+ * The reader must flip vantage and stand where Pwyll stands when his life is taken and given back.
+ */
+
+const story = {
+  id: "pwyll-otherworld",
+  tier: "L3",
+  band: "B3",
+  title: "Pwyll and the Otherworld",
+  icon: "📖",
+  difficulty: "Medium",
+  culture: "Wales",
+  region: "British Isles",
+  saga: "mabinogion",
+  source_epic: true,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "A year of his life is taken and given back",
+  estimatedTime: "5-10 min",
+  description: "Pwyll trades places with a king of the Otherworld for one full year. Stand where he stands when the swap is made.",
+  
+  content: [
+    {
+      type: "story",
+      text: "Pwyll was the lord of Dyfed in Wales. One day he went hunting in the forest. His hounds chased a stag. Then Pwyll heard other dogs. He rode forward and saw a pack of white hounds with red ears bringing down the stag. Pwyll drove those hounds away and let his own dogs feed."
+    },
+    {
+      type: "story",
+      text: "A rider came up on a gray horse. He wore fine clothes. He said, 'You have shown me discourtesy. You drove my hounds from the stag they killed. I will not take revenge, but I will shame you.' Pwyll asked who he was. The rider said, 'I am Arawn, king of Annwn.' Annwn was the Otherworld."
+    },
+    {
+      type: "question",
+      tags: ["L2"],
+      gates: false,
+      domain: "sequence",
+      grammar_cell: null,
+      prompt: "What happened first?",
+      options: [
+        { text: "Pwyll's hounds chased a stag", correct: true },
+        { text: "Arawn rode up on a gray horse", correct: false },
+        { text: "Pwyll drove the white hounds away", correct: false },
+        { text: "Arawn said he was king of Annwn", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Pwyll said, 'Tell me how I can win back your friendship.' Arawn said, 'There is a king in Annwn who wars against me. His name is Hafgan. You must take my place for one year. You will wear my face and live in my hall. At the end of the year you will fight Hafgan. Strike him once and he will die. If you strike twice, he will come back as strong as before.'"
+    },
+    {
+      type: "question",
+      tags: ["L3"],
+      gates: true,
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      prompt: "How will Pwyll feel when his own face is taken away?",
+      options: [
+        { text: "He will feel changed by magic he did not choose", correct: true },
+        { text: "He will feel proud to look like a king", correct: false },
+        { text: "He will feel nothing because he agreed to the trade", correct: false },
+        { text: "He will feel happy to hunt in a new forest", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Pwyll agreed. Arawn touched him and their faces changed. Pwyll wore Arawn's face and Arawn wore Pwyll's. Arawn said, 'Go to my court. No one will know you are not me. In one year we will meet at this spot again.'"
+    },
+    {
+      type: "story",
+      text: "Pwyll went to Annwn. The hall was the most beautiful he had ever seen. Knights and ladies greeted him as their king. A queen sat beside him at the feast. She was Arawn's wife. That night Pwyll went to bed beside her, but he turned his back and did not speak. He did this every night for a year."
+    },
+    {
+      type: "question",
+      tags: ["L2"],
+      gates: false,
+      domain: "cause",
+      grammar_cell: null,
+      prompt: "Why did Pwyll turn his back to the queen each night?",
+      options: [
+        { text: "He kept faith with his friend Arawn", correct: true },
+        { text: "He was afraid of the queen", correct: false },
+        { text: "He did not like the bed", correct: false },
+        { text: "Arawn told him to be rude to her", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "The days passed. Pwyll ruled justly and the people of Annwn loved him. At the end of the year, the day came to fight Hafgan. All the nobles of both kingdoms gathered at a ford to watch. Pwyll and Hafgan rode into the water and fought. Pwyll struck one great blow and Hafgan fell from his horse. Hafgan cried, 'Strike again and finish me!' But Pwyll said, 'I will not.'"
+    },
+    {
+      type: "question",
+      tags: ["L3"],
+      gates: true,
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      prompt: "How does Hafgan feel in the water?",
+      options: [
+        { text: "He feels defeated by a blow he cannot answer", correct: true },
+        { text: "He feels glad that the fight is over", correct: false },
+        { text: "He feels angry at all the nobles watching", correct: false },
+        { text: "He feels ready to strike Pwyll twice", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Hafgan died that night. His lords came to Pwyll and knelt before him. They said, 'You are king of all Annwn now.' Pwyll said, 'Ask your true king when he returns.' The next morning Pwyll rode to the meeting place in the forest. Arawn was waiting. They touched and their faces changed back."
+    },
+    {
+      type: "question",
+      tags: ["L3"],
+      gates: true,
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      prompt: "When Pwyll's face is given back to him, what has he gained?",
+      options: [
+        { text: "A year was taken from his own life, but a friend was won", correct: true },
+        { text: "He gained a second face he can wear any time", correct: false },
+        { text: "He gained nothing because he is the same as before", correct: false },
+        { text: "He gained the queen's love because she liked him", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Arawn went home to Annwn. His wife was surprised that night when he spoke kindly to her and did not turn away. She said, 'You have not acted like this for a year.' Then Arawn told her the truth. She said, 'You have a true friend.'"
+    },
+    {
+      type: "story",
+      text: "Pwyll went home to Dyfed. His lords told him all that had happened while he was gone. Everything had been done with wisdom and justice. Pwyll knew that Arawn had ruled his land well. The two kings remained friends all their lives. From that day Pwyll was called Pwyll, Head of Annwn."
+    },
+    {
+      type: "question",
+      tags: ["L3"],
+      gates: true,
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      prompt: "What happened to Pwyll's kingdom while he was gone?",
+      options: [
+        { text: "It was ruled by another, and no harm came to it", correct: true },
+        { text: "It was taken by enemies and lost forever", correct: false },
+        { text: "It ruled itself because no lord was needed", correct: false },
+        { text: "It fell into chaos and fighting", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      moral: true,
+      text: "A year of life given is not lost if trust and honor come back with it."
+    }
+  ]
+};
+
+export default story;

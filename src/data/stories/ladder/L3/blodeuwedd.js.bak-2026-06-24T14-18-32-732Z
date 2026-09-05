@@ -1,0 +1,199 @@
+// L3 · B3 (the other's feeling and the vantage flip) · passive_voice
+// Gating questions flip vantage: make the reader take the side of the one acted upon.
+// Never name the device. Bind band and grammar_cell.
+
+const story = {
+  id: "blodeuwedd",
+  title: "Blodeuwedd",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  culture: "Wales",
+  region: "British Isles",
+  tier: "A",
+  saga: "mabinogion",
+  source_epic: true,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "Made to be what they wanted, not what she was",
+  estimatedTime: "5-10 min",
+  description: "A woman is conjured from flowers to solve a man's problem. Then she makes a choice of her own, and they turn her into something else.",
+  grammar_online: ["simple_present","simple_past","concrete_noun","locative","past_progressive","present_perfect","sequence","simple_future","past_perfect","infinitive","gerund","participle","present_progressive","future_progressive","passive_voice"],
+  
+  content: [
+    {
+      type: "story",
+      text: "Lleu Llaw Gyffes was a young man with a curse on him. His mother had said he could never marry a mortal woman. So his uncles, Math and Gwydion, gathered flowers from the meadow and the oak and the broom, and they spoke words of power."
+    },
+    {
+      type: "story",
+      text: "Out of the petals they made a woman. She had golden hair and smooth skin. They named her Blodeuwedd, which means 'flower-face.' They gave her to Lleu as his wife."
+    },
+    {
+      type: "question",
+      id: "q1",
+      text: "How did Blodeuwedd come into the world?",
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      band: "B3",
+      gates: true,
+      options: [
+        { text: "She was made by magicians to solve someone else's problem.", correct: true },
+        { text: "She grew from a flower that bloomed in the meadow.", correct: false },
+        { text: "She chose to become human so she could marry Lleu.", correct: false },
+        { text: "She asked Math and Gwydion to give her a body.", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. She was brought into being by others, for their purpose.",
+        incorrect: "Look again. Who decided she would exist, and why?"
+      }
+    },
+    {
+      type: "story",
+      text: "Lleu and Blodeuwedd lived together in a great hall. But Lleu was often away hunting or visiting his uncles. Blodeuwedd stayed in the hall with the servants. She had been made to be a wife, but no one had asked her what she wanted."
+    },
+    {
+      type: "story",
+      text: "One day a lord named Gronw Pebr came hunting near the hall. Night fell, and Blodeuwedd invited him to stay. They spoke together by the fire. They looked at each other. And something awoke in Blodeuwedd that had not been made from flowers."
+    },
+    {
+      type: "question",
+      id: "q2",
+      text: "What happened that had not been planned?",
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      band: "B3",
+      gates: true,
+      options: [
+        { text: "Blodeuwedd felt something that had not been put into her by magic.", correct: true },
+        { text: "Gronw became angry and wanted to leave the hall.", correct: false },
+        { text: "Lleu returned early from his hunting trip.", correct: false },
+        { text: "The servants told Math and Gwydion what was happening.", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. She felt her own desire, not something given to her.",
+        incorrect: "Think about Blodeuwedd. What did she discover in herself?"
+      }
+    },
+    {
+      type: "story",
+      text: "Blodeuwedd and Gronw fell in love. They began to plan. Lleu was protected by magic; he could only be killed in one very particular way. Blodeuwedd asked Lleu sweetly how he might die, pretending she was worried for his safety."
+    },
+    {
+      type: "story",
+      text: "Lleu trusted her. He told her: he could only be killed while standing with one foot on a bathtub and one foot on a goat, under a roof of thatch, by a spear that had been made over a year of Sundays. Blodeuwedd told Gronw everything."
+    },
+    {
+      type: "question",
+      id: "q3",
+      text: "Why did Lleu tell Blodeuwedd the secret?",
+      domain: "cause",
+      grammar_cell: "simple_past",
+      band: "B1",
+      gates: false,
+      options: [
+        { text: "He trusted her and thought she wanted to keep him safe.", correct: true },
+        { text: "He wanted her to know so she could kill him.", correct: false },
+        { text: "Gronw forced him to reveal the secret.", correct: false },
+        { text: "Math told him he had to share it with his wife.", correct: false }
+      ],
+      feedback: {
+        correct: "Right. He believed she cared for him.",
+        incorrect: "Why would a husband tell his wife how he might be harmed?"
+      }
+    },
+    {
+      type: "story",
+      text: "Gronw made the spear over many Sundays. Blodeuwedd prepared the bathtub and the goat. She asked Lleu to show her exactly what the strange position looked like. Lleu laughed and agreed. He stood with one foot on the tub and one on the goat's back, under the thatch."
+    },
+    {
+      type: "story",
+      text: "Gronw threw the spear. It struck Lleu in the side. He screamed and turned into an eagle, and flew away wounded into the sky. Blodeuwedd and Gronw took Lleu's lands and lived together."
+    },
+    {
+      type: "question",
+      id: "q4",
+      text: "When the spear flew, how did Lleu's life change?",
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      band: "B3",
+      gates: true,
+      options: [
+        { text: "He was betrayed by the one he trusted, and driven from his own home.", correct: true },
+        { text: "He decided to leave Blodeuwedd and live as an eagle.", correct: false },
+        { text: "He attacked Gronw but was defeated in battle.", correct: false },
+        { text: "He turned into an eagle to frighten Blodeuwedd and Gronw.", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. He was struck and changed against his will.",
+        incorrect: "Think about Lleu. What was done to him?"
+      }
+    },
+    {
+      type: "story",
+      text: "But Gwydion searched for his nephew. He found the eagle in a tree, wounded and wasting away. Gwydion sang to him and lured him down, and turned him back into a man. Then they went to take revenge."
+    },
+    {
+      type: "story",
+      text: "Gwydion found Blodeuwedd in the hall. She tried to run, but he raised his staff. 'You will not die,' he said, 'but you will never show your face among people again.' He spoke a word, and Blodeuwedd felt her body twist and shrink."
+    },
+    {
+      type: "question",
+      id: "q5",
+      text: "What happened to Blodeuwedd in that moment?",
+      domain: "sequence",
+      grammar_cell: "simple_past",
+      band: "B1",
+      gates: false,
+      options: [
+        { text: "Her body was changed by Gwydion's magic.", correct: true },
+        { text: "She turned herself into a creature to escape.", correct: false },
+        { text: "She attacked Gwydion with a weapon.", correct: false },
+        { text: "She asked Gwydion to transform her.", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. Gwydion cast the spell that changed her.",
+        incorrect: "Who was doing the magic? Who decided what would happen?"
+      }
+    },
+    {
+      type: "story",
+      text: "Feathers covered her skin. Her arms became wings. Her face stretched into a beak. She was turned into an owl. The other birds hated her and mobbed her when they saw her, so she could only fly at night."
+    },
+    {
+      type: "question",
+      id: "q6",
+      text: "How did Blodeuwedd's punishment feel to her?",
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      band: "B3",
+      gates: true,
+      options: [
+        { text: "She was changed into something hated and alone, made to hide from the light.", correct: true },
+        { text: "She was relieved to become an owl because she loved the night.", correct: false },
+        { text: "She became powerful and fierce, feared by all the other birds.", correct: false },
+        { text: "She was grateful for a second chance to live in the forest.", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. She was transformed against her will into a creature rejected by others.",
+        incorrect: "How would it feel to be reshaped into something the world drives away?"
+      }
+    },
+    {
+      type: "story",
+      text: "And Gronw? Lleu came to him and said he would throw the same spear. Gronw was allowed to hold up a stone slab for protection. Lleu threw. The spear went through the stone and through Gronw, and killed him."
+    },
+    {
+      type: "story",
+      text: "Lleu took back his lands and his hall. But Blodeuwedd was gone into the night. She hunts now in the dark, when no one will see the face that was made from flowers."
+    },
+    {
+      type: "moral",
+      text: "They made her to be what they needed. Then they punished her for wanting something of her own."
+    }
+  ]
+};
+
+export default story;

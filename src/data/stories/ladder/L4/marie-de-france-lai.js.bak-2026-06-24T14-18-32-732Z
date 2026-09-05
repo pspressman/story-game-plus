@@ -1,0 +1,196 @@
+/**
+ * L4 / B4: deontic_modal
+ * Gate: must vs may, obligation vs freedom
+ * Marie de France wrote lais in Anglo-Norman. Here: a knight torn between lord and love.
+ */
+
+const story = {
+  id: "marie-de-france-lai",
+  title: "Marie de France's Lais",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 4,
+  band: "B4",
+  culture: "France",
+  region: "Western Europe",
+  tier: "A",
+  saga: null,
+  source_epic: false,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "A woman wrote this in 1150, and said so aloud",
+  estimatedTime: "5-10 min",
+  description: "Marie de France tells a lai of love, duty, and impossible choices. A knight must choose between his lord's command and his own heart.",
+  grammar_online: [
+    "simple_present",
+    "simple_past",
+    "concrete_noun",
+    "locative",
+    "past_progressive",
+    "present_perfect",
+    "sequence",
+    "simple_future",
+    "past_perfect",
+    "infinitive",
+    "gerund",
+    "participle",
+    "present_progressive",
+    "future_progressive",
+    "passive_voice",
+    "future_perfect",
+    "deontic_modal"
+  ],
+  content: [
+    {
+      type: "story",
+      text: "Marie de France writes in the court of England. She says her name. Most writers do not. She is a woman, and she writes in 1150. She tells lais—short tales of love and sorrow."
+    },
+    {
+      type: "story",
+      text: "One lai begins with a knight named Lanval. He serves King Arthur, but Arthur has forgotten him. Lanval has no gold, no land, no thanks."
+    },
+    {
+      type: "question",
+      id: "q1_sequence",
+      text: "What happened first?",
+      gates: false,
+      grammar_cell: "sequence",
+      band: "B0",
+      domain: "sequence",
+      correct: "Lanval served Arthur.",
+      wrong: [
+        "Arthur forgot Lanval.",
+        "Lanval received no gold.",
+        "Lanval received no thanks."
+      ],
+      explanation: "Lanval served Arthur before Arthur forgot him."
+    },
+    {
+      type: "story",
+      text: "Lanval rides into a meadow. Two maidens come to him. They lead him to a tent of silk. Inside is a lady more beautiful than the sun. She loves him. She tells him: 'I will give you all you wish. Gold, horses, anything. But you must never speak of me. If you name me to anyone, you will lose me forever.'"
+    },
+    {
+      type: "story",
+      text: "Lanval promises. He returns to court rich. The lady comes to him in secret whenever he calls. He is happy."
+    },
+    {
+      type: "question",
+      id: "q2_cause",
+      text: "Why is Lanval happy?",
+      gates: false,
+      grammar_cell: "cause",
+      band: "B1",
+      domain: "cause",
+      correct: "He has gold and he has love.",
+      wrong: [
+        "Arthur has finally thanked him.",
+        "He has been given land by the king.",
+        "The maidens gave him horses."
+      ],
+      explanation: "The lady gave him gold, and she loves him. That is why he is happy."
+    },
+    {
+      type: "story",
+      text: "One day the queen sees Lanval. She desires him. She says, 'Love me.' Lanval refuses. The queen grows angry. She says, 'Then you must love men, not women!' Lanval cannot bear the insult. He says, 'I love a lady more beautiful than you. Even her servants are fairer than you.'"
+    },
+    {
+      type: "story",
+      text: "The queen weeps. She tells Arthur that Lanval insulted her. Arthur is furious. He summons Lanval. The barons sit in judgment. They say, 'You must prove that this lady exists. If you cannot, you must be punished.'"
+    },
+    {
+      type: "question",
+      id: "q3_deontic_obligation",
+      text: "What is Lanval bound to do?",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      domain: "obligation",
+      correct: "He must prove the lady exists or he must be punished.",
+      wrong: [
+        "He must tell the queen he loves her.",
+        "He must apologize to Arthur and leave court.",
+        "He must call the lady to come in secret."
+      ],
+      explanation: "The barons have set the obligation: Lanval must prove the lady exists, or he must face punishment. He is bound by the court's demand."
+    },
+    {
+      type: "story",
+      text: "Lanval despairs. He has named the lady. He has broken his promise. She will not come. He calls for her. She does not answer."
+    },
+    {
+      type: "story",
+      text: "The barons wait. Lanval stands silent. Then, at the castle gate, two maidens ride in on white horses. They are beautiful. But they are not the lady. Two more maidens ride in. They are even more beautiful. But still, they are not the lady."
+    },
+    {
+      type: "question",
+      id: "q4_number",
+      text: "How many maidens have ridden in so far?",
+      gates: false,
+      grammar_cell: "number",
+      band: "B0",
+      domain: "number",
+      correct: "Four maidens.",
+      wrong: [
+        "Two maidens.",
+        "Six maidens.",
+        "The lady and four maidens."
+      ],
+      explanation: "Two maidens came first, then two more. Four in all."
+    },
+    {
+      type: "story",
+      text: "Then the lady herself rides in. She is more beautiful than the moon. Every baron sees her. She says, 'I have come for Lanval. He spoke the truth. I am here.'"
+    },
+    {
+      type: "story",
+      text: "The barons look at her. They look at the queen. They agree: even the lady's servants are fairer than the queen. Lanval is freed."
+    },
+    {
+      type: "question",
+      id: "q5_deontic_freedom",
+      text: "What is Lanval free to do now?",
+      gates: true,
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      domain: "obligation",
+      correct: "He may go without punishment.",
+      wrong: [
+        "He may insult the queen again.",
+        "He may take the queen's gold.",
+        "He may command Arthur's barons."
+      ],
+      explanation: "The barons freed him. He may go without punishment. He is no longer bound by the court's judgment."
+    },
+    {
+      type: "story",
+      text: "The lady rides away. Lanval leaps onto her horse. They ride to Avalon. No one sees them again."
+    },
+    {
+      type: "story",
+      text: "Marie writes: 'I have told you the truth of this lai. I, Marie, have made it into verse. Do not forget my name.'"
+    },
+    {
+      type: "question",
+      id: "q6_vantage",
+      text: "From whose vantage do we hear this lai?",
+      gates: false,
+      grammar_cell: "vantage",
+      band: "B2",
+      domain: "vantage",
+      correct: "From Marie, who wrote it.",
+      wrong: [
+        "From Lanval, who lived it.",
+        "From the lady, who saved him.",
+        "From Arthur, who judged him."
+      ],
+      explanation: "Marie tells us she wrote the lai. We hear it from her vantage."
+    },
+    {
+      type: "story",
+      text: "Moral: A woman may write. A woman may name herself. Marie did, in 1150, and we remember."
+    }
+  ]
+};
+
+export default story;

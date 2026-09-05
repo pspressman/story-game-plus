@@ -1,0 +1,8 @@
+// L3 barrel - aggregates all L3 stories
+import childrenOfLir from './children-of-lir.js';
+
+const l3Stories = [
+  childrenOfLir
+];
+
+export default l3Stories;

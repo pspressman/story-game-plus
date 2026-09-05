@@ -1,0 +1,99 @@
+// monkey-havoc-heaven.js
+// L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
+// Gate: read the trick. The gating stems turn on a non-finite form AND on reading hidden intent.
+const monkeyHavocHeaven = {
+  id: "monkey-havoc-heaven",
+  title: "Monkey's Havoc in Heaven",
+  icon: "🐵",
+  difficulty: "Easy",
+  theme: "The trickster, undone by appetite",
+  estimatedTime: "5-10 min",
+  description: "Monkey King tricks heaven's guards, eats immortality peaches, causes chaos. Read his escalating tricks and the gods' slow realization.",
+
+  meta: {
+    level: 2,
+    track: "gated",
+    tier: "R",
+    band: "B2",
+    grammar_online: ["simple_past", "present_perfect", "sequence", "infinitive", "gerund", "participle", "concrete_noun", "locative"],
+    grammar_target: "non_finite",
+    culture: "China",
+    region: "East Asia",
+    saga: "journey_to_the_west",
+    source_epic: true,
+    threads: [],
+    edges: ["trickster_many_faces"],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "The gods invited Monkey King to Heaven with a grand title and a beautiful stable. Monkey preened with pride until he learned the truth: his job was only feeding horses. His smile turned sharp."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "After discovering the insult, Monkey King begins wandering Heaven's gardens and halls with innocent questions. What is he really planning to do?",
+      options: [
+        "To find a higher god who might give him a better title",
+        "To steal Heaven's treasures and prove he is more than a stable boy",
+        "To learn the way home so he can return to Earth peacefully",
+        "To teach the horses tricks that will amuse the gods"
+      ],
+      correctAnswer: 1,
+      explanation: "Reading the trick means seeing past his polite wandering to the rage underneath: he is mapping where the treasures are kept so he can take them and show Heaven he will not be mocked."
+    },
+    {
+      type: "story",
+      text: "And so he did. Monkey ate every immortality peach from the Queen Mother's garden, drank the wine meant for the Great Banquet, and swallowed all the golden pills of life from Laozi's alchemy room. The gods returned to find everything gone. The Jade Emperor watched the trail of peach pits and wine stains, saying nothing yet."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "The Jade Emperor sees the mess but does not immediately order Monkey's arrest. What is he most likely doing by waiting?",
+      options: [
+        "Failing to understand that Monkey caused all the damage",
+        "Hoping Monkey will confess and apologize on his own",
+        "Realizing how dangerous Monkey has become by eating so much magic, and preparing overwhelming force",
+        "Enjoying the chaos because Heaven was too quiet before"
+      ],
+      correctAnswer: 2,
+      explanation: "His silence is not confusion or patience. By seeing what Monkey consumed—peaches, wine, pills—he is calculating the power Monkey now holds, and a mind that calculates danger is a mind preparing for war."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "Picture the immortality peach garden after Monkey's visit. What has happened to every peach on every tree?",
+      options: [
+        "They have all been eaten and only pits remain",
+        "They have grown twice as large overnight",
+        "Nothing; they are untouched and waiting",
+        "Only the leaves have fallen off"
+      ],
+      correctAnswer: 0,
+      explanation: "Holding what has already happened in a single scene is a simpler tracking move from an earlier rung; here it shows the scale of the trick rather than testing the read of it."
+    },
+    {
+      type: "story",
+      text: "The Jade Emperor sent ten thousand warriors. Monkey fought them all, laughing, his new immortality making him impossible to kill. Only when Buddha himself came and trapped Monkey under a mountain of stone did Heaven find peace again. Appetite had made the trickster into something too large to trick his way free."
+    },
+    {
+      type: "story",
+      moral: "A trick may open a door, but appetite can trap you inside. The hand that takes everything cannot choose what to let go."
+    }
+  ]
+};
+
+export default monkeyHavocHeaven;

@@ -1,0 +1,8 @@
+// L4 barrel - aggregates all L4 stories
+import sirGawain from './sir-gawain-green-knight.js';
+
+const l4Stories = [
+  sirGawain
+];
+
+export default l4Stories;

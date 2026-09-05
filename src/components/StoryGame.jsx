@@ -1,5 +1,6 @@
 // src/components/StoryGame.jsx
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { markStarted, markFinished } from '../lib/readTracker';
 import Link from 'next/link';
 
 const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
@@ -13,6 +14,11 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
   
   // Gem colors
   const gemColors = ["text-red-500", "text-blue-500", "text-green-500", "text-purple-500", "text-yellow-500", "text-pink-500"];
+
+  // Record that this story was opened. Browser-local, per device.
+  useEffect(() => {
+    if (moduleId && storyId) markStarted(moduleId, storyId);
+  }, [moduleId, storyId]);
 
   const currentContent = gameContent[currentStep];
 
@@ -43,6 +49,7 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
       setAnswered(false);
     } else {
       setGameComplete(true);
+      if (moduleId && storyId) markFinished(moduleId, storyId);
     }
   };
 
@@ -232,6 +239,16 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
 
 // Visualization domains reference
 const visualizationDomains = {
+  allegory: "Standing for More",
+  self_aware: "Knowing You Choose",
+  anticipation: "Minds Reading Minds",
+  bond: "Bound as One",
+  destiny: "What Was Always Coming",
+  nested_report: "Words Within Words",
+  if_only: "If Only",
+  report: "What Was Said",
+  inference: "What Must Be True",
+  branch: "The Branch That Could Be",
   "what": { name: "Object Identification" },
   "shape": { name: "Shape Properties" },
   "background": { name: "Environment" },
@@ -243,7 +260,15 @@ const visualizationDomains = {
   "when": { name: "Time Context" },
   "number": { name: "Quantity" },
   "mood": { name: "Emotional Context" },
-  "sound": { name: "Auditory Elements" }
+  "sound": { name: "Auditory Elements" },
+  "sequence": { name: "Order of Events" },
+  "cause": { name: "Cause and Effect" },
+  "other_mind": { name: "Another's Mind" },
+  "intent": { name: "Hidden Intent" },
+  "irony": { name: "What They Don't Know" },
+  "vantage": { name: "The Other Side" },
+  "feeling": { name: "What They Feel" },
+  "obligation": { name: "Must or May" }
 };
 
 // Set default props

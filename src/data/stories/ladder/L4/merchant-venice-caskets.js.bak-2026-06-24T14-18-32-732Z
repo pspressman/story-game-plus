@@ -1,0 +1,296 @@
+// L4 B4 deontic_modal: merchant-venice-caskets
+// Gating questions weigh must vs may: what the rule demands against what mercy or freedom allows.
+// Correct options read the obligation without naming the device.
+
+const story = {
+  id: "merchant-venice-caskets",
+  title: "The Merchant of Venice",
+  icon: "📖",
+  level: 4,
+  band: "B4",
+  grammar_target: "deontic_modal",
+  culture: "England",
+  region: "British Isles",
+  tier: "A",
+  saga: "shakespeare",
+  source_epic: false,
+  threads: ["shakespeare"],
+  edges: [],
+  cultural_care: null,
+  theme: "What the rule demands and what mercy allows",
+  estimatedTime: "5-10 min",
+  description: "Portia's father left a rule: suitors must choose among three caskets, and only one choice wins her hand. She is free to speak but not to choose. Where does her duty end and her freedom begin?",
+  
+  content: [
+    {
+      type: "story",
+      text: "Portia of Belmont was beautiful, wise, and wealthy. Her father had died, leaving her a great fortune. But he left one strange rule with his will: Portia could not choose her own husband. Instead, every suitor had to pass a test."
+    },
+    {
+      type: "story",
+      text: "Three caskets sat in her hall: one of gold, one of silver, one of lead. Each bore an inscription. The gold casket read: 'Who chooseth me shall gain what many men desire.' The silver: 'Who chooseth me shall get as much as he deserves.' The lead: 'Who chooseth me must give and hazard all he hath.'"
+    },
+    {
+      type: "question",
+      id: "q1",
+      text: "What must every suitor do to win Portia?",
+      options: [
+        "Choose the right casket from among three",
+        "Bring gold and silver to her father's hall",
+        "Speak the inscription from memory",
+        "Give her a fortune equal to her own"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes, the suitors are bound by the rule to choose one casket.",
+        incorrect: "The father's will demands something else."
+      },
+      tags: {
+        difficulty: "medium",
+        level: 2,
+        band: "B2",
+        grammar_cell: "simple_past",
+        domain: "sequence",
+        gates: false
+      }
+    },
+    {
+      type: "story",
+      text: "The Prince of Morocco came first. He chose the gold casket, thinking that Portia was what many men desired. But inside he found only a skull and a scroll: 'All that glisters is not gold.' He left in shame."
+    },
+    {
+      type: "story",
+      text: "The Prince of Arragon came next. He thought himself deserving and opened the silver casket. Inside sat the portrait of a fool. The scroll read: 'There be fools alive silvered o'er.' He too departed defeated."
+    },
+    {
+      type: "question",
+      id: "q2",
+      text: "Why does Portia wish she could guide the suitors?",
+      options: [
+        "She is bound by her father's will not to help them",
+        "She is afraid they will break open all three caskets",
+        "She believes they deserve to fail the test",
+        "She wants to keep her fortune for herself"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. She is not free to tell them which casket holds her picture, though she may speak in other ways.",
+        incorrect: "Look at what the father's rule demands of Portia."
+      },
+      tags: {
+        difficulty: "hard",
+        level: 4,
+        band: "B4",
+        grammar_cell: "deontic_modal",
+        domain: "obligation",
+        gates: true
+      }
+    },
+    {
+      type: "story",
+      text: "Then Bassanio arrived, a young Venetian nobleman and Portia's favorite. She wanted desperately to help him, but she could not. She could only delay his choice, begging him to wait a day or two. She could talk and sing and walk with him, but she was forbidden to tell him the answer."
+    },
+    {
+      type: "story",
+      text: "At last Bassanio stood before the three caskets. He studied the inscriptions carefully. The gold and silver caskets promised gain and desert, but the lead casket asked for sacrifice. 'Who chooseth me must give and hazard all he hath.'"
+    },
+    {
+      type: "question",
+      id: "q3",
+      text: "What is Bassanio free to do that the other suitors were not willing to risk?",
+      options: [
+        "Hazard everything for an uncertain chance",
+        "Open all three caskets at once",
+        "Ask Portia which casket her father preferred",
+        "Refuse the test and propose without choosing"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. The lead casket demands sacrifice, but Bassanio may choose it if he is willing to risk all.",
+        incorrect: "Consider what the lead inscription asks of the chooser."
+      },
+      tags: {
+        difficulty: "hard",
+        level: 4,
+        band: "B4",
+        grammar_cell: "deontic_modal",
+        domain: "obligation",
+        gates: true
+      }
+    },
+    {
+      type: "story",
+      text: "Bassanio thought: 'The world is still deceived with ornament. In law, what plea so tainted and corrupt but, being seasoned with a gracious voice, obscures the show of evil? There is no vice so simple but assumes some mark of virtue on his outward parts.'"
+    },
+    {
+      type: "story",
+      text: "He turned from the golden casket and from the silver. His hand reached for the dull lead. He opened it—and there lay Portia's portrait, with a scroll that read: 'You that choose not by the view, chance as fair and choose as true.'"
+    },
+    {
+      type: "question",
+      id: "q4",
+      text: "What belief guided Bassanio when the other suitors failed?",
+      options: [
+        "That outward show often hides the truth beneath",
+        "That the heaviest casket holds the greatest treasure",
+        "That Portia's father wanted her to remain unmarried",
+        "That a man deserves the wife he desires most"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Exactly. Bassanio saw that beauty and worth may hide in plain metal.",
+        incorrect: "Think about what Bassanio says about ornament and appearance."
+      },
+      tags: {
+        difficulty: "medium",
+        level: 3,
+        band: "B3",
+        grammar_cell: "simple_present",
+        domain: "cause",
+        gates: false
+      }
+    },
+    {
+      type: "story",
+      text: "Portia wept with joy. She gave him a ring and made him promise never to part with it. 'When this ring parts from this finger,' she said, 'then parts life from Portia.'"
+    },
+    {
+      type: "story",
+      text: "But their happiness was brief. A letter came from Venice: Bassanio's friend Antonio, who had borrowed money to help Bassanio woo Portia, had lost all his ships at sea. The lender, Shylock, was a bitter man. Antonio had agreed that if he could not repay the loan, Shylock could cut a pound of flesh from his body."
+    },
+    {
+      type: "question",
+      id: "q5",
+      text: "What must Antonio forfeit if he cannot repay Shylock?",
+      options: [
+        "A pound of his own flesh",
+        "His house and fortune in Venice",
+        "His place as Bassanio's friend",
+        "The ring Portia gave to Bassanio"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. The bond demands this terrible payment.",
+        incorrect: "Look at what the loan contract required."
+      },
+      tags: {
+        difficulty: "easy",
+        level: 2,
+        band: "B2",
+        grammar_cell: "present_perfect",
+        domain: "sequence",
+        gates: false
+      }
+    },
+    {
+      type: "story",
+      text: "Bassanio rushed to Venice to help his friend. Portia followed in secret, disguised as a young lawyer named Balthasar. She arrived at the court just as the Duke of Venice was hearing the case."
+    },
+    {
+      type: "story",
+      text: "Shylock stood with his knife sharpened. 'I crave the law,' he said. 'The pound of flesh is mine by the bond. A Daniel come to judgment! Yea, a Daniel!' he cried when the disguised Portia praised the bond's legality."
+    },
+    {
+      type: "question",
+      id: "q6",
+      text: "What is Shylock bound to claim if he wants to keep the court's respect?",
+      options: [
+        "The exact fulfillment of what the bond allows",
+        "Mercy and forgiveness from Antonio",
+        "Half the penalty and half the loan",
+        "Gold instead of the pound of flesh"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. He demands the law, and the law must give him what the contract says.",
+        incorrect: "Consider what Shylock says he craves."
+      },
+      tags: {
+        difficulty: "hard",
+        level: 4,
+        band: "B4",
+        grammar_cell: "deontic_modal",
+        domain: "obligation",
+        gates: true
+      }
+    },
+    {
+      type: "story",
+      text: "Portia—still disguised—spoke gently. 'The quality of mercy is not strained. It droppeth as the gentle rain from heaven upon the place beneath. It is twice blest: it blesseth him that gives and him that takes.' But Shylock would hear none of it. 'I crave the law,' he repeated."
+    },
+    {
+      type: "story",
+      text: "'Very well,' said Portia. 'A pound of flesh is yours. The court awards it, and the law allows it. But this bond gives you no blood. Take your pound of flesh, but if you shed one drop of Christian blood, the law of Venice says your lands and goods are forfeit to the state.'"
+    },
+    {
+      type: "question",
+      id: "q7",
+      text: "What may Shylock take, and what is he forbidden to spill?",
+      options: [
+        "He may take flesh, but he must not spill blood",
+        "He may take half the flesh and half the blood",
+        "He must take the blood before he takes the flesh",
+        "He may take neither flesh nor blood from Antonio"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Exactly. The bond allows one thing and forbids another, and Portia uses that gap to save Antonio.",
+        incorrect: "Listen to what Portia says about the bond and the law."
+      },
+      tags: {
+        difficulty: "hard",
+        level: 4,
+        band: "B4",
+        grammar_cell: "deontic_modal",
+        domain: "obligation",
+        gates: true
+      }
+    },
+    {
+      type: "story",
+      text: "Shylock staggered. 'Is that the law?' he asked. Portia nodded. 'The words are exact. You may have justice, more than you desire. For as you urge on justice, be assured you shall have justice more than you desire.'"
+    },
+    {
+      type: "story",
+      text: "Shylock gave up his claim. The court then ruled that because he had sought the life of a Venetian citizen, half his wealth must go to Antonio and half to the state. Antonio asked the Duke to show mercy: Shylock could keep his wealth if he converted to Christianity and left it all to his daughter when he died."
+    },
+    {
+      type: "question",
+      id: "q8",
+      text: "How does Portia's reading of the bond save Antonio?",
+      options: [
+        "She finds that the bond forbids what Shylock needs to do to collect it",
+        "She persuades the Duke to tear up the contract",
+        "She proves that Antonio never signed the bond",
+        "She pays Shylock three times the original loan"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. The bond gives Shylock flesh but forbids blood, making it impossible to fulfill.",
+        incorrect: "Look at how she reads the exact words of the bond."
+      },
+      tags: {
+        difficulty: "medium",
+        level: 3,
+        band: "B3",
+        grammar_cell: "simple_present",
+        domain: "cause",
+        gates: false
+      }
+    },
+    {
+      type: "story",
+      text: "After the trial, Bassanio—who did not recognize his own wife in disguise—tried to reward the lawyer. Portia asked only for the ring on his finger. Bassanio protested: it was a gift from his wife, and he had sworn never to part with it. But Antonio urged him, and at last Bassanio gave it up."
+    },
+    {
+      type: "story",
+      text: "When they all returned to Belmont, Portia scolded Bassanio for giving away her ring. Only when he had squirmed enough did she reveal that she had been the lawyer, and that the ring had come back to her hand by her own cleverness."
+    },
+    {
+      type: "moral",
+      text: "The law binds us with its words, but wisdom finds the room to breathe within them. Portia was bound by her father's will, yet she found a way to hope. Shylock demanded what the bond allowed, yet the bond forbade what he needed. Where duty ends, mercy and wit may still begin."
+    }
+  ]
+};
+
+export default story;

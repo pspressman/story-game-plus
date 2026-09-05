@@ -1,0 +1,238 @@
+/**
+ * Antar the Warrior-Poet
+ * Level: L4
+ * Band: B4 (deontic_modal - the ought, the counterfactual present)
+ * Gate: Gating questions weigh must vs may, obligation vs freedom
+ */
+
+const story = {
+  id: "antar-warrior-poet",
+  title: "Antar the Warrior-Poet",
+  icon: "📖",
+  difficulty: "Medium",
+  culture: "Arabia",
+  region: "North Africa and Arabia",
+  tier: "A",
+  saga: null,
+  source_epic: true,
+  level: 4,
+  band: "B4",
+  threads: [],
+  edges: ["warrior_poet"],
+  cultural_care: null,
+  theme: "What he must prove and what should be his by birth",
+  estimatedTime: "5-10 min",
+  description: "Antar is a great warrior and poet, but he is the son of a slave. To win his freedom and his love, he must do what no one else can.",
+  
+  content: [
+    {
+      type: "story",
+      text: "In the desert lands of Arabia, there lived a warrior named Antar. His father was a noble chief, but his mother was a slave. Because of this, Antar himself was treated as a slave, though he had the strength of ten men and the gift of poetry."
+    },
+    {
+      type: "story",
+      text: "Antar loved a beautiful woman named Abla, his cousin. But her father refused to let them marry. 'You are a slave,' he said to Antar. 'You may tend camels and fight for us, but you must not ask for my daughter's hand.'"
+    },
+    {
+      type: "question",
+      id: "q1",
+      text: "What was Antar's position in his tribe?",
+      options: [
+        "He could fight in battles, but he had to obey commands like a slave.",
+        "He fought many battles with other tribes.",
+        "He wrote poems about the desert.",
+        "He took care of the tribe's animals."
+      ],
+      correctAnswer: 0,
+      feedback: {
+        correct: "Yes! Antar could serve as a warrior, but he was bound by his status as a slave.",
+        incorrect: "Look at what Antar was allowed to do and what he was required to accept."
+      },
+      domain: "obligation",
+      level: 4,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true
+    },
+    {
+      type: "story",
+      text: "One day, enemies raided the tribe's camp while the warriors were away. Antar fought like a lion, driving off the attackers and saving many lives. When his father returned, he saw what Antar had done."
+    },
+    {
+      type: "story",
+      text: "'You have proven yourself,' his father said. 'From this day forward, you are free. You are my son, not my slave.' Antar's heart soared, but he knew his true test still lay ahead."
+    },
+    {
+      type: "question",
+      id: "q2",
+      text: "Why did Antar's father give him his freedom?",
+      options: [
+        "Antar wrote a beautiful poem.",
+        "Antar saved the tribe from enemies.",
+        "Antar asked for Abla's hand in marriage.",
+        "Antar was stronger than other warriors."
+      ],
+      correctAnswer: 1,
+      feedback: {
+        correct: "Right! Antar earned his freedom by defending the tribe.",
+        incorrect: "What action led directly to his father's decision?"
+      },
+      domain: "cause",
+      level: 2,
+      band: "B2",
+      grammar_cell: "simple_past",
+      gates: false
+    },
+    {
+      type: "story",
+      text: "Now that he was free, Antar went again to Abla's father. But the old man set an impossible task. 'If you want to marry my daughter,' he said, 'you must bring me one thousand camels from the land of King Numan. These are special camels, guarded by fierce warriors.'"
+    },
+    {
+      type: "story",
+      text: "Everyone knew this was a task meant to kill Antar. No one could steal from King Numan and live. But Antar had no choice—he had to attempt it or lose Abla forever."
+    },
+    {
+      type: "question",
+      id: "q3",
+      text: "What was Antar's situation after Abla's father gave him the task?",
+      options: [
+        "He was obliged to risk his life for the camels or give up his love.",
+        "He traveled to the land of King Numan.",
+        "He gathered his weapons for the journey.",
+        "He could ask other warriors to help him."
+      ],
+      correctAnswer: 0,
+      feedback: {
+        correct: "Exactly! Antar faced a binding choice: attempt the deadly task or lose Abla.",
+        incorrect: "Consider what Antar was required to do versus what he was free to do."
+      },
+      domain: "obligation",
+      level: 4,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true
+    },
+    {
+      type: "story",
+      text: "Antar set out across the burning desert. After many days, he reached the lands of King Numan. There he found the camels, a magnificent herd grazing near the king's palace. Guards surrounded them day and night."
+    },
+    {
+      type: "story",
+      text: "Antar did not sneak or steal. Instead, he rode boldly to King Numan's court. 'Great king,' he said, 'I am Antar, son of Shaddad. I have come to ask for one thousand of your camels as a bride-price for the woman I love.'"
+    },
+    {
+      type: "question",
+      id: "q4",
+      text: "How did Antar approach King Numan?",
+      options: [
+        "He stole the camels at night.",
+        "He asked the king directly for the camels.",
+        "He fought the guards surrounding the camels.",
+        "He wrote a poem to impress the king."
+      ],
+      correctAnswer: 1,
+      feedback: {
+        correct: "Correct! Antar was direct and honest in his request.",
+        incorrect: "What did Antar actually do when he reached the king?"
+      },
+      domain: "sequence",
+      level: 2,
+      band: "B2",
+      grammar_cell: "simple_past",
+      gates: false
+    },
+    {
+      type: "story",
+      text: "King Numan was amused by Antar's boldness. 'Many have tried to take my camels by force,' he said. 'All have failed. But you are brave enough to ask. Very well—I will give you the camels if you can defeat my three strongest champions in combat.'"
+    },
+    {
+      type: "story",
+      text: "The first champion was a giant who had never been thrown to the ground. The second was a swordsman who had killed a hundred men. The third was the king's own brother, undefeated in battle."
+    },
+    {
+      type: "question",
+      id: "q5",
+      text: "What challenge did King Numan set for Antar?",
+      options: [
+        "He was required to defeat three champions to win the camels.",
+        "He fought three battles in one day.",
+        "He had to prove his strength before the court.",
+        "He could choose to fight or leave without the camels."
+      ],
+      correctAnswer: 0,
+      feedback: {
+        correct: "Perfect! The king bound Antar to this condition: defeat three champions or forfeit the camels.",
+        incorrect: "Focus on what Antar was obliged to do to earn the camels."
+      },
+      domain: "obligation",
+      level: 4,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true
+    },
+    {
+      type: "story",
+      text: "Antar fought each champion in turn. He threw the giant to the ground with such force that the earth shook. He disarmed the swordsman without killing him. And he fought the king's brother for an entire day until both men were exhausted, but Antar remained standing."
+    },
+    {
+      type: "story",
+      text: "King Numan kept his word. 'You have proven yourself the greatest warrior I have ever seen,' he said. 'Take the one thousand camels, and take my friendship as well. You are welcome in my kingdom always.'"
+    },
+    {
+      type: "question",
+      id: "q6",
+      text: "How long did Antar fight the king's brother?",
+      options: [
+        "For an entire day",
+        "For several hours",
+        "Until the king stopped them",
+        "Until the other man yielded"
+      ],
+      correctAnswer: 0,
+      feedback: {
+        correct: "Yes! The fight lasted all day long.",
+        incorrect: "Look carefully at the time mentioned in the story."
+      },
+      domain: "number",
+      level: 1,
+      band: "B1",
+      grammar_cell: "concrete_noun",
+      gates: false
+    },
+    {
+      type: "story",
+      text: "Antar drove the one thousand camels back across the desert to his own land. When Abla's father saw them, he could not believe his eyes. He had no choice now but to keep his promise."
+    },
+    {
+      type: "story",
+      text: "Antar and Abla were married with great celebration. From that day forward, Antar's fame spread throughout Arabia. His poems were recited in every tent, and his deeds were sung by every campfire."
+    },
+    {
+      type: "question",
+      id: "q7",
+      text: "What was Abla's father's position after Antar returned?",
+      options: [
+        "He was bound by his word to allow the marriage.",
+        "He celebrated Antar's victory with the tribe.",
+        "He could not believe Antar had succeeded.",
+        "He gave his blessing to the couple."
+      ],
+      correctAnswer: 0,
+      feedback: {
+        correct: "Exactly! The father was obliged to honor his promise now that Antar had completed the task.",
+        incorrect: "Think about what the father was required to do, not what he felt."
+      },
+      domain: "obligation",
+      level: 4,
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true
+    },
+    {
+      type: "story",
+      text: "Antar had been born a slave, but through courage, skill, and honor, he became one of the greatest heroes of his people. He proved that a person's worth is not determined by birth, but by the deeds they choose to do."
+    }
+  ]
+};
+
+export default story;

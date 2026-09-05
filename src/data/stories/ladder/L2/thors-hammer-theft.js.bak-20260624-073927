@@ -1,0 +1,115 @@
+// L2_thors-hammer-theft.js
+// L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
+// Gate: read the trick. Loki's plan to recover the hammer through disguise.
+const thorsHammerTheft = {
+  id: "thors-hammer-theft",
+  title: "The Theft of Thor's Hammer",
+  icon: "🔨",
+  difficulty: "Easy",
+  theme: "Disguise and deception",
+  estimatedTime: "5-10 min",
+  description: "When giants steal Thor's hammer, Loki devises a plan: dress Thor as a bride. The giants see only what they expect to see.",
+
+  meta: {
+    level: 2,
+    track: "gated",
+    tier: "R",
+    band: "B2",
+    grammar_online: ["simple_past", "present_perfect", "sequence", "infinitive", "gerund", "participle", "concrete_noun", "locative"],
+    grammar_target: "non_finite",
+    culture: "Norse",
+    region: "Northern Europe",
+    saga: "norse_eddas",
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "Thor woke to find his hammer gone. Thrym, king of the giants, sent word: he had buried it eight miles down. He would return it only in exchange for Freyja as his bride. Loki's eyes gleamed. \"I have a better idea,\" he said."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "Loki begins dressing Thor in a bridal veil and gown, ignoring his roars of protest. What is Loki really planning to do?",
+      options: [
+        "To mock Thor in front of the other gods",
+        "To disguise Thor as the bride so he can get close enough to seize back the hammer",
+        "To prove that Thor is too proud to save himself",
+        "To send Thor away so Loki can rule Asgard alone"
+      ],
+      correctAnswer: 1,
+      explanation: "Reading the trick means seeing past the absurd costume to the hidden plan: if Thrym expects a bride, Thor in disguise can walk straight into the hall and take back what was stolen."
+    },
+    {
+      type: "story",
+      text: "So Thor, draped in linen and jewels, rode to the giant's hall with Loki disguised as a bridesmaid at his side. Thrym welcomed his bride with a feast. But when Thor ate an entire ox, eight salmon, and drained three barrels of mead, Thrym stared in alarm."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "Thrym watches his bride devouring food and drink far beyond any woman's appetite. What is he failing to see?",
+      options: [
+        "That his bride is not a woman at all, but Thor in disguise",
+        "That the food has been poisoned by Loki",
+        "That Freyja is testing his wealth before agreeing to marry him",
+        "That this is a normal appetite for a nervous bride"
+      ],
+      correctAnswer: 0,
+      explanation: "Thrym sees only what he expects: a bride at his table. His mind does not make the leap from strange appetite to hidden identity. Failing to read past the surface, he hands Thor exactly what he came for."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "By the time Thor arrives at the giant's hall, where has the hammer been hidden?",
+      options: [
+        "In Thrym's throne room for all to see",
+        "Eight miles beneath the earth",
+        "At the bottom of the sea",
+        "Inside Thor's own hall in Asgard"
+      ],
+      correctAnswer: 1,
+      explanation: "Tracking where the hammer has been placed is a simpler holding task from an earlier band, setting up the stakes without requiring inference about disguise or intent."
+    },
+    {
+      type: "story",
+      text: "Loki leaned close and whispered that the bride had not eaten for eight days, so eager was she for this wedding. Thrym smiled, reassured. \"Then bring out the hammer to bless the marriage!\" The moment it touched Thor's lap, he tore off the veil, seized his weapon, and the hall of giants fell to ruin around them."
+    },
+    {
+      type: "question",
+      domain: "irony",
+      band: "B2",
+      grammar_cell: "participle",
+      gates: true,
+      question: "Thrym orders the hammer brought out, believing he is blessing a marriage. What is he actually doing?",
+      options: [
+        "Destroying his own hall by angering the gods",
+        "Handing Thor the very weapon he came to steal back",
+        "Testing whether his bride is truly Freyja",
+        "Proving his power over all of Asgard"
+      ],
+      correctAnswer: 1,
+      explanation: "The irony turns on what Thrym thinks he is doing versus what his action accomplishes: believing he secures a bride, he returns the weapon to its owner, undoing his own theft."
+    },
+    {
+      type: "story",
+      moral: "The trick succeeds when the mark sees only what they wish to see. A disguise works best on a greedy eye."
+    }
+  ]
+};
+
+export default thorsHammerTheft;

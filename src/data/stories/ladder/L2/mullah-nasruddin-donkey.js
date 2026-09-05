@@ -1,0 +1,119 @@
+// L2 node: Mullah Nasruddin and the Donkey
+// L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
+// Gate: read the trick. The gating stems turn on a non-finite form AND reading hidden intent or another mind's response.
+const mullahNasruddinDonkey = {
+  id: "mullah-nasruddin-donkey",
+  title: "Mullah Nasruddin and the Donkey",
+  icon: "🫏",
+  difficulty: "Easy",
+  theme: "The wise fool's mirror",
+  estimatedTime: "5-10 min",
+  description: "Nasruddin travels with his donkey three times, each time changing who rides and who walks. The village always finds something to criticize. His trick is to show them their own foolishness.",
+
+  meta: {
+    level: 2,
+    track: "gated",
+    tier: "R",
+    band: "B2",
+    grammar_online: ["simple_present", "simple_past", "concrete_noun", "locative", "past_progressive", "present_perfect", "sequence", "simple_future", "past_perfect", "infinitive", "gerund", "participle"],
+    grammar_target: "non_finite",
+    culture: "Sufi/Turkic",
+    region: "Persia and Central Asia",
+    saga: null,
+    source_epic: false,
+    threads: [],
+    edges: ["one_fool_many_hats"],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "Nasruddin and his son left for market, both walking beside their donkey. Villagers laughed, \"What fools! Owning a donkey yet refusing to ride it!\" Nasruddin smiled and said nothing. He simply helped his son climb onto the donkey's back and they continued on."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "When Nasruddin changes who rides after hearing each criticism, what is he really planning to show?",
+      options: [
+        "To find the one right way to travel that will please everyone",
+        "To prove that people will criticize any choice, exposing their foolishness",
+        "To teach his son obedience and respect for elders",
+        "To rest his own legs while appearing generous"
+      ],
+      correctAnswer: 1,
+      explanation: "The trick lies in planning the demonstration: by changing each time yet still being criticized, he exposes that the villagers will find fault with anything. The pattern itself is the lesson."
+    },
+    {
+      type: "story",
+      text: "Soon they passed other travelers who shook their heads. \"Shameful! A healthy young boy riding while his old father walks!\" Again Nasruddin nodded. He and his son traded places. Now Nasruddin rode and the boy walked beside him."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "participle",
+      gates: true,
+      question: "When the second group of villagers criticizes him, Nasruddin keeps switching arrangements without defending himself. What does his silence show about his understanding of their minds?",
+      options: [
+        "He believes they are all correct and is genuinely trying to obey",
+        "Knowing they will never be satisfied, he is gathering proof of their endless fault-finding",
+        "He is too confused by their conflicting advice to form any plan",
+        "He fears their anger and hopes changing will make them stop"
+      ],
+      correctAnswer: 1,
+      explanation: "His silence is not submission or confusion. Knowing ahead that no arrangement will satisfy everyone, he collects each contradiction to reveal the pattern underneath: people will always find something to criticize."
+    },
+    {
+      type: "story",
+      text: "At the market gate more voices rose: \"Cruel man! Burdening the poor animal while you both sit idle!\" This time Nasruddin laughed aloud. He and his son climbed down, hoisted the donkey onto their shoulders, and carried it into the market square."
+    },
+    {
+      type: "question",
+      domain: "cumulative",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "Count the number of different traveling arrangements Nasruddin tried before carrying the donkey on his shoulders.",
+      options: [
+        "Two arrangements",
+        "Three arrangements",
+        "Four arrangements",
+        "Five arrangements"
+      ],
+      correctAnswer: 1,
+      explanation: "Both walking, son riding, father riding—three arrangements before the final absurd one. This cumulative count from earlier levels sets up the reveal without testing the trick itself."
+    },
+    {
+      type: "story",
+      text: "The crowd fell silent, then burst into laughter at the ridiculous sight. Nasruddin set down the donkey and bowed. \"You see? Walk beside it, ride it, carry it—there is always someone to call you foolish. The fool is the one who tries to please every voice.\""
+    },
+    {
+      type: "question",
+      domain: "irony",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "The villagers spent the whole journey trying to teach Nasruddin the right way to travel. What did he actually teach them instead?",
+      options: [
+        "That donkeys are too valuable to ride and should only be carried",
+        "That fathers should always walk while sons should always ride",
+        "That attempting to satisfy every critic leads only to absurdity",
+        "That market journeys must be completed in complete silence"
+      ],
+      correctAnswer: 2,
+      explanation: "The irony turns on who is teaching whom. They thought they were instructing a fool, but his performance was designed to expose the impossibility of pleasing contradictory judges. The wise fool becomes the teacher."
+    },
+    {
+      type: "story",
+      moral: "The mirror the fool holds up is clear. Those who criticize every choice reveal only their own noise."
+    }
+  ]
+};
+
+export default mullahNasruddinDonkey;

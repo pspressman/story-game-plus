@@ -1,0 +1,118 @@
+// L1 Beowulf and Grendel
+// B1 event and cause, grammar_target: sequence_and_aspect, tier: A
+const beowulfGrendel = {
+  id: "beowulf-grendel",
+  title: "Beowulf and Grendel",
+  icon: "⚔️",
+  difficulty: "Beginner",
+  theme: "The end of a long terror",
+  estimatedTime: "5-10 min",
+  description: "For twelve winters, Grendel has torn warriors from Heorot hall. Then a Geat named Beowulf crosses the sea to face him. Watch the order of terror, arrival, and fight.",
+
+  meta: {
+    level: 1,
+    track: "gated",
+    tier: "A",
+    band: "B1",
+    grammar_online: ["simple_present", "simple_past", "simple_future", "present_progressive", "past_progressive", "future_progressive", "present_perfect", "past_perfect", "future_perfect", "present_perfect_progressive", "past_perfect_progressive", "future_perfect_progressive", "sequence"],
+    grammar_target: "sequence_and_aspect",
+    culture: "Old English",
+    region: "Northern Europe",
+    saga: "beowulf",
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "King Hrothgar built a mead-hall called Heorot, the brightest hall in the northern world. But before the benches were warm, Grendel came in the dark. Night after night he burst through the door, seized sleeping warriors, and dragged them back to his fen. For twelve winters Heorot stood empty after dark."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "Before Beowulf ever hears of the trouble, picture Heorot in those years. What happened each night?",
+      options: [
+        "Warriors held feast until dawn",
+        "The hall stood empty to keep men safe from Grendel",
+        "Hrothgar locked the doors and slept inside",
+        "Grendel came only once or twice"
+      ],
+      correctAnswer: 1,
+      explanation: "The story shows twelve winters of repeated raids, so the pictured pattern is the hall standing dark and empty at night. This is a picturing question reaching back to the simplest event; it does not test the level's own target."
+    },
+    {
+      type: "story",
+      text: "Across the whale-road in Geatland, the warrior Beowulf heard of Hrothgar's long grief. He gathered fourteen men, launched a ship, and sailed to Denmark. When he reached Heorot, he told Hrothgar: \"I have come to end this. Tonight I will meet Grendel without sword or shield.\""
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "By the time Beowulf arrives at Heorot and makes his promise, what has already been going on?",
+      options: [
+        "Grendel has been raiding the hall for twelve winters",
+        "Beowulf has been training in Denmark for years",
+        "Hrothgar has been building a new hall to replace Heorot",
+        "The Geats have been fighting Grendel in their own land"
+      ],
+      correctAnswer: 0,
+      explanation: "Follow the order: the twelve winters of raids come first, then Beowulf hears the news, then he sails. By the moment he stands before Hrothgar, the long terror has already been happening."
+    },
+    {
+      type: "question",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "sequence",
+      gates: true,
+      question: "Why does Beowulf cross the sea to face Grendel?",
+      options: [
+        "Hrothgar has sent him gold and begged for help",
+        "Grendel has killed Beowulf's own kinsmen",
+        "He hears of Hrothgar's suffering and chooses to come",
+        "The king of the Geats has ordered him to go"
+      ],
+      correctAnswer: 2,
+      explanation: "Follow the order of events: Beowulf hears the news, then he gathers men and sails. The story shows him choosing to help, not being summoned or avenging his own loss."
+    },
+    {
+      type: "story",
+      text: "That night Beowulf lay waiting in the dark hall with his men. Grendel smashed through the door, snatched one warrior, and tore him apart. Then he reached for Beowulf. The Geat caught his arm in a grip that had never been felt before. They grappled, the hall shook, and benches splintered. At last Grendel wrenched free and fled into the night, leaving his arm torn from the shoulder."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_progressive",
+      gates: true,
+      question: "While Beowulf and Grendel are fighting, what is happening to the hall around them?",
+      options: [
+        "It is standing silent and still",
+        "Warriors are running out through the door",
+        "It is shaking and benches are splintering",
+        "Hrothgar is watching from the doorway"
+      ],
+      correctAnswer: 2,
+      explanation: "This asks what was ongoing during the fight. The story shows the hall shaking and benches breaking as the fight continues, not what happened before or after."
+    },
+    {
+      type: "story",
+      text: "In the morning, warriors followed the blood trail to the edge of the black water. Grendel had crept home to die. Beowulf hung the torn arm high in Heorot, and for the first time in twelve winters, the hall rang with song through the night."
+    },
+    {
+      type: "story",
+      moral: "Twelve winters of terror, one night of courage. The story turned on who finally came, not how long the waiting had been."
+    }
+  ]
+};
+
+export default beowulfGrendel;

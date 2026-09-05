@@ -1,0 +1,171 @@
+/**
+ * L3-B3: Sedna (Inuit)
+ * Band: the other's feeling and the vantage flip
+ * Gate: passive_voice + vantage/feeling domains
+ * 
+ * Cultural care: gentle transformation telling - attested public version only
+ * Theme: What was taken from her, not what she gave
+ */
+
+const sedna = {
+  id: "sedna",
+  title: "Sedna",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  culture: "Inuit",
+  region: "North America",
+  tier: "A",
+  saga: null,
+  source_epic: false,
+  threads: [],
+  edges: [],
+  cultural_care: "gentle transformation telling - attested public version only",
+  theme: "What was taken from her, not what she gave",
+  estimatedTime: "5-10 min",
+  description: "A daughter is thrown from a boat into the cold sea. Stand where she stands, and feel what happens to her.",
+  
+  content: [
+    {
+      type: "story",
+      text: "Long ago, a young woman named Sedna lived with her father by the cold northern sea. She was beautiful, and many hunters came to ask for her hand. But Sedna refused them all."
+    },
+    {
+      type: "question",
+      text: "Who wanted to marry Sedna?",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      options: [
+        { text: "Many hunters came to ask for her", correct: true },
+        { text: "Her father told her to marry", correct: false },
+        { text: "The sea creatures called to her", correct: false },
+        { text: "A bird forced her to leave", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "One day a stranger arrived in a kayak. His face was hidden by a hood. He promised Sedna a warm home and plenty of food. Her father urged her to accept. At last, Sedna agreed and went away with the stranger."
+    },
+    {
+      type: "story",
+      text: "But when they reached his home, Sedna saw the truth. The stranger was a bird spirit. His 'home' was a cliff of cold stone. His 'plenty' was raw fish and scraps. Sedna had been tricked."
+    },
+    {
+      type: "question",
+      text: "What happened to Sedna when she reached the stranger's home?",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      options: [
+        { text: "She was tricked by the stranger", correct: true },
+        { text: "She discovered a warm home", correct: false },
+        { text: "She became a bird herself", correct: false },
+        { text: "She married the hunter gladly", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Sedna cried out across the water. Her father heard her and felt deep shame. He came in his boat to bring her home. Together they fled across the waves."
+    },
+    {
+      type: "question",
+      text: "Why did Sedna's father come to get her?",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      options: [
+        { text: "He heard her cry and felt shame", correct: true },
+        { text: "The bird spirit sent for him", correct: false },
+        { text: "He needed her help to fish", correct: false },
+        { text: "He wanted to meet the stranger", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "But the bird spirit saw them. He flew after the boat and beat his wings until a terrible storm rose. Waves crashed over the sides. The boat began to tip."
+    },
+    {
+      type: "story",
+      text: "Sedna's father was afraid he would drown. In his terror, he pushed Sedna over the side of the boat. She fell into the freezing sea."
+    },
+    {
+      type: "question",
+      text: "When Sedna fell into the sea, how did she feel?",
+      domain: "feeling",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      options: [
+        { text: "She was betrayed by the one who should have protected her", correct: true },
+        { text: "She was happy to swim in the cold water", correct: false },
+        { text: "She was proud of her father's courage", correct: false },
+        { text: "She was grateful to escape the storm", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Sedna tried to climb back into the boat. She gripped the side with her fingers. But her father was still afraid. He struck her hands with his paddle."
+    },
+    {
+      type: "question",
+      text: "What happened to Sedna's fingers?",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      options: [
+        { text: "They were struck by her father's paddle", correct: true },
+        { text: "They turned into bird feathers", correct: false },
+        { text: "They grew stronger in the cold", correct: false },
+        { text: "They slipped because of the ice", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Her fingers broke off in the icy water. They sank down and became the seals. Still Sedna held on. Her father struck again. Her hands broke away and became the walruses. He struck a third time. Her arms fell and became the whales."
+    },
+    {
+      type: "question",
+      text: "First her fingers became seals. Then what came next?",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      options: [
+        { text: "Her hands broke away and became walruses", correct: true },
+        { text: "Her arms fell and became whales", correct: false },
+        { text: "She sank to the bottom of the sea", correct: false },
+        { text: "The storm ended and the boat was safe", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Sedna sank down, down, down to the bottom of the sea. There she remains. The Inuit say she became the mother of all sea creatures. When hunters treat the animals with respect, Sedna is calm and the hunting is good. But when her anger rises, the sea grows wild and dangerous."
+    },
+    {
+      type: "question",
+      text: "What do the Inuit believe about Sedna now?",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      options: [
+        { text: "She was transformed into the mother of sea creatures", correct: true },
+        { text: "She was rescued by the bird spirit", correct: false },
+        { text: "She was forgotten by her people", correct: false },
+        { text: "She was turned into a boat", correct: false }
+      ]
+    },
+    {
+      type: "moral",
+      text: "Sedna's story reminds us that what is taken cannot be given back. Those who are betrayed carry the weight of that betrayal. And sometimes, what is broken becomes something new—but the breaking is not forgotten."
+    }
+  ]
+};
+
+export default sedna;

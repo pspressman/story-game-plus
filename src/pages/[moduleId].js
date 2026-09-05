@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
+import { getReadMap, statusOf, getReadSummary } from '../lib/readTracker';
 
 // Import your story data
 import aesopStories from '../data/stories/aesop';
 import greekStories from '../data/stories/greek';
 import bibleStories from '../data/stories/bible';
 import worldStories from '../data/stories/world';
+import ladderStories from '../data/stories/ladder';
 
 const moduleConfig = {
   aesop: {
@@ -36,11 +38,25 @@ const moduleConfig = {
     icon: "🌍",
     color: "orange",
     stories: worldStories
+  },
+  ladder: {
+    title: "The Ladder",
+    description: "Stories that grow with you, from a single picture to armies of minds",
+    icon: "🪜",
+    color: "purple",
+    stories: ladderStories
   }
 };
 
 export default function ModulePage({ moduleId, moduleData }) {
   const [selectedDifficulty, setSelectedDifficulty] = useState('All');
+  const [readMap, setReadMap] = useState(null);
+
+  // Read state exists only in the browser. Loading it in an effect rather
+  // than during render keeps server HTML and first client render identical.
+  useEffect(() => {
+    setReadMap(getReadMap());
+  }, []);
   
   if (!moduleData) {
     return (
@@ -93,6 +109,9 @@ export default function ModulePage({ moduleId, moduleData }) {
               <h1 className="text-4xl font-bold text-gray-800 mb-2">{moduleData.title}</h1>
               <p className="text-lg text-gray-600 mb-6">{moduleData.description}</p>
               <p className="text-gray-500">{moduleData.stories.length} stories available</p>
+              {readMap && (
+                <ReadSummary summary={getReadSummary(readMap, moduleId, moduleData.stories)} />
+              )}
             </div>
           </div>
 
@@ -121,12 +140,15 @@ export default function ModulePage({ moduleId, moduleData }) {
                 className="block bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
               >
                 <div className="p-6">
-                  <div className="flex items-center mb-4">
-                    <span className="text-3xl mr-3">{story.icon}</span>
-                    <div>
-                      <h3 className="text-lg font-semibold text-gray-800">{story.title}</h3>
-                      <p className="text-sm text-gray-500">{story.estimatedTime}</p>
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center">
+                      <span className="text-3xl mr-3">{story.icon}</span>
+                      <div>
+                        <h3 className="text-lg font-semibold text-gray-800">{story.title}</h3>
+                        <p className="text-sm text-gray-500">{story.estimatedTime}</p>
+                      </div>
                     </div>
+                    <ReadBadge status={readMap ? statusOf(readMap, moduleId, story.id) : null} />
                   </div>
                   
                   <p className="text-gray-600 mb-4 text-sm">{story.description}</p>
@@ -187,4 +209,39 @@ export async function getStaticPaths() {
     paths,
     fallback: false,
   };
+}
+
+
+function ReadBadge({ status }) {
+  if (!status) return null;
+
+  const styles = {
+    read: 'bg-gray-100 text-gray-600',
+    started: 'bg-amber-100 text-amber-800',
+    unread: 'bg-blue-100 text-blue-800'
+  };
+  const labels = { read: 'Read', started: 'Started', unread: 'New' };
+
+  return (
+    <span className={`ml-2 whitespace-nowrap px-2 py-1 rounded-full text-xs font-medium ${styles[status]}`}>
+      {labels[status]}
+    </span>
+  );
+}
+
+function ReadSummary({ summary }) {
+  const { total, read, started, latest, daysSinceLatest } = summary;
+  const when =
+    daysSinceLatest === null ? '' :
+    daysSinceLatest === 0 ? 'today' :
+    daysSinceLatest === 1 ? 'yesterday' :
+    `${daysSinceLatest} days ago`;
+
+  return (
+    <p className="text-sm text-gray-500 mt-2">
+      {read} of {total} read
+      {started > 0 && ` \u00b7 ${started} started`}
+      {latest && ` \u00b7 last finished: ${latest.title} (${when})`}
+    </p>
+  );
 }

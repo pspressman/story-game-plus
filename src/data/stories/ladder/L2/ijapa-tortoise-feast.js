@@ -1,0 +1,115 @@
+// ijapa-tortoise-feast.js
+// L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
+// Gate: read the trick. The gating stems turn on a non-finite form AND on a second character's read of intent.
+const ijapaTortoiseFeast = {
+  id: "ijapa-tortoise-feast",
+  title: "Ijapa's Feast in the Sky",
+  icon: "🐢",
+  difficulty: "Easy",
+  theme: "The name that took everything",
+  estimatedTime: "5-10 min",
+  description: "Ijapa borrows feathers from the birds to reach a great feast in the sky. Then he gives himself a name that will let him eat everything. The birds see through it too late.",
+
+  meta: {
+    level: 2,
+    track: "gated",
+    tier: "R",
+    band: "B2",
+    grammar_online: ["simple_present", "simple_past", "concrete_noun", "locative", "past_progressive", "present_perfect", "sequence", "simple_future", "past_perfect", "infinitive", "gerund", "participle"],
+    grammar_target: "non_finite",
+    culture: "Yoruba",
+    region: "West Africa",
+    saga: null,
+    source_epic: false,
+    threads: [],
+    edges: ["trickster_many_faces"],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "The sky people sent word down: a feast for all the birds. Ijapa the tortoise heard and his mouth watered, but he had no wings. He went from bird to bird, praising their beauty, asking to borrow just one feather from each. The birds, flattered, agreed. Soon Ijapa wore a coat of borrowed wings and flew up with them."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "Ijapa works hard to borrow feathers from every bird, saying he only wants to join the feast. What is he really planning to do once he arrives?",
+      options: [
+        "To share the feast equally with all the birds who helped him",
+        "To take the best food for himself by tricking the sky people with a false name",
+        "To thank the sky people on behalf of all the birds",
+        "To return the favor by singing for the hosts"
+      ],
+      correctAnswer: 1,
+      explanation: "Reading the trick means seeing that borrowing wings is only step one. Ijapa is already planning how to claim all the food once he gets there, not how to share it."
+    },
+    {
+      type: "story",
+      text: "When they landed in the sky, the hosts asked, \"What are your names?\" Each bird called out their own. Then Ijapa stepped forward and said with a deep bow, \"My name is All of You.\" The sky people smiled and set out the feast: roasted yams, pepper soup, fried plantain, palm wine. \"This food,\" they announced, \"is for All of You.\" Ijapa rushed forward and began eating everything."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "The birds stand back, watching Ijapa devour dish after dish while the hosts smile and nod. What are the birds starting to realize?",
+      options: [
+        "That the sky people made a mistake about which guest to serve first",
+        "That Ijapa gave himself a name matching the hosts' words, so they think they are feeding everyone when they feed him alone",
+        "That Ijapa is simply hungrier than they are and will share once he is full",
+        "That they should have brought more gifts for the hosts"
+      ],
+      correctAnswer: 1,
+      explanation: "The trick turns on language: the hosts say 'All of You' meaning everyone, but Ijapa claimed that phrase as his name. The birds' minds shift from confusion to the recognition that they have been played."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "By the time Ijapa sits back, satisfied, what has happened to the feast the sky people prepared?",
+      options: [
+        "It has been divided evenly among all the guests",
+        "It has been eaten entirely by Ijapa, with nothing left for the birds",
+        "It has been packed up by the hosts to save for later",
+        "Only the palm wine remains"
+      ],
+      correctAnswer: 1,
+      explanation: "Tracking the result of the trick: all the food that was meant for everyone has gone into Ijapa's belly alone."
+    },
+    {
+      type: "story",
+      text: "The birds flew home in silence, hungry and furious. One by one they took back their feathers. Ijapa, stranded in the sky, had no choice but to ask Parrot to carry a message to his wife below: \"Bring all the soft things out of the house and pile them under the sky.\" But Parrot, still angry, told her to bring out all the hard things instead. Down fell Ijapa onto stones and iron pots. His shell cracked into a hundred pieces. He survived, but the cracks remain to this day."
+    },
+    {
+      type: "question",
+      domain: "irony",
+      band: "B2",
+      grammar_cell: "participle",
+      gates: false,
+      question: "Ijapa used borrowed feathers to trick the sky people, expecting to fly home still wearing them. What is the sharp turn at the end?",
+      options: [
+        "The birds forgive him and give him more feathers",
+        "The birds take back what he borrowed, leaving him trapped by his own trick with no way down but a hard fall",
+        "Ijapa discovers he can fly without feathers after all",
+        "The sky people punish the birds instead of Ijapa"
+      ],
+      correctAnswer: 1,
+      explanation: "The trick that got him up becomes the trap that brings him down. Having used others to climb, he is left with nothing when they withdraw their trust."
+    },
+    {
+      type: "story",
+      moral: "A borrowed path can vanish. The trick that lifts you may leave you with no way home."
+    }
+  ]
+};
+
+export default ijapaTortoiseFeast;

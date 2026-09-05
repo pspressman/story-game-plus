@@ -1,0 +1,198 @@
+// L3 B3: The other's feeling and the vantage flip
+// Grammar: passive_voice
+// Story: The Winter's Tale (Shakespeare)
+// Gate: vantage and feeling questions that flip perspective to the receiver
+
+const story = {
+  id: "winters-tale-statue",
+  title: "The Winter's Tale",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  grammar_target: "passive_voice",
+  culture: "England",
+  region: "British Isles",
+  tier: "A",
+  saga: "shakespeare",
+  source_epic: false,
+  threads: ["shakespeare"],
+  edges: [],
+  cultural_care: null,
+  theme: "She was declared dead, and yet she breathes",
+  estimatedTime: "5-10 min",
+  description: "A queen is falsely accused, lost, and mourned. Sixteen years later, a statue of her is unveiled. Then it moves.",
+  
+  content: [
+    {
+      type: "story",
+      text: "King Leontes of Sicilia had a wife, Hermione, whom he loved. But one day, jealousy filled his heart. He thought his friend Polixenes had won her love. It was not true, but Leontes believed it."
+    },
+    {
+      type: "story",
+      text: "He ordered Hermione to be locked away. She was taken to prison, though she had done nothing wrong. There, she gave birth to a daughter."
+    },
+    {
+      type: "question",
+      question: "How did Hermione feel when she was locked in prison?",
+      options: [
+        "She was wronged and hurt",
+        "She was proud and strong",
+        "She was angry and loud",
+        "She was calm and happy"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Hermione was wronged and hurt. She had done nothing, yet she was treated as guilty.",
+        incorrect: "Think about what it would feel like to be locked away when you are innocent."
+      },
+      gates: true,
+      band: "B3",
+      domain: "feeling",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "The king commanded that the baby be taken far away and left to die. A lord named Antigonus carried the child to a distant shore. He laid her down and called her Perdita—the lost one."
+    },
+    {
+      type: "story",
+      text: "But shepherds found the baby. She was raised by them as their own. Perdita grew into a kind and lovely young woman, though she did not know she was a princess."
+    },
+    {
+      type: "question",
+      question: "What happened to Hermione after the trial?",
+      options: [
+        "She was declared dead",
+        "She declared herself free",
+        "She declared her daughter lost",
+        "She declared the king guilty"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Hermione was declared dead. The news was brought to the court, and all believed she had died of grief.",
+        incorrect: "Look at who received the action. What was announced about Hermione?"
+      },
+      gates: true,
+      band: "B3",
+      domain: "vantage",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "Sixteen years passed. Leontes mourned his wife and his lost daughter. He had learned the truth: Hermione had been faithful. His jealousy had destroyed his family."
+    },
+    {
+      type: "story",
+      text: "One day, a young shepherd woman came to the court with Prince Florizel, son of Polixenes. It was Perdita, though no one knew it yet. An old shepherd came too, carrying a bundle—the tokens that had been left with the baby."
+    },
+    {
+      type: "question",
+      question: "What did the king realize after sixteen years?",
+      options: [
+        "His wife had been innocent",
+        "His wife had been guilty",
+        "His daughter had been saved by him",
+        "His friend had been his enemy"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Correct. The king realized his wife had been innocent. He understood too late that his jealousy had been false.",
+        incorrect: "What did Leontes learn about Hermione's faithfulness?"
+      },
+      gates: false,
+      band: "B1",
+      domain: "cause"
+    },
+    {
+      type: "story",
+      text: "When the tokens were shown, the truth was revealed: Perdita was the king's daughter, alive. Joy and sorrow mixed in Leontes' heart. His daughter had been found, but his queen was gone forever."
+    },
+    {
+      type: "story",
+      text: "A lady named Paulina said, 'Come with me. I have something to show you.' She led them to a hidden room. There stood a statue of Hermione, so lifelike it seemed she might breathe."
+    },
+    {
+      type: "question",
+      question: "Who was led to the hidden room?",
+      options: [
+        "The king and his daughter were led there",
+        "The king led his daughter there",
+        "The statue led them there",
+        "Paulina was led there by the king"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. The king and his daughter were led there by Paulina. She guided them to see the statue.",
+        incorrect: "Who received the action of being led? Who followed Paulina?"
+      },
+      gates: true,
+      band: "B3",
+      domain: "vantage",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "Leontes stared at the statue. Tears ran down his face. 'It looks just as she did,' he whispered. 'Every line, every feature.' He reached out his hand, but Paulina stopped him."
+    },
+    {
+      type: "story",
+      text: "'Wait,' she said. 'The paint is not yet dry.' Then she said, 'Music, awake her!' And she called out, 'Hermione, descend. Be stone no more.'"
+    },
+    {
+      type: "question",
+      question: "When did Paulina tell the king to stop?",
+      options: [
+        "When he reached out to touch the statue",
+        "When he began to cry",
+        "When he entered the room",
+        "When he saw his daughter"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. Paulina stopped him when he reached out to touch the statue. She said the paint was not dry.",
+        incorrect: "At what moment did Paulina tell the king not to touch the statue?"
+      },
+      gates: false,
+      band: "B2",
+      domain: "sequence"
+    },
+    {
+      type: "story",
+      text: "The statue moved. It stepped down from the pedestal. It was not stone—it was Hermione herself, alive. She had been hidden all these years, waiting for this moment."
+    },
+    {
+      type: "story",
+      text: "Hermione embraced her daughter. She spoke to her husband, forgiving him. The family that had been broken was made whole again."
+    },
+    {
+      type: "question",
+      question: "How did Perdita feel when she saw her mother alive?",
+      options: [
+        "She was amazed and filled with joy",
+        "She was frightened and confused",
+        "She was angry and cold",
+        "She was bored and tired"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Perdita was amazed and filled with joy. She met her mother for the first time in her memory.",
+        incorrect: "Imagine seeing your mother, whom you thought was dead, come to life before you."
+      },
+      gates: true,
+      band: "B3",
+      domain: "feeling",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "What was lost was found. What was declared dead lived again. Time and patience had brought healing to a broken kingdom."
+    },
+    {
+      type: "moral",
+      text: "Jealousy can destroy what we love most. But forgiveness and time can bring even the lost back to life."
+    }
+  ]
+};
+
+export default story;

@@ -1,0 +1,165 @@
+// L3_B3: the other's feeling and the vantage flip | passive_voice
+// The Golem of Prague: A rabbi shapes clay into a defender for his people. When the danger ends, the golem must be unmade.
+
+const story = {
+  id: "golem-prague",
+  title: "The Golem of Prague",
+  icon: "📖",
+  difficulty: "Medium",
+  culture: "Jewish",
+  region: "Western Europe",
+  tier: "A",
+  saga: null,
+  source_epic: false,
+  level: 3,
+  band: "B3",
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "Made to protect, unmade when the task was done",
+  estimatedTime: "5-10 min",
+  description: "A rabbi shapes clay into a defender for his people. When the danger ends, the golem must be unmade.",
+  
+  content: [
+    {
+      type: "story",
+      text: "In the city of Prague, the Jewish people lived in fear. False accusations spread through the streets, and danger grew each day. Rabbi Judah Loew knew he must act to protect his community."
+    },
+    {
+      type: "question",
+      text: "What feeling did the Jewish people carry?",
+      options: [
+        { text: "Fear, because danger grew around them", correct: true },
+        { text: "Joy, because the city was peaceful", correct: false },
+        { text: "Anger, because they wanted to fight", correct: false },
+        { text: "Confusion, because nothing had changed", correct: false }
+      ],
+      gates: false,
+      domain: "feeling",
+      band: "B2",
+      grammar_cell: null
+    },
+    {
+      type: "story",
+      text: "The rabbi went to the river at night. He gathered clay from the bank and shaped it with his hands. He formed a giant figure, taller and stronger than any man. The clay body lay on the ground, still and lifeless."
+    },
+    {
+      type: "question",
+      text: "What did the rabbi do first, and what did he do after?",
+      options: [
+        { text: "He gathered clay, then shaped it into a giant figure", correct: true },
+        { text: "He shaped a figure, then went to the river", correct: false },
+        { text: "He wrote a word, then gathered clay", correct: false },
+        { text: "He laid the body down, then formed it from clay", correct: false }
+      ],
+      gates: false,
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: null
+    },
+    {
+      type: "story",
+      text: "Rabbi Loew wrote a sacred word on a piece of parchment and placed it under the golem's tongue. He walked around the clay body seven times, speaking ancient prayers. Suddenly, the golem's chest began to rise and fall. The creature opened its eyes."
+    },
+    {
+      type: "question",
+      text: "From the golem's side, what happened to it?",
+      options: [
+        { text: "Life was given to it through prayer and the sacred word", correct: true },
+        { text: "It chose to wake up on its own", correct: false },
+        { text: "It created itself from the river clay", correct: false },
+        { text: "It learned to breathe by watching the rabbi", correct: false }
+      ],
+      gates: true,
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "The golem stood. It could not speak, but it understood the rabbi's commands. Rabbi Loew named the creature Joseph and gave it one purpose: to protect the Jewish quarter from harm."
+    },
+    {
+      type: "story",
+      text: "Joseph walked the streets each night. When attackers came with torches, the golem stood in their path. When false witnesses plotted against innocent families, the golem appeared and stopped them. The people felt safe for the first time in years."
+    },
+    {
+      type: "question",
+      text: "How did the attackers feel when the golem blocked their way?",
+      options: [
+        { text: "They felt stopped and powerless before the giant defender", correct: true },
+        { text: "They felt welcome and invited into the quarter", correct: false },
+        { text: "They felt nothing had changed in their plans", correct: false },
+        { text: "They felt stronger and more determined", correct: false }
+      ],
+      gates: true,
+      domain: "feeling",
+      band: "B3",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "But Joseph had no mind of his own, only the commands given to him. One Friday evening, as the Sabbath approached, Rabbi Loew forgot to give the golem new instructions. Joseph continued patrolling, growing more forceful with each step."
+    },
+    {
+      type: "question",
+      text: "What caused the golem to become more forceful?",
+      options: [
+        { text: "The rabbi forgot to give it new instructions for the Sabbath", correct: true },
+        { text: "Attackers returned with greater numbers", correct: false },
+        { text: "The golem decided to become more powerful", correct: false },
+        { text: "The people asked it to be stronger", correct: false }
+      ],
+      gates: false,
+      domain: "cause",
+      band: "B1",
+      grammar_cell: null
+    },
+    {
+      type: "story",
+      text: "The golem began to rampage. It pushed over carts and knocked on doors. The creature meant no harm, but without guidance it did not know when to stop. The rabbi heard the commotion and ran through the streets."
+    },
+    {
+      type: "story",
+      text: "Rabbi Loew caught up with Joseph in the town square. He reached up and removed the sacred parchment from the golem's mouth. Instantly, the giant figure went still. The clay body collapsed into a heap on the ground."
+    },
+    {
+      type: "question",
+      text: "From Joseph's side, what happened when the parchment left its mouth?",
+      options: [
+        { text: "Its life was taken from it and it returned to clay", correct: true },
+        { text: "It chose to lie down and rest", correct: false },
+        { text: "It kept moving but more slowly", correct: false },
+        { text: "It gained the ability to think for itself", correct: false }
+      ],
+      gates: true,
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice"
+    },
+    {
+      type: "story",
+      text: "The rabbi carried the clay back to the synagogue and stored it in the attic. He never brought the golem to life again. The danger to his people had passed, and he knew that a creature without understanding could protect but also destroy."
+    },
+    {
+      type: "question",
+      text: "Why did the rabbi leave the golem as clay?",
+      options: [
+        { text: "The danger had ended, and a mindless defender could also harm", correct: true },
+        { text: "The golem had asked to rest forever", correct: false },
+        { text: "The people demanded the creature be destroyed", correct: false },
+        { text: "The clay was too heavy to carry anywhere else", correct: false }
+      ],
+      gates: true,
+      domain: "cause",
+      band: "B2",
+      grammar_cell: "past_perfect"
+    },
+    {
+      type: "story",
+      text: "The golem's clay remains in the attic to this day, waiting. The rabbi had made Joseph to serve, and when service was no longer needed, he unmade him. What is created for a purpose must rest when the purpose ends."
+    }
+  ]
+};
+
+export default story;

@@ -1,0 +1,118 @@
+// L1 node: Biag ni Lam-ang
+// L1, B1 event and cause. Grammar target: sequence_and_aspect.
+const biagNiLamAng = {
+  id: "biag-ni-lam-ang",
+  title: "Biag ni Lam-ang",
+  icon: "⚔️",
+  difficulty: "Beginner",
+  theme: "Born speaking, fighting, winning",
+  estimatedTime: "5-10 min",
+  description: "A hero is born already talking, sets out to avenge his father, and wins his bride with impossible feats. Track what has already happened before each new deed.",
+
+  meta: {
+    level: 1,
+    track: "gated",
+    tier: "R",
+    band: "B1",
+    grammar_online: ["simple_present", "simple_past", "concrete_noun", "locative", "past_progressive", "present_perfect", "sequence"],
+    grammar_target: "sequence_and_aspect",
+    culture: "Philippines",
+    region: "Southeast Asia",
+    saga: null,
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "Lam-ang came into the world already speaking. He named himself, chose his own clothes, and before his first day was done, asked where his father had gone. His mother said his father had left to fight their enemies in the mountains and had not returned."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "On the day Lam-ang is born, how many ordinary baby things does he do?",
+      options: [
+        "He speaks, names himself, and picks his clothes",
+        "He cries and sleeps like any newborn",
+        "He crawls but cannot yet walk",
+        "He tries to speak but only babbles"
+      ],
+      correctAnswer: 0,
+      explanation: "The story shows Lam-ang doing extraordinary things from birth—speaking, choosing his name, selecting clothes. This is a simple picturing question about what the newborn actually did, reaching back to the most basic event level."
+    },
+    {
+      type: "story",
+      text: "By the next morning, Lam-ang had grown to full strength. He set out for the mountains, found the tribe that had killed his father, and defeated every warrior single-handed. The enemies begged for mercy, and he let the survivors go home to tell what had happened."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "By the time Lam-ang defeats the mountain tribe, what has already happened to his father?",
+      options: [
+        "His father had been killed by those warriors before Lam-ang was born",
+        "His father had defeated them but then fell ill",
+        "His father had made peace with them years earlier",
+        "His father had never actually fought them"
+      ],
+      correctAnswer: 0,
+      explanation: "Hold the order of completed events: the father left to fight, did not return, and Lam-ang was born after. The vengeance mission only makes sense because the killing had already happened."
+    },
+    {
+      type: "question",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "sequence",
+      gates: true,
+      question: "Why does Lam-ang march into the mountains so soon after his birth?",
+      options: [
+        "He wants to prove he is stronger than ordinary men",
+        "His mother has ordered him to bring back treasure",
+        "He is searching for his father who never came home",
+        "The mountain tribe has challenged him to single combat"
+      ],
+      correctAnswer: 2,
+      explanation: "Follow the chain of events: his mother tells him his father went to fight and did not return, so Lam-ang sets out to find what happened. He is answering a question about his missing father, not chasing glory or following commands."
+    },
+    {
+      type: "story",
+      text: "Lam-ang heard of a beautiful woman named Ines Kannoyan and went to court her. Her parents' house was full of other suitors. To show what kind of man he was, he dove into the river. The water boiled, fish floated up dead, and when he surfaced, he was spotless and more handsome than before. Ines agreed to marry him."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: true,
+      question: "When Ines says yes to Lam-ang, what has he done to win her?",
+      options: [
+        "He has only spoken sweetly and brought gifts",
+        "He has defeated all the other suitors in combat",
+        "He has shown a superhuman feat by diving into the river and emerging transformed",
+        "He has promised her parents great wealth"
+      ],
+      correctAnswer: 2,
+      explanation: "The completed action before her answer is the river dive: he went in, the water churned, fish died, he came out radiant. That demonstration is what has happened by the time she accepts, not words or fighting or gold."
+    },
+    {
+      type: "story",
+      text: "Later, a great fish swallowed Lam-ang whole while he was diving for treasure. His grieving wife gathered his bones from the river bottom, and with magic and prayer, brought him back to life. The hero who had been born speaking came back from death just as impossibly."
+    },
+    {
+      type: "story",
+      moral: "Lam-ang did not grow into his power over years. He arrived speaking, avenged before he was grown, courted with miracles, and even returned from death. The story is a ladder of what he had already done by each next moment."
+    }
+  ]
+};
+
+export default biagNiLamAng;

@@ -1,0 +1,170 @@
+// L3 B3: Vantage and feeling — passive voice
+// Gating questions flip the vantage: the reader takes the side of the one acted upon.
+// Questions bind the band (vantage, feeling) and the grammar_cell (passive_voice).
+
+const story = {
+  id: "elijah-wandering-stranger",
+  title: "Elijah the Wandering Stranger",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  culture: "Jewish",
+  region: "Mediterranean",
+  tier: "R",
+  saga: null,
+  source_epic: false,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "Who is helped and who is passed by",
+  estimatedTime: "5-10 min",
+  description: "A stranger knocks at two doors, one rich and one poor. See what is given and what is received.",
+  
+  content: [
+    {
+      type: "story",
+      text: "A stranger walked along a dusty road at evening. His clothes were torn and his feet were bare. He came to a large house with iron gates."
+    },
+    {
+      type: "story",
+      text: "He knocked at the gate. A rich man opened it and looked at him with cold eyes."
+    },
+    {
+      type: "story",
+      text: "\"I have traveled far,\" said the stranger. \"May I have bread and water?\""
+    },
+    {
+      type: "story",
+      text: "The rich man shook his head. \"I give nothing to beggars,\" he said. The gate was slammed shut."
+    },
+    {
+      type: "question",
+      question: "How did the stranger feel when the gate closed?",
+      options: [
+        { text: "He was turned away without kindness", correct: true },
+        { text: "He turned away and looked for another house", correct: false },
+        { text: "He slammed the gate because he was angry", correct: false },
+        { text: "He shook his head at the rich man", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. The stranger was turned away—he is the one the action happened to.",
+        incorrect: "Read again. What happened to the stranger, not what he did."
+      },
+      gates: true,
+      band: "B3",
+      grammar_cell: "passive_voice",
+      domains: ["vantage", "feeling"]
+    },
+    {
+      type: "story",
+      text: "The stranger walked on. He came to a small cottage with a low roof and no gate at all."
+    },
+    {
+      type: "story",
+      text: "He knocked at the wooden door. A poor woman opened it. Her dress was patched, but her face was kind."
+    },
+    {
+      type: "story",
+      text: "\"I have traveled far,\" said the stranger. \"May I have bread and water?\""
+    },
+    {
+      type: "story",
+      text: "The woman smiled. \"I have little, but you are welcome to share it,\" she said. She brought him inside and set bread and cheese on the table."
+    },
+    {
+      type: "question",
+      question: "What did the stranger receive at the cottage?",
+      options: [
+        { text: "He was given food and welcomed into the house", correct: true },
+        { text: "He gave the woman bread and cheese to thank her", correct: false },
+        { text: "He welcomed the woman and smiled at her", correct: false },
+        { text: "He brought bread inside and set it on the table", correct: false }
+      ],
+      feedback: {
+        correct: "Correct. The stranger was given food—he received the kindness.",
+        incorrect: "Look again at who received and who gave."
+      },
+      gates: true,
+      band: "B3",
+      grammar_cell: "passive_voice",
+      domains: ["vantage"]
+    },
+    {
+      type: "story",
+      text: "The stranger ate and drank. Then he stood and his face changed. Light shone around him."
+    },
+    {
+      type: "story",
+      text: "\"I am Elijah,\" he said. \"You have shown kindness to a stranger. You will be blessed.\""
+    },
+    {
+      type: "question",
+      question: "What happened when the stranger stood?",
+      options: [
+        { text: "Light shone and his face changed", correct: false },
+        { text: "His face was changed by a light that shone", correct: true },
+        { text: "He changed his face and made light shine", correct: false },
+        { text: "He stood and the woman was blessed", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. His face was changed—something happened to him, not by him.",
+        incorrect: "Think about what happened to the stranger, not what he made happen."
+      },
+      gates: true,
+      band: "B3",
+      grammar_cell: "passive_voice",
+      domains: ["vantage"]
+    },
+    {
+      type: "story",
+      text: "The woman bowed her head. Elijah blessed her house and left. From that day her bread basket was never empty."
+    },
+    {
+      type: "question",
+      question: "Which house did Elijah visit first?",
+      options: [
+        { text: "The large house with iron gates", correct: true },
+        { text: "The small cottage with a low roof", correct: false },
+        { text: "A house where bread was given to him", correct: false },
+        { text: "A house where light shone around him", correct: false }
+      ],
+      feedback: {
+        correct: "Right. He went to the rich man's house first.",
+        incorrect: "Look back at the order of events."
+      },
+      gates: false,
+      band: "B1",
+      grammar_cell: "sequence",
+      domains: ["sequence"]
+    },
+    {
+      type: "story",
+      text: "The rich man heard the story and ran to find Elijah. But the prophet was gone, and the rich man's gates stood closed and empty."
+    },
+    {
+      type: "question",
+      question: "How did the rich man feel when he could not find Elijah?",
+      options: [
+        { text: "He was left behind and missed the blessing", correct: true },
+        { text: "He left his house and blessed the prophet", correct: false },
+        { text: "He ran fast and found the stranger at last", correct: false },
+        { text: "He closed his gates so no one could leave", correct: false }
+      ],
+      feedback: {
+        correct: "Yes. He was left behind—he is the one who lost the chance.",
+        incorrect: "Think about what happened to the rich man, not what he did."
+      },
+      gates: true,
+      band: "B3",
+      grammar_cell: "passive_voice",
+      domains: ["vantage", "feeling"]
+    },
+    {
+      type: "story",
+      text: "And so it is said: The one who opens the door to the stranger may open it to a blessing."
+    }
+  ]
+};
+
+export default story;

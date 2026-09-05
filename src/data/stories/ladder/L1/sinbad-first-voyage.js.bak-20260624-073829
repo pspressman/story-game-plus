@@ -1,0 +1,115 @@
+// L1: Sinbad's First Voyage
+// B1 event and cause, grammar_target: sequence_and_aspect
+// Tier R. Track landing → fire → whale wakes → escape.
+const sinbadFirstVoyage = {
+  id: "sinbad-first-voyage",
+  title: "Sinbad's First Voyage",
+  icon: "🐋",
+  difficulty: "Beginner",
+  theme: "What looks firm may move",
+  estimatedTime: "5-10 min",
+  description: "Sinbad and his crew land on what seems to be a green island. They light a fire to cook. Then the ground shudders. Watch the order of what happens.",
+
+  meta: {
+    level: 1,
+    track: "gated",
+    tier: "R",
+    band: "B1",
+    grammar_online: ["simple_present", "simple_past", "simple_future", "present_perfect", "past_perfect", "future_perfect", "present_progressive", "past_progressive", "future_progressive", "present_perfect_progressive", "past_perfect_progressive", "future_perfect_progressive", "sequence"],
+    grammar_target: "sequence_and_aspect",
+    culture: "Arabic",
+    region: "North Africa and Arabia",
+    saga: "sinbad",
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "On Sinbad's first voyage the crew spotted a green island rising from the waves. They rowed ashore, grateful for solid ground, and gathered driftwood to light a cooking fire. The flames crackled. The men laughed and spread out their provisions."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "sequence",
+      gates: true,
+      question: "Put these events in the order they happened: (1) the crew lit a fire, (2) they spotted the island, (3) they rowed to shore.",
+      options: [
+        "(2) spotted, (3) rowed, (1) lit fire",
+        "(1) lit fire, (2) spotted, (3) rowed",
+        "(3) rowed, (1) lit fire, (2) spotted",
+        "(2) spotted, (1) lit fire, (3) rowed"
+      ],
+      correctAnswer: 0,
+      explanation: "First they saw the island from their ship, then they rowed over to it, and only after landing did they gather wood and light the fire. Each step follows the one before."
+    },
+    {
+      type: "story",
+      text: "Then the ground shook. Cracks opened in the sand. The island itself was heaving upward, shedding water. Sinbad shouted, \"It's alive! Back to the ship!\" What they had taken for an island was the broad back of a whale, sleeping just below the surface. The fire's heat had woken it."
+    },
+    {
+      type: "question",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: true,
+      question: "What caused the whale to wake and begin moving?",
+      options: [
+        "The crew shouted too loudly when they landed",
+        "The heat from the cooking fire disturbed it",
+        "The whale had finished its rest and woke naturally",
+        "The ship's anchor struck it from below"
+      ],
+      correctAnswer: 1,
+      explanation: "The story tells us the fire's heat woke the whale. It had been sleeping undisturbed under the water until the crew lit their fire on its back."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "By the time the ground started shaking, what had the crew already done?",
+      options: [
+        "They had already escaped back to the ship",
+        "They had already lit a fire and spread out food",
+        "They had already realized it was a whale",
+        "They had already seen the whale swimming away"
+      ],
+      correctAnswer: 1,
+      explanation: "The shaking came after the fire was lit and the men were setting out their meal. Those actions were completed before the whale stirred. The escape and realization came later."
+    },
+    {
+      type: "story",
+      text: "Men scrambled toward the boats. The whale rolled, tipping barrels and men into the sea. Sinbad swam hard, lungs burning, and just caught the rope his shipmates threw. Behind him the whale sank slowly back beneath the waves, the fire on its back hissing into steam."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "Picture the moment right after the whale rolls. How many fires are still burning on solid ground?",
+      options: [
+        "None—the fire is on the whale's back in the water",
+        "One—the main cooking fire stayed lit",
+        "Several—each crew group had its own fire",
+        "Two—one on shore and one on the whale"
+      ],
+      correctAnswer: 0,
+      explanation: "There is no solid ground—what seemed like an island was the whale. The fire is on the whale as it sinks, about to be doused by the sea. This is a simple picturing check of what exists at one moment."
+    },
+    {
+      type: "story",
+      moral: "The crew saw green and firm, and rushed to rest. The whale taught them to test ground before trusting it. Sinbad learned to watch what moves."
+    }
+  ]
+};
+
+export default sinbadFirstVoyage;

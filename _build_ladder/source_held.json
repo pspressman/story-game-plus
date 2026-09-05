@@ -1,0 +1,13 @@
+{
+  "_comment": "Authoritative HOLD list. Per HARPER 2026-06-24. These ids are source-held / permission-pending: letters are out. They must NOT be wired, built, or shipped. regen_level_barrels.mjs skips them; assert_no_held.mjs fails the build loud if any is wired; the validator requires a cultural_care note and forbids questions on them. Move an id OUT of this list ONLY when consent is recorded in CULTURAL_INCLUSION_PRINCIPLE.md with date and source. Some may never publish, and that is an accepted outcome.",
+  "updated": "2026-06-24",
+  "source_held": [
+    "rainbow-serpent",
+    "seven-sisters",
+    "tiddalik",
+    "sedna",
+    "peacemaker-great-league",
+    "kumulipo",
+    "polynesian-wayfinders"
+  ]
+}

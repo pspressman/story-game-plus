@@ -1,0 +1,239 @@
+// L4 B4 deontic_modal: Robin Hood steals from the rich and gives to the poor
+// Gate: must vs may — obligation vs freedom
+// Robin Hood robs nobles to feed the hungry. The law says he must stop. His heart says he must help.
+
+const story = {
+  id: "robin-hood-robbing-rich",
+  title: "Robin Hood: Robbing the Rich",
+  icon: "📖",
+  difficulty: "Medium",
+  culture: "England",
+  region: "British Isles",
+  tier: "R",
+  level: 4,
+  band: "B4",
+  grammar_cell: "deontic_modal",
+  saga: "robin_hood",
+  source_epic: true,
+  threads: [],
+  edges: [
+    "outlaw_circling_the_globe"
+  ],
+  cultural_care: null,
+  theme: "Justice says one thing, the law says another",
+  estimatedTime: "5-10 min",
+  description: "Robin Hood steals from those who have too much and gives to those who have too little. Is he bound to obey the law, or free to follow justice?",
+  
+  content: [
+    {
+      type: "story",
+      text: "Robin Hood lives in Sherwood Forest with his band of outlaws. The Sheriff of Nottingham has declared them criminals. But Robin sees a different law. The nobles grow fat while the poor starve. Robin decides he must set things right."
+    },
+    {
+      type: "question",
+      text: "What is Robin free to do, and what is he bound to do?",
+      domain: "obligation",
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      gates: true,
+      options: [
+        {
+          text: "He is free to ignore the suffering of the poor, but he feels he must help them.",
+          correct: true,
+          feedback: "Yes. The law does not force Robin to help. He chooses to do it because his conscience tells him he must."
+        },
+        {
+          text: "He is free to rob the rich, because the Sheriff says he may take what he wants.",
+          correct: false,
+          feedback: "No. The Sheriff forbids Robin from stealing. Robin is breaking the law, not following it."
+        },
+        {
+          text: "He must live in the forest because the nobles have invited him to stay there.",
+          correct: false,
+          feedback: "No. Robin hides in the forest because he is an outlaw. The nobles did not invite him."
+        },
+        {
+          text: "He must obey the Sheriff, so he stops robbing the rich and returns to town.",
+          correct: false,
+          feedback: "No. Robin defies the Sheriff. He does not obey the law."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "Robin and his men wait on the road from Nottingham. A fat merchant rides by, his cart heavy with gold. Robin steps into the road and raises his bow. The merchant must stop. Robin takes half the gold and lets the merchant go."
+    },
+    {
+      type: "question",
+      text: "Why does the merchant stop when Robin raises his bow?",
+      domain: "cause",
+      grammar_cell: "simple_past",
+      band: "B1",
+      gates: false,
+      options: [
+        {
+          text: "Because Robin blocks the road and threatens him with a weapon.",
+          correct: true,
+          feedback: "Correct. The merchant stops because Robin forces him to stop."
+        },
+        {
+          text: "Because the merchant wants to give gold to Robin Hood as a gift.",
+          correct: false,
+          feedback: "No. The merchant does not want to give up his gold. Robin takes it by force."
+        },
+        {
+          text: "Because the merchant is lost and asks Robin for directions.",
+          correct: false,
+          feedback: "No. The merchant knows the road. Robin stops him to take his gold."
+        },
+        {
+          text: "Because the merchant hears that Robin needs money to buy a new bow.",
+          correct: false,
+          feedback: "No. Robin does not keep the gold for himself. He takes it to give to the poor."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "Robin rides to a village where the people are thin and hungry. He gives them the gold. They can buy bread and meat now. The villagers thank him. But an old woman shakes her head. She says, 'The Sheriff will come. He will punish us for taking stolen gold.'"
+    },
+    {
+      type: "question",
+      text: "What does the old woman fear?",
+      domain: "feeling",
+      grammar_cell: "simple_future",
+      band: "B2",
+      gates: false,
+      options: [
+        {
+          text: "She fears the Sheriff will punish the villagers for accepting the stolen gold.",
+          correct: true,
+          feedback: "Yes. The old woman knows the Sheriff may punish them, even though they did nothing wrong."
+        },
+        {
+          text: "She fears Robin Hood will come back and take the gold away from them.",
+          correct: false,
+          feedback: "No. Robin gave them the gold. He does not take it back."
+        },
+        {
+          text: "She fears the merchant will return and demand they give back the bread and meat.",
+          correct: false,
+          feedback: "No. The merchant does not know where the gold went. He will not come to the village."
+        },
+        {
+          text: "She fears the gold is cursed and will turn into stones at midnight.",
+          correct: false,
+          feedback: "No. The gold is real. The old woman fears the Sheriff, not magic."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "The Sheriff hears about the robbery. He rides into the forest with his soldiers. They search for Robin, but the trees are thick and the outlaws know every path. The Sheriff cannot find them. He returns to Nottingham and declares a new law: anyone who helps Robin Hood must hang."
+    },
+    {
+      type: "question",
+      text: "What are the villagers now bound to do, and what may they still choose?",
+      domain: "obligation",
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      gates: true,
+      options: [
+        {
+          text: "They must refuse to help Robin if they want to stay safe, but they may still choose to help him and risk death.",
+          correct: true,
+          feedback: "Exactly. The Sheriff's law binds them to refuse, but they are still free to help Robin and accept the danger."
+        },
+        {
+          text: "They must help Robin Hood because the new law requires every villager to feed the outlaws.",
+          correct: false,
+          feedback: "No. The new law forbids helping Robin. It does not require them to help him."
+        },
+        {
+          text: "They may ignore the Sheriff's law because Robin Hood has given them permission to do whatever they want.",
+          correct: false,
+          feedback: "No. Robin does not give them permission to ignore the law. The Sheriff's law is still dangerous."
+        },
+        {
+          text: "They must leave the village and live in Sherwood Forest with Robin Hood from now on.",
+          correct: false,
+          feedback: "No. The law does not force them to leave. It only forbids them from helping Robin."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "Robin hears about the new law. He gathers his men and tells them, 'The Sheriff thinks fear will stop us. But we are free to choose. We may stop robbing the rich and let the poor starve. Or we may keep fighting, knowing we risk our lives.' His men look at each other. Then Little John stands up and says, 'We must fight. The law is wrong.'"
+    },
+    {
+      type: "question",
+      text: "What does Little John believe they are bound to do?",
+      domain: "obligation",
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      gates: true,
+      options: [
+        {
+          text: "He believes they must keep fighting for justice, even though the law forbids it.",
+          correct: true,
+          feedback: "Yes. Little John feels bound by a higher duty than the Sheriff's law. He must fight because it is the right thing to do."
+        },
+        {
+          text: "He believes they must obey the Sheriff's new law and stop helping the poor immediately.",
+          correct: false,
+          feedback: "No. Little John rejects the Sheriff's law. He wants to keep fighting."
+        },
+        {
+          text: "He believes they must leave England and sail to France where the Sheriff cannot find them.",
+          correct: false,
+          feedback: "No. Little John does not want to run away. He wants to stay and fight."
+        },
+        {
+          text: "He believes they must ask the King for permission before they rob anyone else.",
+          correct: false,
+          feedback: "No. Little John does not suggest asking for permission. He says they must fight now."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "Robin and his men keep robbing the rich. They give to the poor. The Sheriff grows angrier, but he cannot catch them. Years pass. Some say Robin Hood is a hero. Others say he is a thief. But everyone agrees: he is free to choose his path, and he has chosen to fight for those who have nothing."
+    },
+    {
+      type: "question",
+      text: "What does the story say about Robin's freedom and his choice?",
+      domain: "obligation",
+      grammar_cell: "deontic_modal",
+      band: "B4",
+      gates: true,
+      options: [
+        {
+          text: "He is free to choose whether to obey the law or follow justice, and he chooses justice.",
+          correct: true,
+          feedback: "Exactly. Robin is not forced to break the law. He chooses to do it because he believes it is right."
+        },
+        {
+          text: "He must rob the rich because the King has commanded him to collect taxes from the nobles.",
+          correct: false,
+          feedback: "No. The King does not command Robin to rob anyone. Robin acts on his own."
+        },
+        {
+          text: "He is free to stop helping the poor at any time, but the villagers will not allow him to quit.",
+          correct: false,
+          feedback: "No. The villagers do not control Robin. He is free to stop, but he does not want to."
+        },
+        {
+          text: "He must live in Sherwood Forest forever because the trees have trapped him with magic.",
+          correct: false,
+          feedback: "No. There is no magic. Robin stays in the forest because he is an outlaw, not because he is trapped."
+        }
+      ]
+    },
+    {
+      type: "story",
+      text: "Moral: We are always free to choose between what the law allows and what our hearts demand. But freedom does not mean safety. Robin Hood chose justice over law, and he lived as an outlaw. His story asks: what must you do when the law and your conscience disagree?"
+    }
+  ]
+};
+
+export default story;

@@ -1,0 +1,202 @@
+/**
+ * The Crown's Weight (Richard II / Henry IV-V)
+ * Level: L4
+ * Band: B4 (deontic_modal - obligation vs permission)
+ * Gate: Distinguish what a king must do from what a man may choose
+ */
+
+const story = {
+  id: "crown-weight-richard",
+  title: "The Crown's Weight",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 4,
+  band: "B4",
+  grammar_cell: "deontic_modal",
+  culture: "England",
+  region: "British Isles",
+  tier: "A",
+  saga: "shakespeare",
+  source_epic: false,
+  threads: [
+    {
+      type: "history",
+      inaccuracy_flag: true
+    },
+    {
+      type: "shakespeare"
+    }
+  ],
+  edges: [],
+  cultural_care: null,
+  theme: "What a king must do and what a man may choose",
+  estimatedTime: "5-10 min",
+  description: "In Shakespeare's history plays, kings wear crowns that bind them to duty and trap them in impossible choices. Richard II and the Henrys learn that being king means being less free than anyone else.",
+
+  content: [
+    {
+      type: "story",
+      text: "Richard sits in his palace wearing a golden crown. He is young and loves poetry and fine clothes. He does what he likes. He gives money to his friends and takes land from his uncles."
+    },
+    {
+      type: "story",
+      text: "His cousin Henry comes home from exile. Henry says Richard took his father's lands unfairly. The nobles gather around Henry. Richard's army melts away."
+    },
+    {
+      type: "question",
+      text: "Richard stands alone in his castle. Henry's army waits outside. What does Richard understand now?",
+      options: [
+        "A king is bound to keep the nobles happy, not just his friends",
+        "Henry wants the crown because it is made of gold",
+        "The nobles left because they did not like poetry",
+        "Richard's friends will come back with a bigger army"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Richard learns too late that a king must serve the kingdom, not just himself.",
+        incorrect: "Richard discovers what a king is required to do, not what he is free to do."
+      },
+      gates: true,
+      domain: "obligation",
+      grammar_cell: "deontic_modal"
+    },
+    {
+      type: "story",
+      text: "Richard gives up the crown. Henry becomes King Henry IV. But Henry cannot sleep. Rebels rise in the north. His own son Hal spends his time in taverns with thieves and drunkards."
+    },
+    {
+      type: "story",
+      text: "Henry is sick and tired. He tells his son, 'You will wear this crown after me. It will give you power, but it will take away your rest. I wanted to go on crusade as a free man. I never could.'"
+    },
+    {
+      type: "question",
+      text: "What has Henry learned about wearing the crown?",
+      options: [
+        "A king is required to put the kingdom before his own wishes",
+        "A crusade would have made Henry feel less tired",
+        "The crown is too heavy and should be made of lighter metal",
+        "Hal should stay in the taverns where he is happy"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. Henry understands that kingship is a duty that binds, not a freedom that permits.",
+        incorrect: "Think about what Henry is compelled to do versus what he is allowed to do."
+      },
+      gates: true,
+      domain: "obligation",
+      grammar_cell: "deontic_modal"
+    },
+    {
+      type: "story",
+      text: "Henry dies. Hal becomes King Henry V. His old friends from the tavern come to court. They think the new king will let them do whatever they want. But Henry turns them away."
+    },
+    {
+      type: "question",
+      text: "Why does Henry V turn away his old friends?",
+      options: [
+        "He is obliged to rule justly for everyone, not favor his companions",
+        "He forgot who they were after his father died",
+        "The friends were too loud for the quiet palace",
+        "He wanted new friends who knew how to read"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Henry must be a king for all his people, not a friend to a few.",
+        incorrect: "Consider what Henry is bound to do now that he is king."
+      },
+      gates: true,
+      domain: "obligation",
+      grammar_cell: "deontic_modal"
+    },
+    {
+      type: "story",
+      text: "France and England quarrel over land. The nobles want war. The bishops say Henry has a claim to the French throne. Henry knows that war will kill thousands."
+    },
+    {
+      type: "question",
+      text: "Henry walks alone at night before the battle. He talks to common soldiers who do not know he is the king. What do they say?",
+      options: [
+        "They think the king is responsible for every man who dies",
+        "They wish they had stayed in England where it is warmer",
+        "They believe the French soldiers are better dressed",
+        "They hope the battle will be over before breakfast"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. The soldiers tell Henry what weighs on him: a king bears the burden for all his choices.",
+        incorrect: "The soldiers are talking about what the king is answerable for."
+      },
+      gates: true,
+      domain: "obligation",
+      grammar_cell: "deontic_modal"
+    },
+    {
+      type: "story",
+      text: "The English win at Agincourt. Henry stands among the dead and wounded. He has won a great victory, but he sees the cost. He marries a French princess to make peace."
+    },
+    {
+      type: "question",
+      text: "What happens first, and what happens after?",
+      options: [
+        "First Henry wins the battle, then he marries to secure peace",
+        "First Henry marries the princess, then he fights the battle",
+        "First the soldiers die, then Henry walks at night",
+        "First Henry becomes king, then his father dies"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. The battle comes before the marriage that seals the peace.",
+        incorrect: "Think about the order: victory in war, then alliance through marriage."
+      },
+      gates: false,
+      domain: "sequence",
+      grammar_cell: "simple_past"
+    },
+    {
+      type: "question",
+      text: "How does Henry feel when he sees the dead after the battle?",
+      options: [
+        "Heavy-hearted, because he knows he is answerable for their deaths",
+        "Proud, because he has won a famous victory",
+        "Hungry, because he has not eaten since morning",
+        "Confused, because he cannot count how many died"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Yes. Henry feels the weight of responsibility for every life lost.",
+        incorrect: "Look for what Henry feels about the burden of his choices."
+      },
+      gates: false,
+      domain: "feeling",
+      grammar_cell: "present_perfect"
+    },
+    {
+      type: "story",
+      text: "Years later, Henry V dies young. His son is a baby. England falls into civil war. The crown passes from hand to hand, and each new king learns the same hard lesson."
+    },
+    {
+      type: "question",
+      text: "What has caused England to fall into war?",
+      options: [
+        "The king is a baby who cannot rule, so nobles fight for power",
+        "The crown was too heavy for Henry to carry",
+        "The French princess went back to France",
+        "Everyone forgot how to read the old laws"
+      ],
+      correct: 0,
+      feedback: {
+        correct: "Right. A child king cannot govern, so the kingdom tears itself apart.",
+        incorrect: "Think about what brings the war about: the absence of a ruling king."
+      },
+      gates: false,
+      domain: "cause",
+      grammar_cell: "simple_present"
+    },
+    {
+      type: "story",
+      text: "**Moral:** A crown is not a prize to be won. It is a chain that binds the one who wears it. A king is never free to do as he wishes. He is bound to do what his people need, even when it costs him everything."
+    }
+  ]
+};
+
+export default story;

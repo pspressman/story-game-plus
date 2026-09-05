@@ -1,0 +1,99 @@
+// hershele-ostropoler-sabbath.js
+// L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
+// Gate: read the trick. The gating stems turn on a non-finite form AND on a second character's read of intent.
+const hersheleSabbath = {
+  id: "hershele-ostropoler-sabbath",
+  title: "Hershele and the Sabbath Meal",
+  icon: "🕯️",
+  difficulty: "Easy",
+  theme: "The trickster's message",
+  estimatedTime: "5-10 min",
+  description: "Hershele tricks a miser into sharing Sabbath meal by pretending to bring message from the miser's dead father. Read the hidden intent.",
+
+  meta: {
+    level: 2,
+    track: "gated",
+    tier: "R",
+    band: "B2",
+    grammar_online: ["simple_past", "present_perfect", "sequence", "infinitive", "gerund", "participle", "concrete_noun", "locative"],
+    grammar_target: "non_finite",
+    culture: "Yiddish",
+    region: "Western Europe",
+    saga: null,
+    source_epic: false,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "Hershele arrived in town hungry on the Sabbath eve, and knocked at the door of the richest man, a miser who never invited anyone to his table. The miser opened the door a crack and frowned."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "Hershele begins telling the miser he has just come from a neighboring village where the miser's father was buried. What is Hershele really hoping to do?",
+      options: [
+        "To deliver real news about the father's grave",
+        "To trick the miser into inviting him to the Sabbath meal",
+        "To ask for directions to another town",
+        "To share a sad story and then leave"
+      ],
+      correctAnswer: 1,
+      explanation: "Reading the trick means seeing past the story about the father to Hershele's real plan: he invents a message from the dead to make the miser feel obliged to let him in and feed him."
+    },
+    {
+      type: "story",
+      text: "\"Your father came to me in a dream,\" Hershele said solemnly, \"and he told me he is cold and hungry in the world to come. He begs you to invite a poor traveler to your Sabbath table, so the merit will warm and feed him there.\" The miser's face went pale. He opened the door wide and set another place."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "The miser opens his door wide after hearing Hershele's words. What is he thinking?",
+      options: [
+        "He knows Hershele is lying but feels generous tonight",
+        "He believes helping Hershele will help his dead father, so duty commands it",
+        "He wants to hear more stories about his father's life",
+        "He has been waiting for someone to share the meal with"
+      ],
+      correctAnswer: 1,
+      explanation: "The miser's mind turns not on generosity but on fear and obligation. Believing the message is real, he thinks feeding Hershele will ease his father's suffering, and that duty overpowers even his miserliness."
+    },
+    {
+      type: "question",
+      domain: "cumulative",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "When Hershele first knocked at the door, what did the miser do?",
+      options: [
+        "He opened it wide and welcomed Hershele warmly",
+        "He opened it only a crack and frowned",
+        "He refused to open it at all",
+        "He invited Hershele to come back tomorrow"
+      ],
+      correctAnswer: 1,
+      explanation: "A simpler tracking move: holding what happened at the threshold before the trick began. The miser's initial coldness makes the later transformation sharper."
+    },
+    {
+      type: "story",
+      text: "They ate together, and the miser piled Hershele's plate high, believing every bite would reach his father in the next world. When the meal ended, Hershele thanked him and walked into the night with a full belly and a quiet smile."
+    },
+    {
+      type: "story",
+      moral: "A story well told can open the door that greed had locked. The trick lies not in the tale, but in knowing which tale the listener needs to hear."
+    }
+  ]
+};
+
+export default hersheleSabbath;

@@ -27,6 +27,13 @@ export const moduleConfig = {
     color: "green",
     description: "Legends and myths from cultures around the world",
     difficulty: "Medium"
+  },
+  "ladder": {
+    name: "The Ladder",
+    icon: "🪜",
+    color: "green",
+    description: "Story curriculum from foundation to mastery",
+    difficulty: "Beginner"
   }
 };
 
@@ -55,6 +62,11 @@ export async function loadStoryModule(moduleId) {
         return {
           ...moduleConfig[moduleId],
           stories: await import('../data/stories/world').then(module => module.default)
+        };
+      case 'ladder':
+        return {
+          ...moduleConfig[moduleId],
+          stories: await import('../data/stories/ladder').then(module => module.default)
         };
       default:
         console.error(`Unknown story module: ${moduleId}`);

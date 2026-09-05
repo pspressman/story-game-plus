@@ -1,0 +1,119 @@
+// L1_momotaro.js
+// L1, B1 event and cause. Grammar target: sequence_and_aspect.
+// Tier R. Tracks the sequence of recruiting each ally and the progression of events.
+const momotaro = {
+  id: "momotaro",
+  title: "Momotaro",
+  icon: "🍑",
+  difficulty: "Beginner",
+  theme: "The boy from the peach gathers friends for a journey",
+  estimatedTime: "5-10 min",
+  description: "An old couple finds a boy inside a giant peach. He grows strong and sets out to defeat demons, gathering a dog, a monkey, and a pheasant along the way. Track who joins when.",
+
+  meta: {
+    level: 1,
+    track: "gated",
+    tier: "R",
+    band: "B1",
+    grammar_online: ["simple_present", "simple_past", "concrete_noun", "locative", "past_progressive", "present_perfect", "sequence"],
+    grammar_target: "sequence_and_aspect",
+    culture: "Japan",
+    region: "East Asia",
+    saga: null,
+    source_epic: false,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "An old woman was washing clothes in the river when a giant peach came floating down. She and her husband split it open at home and found a baby boy inside. They named him Momotaro, peach boy, and raised him with care."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "How many people found the peach floating in the river?",
+      options: [
+        "One person",
+        "Two people",
+        "Three people",
+        "A whole village"
+      ],
+      correctAnswer: 0,
+      explanation: "The old woman was alone at the river when she spotted the peach. Her husband only saw it later at home. This is a simple counting question reaching back to the floor."
+    },
+    {
+      type: "story",
+      text: "When Momotaro was grown, he announced he would travel to the demons' island and defeat them. His mother packed him millet dumplings for the road. On the path through the hills, a dog stepped out and asked where he was going."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "sequence",
+      gates: true,
+      question: "What happens just before the dog appears on the path?",
+      options: [
+        "Momotaro defeats the demons",
+        "Momotaro receives dumplings from his mother",
+        "A monkey joins the group",
+        "The pheasant flies overhead"
+      ],
+      correctAnswer: 1,
+      explanation: "Follow the order: Momotaro decides to go, his mother packs the dumplings, then he walks the path and meets the dog. The dumplings come right before the dog encounter."
+    },
+    {
+      type: "story",
+      text: "Momotaro shared a dumpling, and the dog joined him. A little farther on, a monkey swung down from a tree and asked for a dumpling too. Momotaro gave him one, and now there were three walking together."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "By the time the monkey asks for a dumpling, what has already happened?",
+      options: [
+        "The pheasant has joined the group",
+        "The dog has eaten a dumpling and joined Momotaro",
+        "All the demons have been defeated",
+        "Momotaro has reached the island"
+      ],
+      correctAnswer: 1,
+      explanation: "Hold what is completed against what is still happening: before the monkey even appears, the dog has already eaten and joined. The sequence is dog first, monkey second."
+    },
+    {
+      type: "story",
+      text: "Near the shore, a pheasant landed beside them and offered to scout from the air. Momotaro gave him the last dumpling. The four of them crossed the water, stormed the demons' fort, and sent the oni running. Momotaro brought the treasure back to his parents, and they lived in peace."
+    },
+    {
+      type: "question",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "past_progressive",
+      gates: true,
+      question: "Why does the pheasant join Momotaro while the group is traveling toward the shore?",
+      options: [
+        "The pheasant wants to fly away from the demons",
+        "Momotaro captures the pheasant by force",
+        "The pheasant offers a useful skill and receives a dumpling in return",
+        "The dog and monkey order the pheasant to come along"
+      ],
+      correctAnswer: 2,
+      explanation: "Each companion joins by offering something and receiving food: the pheasant volunteers to scout from above and gets the last dumpling, matching the pattern already established by the dog and monkey."
+    },
+    {
+      type: "story",
+      moral: "Momotaro could have walked alone. Instead he shared what he had, and each new friend brought a strength he lacked. The journey turned on who walked together, not who was strongest."
+    }
+  ]
+};
+
+export default momotaro;

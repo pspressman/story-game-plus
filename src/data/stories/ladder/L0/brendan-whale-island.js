@@ -1,0 +1,117 @@
+// ladder/L0/brendan-whale-island.js
+const brendanWhaleIsland = {
+  id: "brendan-whale-island",
+  title: "St. Brendan and the Whale-Island",
+  icon: "🐋",
+  difficulty: "Beginner",
+  theme: "The ground that moves",
+  estimatedTime: "5-10 min",
+  description: "Sailors land on what looks like a rocky island and light a fire. Picture the ground beneath them and you will see the danger before they do.",
+
+  meta: {
+    level: 0,
+    track: "gated",
+    tier: "R",
+    band: "B0",
+    grammar_online: ["simple_present", "simple_past", "concrete_noun", "locative"],
+    grammar_target: "locative",
+    culture: "Ireland",
+    region: "British Isles",
+    saga: null,
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "St. Brendan and his monks sailed their small boat for many days across the gray ocean. At last they spotted what looked like a low rocky island and steered toward it, grateful for solid ground."
+    },
+    {
+      type: "question",
+      domain: "where",
+      band: "B0",
+      grammar_cell: "locative",
+      gates: true,
+      question: "The sailors see an island ahead. Where is this 'island' they are steering toward?",
+      options: [
+        "Fixed to the ocean floor like a normal island",
+        "Floating on the surface—it is actually the back of a sleeping whale",
+        "High in the clouds above them",
+        "Already behind them, not ahead"
+      ],
+      correctAnswer: 1,
+      explanation: "What looks like rock is really the broad back of a whale sleeping just below the surface. The island is not anchored, but floating."
+    },
+    {
+      type: "story",
+      text: "They landed and felt firm ground beneath their feet. The monks gathered driftwood, piled it high, and lit a fire to cook their meal. The flames crackled. The smoke rose."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "concrete_noun",
+      gates: true,
+      question: "Picture the fire the monks built. How many fires are they tending on this 'island'?",
+      options: [
+        "None—they decided not to light one",
+        "One fire in the center of their camp",
+        "A ring of many small fires around them",
+        "Two fires, one for cooking and one for warmth"
+      ],
+      correctAnswer: 1,
+      explanation: "They built one fire from driftwood. This single fire, innocent enough, is what will wake the whale."
+    },
+    {
+      type: "story",
+      text: "Suddenly the ground trembled. What they thought was rock began to move. Brendan shouted, 'Back to the boat! This is no island—it is alive!' The great whale, disturbed by the heat of the fire on its back, stirred and began to dive."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "The instant the monks realize the ground is moving, what do they most likely feel?",
+      options: [
+        "Calm and unsurprised",
+        "Terror and shock as solid rock becomes a living creature",
+        "Sleepy and ready for bed",
+        "Proud of their clever discovery"
+      ],
+      correctAnswer: 1,
+      explanation: "The firm ground they trusted suddenly moves beneath them. That shift from safety to danger would bring instant shock and fear."
+    },
+    {
+      type: "question",
+      domain: "color",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "As the whale's back sinks into the water, what color is the ocean around them?",
+      options: [
+        "Bright red like fire",
+        "Gray and cold, like the sea they sailed across",
+        "Golden yellow",
+        "Purple with strange lights"
+      ],
+      correctAnswer: 1,
+      explanation: "The story describes the gray ocean they sailed. That same cold gray water now surges up as the whale dives and the 'island' vanishes."
+    },
+    {
+      type: "story",
+      text: "The monks scrambled into their boat just as the whale submerged. The fire hissed out in the sea. Where an island had been, now only waves remained. Brendan crossed himself and gave thanks they had escaped in time."
+    },
+    {
+      type: "story",
+      moral: "Not every surface that seems solid is what it appears. Test the ground before you trust it."
+    }
+  ]
+};
+
+export default brendanWhaleIsland;

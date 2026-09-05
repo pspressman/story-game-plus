@@ -1,0 +1,116 @@
+// L1_maui-fishes-islands.js
+// L1, B1 event and cause. Grammar target: sequence_and_aspect.
+// Gate: order events, hold ongoing-vs-done. Shows gates:true sequence/aspect items,
+// and a cumulative gates:false B0 item reaching back to the floor.
+const mauiFishesIslands = {
+  id: "maui-fishes-islands",
+  title: "Maui Fishes Up the Islands",
+  icon: "🎣",
+  difficulty: "Beginner",
+  theme: "What rises changes everything",
+  estimatedTime: "5-10 min",
+  description: "Maui casts a magic fishhook into the ocean and pulls up islands from the floor. Watch the order of what happens and what has already risen.",
+
+  meta: {
+    level: 1,
+    track: "gated",
+    tier: "R",
+    band: "B1",
+    grammar_online: ["simple_present", "simple_past", "simple_future", "present_progressive", "past_progressive", "future_progressive", "present_perfect", "past_perfect", "future_perfect", "present_perfect_progressive", "past_perfect_progressive", "future_perfect_progressive", "sequence"],
+    grammar_target: "sequence_and_aspect",
+    culture: "Polynesia",
+    region: "Polynesia",
+    saga: null,
+    source_epic: true,
+    threads: [],
+    edges: [],
+    cultural_care: null,
+    untestable: false,
+    visualize_prompt: null
+  },
+
+  content: [
+    {
+      type: "story",
+      text: "Maui shaped a fishhook from the jaw of his grandmother and bound it with hair from his own head. He told his brothers to paddle the canoe far out, then he chanted the old words and cast the hook deep. It caught. He hauled, the line went taut as stone, and slowly a dark mass broke the surface—the first island."
+    },
+    {
+      type: "question",
+      domain: "number",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "Before Maui ever pulls up an island, picture what lies on the ocean around his canoe. What does he see?",
+      options: [
+        "Many islands already standing above the water",
+        "Only open water stretching in every direction",
+        "A few small rocks poking through the waves",
+        "Other canoes crowding the fishing grounds"
+      ],
+      correctAnswer: 1,
+      explanation: "The story shows empty ocean before the first pull. This is a picturing question reaching back to the simplest move; it does not test the level's own target."
+    },
+    {
+      type: "story",
+      text: "The brothers stared as forest and peak rose dripping before them. \"Hold the canoe steady and do not look back,\" Maui warned. He cast again. The second island began to rise, but one brother twisted around too soon. The line snapped, and that island stopped halfway, its cliffs still underwater."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "past_progressive",
+      gates: true,
+      question: "What is happening to the second island at the moment when the brother looks back and the line breaks?",
+      options: [
+        "It is still rising up from the ocean floor",
+        "It has already finished rising and is fully above water",
+        "It is sinking back down beneath the waves",
+        "It has not yet started to move"
+      ],
+      correctAnswer: 0,
+      explanation: "Track the ongoing action: the island began to rise, then the brother looked back too soon, then the line snapped. The breaking happens while the rising is still going on, so the island is caught mid-ascent."
+    },
+    {
+      type: "question",
+      domain: "cause",
+      band: "B1",
+      grammar_cell: "sequence",
+      gates: true,
+      question: "Why does the second island stop before it clears the water?",
+      options: [
+        "Maui's hook was not strong enough to lift two islands",
+        "The brother looked back before the island finished rising",
+        "The ocean current pushed the island back down",
+        "Maui decided to leave that island underwater"
+      ],
+      correctAnswer: 1,
+      explanation: "Follow the order of events: Maui warns them not to look back, the island begins to rise, the brother disobeys and turns around too soon, the line snaps, and the rising stops. The brother's early glance breaks the magic."
+    },
+    {
+      type: "story",
+      text: "Maui cast again and again, and each time his hook found purchase and dragged another island into the light. By the time he set the hook down, a chain of islands lay where empty ocean had stretched. People came in their canoes, saw land, and settled."
+    },
+    {
+      type: "question",
+      domain: "sequence",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: true,
+      question: "When the people arrive in their canoes and first see the islands, what has Maui already done?",
+      options: [
+        "He has just begun casting his hook for the first time",
+        "He has pulled up the chain of islands and set the hook down",
+        "He is still hauling islands up from the ocean floor",
+        "He has returned home before any islands appeared"
+      ],
+      correctAnswer: 1,
+      explanation: "Hold what has already been completed against the moment the people arrive: the story says by the time he set the hook down, the islands lay there. The fishing is done; the settling begins afterward."
+    },
+    {
+      type: "story",
+      moral: "The hook pulled, the islands rose, and a people found their home. The story turned on what was lifted, not what was lost."
+    }
+  ]
+};
+
+export default mauiFishesIslands;

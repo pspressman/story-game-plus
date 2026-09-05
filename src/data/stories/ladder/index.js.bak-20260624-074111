@@ -1,0 +1,14 @@
+// Ladder master index - aggregates all levels
+import l0Stories from './L0';
+import l1Stories from './L1';
+import l2Stories from './L2';
+import wideSkyStories from './wide-sky';
+
+const ladderStories = [
+  ...l0Stories,
+  ...l1Stories,
+  ...l2Stories,
+  ...wideSkyStories
+];
+
+export default ladderStories;

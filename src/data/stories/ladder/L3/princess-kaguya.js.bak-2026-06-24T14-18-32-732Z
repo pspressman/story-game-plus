@@ -1,0 +1,233 @@
+// L3_B3_princess-kaguya.js
+// Level 3, Band B3: the other's feeling and the vantage flip
+// Grammar target: passive_voice (being acted upon, receiving end)
+// Gating questions flip vantage: reader takes the side of the one the event happens TO
+
+const princessKaguyaStory = {
+  id: "princess-kaguya",
+  level: 3,
+  band: "B3",
+  title: "Princess Kaguya",
+  icon: "📖",
+  difficulty: "Medium",
+  culture: "Japan",
+  region: "East Asia",
+  tier: "A",
+  saga: null,
+  source_epic: true,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "The child who was found and then taken back",
+  estimatedTime: "5-10 min",
+  description: "An old bamboo cutter finds a tiny girl inside a glowing stalk. She grows into a princess, but she was never meant to stay.",
+  
+  content: [
+    {
+      type: "story",
+      text: "An old bamboo cutter walked through the grove one morning. He saw a bamboo stalk glowing with golden light. Inside was a girl no bigger than his thumb. He lifted her gently and brought her home to his wife."
+    },
+    {
+      type: "question",
+      text: "How did the girl come to live with the old couple?",
+      options: [
+        "She was found by the bamboo cutter and taken home.",
+        "She walked to their house and asked to stay.",
+        "The old couple bought her from a merchant.",
+        "She was sent by the emperor to live there."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. She was found inside the bamboo and brought to their home.",
+        incorrect: "Not quite. The bamboo cutter found her and carried her home."
+      },
+      gates: true,
+      grammar_cell: "passive_voice",
+      domain: "vantage"
+    },
+    {
+      type: "story",
+      text: "The girl grew quickly. In three months she became a young woman of remarkable beauty. The old couple named her Kaguya, meaning shining night. They loved her as their own daughter."
+    },
+    {
+      type: "story",
+      text: "The bamboo cutter kept finding gold inside the bamboo stalks. Soon the family became wealthy. They built a fine house. Kaguya wore silk robes and lived as a princess."
+    },
+    {
+      type: "question",
+      text: "What happened first?",
+      options: [
+        "The bamboo cutter found gold in the bamboo.",
+        "The family built a fine house.",
+        "Kaguya wore silk robes.",
+        "Kaguya became a princess."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Right. First the gold appeared, then they could build and buy fine things.",
+        incorrect: "Look again at the order of events."
+      },
+      gates: false,
+      grammar_cell: "simple_past",
+      domain: "sequence"
+    },
+    {
+      type: "story",
+      text: "Five noblemen heard of Kaguya's beauty. Each one came to ask for her hand in marriage. But Kaguya did not wish to marry any of them."
+    },
+    {
+      type: "story",
+      text: "She gave each nobleman an impossible task. One was to bring the stone begging bowl of the Buddha. Another was to bring a jeweled branch from a legendary mountain. All five failed. They brought fake treasures or returned empty-handed."
+    },
+    {
+      type: "question",
+      text: "How did Kaguya feel when the noblemen kept asking her to marry them?",
+      options: [
+        "She did not want to be chosen by any of them.",
+        "She felt honored and excited to pick the best one.",
+        "She was angry that they brought her gifts.",
+        "She was sad that her father would not let her marry."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. She did not wish to marry, so she gave them tasks they could not complete.",
+        incorrect: "Think about what Kaguya wanted. She did not wish to marry."
+      },
+      gates: true,
+      grammar_cell: "passive_voice",
+      domain: "feeling"
+    },
+    {
+      type: "story",
+      text: "Even the emperor himself came to see Kaguya. He was struck by her beauty and grace. He asked her to come to the palace and be his bride. But Kaguya refused him too."
+    },
+    {
+      type: "question",
+      text: "How many noblemen tried to marry Kaguya before the emperor came?",
+      options: [
+        "Five",
+        "Three",
+        "Seven",
+        "Ten"
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. Five noblemen came first, and all failed.",
+        incorrect: "Count again. Five noblemen came before the emperor."
+      },
+      gates: false,
+      grammar_cell: "simple_past",
+      domain: "number"
+    },
+    {
+      type: "story",
+      text: "As summer turned to autumn, Kaguya began to weep whenever she looked at the full moon. Her parents asked what troubled her. At last she told them the truth."
+    },
+    {
+      type: "story",
+      text: "She was not from Earth. She had been sent down from the Moon as punishment, but now her people were coming to take her back. She did not want to go, but she had no choice."
+    },
+    {
+      type: "question",
+      text: "How did Kaguya feel about returning to the Moon?",
+      options: [
+        "She did not want to leave her parents.",
+        "She was excited to see her moon home again.",
+        "She was angry at the emperor for sending her away.",
+        "She felt nothing because she was not human."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. She loved her Earth parents and did not want to be taken from them.",
+        incorrect: "Think about Kaguya's feelings. She wept and said she had no choice."
+      },
+      gates: true,
+      grammar_cell: "passive_voice",
+      domain: "feeling"
+    },
+    {
+      type: "story",
+      text: "The emperor sent his strongest warriors to guard the house on the night of the full moon. The old bamboo cutter and his wife held Kaguya tight. They locked the doors and windows."
+    },
+    {
+      type: "story",
+      text: "But when the moon rose, a great light filled the sky. Heavenly beings descended in robes that glowed brighter than any fire. The warriors could not move. The doors opened by themselves."
+    },
+    {
+      type: "question",
+      text: "What happened to the warriors when the moon people came?",
+      options: [
+        "They were held in place and could not fight.",
+        "They ran away in fear before the light appeared.",
+        "They fought bravely but were defeated in battle.",
+        "They joined the moon people and flew away too."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Right. The warriors could not move when the heavenly beings arrived.",
+        incorrect: "The warriors could not move. They were frozen where they stood."
+      },
+      gates: true,
+      grammar_cell: "passive_voice",
+      domain: "vantage"
+    },
+    {
+      type: "story",
+      text: "The moon people placed a robe of feathers on Kaguya's shoulders. As soon as she wore it, her sadness vanished. She no longer remembered her love for her Earth parents."
+    },
+    {
+      type: "story",
+      text: "Before she forgot completely, Kaguya wrote a letter to the emperor and left a small jar of the elixir of immortality. Then she rose into the sky with the moon people."
+    },
+    {
+      type: "question",
+      text: "Why did Kaguya's sadness disappear?",
+      options: [
+        "The feather robe made her forget her feelings for Earth.",
+        "She was happy to finally escape her parents.",
+        "The emperor's letter comforted her heart.",
+        "She decided she belonged on the Moon all along."
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. The robe took away her memory and her earthly feelings.",
+        incorrect: "The robe changed her. It made her forget the love she had felt."
+      },
+      gates: true,
+      grammar_cell: "passive_voice",
+      domain: "cause"
+    },
+    {
+      type: "story",
+      text: "The old couple wept for days. The emperor was heartbroken too. He took the jar of immortality to the highest mountain and burned it. He did not wish to live forever without Kaguya."
+    },
+    {
+      type: "story",
+      text: "That mountain is called Fuji, meaning immortal. Even now, smoke rises from its peak where the elixir was burned long ago."
+    },
+    {
+      type: "question",
+      text: "Where did the emperor burn the elixir?",
+      options: [
+        "On the highest mountain",
+        "In his palace garden",
+        "At the bamboo cutter's house",
+        "By the edge of the sea"
+      ],
+      correctIndex: 0,
+      feedback: {
+        correct: "Yes. He climbed to the highest mountain and burned it there.",
+        incorrect: "He took it to the highest mountain, which became Mount Fuji."
+      },
+      gates: false,
+      grammar_cell: "simple_past",
+      domain: "where"
+    },
+    {
+      type: "story",
+      text: "And so the princess who was found in the light returned to the light. She had brought joy to an old couple and wonder to all who saw her. But she was never meant to stay."
+    }
+  ]
+};
+
+export default princessKaguyaStory;

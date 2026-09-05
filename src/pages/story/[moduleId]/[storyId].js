@@ -11,6 +11,7 @@ import aesopStories from '../../../data/stories/aesop';
 import greekStories from '../../../data/stories/greek';
 import bibleStories from '../../../data/stories/bible';
 import worldStories from '../../../data/stories/world';
+import ladderStories from '../../../data/stories/ladder';
 
 export default function StoryPage({ initialModuleData, initialStoryData, moduleId, storyId }) {
   const router = useRouter();
@@ -133,6 +134,10 @@ export async function getStaticPaths() {
   worldStories.forEach(story => {
     paths.push({ params: { moduleId: 'world', storyId: story.id } });
   });
+
+  ladderStories.forEach(story => {
+    paths.push({ params: { moduleId: 'ladder', storyId: story.id } });
+  });
   
   return {
     paths,
@@ -159,6 +164,9 @@ export async function getStaticProps({ params }) {
       break;
     case 'world':
       stories = worldStories;
+      break;
+    case 'ladder':
+      stories = ladderStories;
       break;
     default:
       stories = [];

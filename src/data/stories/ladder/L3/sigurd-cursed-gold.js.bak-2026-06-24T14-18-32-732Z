@@ -1,0 +1,174 @@
+// L3 (band B3: the other's feeling and the vantage flip)
+// Gate: passive_voice and vantage/feeling domains
+// Sigurd kills the dragon Fafnir and claims a hoard cursed to bring death.
+
+const story = {
+  id: "sigurd-cursed-gold",
+  title: "Sigurd and the Cursed Gold",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  culture: "Norse",
+  region: "Northern Europe",
+  tier: "A",
+  saga: "norse_eddas",
+  source_epic: true,
+  threads: [],
+  edges: [],
+  cultural_care: null,
+  theme: "The weight of what is laid on you",
+  estimatedTime: "5-10 min",
+  description: "Sigurd kills the dragon Fafnir and claims a hoard cursed to bring death. Stand where he stands when the curse finds him.",
+  
+  content: [
+    {
+      type: "story",
+      text: "Sigurd was the bravest warrior in the north. His father had died before he was born. An old smith named Regin raised him and taught him to fight."
+    },
+    {
+      type: "story",
+      text: "One day Regin said, 'My brother Fafnir has turned himself into a dragon. He guards a great hoard of gold on the heath. The treasure should have been mine, but he took it all. Will you kill him for me?'"
+    },
+    {
+      type: "story",
+      text: "Sigurd agreed. Regin forged a sword for him, but it broke when Sigurd tested it. Regin forged another, and it broke too. Then Sigurd brought pieces of his father's broken sword, and Regin melted them down and made a blade so sharp it could cut a thread floating in water."
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B1",
+      domain: "sequence",
+      grammar_cell: "past_perfect",
+      gates: false,
+      stem: "Before Regin made the third sword, what did Sigurd do?",
+      options: [
+        { text: "He brought pieces of his father's old sword.", correct: true },
+        { text: "He killed the dragon Fafnir.", correct: false },
+        { text: "He cut a thread floating in water.", correct: false },
+        { text: "He went to the heath alone.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Sigurd rode to the heath where Fafnir lived. The dragon crawled down to the river each day to drink. Sigurd dug a pit in the dragon's path and hid inside it."
+    },
+    {
+      type: "story",
+      text: "When Fafnir crawled over the pit, Sigurd drove his sword up into the dragon's heart. Fafnir roared and thrashed, poison dripping from his jaws."
+    },
+    {
+      type: "story",
+      text: "'Who are you?' gasped the dying dragon. 'I am Sigurd,' he answered. Fafnir said, 'The gold you take is cursed. Everyone who owns it will die because of it.' Then the dragon died."
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B3",
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      gates: true,
+      stem: "How does Fafnir see what is happening to him?",
+      options: [
+        { text: "He is being killed by someone he does not even know.", correct: true },
+        { text: "He is giving his treasure to a brave warrior.", correct: false },
+        { text: "He is teaching Sigurd an important lesson.", correct: false },
+        { text: "He is winning the fight against Sigurd.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Regin came and drank some of the dragon's blood. Then he asked Sigurd to roast Fafnir's heart over a fire while he slept. Sigurd did as he was told."
+    },
+    {
+      type: "story",
+      text: "As the heart cooked, Sigurd touched it to see if it was done. He burned his finger and put it in his mouth. The instant the dragon's blood touched his tongue, he could understand the language of birds."
+    },
+    {
+      type: "story",
+      text: "Two birds sat in a tree above him. One said, 'Regin plans to kill Sigurd and take all the gold.' The other said, 'Sigurd should kill Regin first.'"
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B3",
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      gates: true,
+      stem: "How must Sigurd feel when he hears what the birds say?",
+      options: [
+        { text: "He feels betrayed by someone he trusted.", correct: true },
+        { text: "He feels proud that he can understand birds.", correct: false },
+        { text: "He feels hungry and wants to eat the heart.", correct: false },
+        { text: "He feels certain the birds are lying to him.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "When Regin woke, Sigurd struck off his head with one blow. Then he went alone to the dragon's cave and loaded the cursed gold onto his horse."
+    },
+    {
+      type: "story",
+      text: "The hoard was vast: cups and rings, arm-bands and chains, crowns and shields, all of gold. And among it was a single ring, more beautiful than all the rest."
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B2",
+      domain: "cause",
+      grammar_cell: "simple_past",
+      gates: false,
+      stem: "Why did Sigurd kill Regin?",
+      options: [
+        { text: "The birds told him Regin planned to kill him.", correct: true },
+        { text: "Regin would not let him take the gold.", correct: false },
+        { text: "Regin turned himself into a dragon.", correct: false },
+        { text: "Sigurd wanted all the dragon's blood.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "Sigurd took the gold and rode away. He did not know that every piece had been touched by Fafnir's greed, and that the curse would follow him all his days."
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B3",
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      gates: true,
+      stem: "What has been done to Sigurd without his knowing?",
+      options: [
+        { text: "A curse has been placed on him through the gold.", correct: true },
+        { text: "The birds have stolen some of his treasure.", correct: false },
+        { text: "Regin's family has forgiven him for the killing.", correct: false },
+        { text: "His horse has been poisoned by the dragon.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "He became a great king and married a beautiful queen. But in time, jealousy and murder came to his hall, and Sigurd was killed by treachery, just as the dragon had said."
+    },
+    {
+      type: "question",
+      tags: ["inference"],
+      band: "B3",
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      gates: true,
+      stem: "When Sigurd is killed by treachery, what is true?",
+      options: [
+        { text: "The curse came to pass, and he was betrayed as Fafnir warned.", correct: true },
+        { text: "He died happy because he had lived as a king.", correct: false },
+        { text: "The birds had lied to him about everything.", correct: false },
+        { text: "He finally escaped the curse by dying.", correct: false }
+      ]
+    },
+    {
+      type: "story",
+      text: "The gold brought only sorrow. Courage may win a prize, but some prizes carry a weight no one can bear."
+    }
+  ]
+};
+
+export default story;

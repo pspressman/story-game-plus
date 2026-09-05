@@ -1,0 +1,175 @@
+/**
+ * L3_B3: The Blind Boy and the Loon
+ * Band B3: the other's feeling and the vantage flip
+ * Grammar target: passive_voice
+ * Gating questions flip the vantage: reader takes the side of the one acted upon.
+ */
+
+const story = {
+  id: "blind-boy-loon",
+  title: "The Blind Boy and the Loon",
+  icon: "📖",
+  difficulty: "Medium",
+  level: 3,
+  band: "B3",
+  culture: "Inuit",
+  region: "North America",
+  tier: "R",
+  saga: null,
+  source_epic: false,
+  threads: [],
+  edges: [],
+  cultural_care: "gentle telling - attested public version only",
+  theme: "His sight was taken and then given back",
+  estimatedTime: "5-10 min",
+  description: "A boy is blinded by someone who should have cared for him. A loon offers to restore what was taken.",
+  
+  content: [
+    {
+      type: "story",
+      text: "A boy lived with his mother near the sea. He was a good hunter and brought food for them both."
+    },
+    {
+      type: "story",
+      text: "One day the boy fell ill. When he woke, he could not see. His mother told him he was blind."
+    },
+    {
+      type: "question",
+      id: "q1",
+      text: "How does the boy feel when he learns what has happened?",
+      options: [
+        { id: "a", text: "He is frightened because his sight was taken from him" },
+        { id: "b", text: "He is angry at the illness" },
+        { id: "c", text: "He is grateful to be alive" },
+        { id: "d", text: "He is curious about his mother's words" }
+      ],
+      correctAnswer: "a",
+      gates: true,
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      explanation: "The boy is frightened because something was taken from him—his sight. He is now helpless."
+    },
+    {
+      type: "story",
+      text: "His mother led him outside each day. But she gave him little food. The boy grew weak and hungry."
+    },
+    {
+      type: "story",
+      text: "A loon came to the shore. The loon spoke to the boy. 'I can help you,' said the loon. 'Come into the water with me.'"
+    },
+    {
+      type: "question",
+      id: "q2",
+      text: "Why does the boy trust the loon?",
+      options: [
+        { id: "a", text: "The loon promises to feed him" },
+        { id: "b", text: "He is given hope by the loon's offer" },
+        { id: "c", text: "The loon is afraid of him" },
+        { id: "d", text: "His mother told him to trust birds" }
+      ],
+      correctAnswer: "b",
+      gates: true,
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      explanation: "The boy is given hope—something is offered to him when he has nothing."
+    },
+    {
+      type: "story",
+      text: "The boy held onto the loon's back. The loon dove deep under the water. When they came up, the boy could see a little."
+    },
+    {
+      type: "question",
+      id: "q3",
+      text: "What happened first in the water?",
+      options: [
+        { id: "a", text: "The boy could see a little" },
+        { id: "b", text: "The loon dove deep under the water" },
+        { id: "c", text: "The boy swam back to shore" },
+        { id: "d", text: "The loon sang a song" }
+      ],
+      correctAnswer: "b",
+      gates: false,
+      domain: "sequence",
+      grammar_cell: "simple_past",
+      explanation: "First the loon dove under the water, then the boy could see a little."
+    },
+    {
+      type: "story",
+      text: "'Once more,' said the loon. They dove again, deeper. When they came up, the boy could see everything clearly."
+    },
+    {
+      type: "story",
+      text: "The boy looked at his mother's house. He saw her cooking a large pot of meat. She had lied to him. She had kept all the food for herself."
+    },
+    {
+      type: "question",
+      id: "q4",
+      text: "How does the boy feel when he sees the truth?",
+      options: [
+        { id: "a", text: "He feels betrayed because he was deceived by his own mother" },
+        { id: "b", text: "He is happy to see the food" },
+        { id: "c", text: "He is proud of his mother's cooking" },
+        { id: "d", text: "He is surprised by the size of the pot" }
+      ],
+      correctAnswer: "a",
+      gates: true,
+      domain: "feeling",
+      grammar_cell: "passive_voice",
+      explanation: "The boy feels betrayed—he was deceived by the person who should have cared for him."
+    },
+    {
+      type: "story",
+      text: "The boy returned to the house. His mother did not know he could see. 'I smell something good,' he said."
+    },
+    {
+      type: "story",
+      text: "'There is nothing,' she said. But the boy walked to the pot and ate until he was full."
+    },
+    {
+      type: "question",
+      id: "q5",
+      text: "Why does the mother lie again?",
+      options: [
+        { id: "a", text: "She does not want to share the food" },
+        { id: "b", text: "She thinks the pot is empty" },
+        { id: "c", text: "She is saving food for winter" },
+        { id: "d", text: "She is testing the boy's sense of smell" }
+      ],
+      correctAnswer: "a",
+      gates: false,
+      domain: "cause",
+      grammar_cell: "simple_present",
+      explanation: "The mother lies because she wants to keep the food for herself."
+    },
+    {
+      type: "story",
+      text: "His mother realized he could see. She was angry and afraid. The boy left her house and went to live by himself."
+    },
+    {
+      type: "question",
+      id: "q6",
+      text: "From the boy's side, what has changed?",
+      options: [
+        { id: "a", text: "He was helped by the loon and now he can see again" },
+        { id: "b", text: "He learned to cook his own food" },
+        { id: "c", text: "He became friends with many birds" },
+        { id: "d", text: "He built a new house by the water" }
+      ],
+      correctAnswer: "a",
+      gates: true,
+      domain: "vantage",
+      grammar_cell: "passive_voice",
+      explanation: "From the boy's view, he was helped—he received aid from the loon and his sight was restored."
+    },
+    {
+      type: "story",
+      text: "The boy became a skilled hunter again. He was grateful to the loon for the rest of his days."
+    },
+    {
+      type: "moral",
+      text: "What is taken can sometimes be restored by unexpected kindness."
+    }
+  ]
+};
+
+export default story;
