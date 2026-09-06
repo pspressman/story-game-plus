@@ -29,7 +29,7 @@ const brendanWhaleIsland = {
   content: [
     {
       type: "story",
-      text: "St. Brendan and his monks sailed their small boat for many days across the gray ocean. At last they spotted land ahead and steered toward it, grateful for solid ground. As they drew near, the monks saw no beach and no trees, only a long dark ridge lying low and level in the water. The waves did not break against it. They lifted it gently, and it settled again, the way a floating thing rides the swell. Brother Malo frowned at the water at its edge, where no rocks showed beneath the surface, only more of the smooth dark back going down into the dark."
+      text: "St. Brendan and his monks sailed their small boat for many days across the gray ocean. At last they spotted what looked like a low rocky island and steered toward it, grateful for solid ground."
     },
     {
       type: "question",
@@ -37,7 +37,7 @@ const brendanWhaleIsland = {
       band: "B0",
       grammar_cell: "locative",
       gates: true,
-      question: "Picture how the land sits in the water as they row up to it. Where is this 'island' they are steering toward?",
+      question: "The sailors see an island ahead. Where is this 'island' they are steering toward?",
       options: [
         "Fixed to the ocean floor like a normal island",
         "Floating on the surface—it is actually the back of a sleeping whale",
