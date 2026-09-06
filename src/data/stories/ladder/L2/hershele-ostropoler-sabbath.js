@@ -1,6 +1,7 @@
 // hershele-ostropoler-sabbath.js
 // L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
-// Gate: read the trick. The gating stems turn on a non-finite form AND on a second character's read of intent.
+// Rewritten: prior Q1 described the father story before any block contained it, and
+// Q3 asked the child to repeat the last sentence of block 1.
 const hersheleSabbath = {
   id: "hershele-ostropoler-sabbath",
   title: "Hershele and the Sabbath Meal",
@@ -8,7 +9,7 @@ const hersheleSabbath = {
   difficulty: "Easy",
   theme: "The trickster's message",
   estimatedTime: "5-10 min",
-  description: "Hershele tricks a miser into sharing Sabbath meal by pretending to bring message from the miser's dead father. Read the hidden intent.",
+  description: "A hungry traveller knocks at the door of a man who feeds nobody. Watch which door he tries.",
 
   meta: {
     level: 2,
@@ -31,7 +32,27 @@ const hersheleSabbath = {
   content: [
     {
       type: "story",
-      text: "Hershele arrived in town hungry on the Sabbath eve, and knocked at the door of the richest man, a miser who never invited anyone to his table. The miser opened the door a crack and frowned."
+      text: "Hershele came into the town on Friday evening with nothing in his pockets and nothing in his stomach. The whole street smelled of Sabbath cooking. He walked past every lit window and stopped at the biggest house of all, which belonged to a man known through the district for never having fed anyone in his life. He knocked there. The door opened a crack, and a face looked out at him without any welcome in it."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "Every house on the street smells of cooking, and Hershele walks past all of them to knock at the one door famous for staying shut. Picture him choosing. What does that choice tell you about him?",
+      options: [
+        "He does not know which houses are friendly, so he picks at random",
+        "He is not looking for the easiest meal; he has come to the hardest door on purpose",
+        "He believes the rich man will feel sorry for a hungry stranger",
+        "He is too proud to ask a poor family for anything"
+      ],
+      correctAnswer: 1,
+      explanation: "Any hungry man knocks at the nearest warm window. Walking the whole street to reach the one door that never opens is not hunger choosing, it is somebody who has decided the shut door is the interesting one."
+    },
+    {
+      type: "story",
+      text: "\"Your father came to me in a dream,\" Hershele said. \"Last night. He is cold where he is, and hungry, and there is nothing he can do about it himself. He said the one thing that would warm him is if his son sat a poor traveller at his Sabbath table tonight.\""
     },
     {
       type: "question",
@@ -39,59 +60,59 @@ const hersheleSabbath = {
       band: "B2",
       grammar_cell: "infinitive",
       gates: true,
-      question: "Hershele begins telling the miser he has just come from a neighboring village where the miser's father was buried. What is Hershele really hoping to do?",
+      question: "Hershele could have said the father asked for prayers, or for charity given next week. Picture him deciding what to put in the dream. Why this?",
       options: [
-        "To deliver real news about the father's grave",
-        "To trick the miser into inviting him to the Sabbath meal",
-        "To ask for directions to another town",
-        "To share a sad story and then leave"
+        "Because a dream about food is easier to remember than other kinds",
+        "Because it is the one request that can only be satisfied by feeding the man standing at the door",
+        "Because he believes the father truly is hungry in the next world",
+        "Because the miser has been waiting for news of his father"
       ],
       correctAnswer: 1,
-      explanation: "Reading the trick means seeing past the story about the father to Hershele's real plan: he invents a message from the dead to make the miser feel obliged to let him in and feed him."
+      explanation: "A dream asking for prayers can be answered without opening the door. This one cannot be answered at all except by doing the exact thing Hershele came for, and the man who is asked has no way to satisfy it cheaply."
     },
     {
       type: "story",
-      text: "\"Your father came to me in a dream,\" Hershele said solemnly, \"and he told me he is cold and hungry in the world to come. He begs you to invite a poor traveler to your Sabbath table, so the merit will warm and feed him there.\" The miser's face went pale. He opened the door wide and set another place."
+      text: "The man's face changed. He stood there a moment with his hand on the door. Then he opened it wide, and went in ahead of Hershele, and set another place at the table."
     },
     {
       type: "question",
       domain: "other_mind",
       band: "B2",
-      grammar_cell: "gerund",
+      grammar_cell: "participle",
       gates: true,
-      question: "The miser opens his door wide after hearing Hershele's words. What is he thinking?",
+      question: "This is a man who has never fed anybody. Picture him standing with his hand on the door in that pause. What is happening in him?",
       options: [
-        "He knows Hershele is lying but feels generous tonight",
-        "He believes helping Hershele will help his dead father, so duty commands it",
-        "He wants to hear more stories about his father's life",
-        "He has been waiting for someone to share the meal with"
+        "He is deciding whether the stranger looks honest enough to let in",
+        "He is weighing his own habit against the thought of his father cold and hungry, and losing",
+        "He is trying to remember whether he ever knew this traveller",
+        "He is working out how little food he can get away with serving"
       ],
       correctAnswer: 1,
-      explanation: "The miser's mind turns not on generosity but on fear and obligation. Believing the message is real, he thinks feeding Hershele will ease his father's suffering, and that duty overpowers even his miserliness."
+      explanation: "Nothing about Hershele has changed in that pause. What has changed is that there is now something on the other side of the scale from his own tightness, and it is the one thing heavy enough to move him."
+    },
+    {
+      type: "story",
+      text: "They ate together. The man kept filling Hershele's plate, higher than a guest would ask for, and every time he filled it he looked pleased. Hershele ate everything that was put in front of him. When it was over he thanked his host and went out into the dark."
     },
     {
       type: "question",
-      domain: "cumulative",
-      band: "B1",
-      grammar_cell: "simple_past",
+      domain: "irony",
+      band: "B2",
+      grammar_cell: "gerund",
       gates: false,
-      question: "When Hershele first knocked at the door, what did the miser do?",
+      question: "The host keeps piling the plate higher and looks pleased each time. Picture what he thinks is happening at that table. What does he think he is doing?",
       options: [
-        "He opened it wide and welcomed Hershele warmly",
-        "He opened it only a crack and frowned",
-        "He refused to open it at all",
-        "He invited Hershele to come back tomorrow"
+        "Showing off his wealth to a poor traveller",
+        "Sending each helping to his father, so the more he gives the more good he does",
+        "Making sure the stranger leaves and does not return",
+        "Testing whether the traveller will admit he is lying"
       ],
       correctAnswer: 1,
-      explanation: "A simpler tracking move: holding what happened at the threshold before the trick began. The miser's initial coldness makes the later transformation sharper."
+      explanation: "He is not being generous to Hershele at all, in his own mind. Every spoonful is going somewhere else, to somebody he cannot reach any other way, which is why a man who never fed anyone cannot stop filling the plate."
     },
     {
       type: "story",
-      text: "They ate together, and the miser piled Hershele's plate high, believing every bite would reach his father in the next world. When the meal ended, Hershele thanked him and walked into the night with a full belly and a quiet smile."
-    },
-    {
-      type: "story",
-      moral: "A story well told can open the door that greed had locked. The trick lies not in the tale, but in knowing which tale the listener needs to hear."
+      moral: "A story well told can open the door that habit had locked. The trick lies not in the tale, but in knowing which tale the listener needs to hear."
     }
   ]
 };
