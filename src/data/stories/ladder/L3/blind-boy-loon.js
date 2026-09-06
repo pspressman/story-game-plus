@@ -1,5 +1,7 @@
 // blind-boy-loon.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
 // CULTURAL CARE: Inuit story. Flagged for HARPER review.
+// Rewritten: prior Q1 stated the deception in its own stem and then asked the child to
+// identify it, and Q4 asked for a reason given in the block above.
 const story = {
   id: "blind-boy-loon",
   title: "The Blind Boy and the Loon",
@@ -7,7 +9,7 @@ const story = {
   difficulty: "Easy",
   theme: "What you cannot see being done to you, and the sight given back",
   estimatedTime: "5-10 min",
-  description: "A blind boy is wronged by the one who should care for him, and helped by a bird that takes pity. Stand on his side, before and after he can see.",
+  description: "A boy who cannot see lives with the woman who is meant to care for him. A bear comes to the house.",
   meta: {
     level: 3,
     track: "gated",
@@ -26,73 +28,89 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "A boy who could not see lived with the old woman who was meant to care for him. But she was unkind. When a great bear came to the house, the boy, guided by her hands, drew the bow and let the arrow fly, and it struck true and the bear fell. Yet the old woman told him he had missed, and that the bear had run off." },
+    {
+      type: "story",
+      text: "A boy who could not see lived with the old woman who was meant to look after him. One winter a bear came at the house, and there was no one else. She put the bow in his hands and stood behind him and turned him by the shoulders until he was aimed, and told him when. He loosed the arrow. He heard it hit, and he heard something heavy come down on the snow outside, and he heard the old woman go out. When she came back in she told him he had missed, and that the bear had run off into the dark."
+    },
     {
       type: "question",
       domain: "vantage",
       band: "B3",
       grammar_cell: "passive_voice",
       gates: true,
-      question: "The old woman keeps the bear meat for herself and tells the boy he missed. What is being done to the boy that he cannot see?",
+      question: "Picture what the boy has to go on: the sound of the hit, the weight coming down outside, and then her telling him he missed. Which of those can he check?",
       options: [
-        "He is being protected from a dangerous animal",
-        "He is being lied to and cheated, and cannot see the truth to know it",
-        "He is being taught how to hunt properly",
-        "He is being given the best share of the meat"
+        "All of them, since he heard everything clearly",
+        "None of them; every one needs eyes, and hers are the only eyes in the house",
+        "Only the sound of the arrow striking",
+        "Only what she tells him afterwards"
       ],
       correctAnswer: 1,
-      explanation: "The wrong is done to him in the one place he cannot reach: he is deceived precisely because he cannot see. Standing where he stands, the harm is invisible to him, which is what makes it so cruel."
+      explanation: "He heard something. What it was, and what is lying out there now, is a thing you find out by going and looking. She went and looked. Everything he knows about that night has to come back through her, and there is no second way to check it."
     },
-    { type: "story", text: "By the lake, a loon found the boy and took pity on him. The bird told the boy to hold onto its back, and it dove down deep into the water, once, and again, and again. Each time they surfaced, the boy could see a little more, until at last his sight came fully back." },
+    {
+      type: "story",
+      text: "That winter there was meat in the house. He could smell it cooking. He was given broth, and small pieces, and told there was little enough to go round and that they were lucky to have it. She ate at the other side of the room and he could hear her eating."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "There is meat in a house where the bear supposedly ran off. Picture what the boy would work out if he put those two things together. Why does he not?",
+      options: [
+        "He is not clever enough to notice the difference",
+        "He has been given a reason for the meat and no way to weigh it, and she is the person he has to trust",
+        "He does not care where the food comes from",
+        "He is too weak from hunger to think about it"
+      ],
+      correctAnswer: 1,
+      explanation: "The two facts sit right next to each other and one of them explains the other. But he has been told where the meat came from, he cannot go and see, and the only person who could tell him otherwise is the one telling him this."
+    },
+    {
+      type: "story",
+      text: "In the spring he made his way down to the lake. A loon came up out of the water beside him and told him to hold on to its back. It went down, deep, into the cold, and came up. When they surfaced he could see the light. It went down again, and again, and each time there was more, until he could see the lake, and the shore, and his own hands."
+    },
     {
       type: "question",
       domain: "vantage",
       band: "B3",
       grammar_cell: "passive_voice",
       gates: true,
-      question: "As the loon dives with him through the cold water, what is happening to the boy?",
+      question: "Picture the boy standing on the shore afterwards, seeing everything. Besides the lake, what else has just been handed back to him?",
       options: [
-        "He is being taught to swim by the bird",
-        "His sight is being given back to him, restored a little with each dive",
-        "He is being carried away from his home",
-        "He is being turned into a loon himself"
+        "His strength, which the winter had taken",
+        "The ability to check things for himself, which he has never had",
+        "His memory of what happened the night of the bear",
+        "The friendship of the loon, who will stay with him"
       ],
       correctAnswer: 1,
-      explanation: "The healing is done to him by the loon's kindness: his sight is returned, not earned or taken. He is on the receiving end of a gift, and the dives are the giving of it."
+      explanation: "Sight is not only seeing. Everything he has believed all winter he believed because he was told it, and there was no other way. Standing on that shore he has, for the first time, the option of going and looking."
     },
-    { type: "story", text: "When the boy could see again, he walked home and saw the bearskin stretched to dry and the meat the old woman had hidden away, and he understood at last all that had been done to him." },
+    {
+      type: "story",
+      text: "He walked back to the house. The bearskin was stretched on a frame outside, dry and stiff, where it had been all winter. The meat was in the cache, more than a little, and he stood and looked at it."
+    },
     {
       type: "question",
       domain: "feeling",
       band: "B3",
       grammar_cell: "passive_voice",
       gates: true,
-      question: "Seeing the bearskin and the hidden meat with his own eyes, how does the boy most likely feel?",
+      question: "The skin has been on that frame all winter, right outside the door he went in and out of. Picture him seeing it. What is the worst part?",
       options: [
-        "Glad that the old woman saved food for the winter",
-        "Stung to see how he was cheated and lied to all along",
-        "Confused about whether he had truly shot the bear",
-        "Proud that his arrow had flown so far"
+        "That the bear was bigger than he had thought",
+        "That it was never hidden at all; anyone with eyes could see it, and he walked past it every day",
+        "That the skin has been damaged by the weather",
+        "That she killed the bear herself and took the credit"
       ],
       correctAnswer: 1,
-      explanation: "Now that he can see, the wrong that was done to him in the dark stands plain before him. The hurt is the hurt of one who learns, all at once, how he had been treated."
+      explanation: "Nothing was concealed. It stood in the open the whole time, and the whole winter of being told he had missed happened a few steps away from the thing that proved otherwise. It only worked because of what he could not do."
     },
-    { type: "story", text: "From that day the boy could see both the world and the truth of those around him, and he was never again so easily deceived." },
     {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "simple_past",
-      gates: false,
-      question: "Why did the loon dive with the boy again and again?",
-      options: [
-        "To give him back his sight out of pity",
-        "To teach him to catch fish",
-        "To carry him across the lake to safety",
-        "To play a game with him in the water"
-      ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause: the loon's pity is the reason, and the dives are how the sight is restored. Here it explains the help rather than testing the vantage."
+      type: "story",
+      text: "From that day the boy could see the world, and he could see the people in it, and he was never so easy to lie to again."
     },
     { type: "story", moral: "What was done to him in the dark, he could not see. When his sight was given back, the truth came with it." }
   ]

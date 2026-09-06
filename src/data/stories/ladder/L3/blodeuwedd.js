@@ -1,4 +1,7 @@
 // blodeuwedd.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
+// Rewritten: prior description told the child the answer ("made and given no say"), and
+// every correct option was the only passive-sounding one on its list. Scaffolded:
+// Q1-Q2 read the scene from outside, Q3-Q5 require standing inside it.
 const story = {
   id: "blodeuwedd",
   title: "Blodeuwedd, the Woman Made of Flowers",
@@ -6,7 +9,7 @@ const story = {
   difficulty: "Easy",
   theme: "A life chosen for you by other hands",
   estimatedTime: "5-10 min",
-  description: "Two magicians make a wife out of flowers for a man under a curse. Stand on her side, the one who was made and given no say.",
+  description: "A man is cursed never to marry a woman of any human family. Two magicians find a way around it.",
   meta: {
     level: 3,
     track: "gated",
@@ -25,73 +28,101 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "Lleu was under a strange curse: he could never have a wife born of any human family. So the magicians Math and Gwydion took the flowers of the oak, the broom, and the meadowsweet, and out of them they made a woman. They named her Blodeuwedd, which means flower-face, and they gave her to Lleu to marry." },
     {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "Stand on Blodeuwedd's side at the moment she first opens her eyes. What is true of her?",
-      options: [
-        "She has chosen Lleu freely from among many suitors",
-        "She has been made by others for a purpose, given no say in the life set before her",
-        "She has grown up slowly like any child and come of age",
-        "She has been asked whether she wishes to marry at all"
-      ],
-      correctAnswer: 1,
-      explanation: "From where she stands, her very existence is something done to her: shaped by other hands, named by them, handed to a husband she did not choose. That is the vantage the whole story turns on."
+      type: "story",
+      text: "Lleu could never marry a woman born of any human family. That was the curse on him. So the magicians Math and Gwydion went out and gathered flowers: oak blossom, and broom, and meadowsweet. They worked over them for a long while. And a woman sat up out of the heap of flowers, and looked at them, and they called her Blodeuwedd, which means flower-face. They took her to Lleu that same day, and she was married to him."
     },
-    { type: "story", text: "For a time Blodeuwedd lived as Lleu's wife. But she had never chosen him, and when another man, Gronw, passed through the land, she came to love him instead, and the two of them plotted against Lleu." },
     {
       type: "question",
-      domain: "feeling",
+      domain: "sequence",
       band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "Blodeuwedd was made to be a wife and was never asked what she wanted. How does that most likely sit with her as the years pass?",
-      options: [
-        "She feels grateful to have been given any life at all",
-        "She feels the ache of a life fitted to her without her say, and reaches for one she chooses herself",
-        "She feels nothing, since flowers cannot truly feel",
-        "She feels proud to have been chosen by such great magicians"
-      ],
-      correctAnswer: 1,
-      explanation: "Read it from inside her: a life arranged for her by others is a life she did not pick, and that unchosen quality is what turns her toward a love that is her own, for better or worse."
-    },
-    { type: "story", text: "The plot failed. Lleu survived, and Gwydion came for Blodeuwedd. As punishment he did not kill her, but worked one last change upon her: he turned her into an owl, to live forever in the dark and be shunned by all other birds." },
-    {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "At the end, picture what is done to Blodeuwedd. What happens to her?",
-      options: [
-        "She is set free to return to the flowers she was made from",
-        "She is changed into an owl and made to keep to the night, away from every other bird",
-        "She is allowed to choose her own punishment",
-        "She is turned back into the magicians' helper"
-      ],
-      correctAnswer: 1,
-      explanation: "As at her making, so at her ending: a shape is forced upon her by another's hand. She is changed, not changing, and made to live apart. The vantage stays with the one things are done to."
-    },
-    { type: "story", text: "And so the woman of flowers became the owl, and to this day the owl keeps to the dark and is met with unease by the birds of the day." },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
       grammar_cell: "past_perfect",
       gates: false,
-      question: "Why had the magicians made Blodeuwedd in the first place?",
+      question: "Picture the order of that day: the flowers, the working, the waking, the wedding. When was it decided that she would be Lleu's wife?",
       options: [
-        "Because Lleu had been cursed never to marry a human woman",
-        "Because they wished to give the flowers a voice",
-        "Because Lleu had asked them for a helper, not a wife",
-        "Because an owl had begged them to take human form"
+        "At the wedding, when she agreed to it",
+        "Before she existed at all, which is why she was made",
+        "When she first saw Lleu and liked him",
+        "When the magicians asked her what she wanted"
+      ],
+      correctAnswer: 1,
+      explanation: "Follow it backwards. The marriage is not something that happened to her after she woke; it is the reason there was any gathering of flowers in the first place. The decision is older than she is."
+    },
+    {
+      type: "question",
+      domain: "what",
+      band: "B3",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "Picture a girl in a village nearby, the same age. Set her life beside Blodeuwedd's. What does the village girl have that Blodeuwedd does not?",
+      options: [
+        "A family, a childhood, and years of knowing people before anything was asked of her",
+        "Greater beauty than a woman made of flowers",
+        "Magic of her own to protect herself with",
+        "Permission to marry whoever she likes"
       ],
       correctAnswer: 0,
-      explanation: "A plain tracking of cause from the start of the tale: the curse on Lleu is the reason she was made at all. Here it frames her making rather than testing the vantage."
+      explanation: "Blodeuwedd is a grown woman who is one day old. Everything the village girl stands on, people she has known, things she has seen, a past to compare against, simply is not there behind her."
+    },
+    {
+      type: "story",
+      text: "She lived in Lleu's house as his wife. In time a man named Gronw came riding through that country, and stopped, and stayed. She loved him. And the two of them made a plan against Lleu."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "Stand inside the house with her before Gronw ever comes. She is looking at the husband she was made for. What can she not do that anybody else in that country could?",
+      options: [
+        "Leave the house without permission",
+        "Think back to before she knew him, because there is no before",
+        "Speak to Lleu about how she feels",
+        "Recognise that he is a good man"
+      ],
+      correctAnswer: 1,
+      explanation: "Everyone else can measure a marriage against the life they had first. She opened her eyes into this one. There is nothing behind her to compare it with, so there is no vantage from which she could ever have said no."
+    },
+    {
+      type: "story",
+      text: "The plan failed. Lleu lived. And Gwydion, who had made her, came for her."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B3",
+      grammar_cell: "participle",
+      gates: true,
+      question: "Stand where Gwydion stands as he comes for her. He made her out of flowers with his own hands. What does he think he is dealing with?",
+      options: [
+        "A woman who has wronged his kinsman and must answer for it",
+        "Something he made that has gone wrong, which is his to correct",
+        "A daughter who has disappointed him",
+        "An enemy magician working against him"
+      ],
+      correctAnswer: 1,
+      explanation: "He does not put her on trial and he does not ask her anything. He comes the way you come to a thing of your own that is not doing what it was for, and that is why what happens next is a change rather than a punishment."
+    },
+    {
+      type: "story",
+      text: "He did not kill her. He worked one more change on her, and she went up off the ground as an owl, and the daylight birds would not have her near them. She keeps to the dark now."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      question: "Stand inside the owl and look back down the whole of her life: the flowers, the wedding, this. What has never once happened to her?",
+      options: [
+        "Being spoken to kindly by anyone",
+        "Being asked, at any point, what she wanted",
+        "Being allowed out of the house alone",
+        "Being given a name of her own"
+      ],
+      correctAnswer: 1,
+      explanation: "She was made without being asked, married without being asked, and changed without being asked. Go through it from her side and there is no moment anywhere in it where the question came to her."
     },
     { type: "story", moral: "She was made, and married, and changed, all by other hands. The story asks you to stand for a while where she stood, and feel a life she was never asked to want." }
   ]

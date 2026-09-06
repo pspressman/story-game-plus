@@ -1,4 +1,6 @@
 // golem-prague.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
+// Rewritten: prior description listed the three gating answers in order ("woken and
+// commanded and at last unmade"), and Q4 asked for a reason stated in block 1.
 const story = {
   id: "golem-prague",
   title: "The Golem of Prague",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Easy",
   theme: "A thing made to serve, and what it is to be made",
   estimatedTime: "5-10 min",
-  description: "A rabbi shapes a guardian from river clay and wakes it with a word. Stand on the side of the made thing, woken and commanded and at last unmade.",
+  description: "In a dangerous year, a rabbi in Prague goes down to the river for clay.",
   meta: {
     level: 3,
     track: "gated",
@@ -25,73 +27,101 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "In old Prague, to guard his people in a hard time, Rabbi Loew went down to the river and gathered clay. He shaped it into the form of a great man, and then he placed a holy word upon it. The clay stirred, and stood, and opened its eyes. The Golem was awake." },
+    {
+      type: "story",
+      text: "It was a bad year in Prague and the people were in danger. Rabbi Loew went down to the river at night and carried up clay, and shaped it on the bank into the form of a very large man, and worked over it until nearly morning. Then he set a holy word upon it. The clay moved. It sat up, and stood, and opened its eyes, and looked at him."
+    },
+    {
+      type: "question",
+      domain: "what",
+      band: "B3",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "Picture a newborn child opening its eyes for the first time, and the Golem opening its eyes on the riverbank. What does the child have coming that the Golem does not?",
+      options: [
+        "Someone who loves it",
+        "Years ahead of growing, learning, and becoming whatever it turns out to be",
+        "A name given by its parents",
+        "The ability to speak one day"
+      ],
+      correctAnswer: 1,
+      explanation: "The child arrives at the beginning of something. The Golem arrives finished, at full size, on the night it is needed. Everything it will ever be was decided on the riverbank before its eyes opened."
+    },
+    {
+      type: "story",
+      text: "It was enormously strong and it never tired. Every night the rabbi told it where to go and what to do, and it went and did it, and came back. It never asked why, and it was never told."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "Stand inside the Golem in the hour before it is given the night's instruction. It is waiting. What does it know about what is coming?",
+      options: [
+        "Roughly what it will be doing, since the nights are much the same",
+        "Nothing at all, because what happens next is a sentence somebody else has not said yet",
+        "That it will be sent out to guard the streets",
+        "That the rabbi will decide fairly"
+      ],
+      correctAnswer: 1,
+      explanation: "Everyone else can guess at tomorrow from yesterday. The Golem's next few hours are not in the world yet; they are in a word that has not been spoken. Standing inside it, the future is a blank until somebody fills it in."
+    },
+    {
+      type: "story",
+      text: "In time the danger to the people passed. And the Golem had grown very strong, stronger than was safe to keep in a city. The rabbi went up to where it lay one night and took the holy word away from it. The light went out of its eyes and the shape settled back into clay."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B3",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "The Golem is unmade for being too strong. Picture where that strength came from. Whose doing is it?",
+      options: [
+        "The Golem's, since it chose to grow stronger",
+        "The rabbi's, who made it that way on purpose because the danger was great",
+        "Nobody's; it happened by accident",
+        "The people's, who asked for a stronger guardian"
+      ],
+      correctAnswer: 1,
+      explanation: "It did not train, and it did not want anything. It was built strong because a weak one would have been no use that year. The reason it is being ended is a decision that was taken before it woke."
+    },
     {
       type: "question",
       domain: "vantage",
       band: "B3",
       grammar_cell: "passive_voice",
       gates: true,
-      question: "Stand where the Golem stands in the moment it first opens its eyes. What is true of it?",
+      question: "Stand inside the Golem as the word is lifted away. It cannot object and it will not be asked. What is the difference between this and any ordinary death?",
       options: [
-        "It has chosen to come to life on its own",
-        "It has been shaped and woken by another, given no say in being made",
-        "It has slept in the river for years and now wakes naturally",
-        "It has asked the rabbi to bring it to life"
+        "There is no difference; it is simply dying",
+        "Its life was never in its own keeping, so it is not losing something that was ever its own",
+        "It happens more quickly than an ordinary death",
+        "It can be undone again later, so it does not count"
       ],
       correctAnswer: 1,
-      explanation: "From the Golem's side, its whole existence is done to it: formed by another's hands, woken by another's word. It is made, not making, and that is the vantage to hold."
+      explanation: "A person's life is theirs and gets taken. The Golem's was on loan from the moment it opened its eyes, kept in a word held by somebody else, and lifting it away is the same hand closing that opened."
     },
-    { type: "story", text: "The Golem was strong and tireless, and it did whatever the rabbi commanded, guarding the streets through the night. It did not rest, and it did not ask why; it only obeyed the words it was given." },
+    {
+      type: "story",
+      text: "They carried the clay up to the attic and left it lying there, and the story says it is there still, and could be woken again if it were ever needed."
+    },
     {
       type: "question",
       domain: "feeling",
       band: "B3",
-      grammar_cell: "passive_voice",
+      grammar_cell: "future_progressive",
       gates: true,
-      question: "The Golem is sent out each night and told exactly what to do, never asked what it wants. Seen from its side, what is its place in the world?",
+      question: "Stand inside the clay in the attic. Picture what the last line promises: that it might be woken again if it is needed. Is that a comfort?",
       options: [
-        "It is a free guard who comes and goes as it pleases",
-        "It is a maker of its own tasks each day",
-        "It is moved entirely by the words it is given, with no will of its own",
-        "It is the rabbi's equal and partner"
-      ],
-      correctAnswer: 2,
-      explanation: "Read from inside it, the Golem is always the one acted upon: set in motion, directed, sent. It has no purpose but the one laid on it, which is what makes its making a heavy thing."
-    },
-    { type: "story", text: "In time the Golem grew too strong to be safely kept, and the danger to the people had passed. So the rabbi climbed to where it lay and gently removed the holy word. The light went out of its eyes, and it sank back into still clay." },
-    {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "At the end, picture what is done to the Golem. What happens to it?",
-      options: [
-        "It is set free to live as it likes",
-        "It is unmade, the life taken back out of it and the clay left still",
-        "It chooses to lie down and sleep",
-        "It is sent to guard another city"
+        "Yes, because it means the Golem is not truly gone",
+        "Only to the people, since waking it again would happen for their sake and not its own",
+        "Yes, because it will get to see the city again",
+        "No, because it can never be woken a second time"
       ],
       correctAnswer: 1,
-      explanation: "As at its waking, so at its ending: another hand decides. The word is lifted away and the life withdrawn. The Golem is unmade, the doing always belonging to someone else."
-    },
-    { type: "story", text: "The clay was carried to the attic and laid to rest, and the story says it waits there still, should it ever be needed and woken again." },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "past_perfect",
-      gates: false,
-      question: "Why had the rabbi made the Golem in the first place?",
-      options: [
-        "To guard and protect his people in a time of danger",
-        "To prove that he could shape clay into a man",
-        "Because the Golem had asked to be made",
-        "To replace the night watchmen who had quit"
-      ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause from the opening: protection in a hard time is why it was made. Here it frames the making rather than testing the vantage."
+      explanation: "Read the sentence carefully: if it were ever needed. Not wanted, not missed. Even the hope at the end of the story belongs to somebody else, and the Golem is still the thing that gets fetched."
     },
     { type: "story", moral: "It was shaped, woken, commanded, and stilled, all by other hands. To stand where it stood is to feel what it is to be made for someone else's need." }
   ]

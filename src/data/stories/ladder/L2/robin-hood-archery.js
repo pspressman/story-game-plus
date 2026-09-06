@@ -1,6 +1,7 @@
 // robin-hood-archery.js
 // L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
-// Gate: read the trick. The gating stems turn on a non-finite form AND on reading Robin's plan through disguise.
+// Rewritten: the prior description field announced the trap and the beggar on the story
+// card, so both gating questions were answered before the child opened the node.
 const robinHoodArchery = {
   id: "robin-hood-archery",
   title: "Robin Hood: Disguise and the Archery Contest",
@@ -8,7 +9,7 @@ const robinHoodArchery = {
   difficulty: "Easy",
   theme: "The outlaw's trick",
   estimatedTime: "5-10 min",
-  description: "The Sheriff announces an archery contest with a golden arrow as prize. Robin Hood knows it is a trap, but he cannot resist. One ragged beggar steps forward.",
+  description: "The Sheriff of Nottingham announces an archery contest with a golden arrow for the winner. He is very keen that people should come.",
 
   meta: {
     level: 2,
@@ -31,27 +32,27 @@ const robinHoodArchery = {
   content: [
     {
       type: "story",
-      text: "The Sheriff of Nottingham proclaimed a great archery contest, the prize a golden arrow. \"Robin Hood will come,\" he said to his men. \"He is too proud to stay away. We will be watching for Lincoln green and a long bow.\" In Sherwood Forest, Robin only smiled and reached for rags and dirt."
+      text: "The Sheriff of Nottingham had a golden arrow made, and sent criers out to every village to announce a contest for the finest archer in England. Then he stood his soldiers along the road into town and told them what to watch for. \"Lincoln green,\" he said. \"A tall man with a longbow. He will come. He cannot help himself.\""
     },
     {
       type: "question",
-      domain: "intent",
+      domain: "inference",
       band: "B2",
       grammar_cell: "gerund",
       gates: true,
-      question: "Robin chooses to enter the contest dressed as a filthy beggar instead of wearing his usual green. What is he really hoping to accomplish by coming in disguise?",
+      question: "Picture the soldiers taking up their places on the road before a single archer has arrived. What does that tell you the contest is for?",
       options: [
-        "To hide his shame at entering the Sheriff's contest",
-        "To win the golden arrow while avoiding the Sheriff's trap",
-        "To make the other archers underestimate him and feel sorry for him",
-        "To test whether his own men will recognize him"
+        "Finding the best archer in England, with soldiers there to keep order",
+        "Catching one particular man, with the contest built as the bait to bring him in",
+        "Protecting the golden arrow from being stolen on the road",
+        "Showing off the Sheriff's wealth to the villages"
       ],
       correctAnswer: 1,
-      explanation: "Reading the trick means seeing past the surface reason (winning) to the hidden plan underneath: by coming in rags, he can shoot openly under the Sheriff's nose yet walk away free when the soldiers are hunting green cloth and a tall outlaw."
+      explanation: "Nobody posts men to look for one description before the guests arrive unless the guest is the point. The arrow, the criers, the whole contest are the part that has to look real for the road to work."
     },
     {
       type: "story",
-      text: "The day came bright and hot. Fifty archers stood in their best cloth. One ragged man in the corner drew no eye at all. Round by round the arrows flew until only three remained: a knight, a forester, and the beggar. The beggar's final arrow split the very center. The crowd roared. The Sheriff, watching, frowned at the empty road."
+      text: "Deep in Sherwood, Robin heard about it and wanted to go, and his men told him he would be walking into a net. Robin sat and thought. Then he got up and went to the edge of the camp where the rubbish was, and came back with a ragged brown cloak, and rubbed dirt into his face and hands until his own men did not much want to look at him."
     },
     {
       type: "question",
@@ -59,55 +60,59 @@ const robinHoodArchery = {
       band: "B2",
       grammar_cell: "participle",
       gates: true,
-      question: "The Sheriff stands watching the road for Robin Hood while the beggar wins his prize. What is the Sheriff failing to see?",
+      question: "The soldiers have been told exactly what to look for. Picture them watching the road as Robin comes down it. Why does the dirt work?",
       options: [
-        "That Robin Hood is already dead and will never come",
-        "That the ragged beggar winning the contest is Robin himself",
-        "That his own men have betrayed him to Robin Hood",
-        "That the golden arrow is actually a fake"
+        "Because dirt makes it hard to see a person's face clearly",
+        "Because they are checking every man against one picture, and a filthy beggar is not that picture, so they stop looking at him",
+        "Because soldiers are afraid of catching illness from beggars",
+        "Because the Sheriff forgot to tell them about disguises"
       ],
       correctAnswer: 1,
-      explanation: "The Sheriff's mind is fixed on one picture: Lincoln green on the road. His failure to read the trick—that Robin could come in another skin—means he cannot see what is happening right in front of him."
-    },
-    {
-      type: "question",
-      domain: "sequence",
-      band: "B1",
-      grammar_cell: "present_perfect",
-      gates: false,
-      question: "When the beggar walks away with the golden arrow toward the forest edge, what has already happened to the Sheriff's plan to capture Robin Hood?",
-      options: [
-        "It has succeeded; Robin is surrounded",
-        "It has failed; Robin has won the prize and is escaping unseen",
-        "It has been postponed until next year's contest",
-        "It has been discovered by Robin's men who warned him away"
-      ],
-      correctAnswer: 1,
-      explanation: "Tracking what has already happened by the moment the beggar walks free is a simpler move from an earlier rung; here it confirms the trick's success rather than testing the read of the plan itself."
+      explanation: "They are not searching for Robin. They are searching for green cloth and a tall bowman, and every man on that road gets held up against it for half a second. The dirt does not hide him; it gets him rejected before anyone bothers to look."
     },
     {
       type: "story",
-      text: "Safe in the greenwood that evening, Robin Hood tied the golden arrow to a shaft and sent it flying back to Nottingham castle with a message: \"Heaven bless your grace this day, say all in merry Sherwood. The ragged beggar thanks you for the prize.\" The Sheriff read it twice, then tore it into small pieces."
+      text: "The day was bright and hot. Fifty archers stood out on the field in their best cloth, and one ragged man waited at the end of the line where nobody was standing near him. Round after round the field thinned out. At the last there were three: a knight, a forester, and the beggar. The beggar's arrow went into the very centre of the mark and the crowd came to its feet."
     },
     {
       type: "question",
       domain: "irony",
       band: "B2",
-      grammar_cell: "infinitive",
+      grammar_cell: "gerund",
       gates: true,
-      question: "Robin sends a message thanking the Sheriff for the prize only after he is safely away. What makes this message bite deeper than simple boasting?",
+      question: "The Sheriff is on the platform and can see the whole field. Picture where his eyes are while the beggar shoots. Where is he looking?",
       options: [
-        "Robin is sincerely grateful that the Sheriff held a fair contest",
-        "Robin reveals that the Sheriff's own trap became the stage for Robin to win glory and mock him",
-        "Robin promises to return the arrow in the future",
-        "Robin threatens to harm the Sheriff if he tries again"
+        "At the beggar, wondering how a poor man shoots so well",
+        "Out at the road, because the man he is waiting for has not arrived yet",
+        "At the knight, who he expects to win",
+        "At the golden arrow, making sure it is safe"
       ],
       correctAnswer: 1,
-      explanation: "The irony cuts because Robin thanks the Sheriff for exactly what the Sheriff was trying to prevent: by setting a trap to catch Robin, he instead gave Robin the perfect opportunity to prove his skill and humiliate him. The message forces the Sheriff to see how completely his plan backfired."
+      explanation: "He built the whole day to make one man come down that road, and so that is where he is watching. The thing he wants is on the field in front of him winning his contest, and he is facing the wrong way to see it."
     },
     {
       type: "story",
-      moral: "Pride is not only the trap; sometimes it is also the key. A mind that sees only one face will always miss the beggar in the corner."
+      text: "The Sheriff put the golden arrow into the beggar's dirty hands himself, and the beggar bowed and shuffled off toward the trees. That evening a shaft came over the wall of Nottingham castle with a note tied to it: heaven bless your grace this day, say all in merry Sherwood, and the ragged beggar thanks you for the prize. The Sheriff read it twice and tore it up."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B2",
+      grammar_cell: "infinitive",
+      gates: true,
+      question: "Robin could have simply escaped and said nothing. Picture the Sheriff reading that note. What does the note make him do that getting away did not?",
+      options: [
+        "It makes him angry, which escaping alone would not have",
+        "It makes him go back over the whole day and see that he handed the prize over with his own hands",
+        "It tells him where Robin's camp is hidden",
+        "It warns him that Robin will come again next year"
+      ],
+      correctAnswer: 1,
+      explanation: "Without the note the Sheriff has a contest that failed. With it he has a memory he has to look at: the beggar in front of him, his own hands, the arrow going across. The note does not tell him anything new; it makes him watch it again."
+    },
+    {
+      type: "story",
+      moral: "A mind that has decided what it is looking for will look straight past everything else. The beggar in the corner drew no eye at all."
     }
   ]
 };
