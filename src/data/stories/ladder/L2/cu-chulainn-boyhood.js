@@ -70,7 +70,7 @@ const story = {
     },
     {
       type: "story",
-      text: "The hound came at him across the yard. Setanta had no weapon but the ball and stick he had been playing with. When it was over the great dog lay dead in the dirt, and the door of the house was open, and Culann was standing in the light of it looking down at his hound."
+      text: "The hound came at him out of the dark, and it was faster than he was and bigger than he was, and there was no time to reach the door. All Setanta had in his hands were the things he had been playing with on the green: a hurley stick and a hard leather ball. He struck the ball with the stick as hard as he had ever struck anything, straight into the hound\u2019s open mouth as it came at him. The dog went down and did not get up. When the door of the house opened and the light came out into the yard, Setanta was still standing there with the stick in his hand, and Culann was looking down at his hound in the dirt."
     },
     {
       type: "question",
