@@ -1,5 +1,7 @@
 // L1 Beowulf and Grendel
 // B1 event and cause, grammar_target: sequence_and_aspect, tier: A
+// Every question requires building the scene and reading something off it that the
+// text does not state. No question can be answered by matching a sentence.
 const beowulfGrendel = {
   id: "beowulf-grendel",
   title: "Beowulf and Grendel",
@@ -7,7 +9,7 @@ const beowulfGrendel = {
   difficulty: "Beginner",
   theme: "The end of a long terror",
   estimatedTime: "5-10 min",
-  description: "For twelve winters, Grendel has torn warriors from Heorot hall. Then a Geat named Beowulf crosses the sea to face him. Watch the order of terror, arrival, and fight.",
+  description: "For twelve winters, Grendel has torn warriors from Heorot hall. Then a Geat named Beowulf crosses the sea to face him. Picture the hall, the crossing, and the grip.",
 
   meta: {
     level: 1,
@@ -30,63 +32,27 @@ const beowulfGrendel = {
   content: [
     {
       type: "story",
-      text: "King Hrothgar built a mead-hall called Heorot, the brightest hall in the northern world. But before the benches were warm, Grendel came in the dark. Night after night he burst through the door, seized sleeping warriors, and dragged them back to his fen. For twelve winters Heorot stood empty after dark."
+      text: "King Hrothgar built a mead-hall called Heorot, the brightest hall in the northern world. Its roof was gold-plated and its windows spilled firelight across the fields. But before the benches were warm, Grendel came in the dark. Night after night he burst through the door, seized sleeping warriors, and dragged them back to his fen. For twelve winters no man slept in Heorot after sundown."
     },
     {
       type: "question",
-      domain: "number",
-      band: "B0",
-      grammar_cell: "simple_past",
+      domain: "where",
+      band: "B1",
+      grammar_cell: "past_progressive",
       gates: false,
-      question: "Before Beowulf ever hears of the trouble, picture Heorot in those years. What happened each night?",
+      question: "Stand out in the cold fields on any night of those twelve winters and look toward Heorot. What do you see from there?",
       options: [
-        "Warriors held feast until dawn",
-        "The hall stood empty to keep men safe from Grendel",
-        "Hrothgar locked the doors and slept inside",
-        "Grendel came only once or twice"
+        "Firelight in every window and song spilling out the door",
+        "A huge black shape against the sky, with no light and no sound in it",
+        "Warriors standing shoulder to shoulder in a ring around the walls",
+        "Grendel crouched on the roof, waiting for morning"
       ],
       correctAnswer: 1,
-      explanation: "The story shows twelve winters of repeated raids, so the pictured pattern is the hall standing dark and empty at night. This is a picturing question reaching back to the simplest event; it does not test the level's own target."
+      explanation: "The hall was built to blaze with light, but no one sleeps there after sundown now. Put those together and the thing you see from the fields is the great hall gone dark and silent, which is exactly what makes it terrible."
     },
     {
       type: "story",
-      text: "Across the whale-road in Geatland, the warrior Beowulf heard of Hrothgar's long grief. He gathered fourteen men, launched a ship, and sailed to Denmark. When he reached Heorot, he told Hrothgar: \"I have come to end this. Tonight I will meet Grendel without sword or shield.\""
-    },
-    {
-      type: "question",
-      domain: "sequence",
-      band: "B1",
-      grammar_cell: "past_perfect",
-      gates: true,
-      question: "By the time Beowulf arrives at Heorot and makes his promise, what has already been going on?",
-      options: [
-        "Grendel has been raiding the hall for twelve winters",
-        "Beowulf has been training in Denmark for years",
-        "Hrothgar has been building a new hall to replace Heorot",
-        "The Geats have been fighting Grendel in their own land"
-      ],
-      correctAnswer: 0,
-      explanation: "Follow the order: the twelve winters of raids come first, then Beowulf hears the news, then he sails. By the moment he stands before Hrothgar, the long terror has already been happening."
-    },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "sequence",
-      gates: true,
-      question: "Why does Beowulf cross the sea to face Grendel?",
-      options: [
-        "Hrothgar has sent him gold and begged for help",
-        "Grendel has killed Beowulf's own kinsmen",
-        "He hears of Hrothgar's suffering and chooses to come",
-        "The king of the Geats has ordered him to go"
-      ],
-      correctAnswer: 2,
-      explanation: "Follow the order of events: Beowulf hears the news, then he gathers men and sails. The story shows him choosing to help, not being summoned or avenging his own loss."
-    },
-    {
-      type: "story",
-      text: "That night Beowulf lay waiting in the dark hall with his men. Grendel smashed through the door, snatched one warrior, and tore him apart. Then he reached for Beowulf. The Geat caught his arm in a grip that had never been felt before. They grappled, the hall shook, and benches splintered. At last Grendel wrenched free and fled into the night, leaving his arm torn from the shoulder."
+      text: "Across the whale-road in Geatland, the warrior Beowulf heard of Hrothgar's long grief. He gathered fourteen men, launched a ship, and set out for Denmark. The crossing took many days."
     },
     {
       type: "question",
@@ -94,19 +60,95 @@ const beowulfGrendel = {
       band: "B1",
       grammar_cell: "past_progressive",
       gates: true,
-      question: "While Beowulf and Grendel are fighting, what is happening to the hall around them?",
+      question: "Beowulf's ship is out in open water, still days from Denmark. Picture Heorot on that same night, far away. What is happening there?",
       options: [
-        "It is standing silent and still",
-        "Warriors are running out through the door",
-        "It is shaking and benches are splintering",
-        "Hrothgar is watching from the doorway"
+        "The hall is lit and feasting, waiting for him to arrive",
+        "Grendel is still coming in the dark, and men are still keeping away after sundown",
+        "Hrothgar has already pulled the hall down and gone",
+        "Nothing at all, because Grendel stopped the day Beowulf set sail"
       ],
-      correctAnswer: 2,
-      explanation: "This asks what was ongoing during the fight. The story shows the hall shaking and benches breaking as the fight continues, not what happened before or after."
+      correctAnswer: 1,
+      explanation: "Nothing about a ship at sea reaches Denmark yet. While the crossing is going on, the raiding is also going on, in another place at the same time. Two things running at once, and neither one knows about the other."
     },
     {
       type: "story",
-      text: "In the morning, warriors followed the blood trail to the edge of the black water. Grendel had crept home to die. Beowulf hung the torn arm high in Heorot, and for the first time in twelve winters, the hall rang with song through the night."
+      text: "When he reached Heorot, Beowulf told Hrothgar: \"I have come to end this. Tonight I will meet Grendel with no sword and no shield.\" That night he and his men lay down in the dark hall and waited."
+    },
+    {
+      type: "question",
+      domain: "where",
+      band: "B1",
+      grammar_cell: "locative",
+      gates: true,
+      question: "Picture Beowulf choosing his place in the dark hall before Grendel comes. If he means to lay hands on the thing, where does he have to be?",
+      options: [
+        "Outside in the fields, hidden, ready to follow it home",
+        "Inside the hall, in the dark, close to the way Grendel comes in",
+        "Up in the roof beams, above the sleeping benches",
+        "In Hrothgar's own house, well away from the hall"
+      ],
+      correctAnswer: 1,
+      explanation: "Grendel comes through the door of the hall and takes men off the benches. Anyone waiting outside, or above, or in another building never gets his hands on him. To catch the thing you have to be lying in the dark where it will walk."
+    },
+    {
+      type: "story",
+      text: "Grendel smashed through the door, snatched one warrior, and tore him apart. Then he reached for Beowulf. The Geat caught his arm in a grip the monster had never felt before."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: false,
+      question: "For twelve winters nothing in that hall has ever been able to hold Grendel. Picture his face the instant the grip closes on his arm. What is on it?",
+      options: [
+        "The same rage he has worn every other night",
+        "Fear, for the first time in twelve winters",
+        "Boredom, because this happens often",
+        "Triumph, because he has caught someone new"
+      ],
+      correctAnswer: 1,
+      explanation: "Twelve winters of taking whoever he liked, and now something holds him. The new thing on his face has to be the thing he has never had cause to feel in that hall before."
+    },
+    {
+      type: "story",
+      text: "They grappled, and the hall shook, and benches splintered under them. Grendel heaved and twisted, and at last wrenched himself free and fled into the night, leaving his arm torn from the shoulder."
+    },
+    {
+      type: "question",
+      domain: "movement",
+      band: "B1",
+      grammar_cell: "past_progressive",
+      gates: true,
+      question: "Beowulf is holding on and Grendel is straining to get away. Picture the two of them locked together. Where does the struggle travel while it lasts?",
+      options: [
+        "Deeper into the hall, toward Hrothgar's high seat",
+        "Toward the door, because Grendel is pulling for the way out",
+        "Nowhere; they stay planted on one spot the whole time",
+        "Out across the fields and down to the black water"
+      ],
+      correctAnswer: 1,
+      explanation: "Grendel is no longer hunting. He is trying to leave, and he does leave, out into the night. Picture him hauling one way and Beowulf braced the other, and the whole grinding struggle drags toward the door he came in by."
+    },
+    {
+      type: "story",
+      text: "In the morning, warriors followed the blood trail to the edge of the black water. Grendel had crept home to die. Beowulf hung the torn arm high under the roof of Heorot, and that night the hall rang with song until dawn."
+    },
+    {
+      type: "question",
+      domain: "intent",
+      band: "B1",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "Picture a Dane stepping through that door at sundown, the first time in twelve winters anyone has dared. He looks up. Why did Beowulf hang the arm where it hangs?",
+      options: [
+        "To dry it out before it spoiled",
+        "So that anyone who walks in sees at once that the thing is beaten",
+        "Because there was nowhere else in the hall to put it",
+        "To frighten Hrothgar into paying him more gold"
+      ],
+      correctAnswer: 1,
+      explanation: "Hung high under the roof, it is the first thing a man sees when he comes through the door he was afraid of. It is proof, put where the fear used to be, which is why they can sing in there again."
     },
     {
       type: "story",
