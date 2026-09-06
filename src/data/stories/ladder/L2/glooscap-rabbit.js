@@ -1,5 +1,7 @@
 // L2, B2 one other mind. Grammar target: non_finite (infinitive, gerund, participle).
-// Gate: read the trick. The gating stems turn on a non-finite form AND on a second character's read of intent.
+// Rewritten: prior Q1's correct option spelled out the rest of the plot before the
+// child had read it. Every option here is answerable only from what has already
+// happened, and no option forecasts a later block.
 const glooscapRabbit = {
   id: "glooscap-rabbit",
   title: "Glooscap and Rabbit",
@@ -7,7 +9,7 @@ const glooscapRabbit = {
   difficulty: "Easy",
   theme: "The small one who outthinks the great",
   estimatedTime: "5-10 min",
-  description: "Rabbit tricks powerful Glooscap through clever wordplay and misdirection. Read what Rabbit is really doing behind his innocent words.",
+  description: "Rabbit comes to meet the greatest power in the land, full of admiration. Watch what his admiring questions are actually doing.",
 
   meta: {
     level: 2,
@@ -30,7 +32,27 @@ const glooscapRabbit = {
   content: [
     {
       type: "story",
-      text: "Glooscap the giant was the greatest power in the land, maker of rivers and mountains. One day little Rabbit came hopping along saying he wished to meet this famous Glooscap. When they met, Rabbit said, \"I've heard you are very tall from down here, but I wonder if you could make yourself truly big, big enough to reach the clouds.\""
+      text: "Glooscap made the rivers and set the mountains where they stand, and there was no greater power in the land. Rabbit came hopping up the valley to meet him, and had to tip his head right back to see him. \"They say you are tall,\" said Rabbit. \"From down here I cannot tell how tall. Could you make yourself big enough to touch the clouds, so that I could see it?\""
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "Rabbit says he cannot tell how tall Glooscap is from down there. Picture Rabbit at Glooscap's feet, looking up. Is that true?",
+      options: [
+        "Yes, a rabbit really cannot judge height from the ground",
+        "No, Glooscap towers over him already, and Rabbit can see that perfectly well",
+        "Yes, because the valley is too dark to see clearly",
+        "No, because Rabbit has met Glooscap many times before"
+      ],
+      correctAnswer: 1,
+      explanation: "He has to tip his head right back. He knows exactly how big Glooscap is. Saying that he cannot tell is the first move, and it is not a true thing said by accident."
+    },
+    {
+      type: "story",
+      text: "Glooscap rose up and up until his head was among the clouds. Rabbit stared, and clapped his paws. \"Remarkable,\" he said. \"Though anyone big can be big. I wonder whether someone truly great could make himself small. Small enough to fit inside a hollow reed.\""
     },
     {
       type: "question",
@@ -38,59 +60,63 @@ const glooscapRabbit = {
       band: "B2",
       grammar_cell: "infinitive",
       gates: true,
-      question: "Rabbit asks Glooscap to make himself big enough to touch the clouds. What is Rabbit really hoping to do?",
+      question: "Rabbit says anyone big can be big. Picture what that sentence does to the giant standing in the clouds. What is it for?",
       options: [
-        "To see a wonder and praise Glooscap's true power",
-        "To trick Glooscap into making himself so large that Rabbit will seem even smaller by contrast, and then ask him to shrink tiny",
-        "To learn the secret magic words that change size",
-        "To find out if the stories about Glooscap are true"
+        "To thank Glooscap politely for the demonstration",
+        "To take the value out of what Glooscap has just done, so that he needs to do something else",
+        "To warn Glooscap that other giants exist",
+        "To ask Glooscap to come back down to the ground"
       ],
       correctAnswer: 1,
-      explanation: "Reading the trick means seeing past the admiring request to the setup underneath: once Glooscap makes himself huge, Rabbit can flip the game and dare him to go small, trapping the giant's pride."
+      explanation: "A moment ago being enormous was the proof. Now Rabbit has made it ordinary. Whatever Glooscap does next, he will be doing because the last thing stopped counting, and Rabbit is the one who decides when that happens."
     },
     {
       type: "story",
-      text: "Glooscap rose up and up until his head brushed the clouds. Rabbit gazed up, eyes wide with wonder. \"Remarkable! But anyone big can be big. I wonder if someone so great could make himself truly small, so small he could fit inside a hollow reed.\" Glooscap, hearing the doubt, began shrinking at once."
+      text: "Glooscap heard the doubt in it and began to shrink. He came down out of the clouds, down past the treetops, down to the height of a man, and kept going, smaller and smaller, while Rabbit sat on his heels and watched."
     },
     {
       type: "question",
       domain: "other_mind",
       band: "B2",
-      grammar_cell: "gerund",
+      grammar_cell: "participle",
       gates: true,
-      question: "Glooscap hears doubt in Rabbit's voice and immediately starts making himself smaller and smaller. What is he failing to see?",
+      question: "Glooscap is shrinking to answer a doubt. Picture the two of them from a little way off: one growing and shrinking on command, one sitting still and watching. Who is deciding what happens?",
       options: [
-        "That Rabbit has no magic and cannot change size himself",
-        "That by responding to each challenge, he is following Rabbit's plan instead of his own",
-        "That the clouds are too high to reach safely",
-        "That Rabbit is afraid of him"
+        "Glooscap, since he is the one with the power to change",
+        "Rabbit, since every change Glooscap makes is an answer to something Rabbit said",
+        "Neither of them; it is happening by itself",
+        "Both of them equally, since they agreed to it"
       ],
       correctAnswer: 1,
-      explanation: "Glooscap thinks he is proving his power, but a mind that follows every dare is a mind being led. Rabbit's trick works because Glooscap cannot see he is dancing to another's tune."
+      explanation: "Power to do a thing is not the same as choosing to do it. Glooscap has all the strength in the picture and none of the choosing. The one who has not moved has been running it since the first question."
+    },
+    {
+      type: "story",
+      text: "Smaller and smaller, until Glooscap stood no taller than a blade of grass. Rabbit held up the hollow reed. Glooscap looked at it, and then at Rabbit, and did not step in."
     },
     {
       type: "question",
       domain: "irony",
       band: "B2",
-      grammar_cell: "participle",
+      grammar_cell: "gerund",
       gates: false,
-      question: "Glooscap, standing at the height of a mountain, begins shrinking down to fit inside a reed. What makes this ironic?",
+      question: "Glooscap stops at the mouth of the reed and looks at Rabbit. Picture what he has just understood. What does he see?",
       options: [
-        "He is doing exactly what a small creature wants, thinking he is showing his superiority",
-        "He has never been small before and doesn't know how",
-        "Rabbit is also shrinking at the same time",
-        "The reed is actually very large"
+        "That the reed is too narrow even for someone that small",
+        "That he has spent this whole time proving himself to someone who never doubted him",
+        "That Rabbit is about to run away",
+        "That he cannot make himself any smaller than he already is"
       ],
-      correctAnswer: 0,
-      explanation: "The irony is that Glooscap, the greatest power, is being controlled by the smallest creature, all while believing he is demonstrating his greatness."
+      correctAnswer: 1,
+      explanation: "Rabbit knew how tall he was from the beginning. Every doubt since has been made up on the spot. Standing at the mouth of the reed, Glooscap can look back along the whole line of them and see what they were for."
     },
     {
       type: "story",
-      text: "When Glooscap had made himself so small he could slip inside the reed, Rabbit quickly stoppered both ends with clay. \"Who is greater now?\" called Rabbit, thumping the ground in triumph. After a long silence, Glooscap's tiny voice floated out: \"You are clever, Rabbit. Let me out and I will call you friend.\" And so Rabbit did, for even a trickster knows when a lesson has been learned."
+      text: "Glooscap grew until he filled the valley again, and he was laughing. \"You did that with nothing but your mouth,\" he said. \"I will remember it.\" And Rabbit, who had got what he came for, went off through the grass well pleased with himself."
     },
     {
       type: "story",
-      moral: "The trap is laid with flattery, and pride walks right in. The one who makes you prove yourself has already won."
+      moral: "The trap is laid with flattery, and pride walks toward it on its own feet. The one who makes you prove yourself is the one steering."
     }
   ]
 };
