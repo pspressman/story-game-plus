@@ -1,7 +1,5 @@
-// tempest-storm-mercy.js
-// Repaired 2026-09-06: beat -> story, moral block -> story block with moral key,
-// 7 null question stems authored. Each stem answerable from the beats BEFORE it.
-const tempestStormMercy = {
+// tempest-storm-mercy.js (reshaped to canonical schema 2026-06-24T14-18-32-732Z)
+const story = {
   "id": "tempest-storm-mercy",
   "title": "The Tempest",
   "icon": "📖",
@@ -46,11 +44,11 @@ const tempestStormMercy = {
   },
   "content": [
     {
-      "type": "story",
+      "type": "beat",
       "text": "Prospero lived on an island with his daughter Miranda. Twelve years before, he had been Duke of Milan. But his brother Antonio stole the throne and set Prospero and the baby Miranda adrift in a small boat."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "Prospero survived. He learned magic from his books. Now he lived on the island with Miranda, a spirit named Ariel, and a creature named Caliban."
     },
     {
@@ -59,7 +57,7 @@ const tempestStormMercy = {
       "band": "B1",
       "grammar_cell": "simple_past",
       "gates": false,
-      "question": "Picture the order of what has happened so far. Which of these came first, before all the rest?",
+      "question": null,
       "options": [
         "Antonio stole the throne.",
         "Prospero learned magic.",
@@ -70,11 +68,11 @@ const tempestStormMercy = {
       "explanation": "Antonio stole the throne twelve years ago, before everything else."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "One day Prospero saw a ship sailing near the island. His enemies were on board: Antonio, the King of Naples, and the king's son Ferdinand. Prospero raised a great storm with his magic."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "The ship was wrecked. The passengers were thrown into the sea. But Ariel made sure no one drowned. The people were scattered across the island in small groups."
     },
     {
@@ -83,7 +81,7 @@ const tempestStormMercy = {
       "band": "B3",
       "grammar_cell": "passive_voice",
       "gates": true,
-      "question": "Stand on the deck with the passengers as the storm strikes. From where they are standing, what happens to them?",
+      "question": null,
       "options": [
         "They were thrown into the water and separated from each other.",
         "They threw themselves overboard to escape the flames.",
@@ -94,7 +92,7 @@ const tempestStormMercy = {
       "explanation": "The storm happened to them. They were thrown and scattered by forces outside their control."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "Ferdinand washed up alone. He thought everyone else had died. Miranda saw him and fell in love at once. Ferdinand loved her too. But Prospero pretended to be angry and made Ferdinand work as a servant."
     },
     {
@@ -103,7 +101,7 @@ const tempestStormMercy = {
       "band": "B3",
       "grammar_cell": "passive_voice",
       "gates": true,
-      "question": "Picture Ferdinand carrying logs at Prospero's command. What is being done to him, and how does he take it?",
+      "question": null,
       "options": [
         "He was treated like a prisoner, but he bore it for Miranda's sake.",
         "He treated Prospero like a servant in return.",
@@ -114,7 +112,7 @@ const tempestStormMercy = {
       "explanation": "Ferdinand was being acted upon—treated as a prisoner—but he accepted it because he loved Miranda."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "Meanwhile, Antonio and the king wandered the island. Ariel led them in circles and made them tired and confused. Caliban met two sailors and plotted with them to kill Prospero and take the island."
     },
     {
@@ -123,7 +121,7 @@ const tempestStormMercy = {
       "band": "B2",
       "grammar_cell": "simple_past",
       "gates": false,
-      "question": "Antonio and the king wander the island, tired and turned around. Why can they not find their way?",
+      "question": null,
       "options": [
         "Ariel used magic to confuse them.",
         "They followed Caliban into the forest.",
@@ -134,11 +132,11 @@ const tempestStormMercy = {
       "explanation": "Ariel led them in circles on purpose. His magic made them confused."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "At last Prospero gathered all his enemies in one place. He revealed himself. Antonio and the king were shocked and afraid. Prospero had the power to punish them or even kill them."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "But Prospero chose mercy. He forgave his brother. He freed Ariel from service. He blessed the marriage of Ferdinand and Miranda. Then he broke his magic staff and threw his books into the sea."
     },
     {
@@ -147,7 +145,7 @@ const tempestStormMercy = {
       "band": "B3",
       "grammar_cell": "passive_voice",
       "gates": true,
-      "question": "Stand where Antonio and the king stand as Prospero reveals himself. What happens to them there?",
+      "question": null,
       "options": [
         "They were forgiven instead of punished.",
         "They forgave Prospero for using magic against them.",
@@ -163,7 +161,7 @@ const tempestStormMercy = {
       "band": "B3",
       "grammar_cell": "passive_voice",
       "gates": true,
-      "question": "Picture Ariel at the moment Prospero speaks the word. What has been done for him?",
+      "question": null,
       "options": [
         "He was freed from a long service and could finally go.",
         "He freed Prospero from the burden of magic.",
@@ -174,7 +172,7 @@ const tempestStormMercy = {
       "explanation": "Ariel was being released. Freedom was given to him after years of service."
     },
     {
-      "type": "story",
+      "type": "beat",
       "text": "Everyone sailed back to Italy together. Ferdinand and Miranda would marry. Antonio gave back the dukedom. The storm that began in anger ended in forgiveness."
     },
     {
@@ -183,7 +181,7 @@ const tempestStormMercy = {
       "band": "B3",
       "grammar_cell": "passive_voice",
       "gates": true,
-      "question": "Follow the dukedom of Milan itself, out of Antonio's hands. What happens to it at the end?",
+      "question": null,
       "options": [
         "It was restored to Prospero by Antonio.",
         "Prospero restored it to the King of Naples.",
@@ -194,10 +192,10 @@ const tempestStormMercy = {
       "explanation": "The dukedom was given back. It was returned to Prospero by the one who had taken it."
     },
     {
-      "type": "story",
-      "moral": "Mercy is stronger than revenge. The power to forgive heals more than the power to punish."
+      "type": "moral",
+      "text": "Mercy is stronger than revenge. The power to forgive heals more than the power to punish."
     }
   ]
 };
 
-export default tempestStormMercy;
+export default story;

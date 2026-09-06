@@ -31,7 +31,7 @@ const thorUtgard = {
   content: [
     {
       type: "story",
-      text: "In the hall of the giants at Utgard, the king smiled at Thor. \"A small test,\" he said. \"Empty this horn in one draught. My youngest do it in three.\" A servant set down a drinking horn. Its wide mouth sat on the table, plain and ordinary. But the horn was long. Its narrow end trailed off the table, across the floor, out through the open door of the hall, and down the stony slope beyond, until Thor could no longer see where it ended. Thor looked only at the mouth of it. It did not look so very large."
+      text: "In the hall of the giants at Utgard, the king smiled at Thor. \"A small test,\" he said. \"Empty this horn in one draught. My youngest do it in three.\" A servant set down a long drinking horn. It did not look so very large."
     },
     {
       type: "question",
