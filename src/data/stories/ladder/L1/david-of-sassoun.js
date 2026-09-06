@@ -1,6 +1,7 @@
 // david-of-sassoun.js
 // L1, B1 event and cause. Grammar target: sequence_and_aspect.
-// Gate: order battles, hold won territory versus what is still under siege.
+// Gate: hold two places at once. What is finished in one place while another is ongoing.
+// Every answer must be read off a pictured scene, never matched to a sentence.
 const davidOfSassoun = {
   id: "david-of-sassoun",
   title: "David of Sassoun",
@@ -8,7 +9,7 @@ const davidOfSassoun = {
   difficulty: "Beginner",
   theme: "The magic sword chooses its moment",
   estimatedTime: "5-10 min",
-  description: "Arab armies press Sassoun from every side. David rides out with a magic sword and a horse born from the sea. Track which battles have been won and which forts are still under attack.",
+  description: "Arab armies press Sassoun from every side. David rides out with a sword forged by his ancestors and a horse born from sea foam. Hold the whole city in your mind: one gate freed while another is still shut.",
 
   meta: {
     level: 1,
@@ -31,47 +32,67 @@ const davidOfSassoun = {
   content: [
     {
       type: "story",
-      text: "The city of Sassoun had endured siege after siege. Arab invaders came with armies, demanding tribute and submission. David, son of heroes, trained in the high mountains with a sword forged by his ancestors and a stallion born from sea foam. When he came of age, he rode down to break the encirclement."
+      text: "Sassoun sat in a bowl of mountains, with a pass into the east and a great gate facing south. Army after army had come demanding tribute, and army after army had sat outside the walls until the people gave in. High above the city, David trained with a sword forged by his ancestors and a stallion born from sea foam. When he came of age, he rode down."
     },
     {
       type: "question",
-      domain: "number",
-      band: "B0",
-      grammar_cell: "past_perfect",
-      gates: false,
-      question: "Before David ever rides into battle, how many of the sieges against Sassoun had the city managed to throw off completely on its own?",
-      options: [
-        "None—they endured but never broke free",
-        "About half of them",
-        "All but the current one",
-        "Every single one"
-      ],
-      correctAnswer: 0,
-      explanation: "The story shows siege after siege with the city enduring, not defeating. The pattern before David arrives is survival under pressure, not victory. This pictures the simplest count and does not test the level's own target."
-    },
-    {
-      type: "story",
-      text: "David's first fight came at the eastern pass, where an Arab commander had camped with siege engines aimed at the outer walls. David's magic sword sang as he charged. The invaders broke and fled before he reached their tents. By sunset the pass was clear."
-    },
-    {
-      type: "question",
-      domain: "sequence",
+      domain: "vantage",
       band: "B1",
-      grammar_cell: "past_perfect",
-      gates: true,
-      question: "The invaders flee the eastern pass before David even reaches their camp. What had already happened to make them run?",
+      grammar_cell: "past_progressive",
+      gates: false,
+      question: "Picture a child who has lived her whole life inside those walls, in all the years before David rides down. What has she never once seen?",
       options: [
-        "David had cut down their commander in single combat",
-        "The magic sword had sung during his charge",
-        "Sassoun's defenders had attacked from behind",
-        "David's stallion had trampled their siege engines"
+        "An army camped outside the walls",
+        "Open country beyond the gates, with no army sitting in it",
+        "Snow on the mountains above the city",
+        "Her own family gathered in one room"
       ],
       correctAnswer: 1,
-      explanation: "Track the order: the sword sings as he charges, the invaders break and flee, then he would have reached the tents. The breaking comes after the singing but before arrival. The sword's magic worked at a distance."
+      explanation: "Army after army came, and each one sat there until the city gave in. Set that against a whole childhood and the thing she has never had is a plain view out of an open gate with nobody besieging it."
     },
     {
       type: "story",
-      text: "Word of the eastern victory spread, but the main Arab army still surrounded the city's southern gate. Their general, Msra-Melik, had been besieging that gate for months and would not withdraw. David rode south to meet him, and the two armies clashed in a day-long battle."
+      text: "David rode east first. In the pass an Arab commander had dragged up siege engines and aimed them at the outer wall. David came down the slope at a gallop, alone, with the sword up. The men at the engines looked up at what was coming, and did not wait for it. They left the engines standing and ran."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B1",
+      grammar_cell: "past_progressive",
+      gates: true,
+      question: "The soldiers run before David reaches them, leaving the engines behind. Picture what they are looking at as they decide. What are they running from?",
+      options: [
+        "A wound one of them has already taken",
+        "The sight of what is coming down at them, before it arrives",
+        "An order from their commander to fall back",
+        "Sassoun's defenders coming out of the gate behind them"
+      ],
+      correctAnswer: 1,
+      explanation: "Nothing has touched them yet. He has not got there. What empties that pass is the thing they can see bearing down the slope, and they decide about it while it is still on its way."
+    },
+    {
+      type: "story",
+      text: "By sunset the eastern pass was clear. But Sassoun has two ways in. At the southern gate the general Msra-Melik had been camped for months with the main army, and no word from the east made him move."
+    },
+    {
+      type: "question",
+      domain: "where",
+      band: "B1",
+      grammar_cell: "present_perfect",
+      gates: true,
+      question: "Picture the whole city from above at that sunset: the eastern pass on one side, the southern gate on the other. What does it look like?",
+      options: [
+        "Both ways in are open and empty",
+        "One way in is clear, and the other still has an army sitting across it",
+        "Both ways in are still blocked by armies",
+        "The eastern pass is blocked again and the south is clear"
+      ],
+      correctAnswer: 1,
+      explanation: "Two places, one picture. The east is finished and empty. The south is not finished, and the army there has not moved. A city with one door open and one door held is not yet a free city."
+    },
+    {
+      type: "story",
+      text: "David turned his horse south. The ride took him the length of the valley, and the two armies met before the gate and fought the whole day through."
     },
     {
       type: "question",
@@ -79,39 +100,39 @@ const davidOfSassoun = {
       band: "B1",
       grammar_cell: "sequence",
       gates: true,
-      question: "Why does David have to fight a second battle at the southern gate, even after his victory in the east?",
+      question: "David has already won in the east. Picture the southern gate as he rides toward it. Why is he not finished?",
       options: [
-        "The southern gate is the true entrance to Sassoun's treasure",
-        "Msra-Melik's army is still besieging that gate and will not leave",
-        "David's horse refuses to return by the eastern route",
-        "The magic sword demands a second test"
+        "The eastern soldiers have come back and rejoined the siege",
+        "A different army has been sitting at the southern gate all along, and winning elsewhere did nothing to it",
+        "His sword only works once at each gate",
+        "Msra-Melik has moved his camp to a new position"
       ],
       correctAnswer: 1,
-      explanation: "Follow what is happening where: the eastern pass is now clear, but the southern gate is still under siege by a separate force. One victory does not automatically end the other ongoing siege. David must go where the threat continues."
+      explanation: "Two sieges were going on at the same time, run by different men in different places. Ending one does not reach the other. The southern army is exactly where it has been for months."
+    },
+    {
+      type: "story",
+      text: "David's sword struck Msra-Melik's shield and split it in two. The general fell, and his army scattered into the hills. By nightfall no enemy stood before either way into Sassoun."
     },
     {
       type: "question",
-      domain: "sequence",
+      domain: "vantage",
       band: "B1",
       grammar_cell: "present_perfect",
-      gates: true,
-      question: "David stands at the southern gate facing Msra-Melik's army. By this moment, what has David already accomplished?",
+      gates: false,
+      question: "Bring back the child from the beginning and stand her in the southern gateway that night. What does she see that she has never seen before?",
       options: [
-        "He has defeated both the eastern and southern armies",
-        "He has cleared the eastern pass but the south is still under siege",
-        "He has driven off Msra-Melik but the east remains blocked",
-        "He has won no battles yet—this is his first fight"
+        "Mountains standing above the city",
+        "Open ground running away from the gate with nothing camped on it",
+        "Her own city walls from the inside",
+        "Soldiers moving about in the streets"
       ],
       correctAnswer: 1,
-      explanation: "Hold what is done against what is still happening: the eastern pass victory is complete, but the southern siege is ongoing as he arrives. One battle has been won; the other is about to begin."
+      explanation: "Mountains and walls and soldiers she has seen all her life. The new thing is the emptiness: ground outside the gate with no army sitting on it, which is what nobody in that city had ever looked at."
     },
     {
       type: "story",
-      text: "David's sword struck Msra-Melik's shield and split it in two. The general fell, his army scattered, and by nightfall Sassoun's gates stood open with no enemy in sight. The city that had endured siege after siege was finally, fully free."
-    },
-    {
-      type: "story",
-      moral: "Sassoun had survived many armies but broken none. David arrived with a sword that sang and a purpose that would not bend, and the pattern of endless siege finally ended."
+      moral: "Sassoun had survived many armies but broken none. It took holding the whole city in mind at once, both gates, to see when it was finally free."
     }
   ]
 };
