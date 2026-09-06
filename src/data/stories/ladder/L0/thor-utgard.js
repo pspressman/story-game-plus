@@ -1,6 +1,7 @@
 // example_L0_thor-utgard.js
 // WORKED EXEMPLAR. L0, B0 percept. Grammar target: locative (with simple tense, concrete noun).
-// Gate: picture the thing right. Both gating questions turn on a pictured fact, not a named form.
+// Gate: picture the scene in front of you. Every question is answerable from story text
+// that PRECEDES it. The horn-to-sea reveal is the king's confession, never a quiz answer.
 const thorUtgard = {
   id: "thor-utgard",
   title: "Thor at Utgard",
@@ -8,7 +9,7 @@ const thorUtgard = {
   difficulty: "Beginner",
   theme: "A thing is not its size",
   estimatedTime: "5-10 min",
-  description: "A giant hands Thor a plain drinking horn and dares him to empty it. Picture the horn well and you will see the trick before Thor does.",
+  description: "A giant hands Thor a plain drinking horn and dares him to empty it. Watch what happens each time he drinks, and you will know something is wrong before Thor does.",
 
   meta: {
     level: 0,
@@ -31,7 +32,7 @@ const thorUtgard = {
   content: [
     {
       type: "story",
-      text: "In the hall of the giants at Utgard, the king smiled at Thor. \"A small test,\" he said. \"Empty this horn in one draught. My youngest do it in three.\" A servant set down a drinking horn. Its wide mouth sat on the table, plain and ordinary. But the horn was long. Its narrow end trailed off the table, across the floor, out through the open door of the hall, and down the stony slope beyond, until Thor could no longer see where it ended. Thor looked only at the mouth of it. It did not look so very large."
+      text: "Thor and his companions came to the hall of the giants at Utgard. The hall was so wide that the far wall was lost in shadow. The giant king sat on a high seat at one end, and Thor stood before him on the stone floor, no taller than the king's knee."
     },
     {
       type: "question",
@@ -39,39 +40,96 @@ const thorUtgard = {
       band: "B0",
       grammar_cell: "locative",
       gates: true,
-      question: "The horn looks ordinary in the hall, but its far end runs out of sight. Where does that far end actually reach?",
+      question: "Picture the hall as Thor stands in it. Where is the giant king, compared to Thor?",
       options: [
-        "Into a barrel in the next room",
-        "All the way down to the sea",
-        "Into a hidden spring beneath the floor",
-        "Nowhere; the horn is shallow"
+        "Beside him on the stone floor",
+        "Above him, on a high seat at the end of the hall",
+        "Behind him, blocking the door",
+        "Outside the hall entirely"
       ],
       correctAnswer: 1,
-      explanation: "The giants have set the horn's tip into the ocean itself. To picture the scene rightly is to follow the horn past the hall and down to the sea, which is why no single draught can lower it."
+      explanation: "The king sits on a high seat at one end of the hall, and Thor stands below on the floor, no taller than the king's knee. Picturing that puts the king above him and some distance off."
     },
     {
       type: "story",
-      text: "Thor set his mouth to the horn and drank a great, long draught until his breath gave out. He lowered it, certain he had nearly emptied it, and looked inside."
+      text: "\"A small test,\" said the king. \"Empty this horn in one draught. My youngest empty it in three.\" A servant carried in a drinking horn and set the wide mouth of it down on the table before Thor. The narrow end trailed away behind the servant, out of the torchlight, and Thor did not trouble to follow it with his eyes."
     },
     {
       type: "question",
       domain: "number",
       band: "B0",
-      grammar_cell: "simple_past",
-      gates: true,
-      question: "After that huge draught, picture the level of drink in the horn. How much did it drop?",
+      grammar_cell: "simple_present",
+      gates: false,
+      question: "The king says his youngest giants can empty the horn. How many draughts does he say it takes them?",
       options: [
-        "The horn emptied completely",
-        "It fell by about half",
-        "It sank barely a finger's width",
-        "It rose higher than before"
+        "One",
+        "Three",
+        "Seven",
+        "He does not say"
       ],
-      correctAnswer: 2,
-      explanation: "Since the horn opens into the sea, even Thor's mightiest pull moves the level almost not at all. Picturing the size of the sea against one mouthful gives the answer."
+      correctAnswer: 1,
+      explanation: "The king says his youngest empty it in three. He is asking Thor to do it in one, which is why the challenge sounds small and insulting at the same time."
     },
     {
       type: "story",
-      text: "Twice more Thor drank, and twice more the level scarcely stirred. Only later did the giant king confess: the horn had reached the sea, and Thor, without knowing it, had been gulping down the ocean. Where the world had looked small, it had been vast all along."
+      text: "Thor set his mouth to the horn and drank a great, long draught until his breath gave out. Certain he had nearly emptied it, he lowered the horn and looked inside. The drink had gone down by less than the width of one finger."
+    },
+    {
+      type: "question",
+      domain: "what",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: true,
+      question: "Thor drank as long as his breath would last. Picture the level of drink inside the horn when he looks in. What has it done?",
+      options: [
+        "The horn has emptied completely",
+        "It has fallen by about half",
+        "It has sunk by less than a finger's width",
+        "It has risen higher than before"
+      ],
+      correctAnswer: 2,
+      explanation: "The story says it went down by less than the width of one finger. His mightiest pull moved it almost not at all."
+    },
+    {
+      type: "story",
+      text: "Twice more Thor drank, and each time he drank until he could not draw another breath. Each time he looked in, and each time the level had barely stirred. Three great draughts, and the horn was nearly as full as when the servant set it down."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: true,
+      question: "Three enormous draughts, and the level has hardly moved. What must be true of this horn?",
+      options: [
+        "Thor is drinking far less than he thinks he is",
+        "The horn holds far more than its mouth makes it look",
+        "The servant keeps refilling it when no one is watching",
+        "The drink inside is too thick to swallow"
+      ],
+      correctAnswer: 1,
+      explanation: "Nothing in the hall suggests Thor is drinking weakly, or that anyone refilled it. What the evidence points to is the horn itself: whatever it holds is far bigger than the small mouth on the table suggests.",
+      hint: "You cannot see the narrow end of the horn. Think about what could be down there."
+    },
+    {
+      type: "story",
+      text: "Only later did the giant king confess. The narrow end of that horn had been set into the ocean itself, and Thor, without knowing it, had been drinking down the sea. Three draughts had lowered every ocean in the world by the width of a finger, and the giants were afraid of him ever after."
+    },
+    {
+      type: "question",
+      domain: "mood",
+      band: "B0",
+      grammar_cell: "simple_past",
+      gates: false,
+      question: "The king admits the horn reached the sea, and that Thor lowered the whole ocean. How do the giants feel about Thor after that?",
+      options: [
+        "They laugh at him for failing the test",
+        "They are frightened of how strong he turned out to be",
+        "They forget about him at once",
+        "They are angry that he spilled their drink"
+      ],
+      correctAnswer: 1,
+      explanation: "The story says the giants were afraid of him ever after. He looked like he had failed, but what he had actually done was drink down part of the sea."
     },
     {
       type: "story",
