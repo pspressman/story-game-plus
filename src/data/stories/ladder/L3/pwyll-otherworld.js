@@ -1,4 +1,6 @@
 // pwyll-otherworld.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
+// Rewritten: prior description named the vantage to take, Q1's stem performed the swap
+// and the option read it back, and Q4 was a lookup.
 const story = {
   id: "pwyll-otherworld",
   title: "Pwyll in the Otherworld",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Easy",
   theme: "A face that is not your own, and the trust it carries",
   estimatedTime: "5-10 min",
-  description: "To pay for a wrong, a lord trades shapes with the king of the Otherworld and lives a year in his place. Stand on the side of those who do not know.",
+  description: "A lord's hounds take a stag that another pack brought down. The owner of those hounds is not an ordinary man.",
   meta: {
     level: 3,
     track: "gated",
@@ -25,75 +27,87 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "Pwyll, lord of Dyfed, was hunting when his hounds pulled down a stag that another pack had already brought to ground. The owner of those hounds was Arawn, king of the Otherworld, and he was angered. To make amends, Arawn set Pwyll a strange task: the two would trade shapes for a year, and Pwyll would rule the Otherworld in Arawn's form." },
     {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "Arawn lays his hand on Pwyll and the trade is done. Stand where Pwyll stands. What has happened to his face and form?",
-      options: [
-        "He has chosen a disguise and put it on himself",
-        "His own shape has been taken from him and Arawn's set in its place",
-        "He has grown older over the course of the year",
-        "He has stayed exactly as he was, only his name has changed"
-      ],
-      correctAnswer: 1,
-      explanation: "From his side it is done to him: his face is exchanged, his own form lifted away and another's laid on. He wears a shape he did not make, which is what makes the year that follows so strange to live."
+      type: "story",
+      text: "Pwyll, lord of Dyfed, was out hunting when he came on a stag already pulled down by a strange white pack. He drove those hounds off and set his own on the carcass. The owner rode up: Arawn, king of the Otherworld, and not pleased. For amends, Arawn named a strange price. The two of them would trade shapes for a year. Pwyll would go and rule the Otherworld wearing Arawn's face, and Arawn would rule Dyfed wearing Pwyll's."
     },
-    { type: "story", text: "So Pwyll went to rule Arawn's kingdom in Arawn's likeness. Arawn's own wife welcomed him each evening, never guessing that the man at her side was not truly her husband but a stranger wearing his face." },
     {
       type: "question",
-      domain: "vantage",
+      domain: "inference",
       band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "For a whole year the queen lives beside this man, certain he is her husband. Seen from her side, what is the truth she cannot see?",
-      options: [
-        "Her husband has simply grown quiet and distant of late",
-        "A stranger has been placed at her side in her husband's shape, and she has been kept from knowing it",
-        "Her husband has gone away and told her plainly",
-        "She has chosen to live beside a stranger on purpose"
-      ],
-      correctAnswer: 1,
-      explanation: "The hardest vantage to hold is hers: something has been done to her too, a swap she is never told of. From where she stands the deception is invisible, which is exactly why it is a deception."
-    },
-    { type: "story", text: "Yet each night Pwyll lay down with his back to the queen and did not touch her, keeping faith with Arawn, who had trusted him with his kingdom and his home. At year's end the two kings met, traded back their shapes, and Arawn learned how honorably his place had been kept." },
-    {
-      type: "question",
-      domain: "feeling",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "When Arawn learns that his home and his wife were treated with such care all year, how does he most likely feel toward Pwyll?",
-      options: [
-        "Cheated, because Pwyll wore his face",
-        "Deeply grateful, his trust honored exactly as it had been given",
-        "Indifferent, since the year is over now",
-        "Jealous of how well Pwyll ruled the kingdom"
-      ],
-      correctAnswer: 1,
-      explanation: "Read it from Arawn's side: he handed over everything that was his and it was kept faithfully. Trust that is honored is answered with gratitude, and the two become lasting friends."
-    },
-    { type: "story", text: "From that day Pwyll and Arawn were friends, and Dyfed and the Otherworld were at peace, all of it growing out of one year spent in another man's shape." },
-    {
-      type: "question",
-      domain: "sequence",
-      band: "B1",
       grammar_cell: "past_perfect",
       gates: false,
-      question: "What had Pwyll done that set this whole exchange in motion?",
+      question: "Arawn could have demanded gold or a fight. Picture what he asks for instead: a year with his own kingdom in the hands of the man who wronged him. What is he risking?",
       options: [
-        "He had let his hounds take a stag that Arawn's hounds had brought down",
-        "He had refused to hunt in the Otherworld",
-        "He had stolen Arawn's crown",
-        "He had married into Arawn's family"
+        "Nothing, since he keeps Pwyll's kingdom as security",
+        "Everything he has, handed to someone who has already shown he takes what is not his",
+        "Only a year of his own time",
+        "His reputation among the other Otherworld kings"
       ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause from the opening: the stag taken wrongly is what Pwyll owed amends for. Here it frames the swap rather than testing the vantage."
+      correctAnswer: 1,
+      explanation: "The man drove another pack off a kill it had earned. That is what Arawn knows about him, and on that evidence he hands over his country, his hall and his wife for a year. It is not a punishment so much as an enormous bet."
     },
-    { type: "story", moral: "A face can be exchanged, and a trust can be kept inside it. Standing where each one stood, you feel both the deceiving and the honoring at once." }
+    {
+      type: "story",
+      text: "So Pwyll went to the Otherworld in Arawn's shape, and ruled there, and every evening Arawn's wife came and sat with him and talked about the day, and went to bed beside him, and never once thought he was anyone but her husband."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "Stand inside the queen at one of those evenings. She is talking about her day to her husband. What is actually happening?",
+      options: [
+        "She is being tricked by a man who means her harm",
+        "She is giving the ordinary trust of a marriage to somebody it was never meant for, and nobody will ever tell her",
+        "She is beginning to suspect that something is wrong",
+        "She is being tested by Arawn to see if she is faithful"
+      ],
+      correctAnswer: 1,
+      explanation: "Nothing bad is being done to her and something is being taken all the same. The easiness of talking to your own husband is a thing she is spending on a stranger, and the arrangement is between two men neither of whom asked her."
+    },
+    {
+      type: "story",
+      text: "And every night Pwyll lay down with his back to her and did not touch her, and said nothing about why, for a year."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B3",
+      grammar_cell: "participle",
+      gates: true,
+      question: "Stand inside the queen again, on the hundredth of those nights. She does not know about any bargain. How does her husband's behaviour look to her?",
+      options: [
+        "Like a man keeping faith with a friend",
+        "Like her husband turning away from her night after night for a reason she cannot get at",
+        "Like ordinary tiredness after a day of ruling",
+        "Like a punishment for something she has done"
+      ],
+      correctAnswer: 1,
+      explanation: "The honourable thing and the cold thing are the same act, and she is on the side where only the coldness shows. A year of it, with no explanation available to her, because the explanation is a secret between two kings."
+    },
+    {
+      type: "story",
+      text: "At the year's end the two kings met at the place they had agreed, and traded their shapes back. Arawn went home and found his kingdom well kept, and learned from his wife how the year had gone. He and Pwyll were friends from that day, and Dyfed and the Otherworld were at peace."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      question: "Three people lived through that year. Picture what each of them ends up with. What does the queen get?",
+      options: [
+        "A husband returned and a friendship between kingdoms",
+        "An explanation at last for a year that made no sense to her, given to her after it was over",
+        "Nothing; she is the only one who is never told anything",
+        "The gratitude of both kings for her patience"
+      ],
+      correctAnswer: 1,
+      explanation: "The two kings walk away with a friendship they chose to build. She is handed the answer to a year she spent confused, once it can no longer be refused or agreed to. Being told afterwards is not the same as being asked."
+    },
+    { type: "story", moral: "A face can be exchanged, and a trust can be kept inside it. Standing where each one stood, you feel both the deceiving and the honouring at once." }
   ]
 };
 export default story;

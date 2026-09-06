@@ -1,4 +1,6 @@
 // winters-tale-statue.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
+// Rewritten: prior Q3 asked what was revealed about Hermione immediately after the block
+// stated it, and Q4 asked for a cause given two blocks earlier.
 const story = {
   id: "winters-tale-statue",
   title: "The Winter's Tale: The Statue That Breathes",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Easy",
   theme: "Wronged, mourned, and restored",
   estimatedTime: "5-10 min",
-  description: "A king's false belief casts away the wife who loved him. Years later he stands before her statue. Stand on the side of the wronged and the one who wronged her.",
+  description: "A king becomes certain of something about his wife. Nothing anyone says can move him.",
   meta: {
     level: 3,
     track: "gated",
@@ -25,73 +27,85 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "King Leontes grew suddenly and wrongly certain that his good queen, Hermione, had betrayed him. Nothing she said could move him. He cast her off and put her on trial, though she was innocent of everything he believed." },
+    {
+      type: "story",
+      text: "King Leontes became certain, all at once and out of nothing, that his queen Hermione had betrayed him. His lords told him he was wrong. The oracle he sent to told him he was wrong. Hermione told him he was wrong. He put her on trial anyway, in front of the whole court."
+    },
     {
       type: "question",
       domain: "vantage",
       band: "B3",
-      grammar_cell: "passive_voice",
+      grammar_cell: "present_progressive",
       gates: true,
-      question: "Hermione stands accused by her own husband of a thing she never did. Seen from her side, what is being done to her?",
+      question: "Stand inside Hermione in the courtroom. She is innocent and she knows it, and so does everyone present. What can she actually do about her situation?",
       options: [
-        "She is being gently questioned and will soon be cleared",
-        "She is being wrongly accused and cast off by the man who should have trusted her most",
-        "She is being honored before the whole court",
-        "She is being asked to forgive a small misunderstanding"
+        "Prove her innocence by producing witnesses",
+        "Nothing, because the one person who needs convincing has stopped taking evidence",
+        "Appeal to the oracle for a second judgement",
+        "Wait for her husband to calm down and see sense"
       ],
       correctAnswer: 1,
-      explanation: "From where she stands, the harm is entirely done to her: condemned, not for what is true, but for what her husband has decided to believe. The vantage of the innocent and accused is the one to hold."
+      explanation: "Being right is usually a thing you can use. Here the lords, the oracle and her own word have all been put in front of him and bounced off. Standing where she stands, the truth is in her hands and there is nowhere to put it."
     },
-    { type: "story", text: "In the grief of the trial, word came that Hermione had collapsed and died. Leontes, too late, saw the ruin his false belief had made, and for many long years he lived in sorrow and remorse for what he had done." },
+    {
+      type: "story",
+      text: "Word came during the trial that Hermione had collapsed and died. And the certainty went out of Leontes as suddenly as it had come, and he saw what he had done, and there was nothing left to do about it. He lived another sixteen years."
+    },
     {
       type: "question",
       domain: "feeling",
       band: "B3",
-      grammar_cell: "passive_voice",
+      grammar_cell: "past_perfect",
       gates: true,
-      question: "Years later, Leontes is brought before a lifelike statue of the wife he wronged. How does he most likely feel as he looks at it?",
+      question: "Stand inside Leontes in the first hour after the certainty leaves him. What is the worst part of what he is looking at?",
       options: [
-        "Pleased to have such a fine likeness of her",
-        "Pierced with grief and remorse, undone by what he did to her",
-        "Curious about how the sculptor worked",
-        "Eager to find a new queen at last"
+        "That everyone in the court saw him be wrong",
+        "That he did all of it himself, over everyone's objection, and there is nobody else to blame any of it on",
+        "That he will now have to rule alone",
+        "That the oracle had warned him and he ignored it"
       ],
       correctAnswer: 1,
-      explanation: "Read from his side, the statue is a wound: it sets before him the wife destroyed by his own false belief. The feeling is the heavy remorse of the one who did the wrong, not idle admiration."
+      explanation: "Nobody deceived him. Nobody pushed him. He was told, repeatedly, by everyone, and he went on. What he has to carry for sixteen years is not a mistake that happened to him but one he insisted on against all resistance."
     },
-    { type: "story", text: "As he gazed and grieved, the statue moved. It stepped down. It breathed. Hermione was alive, kept hidden all those years by a faithful friend, and now, with the worst of his folly behind him, she was given back to him." },
+    {
+      type: "story",
+      text: "Sixteen years later he was brought to see a statue of her, newly finished, so lifelike that the sculptor was praised for it. He stood in front of it a long time and could not speak."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "Picture the statue: not the young queen he accused, but a woman sixteen years older. Why would the sculptor have made it that way?",
+      options: [
+        "Because statues are always made to look older than life",
+        "Because it shows the years she would have lived, which is the thing he took",
+        "Because the sculptor never saw her when she was young",
+        "Because the stone had aged since it was carved"
+      ],
+      correctAnswer: 1,
+      explanation: "A likeness of the queen at the trial would show him the day. This shows him the whole of what came after, sixteen years of a life that did not happen, standing in front of him in stone at the age she should be."
+    },
+    {
+      type: "story",
+      text: "And then the statue moved. It came down off the step. It was breathing. Hermione had been alive the whole sixteen years, hidden by a friend who had kept the secret, and she came down and stood in front of him."
+    },
     {
       type: "question",
       domain: "vantage",
       band: "B3",
       grammar_cell: "passive_voice",
       gates: true,
-      question: "The statue breathes and steps down. What is revealed about Hermione, and what is done for Leontes?",
+      question: "Stand inside Hermione, who chose to spend sixteen years hidden and has just chosen to end it. What was she doing all that time?",
       options: [
-        "She was a magical copy made to comfort him",
-        "She had been kept alive and hidden all along, and now she is restored to him",
-        "She has been brought back from the dead by a spell",
-        "She was never really his wife at all"
+        "Being kept safe by a friend until it was safe to return",
+        "Waiting to see whether his remorse would last, since only years could show that",
+        "Punishing him for what he did to her",
+        "Recovering from the illness that struck her at the trial"
       ],
       correctAnswer: 1,
-      explanation: "The turn is that she was preserved, not dead, and now she is given back to him. He is on the receiving end of a mercy he did not earn, as she was once on the receiving end of his wrong."
-    },
-    { type: "story", text: "And so the long winter of his remorse ended in a spring he had not dared to hope for, the wife he had wronged standing warm and alive before him once more." },
-    {
-      type: "question",
-      domain: "sequence",
-      band: "B1",
-      grammar_cell: "past_perfect",
-      gates: false,
-      question: "Why had everyone, including Leontes, believed for years that Hermione was dead?",
-      options: [
-        "She had collapsed and been reported dead after the cruel trial",
-        "She had sailed away to a distant land",
-        "She had been turned to stone by a curse",
-        "She had never existed in the first place"
-      ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause across time: the report of her death at the trial is why all believed her gone. Here it sets up the wonder of the statue rather than testing the vantage."
+      explanation: "She was not a prisoner and not asleep. She could have come back any year of the sixteen and did not. A man sorry for a week is not the same as a man sorry for sixteen years, and there is no way to find out which he is except to let the time run."
     },
     { type: "story", text: "(This is the plot of Shakespeare's play, told in plain words, not his own lines.)" },
     { type: "story", moral: "She was wronged, and mourned, and at last given back. To stand with both of them is to feel the harm and the mercy in the same breath." }

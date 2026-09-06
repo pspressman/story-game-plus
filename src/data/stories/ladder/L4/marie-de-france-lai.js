@@ -1,4 +1,6 @@
 // marie-de-france-lai.js  L4, B4 the ought. Target: deontic_modal. Gate: weigh must vs may.
+// Rewritten: description stated the whole dilemma, Q2 asked the child to agree that a bind
+// was a bind, and Q4 was a lookup. All options now carry B4 subordination.
 const story = {
   id: "marie-de-france-lai",
   title: "A Lai of Marie de France: Lanval's Promise",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Medium",
   theme: "Two promises that cannot both be kept",
   estimatedTime: "5-10 min",
-  description: "A knight is loved by a fairy who forbids him to speak of her. When he is falsely accused, the only way to clear his name is to break the one promise he swore to keep.",
+  description: "A poor knight at Arthur's court is loved by a lady nobody else has ever seen.",
   meta: {
     level: 4,
     track: "gated",
@@ -26,75 +28,71 @@ const story = {
   },
   content: [
     { type: "story", text: "These tales were set down in verse around the year 1150 by Marie de France, and it is worth saying plainly: a woman wrote them, in an age when few women's words were written down at all. This is one of her lais, the tale of the knight Lanval." },
-    { type: "story", text: "Lanval, a poor and overlooked knight, was loved by a lady of great beauty and power, who gave him her heart and her wealth. But she set one condition: he must never speak of her to anyone. If he told her secret, he would lose her forever. Lanval gladly promised, and was happy." },
+    {
+      type: "story",
+      text: "Lanval was a knight of Arthur's court whom nobody thought about much, and he had run out of money. Then a lady found him, of great beauty and greater wealth, and loved him, and gave him whatever he needed. She asked one thing: he was never to speak of her to anyone. If he did, she would be gone and he would not see her again. He promised, easily, because at that moment there was nothing he wanted to say to anybody."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "The lady binds Lanval with one rule: he may never speak of her. As long as nothing forces the matter, what is he bound to do?",
+      question: "Picture Lanval at court in the months after, richly dressed, with money nobody can explain. What does the promise cost him then?",
       options: [
-        "He may tell whomever he trusts, as long as he is careful",
-        "He must keep her wholly secret, saying nothing of her to anyone",
-        "He must tell only the king",
-        "He may speak of her once a year"
+        "A great deal, since he must invent a false account of his fortune whenever he is asked",
+        "Almost nothing, because a secret he has no wish to tell is not yet a burden to keep",
+        "His friendships, as the other knights withdraw from a man who will not explain himself",
+        "His honour, since a knight who cannot account for his wealth is assumed to have stolen it"
       ],
       correctAnswer: 1,
-      explanation: "Weigh what he is free to do against what he is bound to do. The gift comes with a clear duty: silence. While nothing presses him, the rule is simple, and he is bound to keep it whole."
+      explanation: "He agreed to it without weighing it, and for a long time there is nothing to weigh. A promise only shows what it is worth on the day keeping it costs something, and that day has not come yet."
     },
-    { type: "story", text: "But the queen, who wanted Lanval for herself and was refused, told the king a lie: that Lanval had insulted her honor. Now Lanval stood accused before the whole court. The one thing that could prove his innocence was the truth about his lady, the very thing he had sworn never to tell." },
+    {
+      type: "story",
+      text: "Then the queen came to Lanval and wanted him, and he refused her. So she went to the king and said Lanval had insulted her honour. Now he stood accused in front of the whole court, and the one fact that would clear him was the lady: that he was loved already, by someone beside whom the queen was nothing. It was the single thing he had sworn never to say."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "Falsely accused, Lanval can clear his name only by speaking of the lady he swore to keep secret. What is the bind he is caught in?",
+      question: "Picture the queen choosing her accusation. She could have said many things about him. Why does she choose this one?",
       options: [
-        "There is no bind; he should simply stay silent and accept the blame",
-        "Two duties collide: he is bound to keep his promise of silence, and bound to defend his honor, and he cannot do both",
-        "There is no bind; he should simply lie to the court",
-        "He must obey the queen and confess to the insult"
+        "Because an insult to her honour is the charge the king is most certain to punish severely",
+        "Because it is the charge he cannot answer without breaking the promise that keeps her rival",
+        "Because she believes it is partly true, since he refused her more coldly than he needed to",
+        "Because the court will believe a queen over a poor knight in any matter of this kind"
       ],
       correctAnswer: 1,
-      explanation: "This is the heart of it: one promise says he must stay silent, his honor says he must speak. Two oughts pull against each other, and to satisfy either he must fail the other."
+      explanation: "She does not know about the promise, and she does not need to. She picks the charge whose only answer is the woman he is hiding, so that either he stays silent and is ruined, or he speaks and loses what he was hiding."
     },
-    { type: "story", text: "To save his honor, Lanval spoke. He told the court of his lady, and so broke his promise to her. The words were barely out before the cost came due: by speaking of her, he had lost her, exactly as she had warned." },
+    {
+      type: "story",
+      text: "Lanval spoke. He told the court about his lady, and cleared his name, and knew what he had done as he was doing it. And she was gone, exactly as she had said she would be."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "Lanval chooses to speak and defend himself. What does that choice cost him, and could he have escaped the cost?",
+      question: "Picture the alternative: Lanval stays silent, keeps the promise, and is condemned. What would the lady have got out of that?",
       options: [
-        "It costs him nothing; he keeps both his honor and his lady",
-        "It costs him the lady, for the promise he was bound to keep is the very one he had to break",
-        "It costs him his knighthood, but he keeps the lady",
-        "It costs him only the queen's friendship"
+        "Her secret kept, which is what she asked for and the only thing she ever required of him",
+        "Her secret kept and the man it belonged to destroyed, which is not what she wanted either",
+        "Proof of his devotion, which would have moved her to come and save him from the court",
+        "Nothing at all, since a promise kept in silence cannot be known about or rewarded"
       ],
       correctAnswer: 1,
-      explanation: "When two duties cannot both be honored, keeping one breaks the other. Lanval saves his honor by paying with his promise, and the loss of the lady is the price of a bind that had no clean way out."
+      explanation: "Both roads take something from her. Keeping faith with the rule would have handed the queen the man the rule was protecting. There is no version of that day where she gets everything she asked for."
     },
-    { type: "story", text: "In Marie's tale, the lady, moved at the last, comes to the court herself and proves Lanval told the truth, and carries him away with her. But the knot is set first, and felt fully, before any mercy unties it." },
     {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "past_perfect",
-      gates: false,
-      question: "Why had Lanval been accused before the king at all?",
-      options: [
-        "Because the queen, refused by him, had told the king a lie about him",
-        "Because he had stolen from the court treasury",
-        "Because he had lost a battle",
-        "Because he had broken his promise in public first"
-      ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause: the queen's lie set the trap. Here it explains how the bind arose rather than testing the weighing of must against may."
+      type: "story",
+      text: "In Marie's telling the lady comes to the court herself at the last, and proves he told the truth, and takes him away with her. But the knot is tied first, and felt, before any mercy unties it."
     },
-    { type: "story", moral: "Some promises collide, and no one can keep them both. Lanval saved his honor and lost his love, and the cost was the measure of how much each oath was worth." }
+    { type: "story", moral: "Some promises collide, and no one can keep them both. Lanval saved his honour and lost his love, and the cost was the measure of how much each oath was worth." }
   ]
 };
 export default story;

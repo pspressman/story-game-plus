@@ -1,4 +1,6 @@
 // hang-tuah-wrong-king.js  L4, B4 the ought. Target: deontic_modal. Gate: weigh must vs may.
+// Rewritten: no question asks the child to endorse that a dilemma is hard, and all four
+// options carry B4-level subordination rather than the answer alone.
 const story = {
   id: "hang-tuah-wrong-king",
   title: "Hang Tuah and the Wrong King",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Medium",
   theme: "What you owe a king who has wronged you",
   estimatedTime: "5-10 min",
-  description: "A loyal warrior is condemned by his king on a lie, then ordered to strike down the friend who rebelled to avenge him. He must weigh loyalty against loyalty.",
+  description: "Jealous men tell the sultan a lie about his most loyal warrior. The sultan believes it.",
   meta: {
     level: 4,
     track: "gated",
@@ -25,73 +27,85 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "Hang Tuah was the most loyal warrior in the land, and the sultan loved him. But jealous men whispered a lie, saying Hang Tuah had done a shameful thing. The sultan believed them and ordered Hang Tuah put to death. A wise minister, knowing the warrior was innocent, hid him away instead and only pretended to carry out the order." },
+    {
+      type: "story",
+      text: "Hang Tuah was the sultan's most loyal warrior, and men at court were jealous of it. They told the sultan that Hang Tuah had done a shameful thing. It was a lie, and the sultan did not check it. He ordered Hang Tuah put to death. But the minister given the order knew the man was innocent, and hid him in the forest, and reported the execution done."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
-      gates: true,
-      question: "The sultan has condemned Hang Tuah to death on a lie, though he is innocent. Does a subject owe obedience to a king who has wronged him so?",
-      options: [
-        "Yes, always and without question, no matter the wrong",
-        "It is the hardest of questions: the bond to the king pulls one way, and the wrong done pulls the other, and neither answer is clean",
-        "No, a wronged subject owes the king nothing ever again",
-        "Yes, but only if the king apologizes first"
-      ],
-      correctAnswer: 1,
-      explanation: "Weigh the bond against the wrong. Loyalty says he must obey; justice says he is free to turn away. The story refuses to make it easy, because the pull of must and the pull of may are both real and both strong."
-    },
-    { type: "story", text: "Hang Tuah's dearest friend, Hang Jebat, did not know he was alive. Believing the king had murdered the best and most faithful man in the land, Jebat rose in fury and rebelled, seizing the palace to avenge his friend. No one could stand against him." },
-    {
-      type: "question",
-      domain: "obligation",
-      band: "B4",
-      grammar_cell: "deontic_modal",
-      gates: true,
-      question: "Hang Jebat rebels out of love for his wronged friend. Was he bound to stay loyal to a king who killed the innocent, or free to rise against such injustice?",
-      options: [
-        "He was simply a traitor, bound to obey no matter what",
-        "He acted on a real wrong, yet by breaking the bond of loyalty he stepped onto ground where even a just cause turns dangerous",
-        "He was entirely right and owed the king nothing at all",
-        "He should have done nothing and said nothing"
-      ],
-      correctAnswer: 1,
-      explanation: "Jebat's cause is just, but loyalty is a bond not lightly broken. The tale holds both truths: the king's wrong was real, and a warrior free to rebel for justice still unleashes a ruin that cannot be controlled."
-    },
-    { type: "story", text: "Then the sultan learned Hang Tuah was alive, and in his need he called for him: only Hang Tuah could defeat Hang Jebat. So the most loyal warrior was sent to kill the friend who had rebelled for love of him." },
-    {
-      type: "question",
-      domain: "obligation",
-      band: "B4",
-      grammar_cell: "deontic_modal",
-      gates: true,
-      question: "The king who wronged him now orders Hang Tuah to slay the friend who rebelled to avenge him. What makes this command such agony to weigh?",
-      options: [
-        "It is easy; he should simply refuse the king",
-        "His bond to the king says he must obey, while his bond to his friend says he should refuse, and he cannot honor both",
-        "It is easy; he should simply join the rebellion",
-        "There is no real choice, since he must always obey"
-      ],
-      correctAnswer: 1,
-      explanation: "Two duties collide head-on. To the king, he must. To the friend who loved him, he ought not. Whichever he chooses, he breaks a bond he holds sacred, and that is the agony the story will not soften."
-    },
-    { type: "story", text: "Hang Tuah chose his oath to the king, and faced Hang Jebat, and the two friends fought. It ended in grief, as it could only end, with loyalty and love set against each other and no way to keep them both." },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "past_perfect",
       gates: false,
-      question: "Why had Hang Jebat rebelled against the sultan in the first place?",
+      question: "Picture the minister deciding, with the order in his hand. He disobeys the sultan to save an innocent man. What has he actually done to Hang Tuah's situation?",
       options: [
-        "Because he believed the king had murdered his innocent friend Hang Tuah",
-        "Because he wanted the throne for himself",
-        "Because the king had not paid him",
-        "Because foreign enemies had hired him"
+        "Ended it, since a man who has not been executed is a man whose troubles are behind him",
+        "Kept him alive inside it, still condemned and still innocent, and now hidden as well",
+        "Cleared his name, because a minister who knows the truth will carry it to the sultan",
+        "Freed him of every obligation, having been cast off by the king he had served so long"
+      ],
+      correctAnswer: 1,
+      explanation: "Nothing has been fixed. The lie stands, the sentence stands, and the man is alive in a forest where nobody can hear him say he did not do it. He is saved and he is not any less condemned."
+    },
+    {
+      type: "story",
+      text: "Hang Jebat was Hang Tuah's dearest friend and believed the execution had happened. He knew Hang Tuah was innocent because he knew him. And so he rose against the sultan, and took the palace, and no one in the country could stand against him."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B4",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "Picture Jebat's rebellion as it looks to him, and then picture what is actually true. Where is the gap?",
+      options: [
+        "He is avenging a man who is not dead, so that everything he does is built on nothing",
+        "He believes the palace defended, when in truth nobody inside it can stand against him",
+        "He believes the sultan gave the order himself, though the jealous men had given it for him",
+        "He believes his friend would want this, though Hang Tuah would have forbidden it outright"
       ],
       correctAnswer: 0,
-      explanation: "A plain tracking of cause: Jebat rose believing his friend had been wrongly killed. Here it sets up the collision of duties rather than testing the weighing of must against may."
+      explanation: "The wrong he is avenging was real, right up until a minister quietly undid it and told nobody. Everything Jebat does from that point rests on a death that did not happen, and there is no way for him to find that out."
+    },
+    {
+      type: "story",
+      text: "Then the sultan learned that Hang Tuah was alive, because nobody else could stop Jebat. He had him brought out of the forest and gave him back his weapons, and ordered him to go into the palace and kill the friend who had rebelled for his sake."
+    },
+    {
+      type: "question",
+      domain: "obligation",
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true,
+      question: "Picture what the sultan is asking for, in order: he condemned Hang Tuah on a lie, and now he needs him. What is he not offering along with the order?",
+      options: [
+        "Payment for the work, which a warrior called back from exile might reasonably expect",
+        "Any word that the condemning was wrong, or any apology for having ordered his death",
+        "Protection for his family, who would suffer badly if the fight in the palace went ill",
+        "A promise of advancement afterwards, which a king usually offers before a hard task"
+      ],
+      correctAnswer: 1,
+      explanation: "He does not say he was deceived, or that he is sorry, or that the sentence is lifted. He calls for the man he ordered killed and hands him a task. The wrong is never addressed, only stepped over because it has become inconvenient."
+    },
+    {
+      type: "question",
+      domain: "obligation",
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true,
+      question: "Picture Hang Tuah walking to the palace. Whatever he decides when he gets there, one thing is already settled by the situation itself. What is it?",
+      options: [
+        "That he will die in the fighting, since Jebat has beaten every man sent against him",
+        "That he cannot keep faith with both, because the two he is bound to now want opposite things",
+        "That the sultan will pardon him afterwards, having needed him when nobody else would serve",
+        "That Jebat will lay down his weapon, once he sees the friend he believed to be dead"
+      ],
+      correctAnswer: 1,
+      explanation: "He held two loyalties his whole life and they never pulled against each other before. The lie put them on opposite sides. Before he chooses anything, the choosing itself has already cost him one of them."
+    },
+    {
+      type: "story",
+      text: "He kept his oath to the sultan. He went in, and he fought Hang Jebat, and Hang Jebat died on the palace floor, and it ended the way it had to end once the lie was told."
     },
     { type: "story", moral: "What do you owe a king who has wronged you? The story gives no easy answer, only the grief of a man bound two ways at once." }
   ]

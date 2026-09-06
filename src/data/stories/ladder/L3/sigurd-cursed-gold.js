@@ -1,4 +1,6 @@
 // sigurd-cursed-gold.js  L3, B3 vantage flip and the other's feeling. Target: passive_voice.
+// Rewritten: prior Q1's stem performed the killing and its option supplied the reading;
+// Q4 asked for a cause stated one block earlier.
 const story = {
   id: "sigurd-cursed-gold",
   title: "Sigurd and the Cursed Gold",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Easy",
   theme: "The weight a prize can carry",
   estimatedTime: "5-10 min",
-  description: "Sigurd slays a dragon and takes its hoard. Stand on the dragon's side, and then on Sigurd's, as the curse does its quiet work.",
+  description: "A smith raises a boy, and tells him about a dragon lying on a mountain of gold.",
   meta: {
     level: 3,
     track: "gated",
@@ -25,73 +27,89 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "The smith Regin raised Sigurd and told him of a dragon, Fafnir, who lay coiled on a heath guarding a mountain of gold. \"Kill him,\" said Regin, \"and the hoard is ours.\" Sigurd reforged the broken sword of his father, dug a pit in the dragon's path, and waited in the dark." },
     {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "As Fafnir crawls over the pit, Sigurd drives the sword up into his heart. Stand where the dragon stands in his last moment. What is happening to him?",
-      options: [
-        "He is handing his treasure to a worthy warrior at last",
-        "He is being struck down from below by a stranger he has never met",
-        "He is teaching Sigurd a hard lesson about greed",
-        "He is winning the fight and driving Sigurd off"
-      ],
-      correctAnswer: 1,
-      explanation: "From the dragon's side this is not something he does but something done to him: a blow from below, by someone whose name he does not even know until he asks. Standing on the receiving end is the shift."
+      type: "story",
+      text: "The smith Regin raised Sigurd from a boy, and told him often about the dragon Fafnir, who lay out on the heath on a mountain of gold. Kill him, Regin said, and the hoard is ours. So Sigurd reforged his dead father's broken sword, and went out to the heath, and dug a pit in the track the dragon used, and got down in it in the dark to wait."
     },
-    { type: "story", text: "Dying, Fafnir warned that the gold was cursed, that whoever kept it would be destroyed by it. Then Regin asked Sigurd to roast the dragon's heart. A drop of its blood touched Sigurd's tongue, and at once he understood the speech of two birds in the tree above, who said: Regin means to kill you and take the gold himself." },
     {
       type: "question",
-      domain: "feeling",
+      domain: "intent",
       band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "Sigurd hears from the birds what the man who raised him is planning. How does he most likely feel in that moment?",
-      options: [
-        "Proud that he can now understand birds",
-        "Betrayed by the one person he had trusted to guide him",
-        "Hungry, and eager to taste more of the heart",
-        "Certain the birds must be lying to him"
-      ],
-      correctAnswer: 1,
-      explanation: "The hurt lands because of who Regin is to him. To be plotted against by the man who raised you is a wound felt from the inside; pride or appetite would miss the whole weight of the moment."
-    },
-    { type: "story", text: "Sigurd struck first, and rode away with the cursed gold loaded on his horse. He became a king and married a queen, and for a while all seemed well." },
-    {
-      type: "question",
-      domain: "vantage",
-      band: "B3",
-      grammar_cell: "passive_voice",
-      gates: true,
-      question: "Sigurd rides off pleased with his fortune. What has been done to him that he cannot see?",
-      options: [
-        "A curse has been laid on him through the gold he carries",
-        "The birds have stolen part of his treasure",
-        "His horse has been poisoned by the dragon's blood",
-        "Regin's family has quietly forgiven him"
-      ],
-      correctAnswer: 0,
-      explanation: "The danger is something worked upon him without his knowing, riding along in the gold itself. He feels like the winner while the curse has already taken hold of his fate."
-    },
-    { type: "story", text: "In time, jealousy and treachery came into Sigurd's own hall, and he was killed by those closest to him, exactly as the dragon had said. The gold passed on, and the sorrow with it." },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "simple_past",
+      grammar_cell: "past_perfect",
       gates: false,
-      question: "Why did Sigurd kill Regin before taking the gold?",
+      question: "Regin is a smith and knows where the dragon is. Picture him telling the boy about it, over and over, for years. Why him and not Regin himself?",
       options: [
-        "The birds told him Regin planned to kill him first",
-        "Regin refused to let him near the hoard",
-        "Regin had turned himself into a second dragon",
-        "Sigurd wanted to drink the rest of the blood"
+        "Because Sigurd is the rightful heir to the gold",
+        "Because someone has to get into the pit under the dragon, and Regin would rather it were not him",
+        "Because only a reforged sword can kill Fafnir",
+        "Because Regin does not actually want the gold"
       ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause from earlier in the tale: the birds' warning is what moved Sigurd to strike. Here it sets up the curse that follows, rather than testing the vantage."
+      correctAnswer: 1,
+      explanation: "He has known where that hoard is the whole time and has not gone. What he has done instead is raise somebody, and tell him about it until he wants it, and let him be the one lying in the dark under the track."
+    },
+    {
+      type: "story",
+      text: "The dragon came over the pit and Sigurd drove the sword up into him, and Fafnir went down in the heather, dying. He asked who had done it. And then he said: the gold is cursed. Whoever holds it will be destroyed by it."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "present_progressive",
+      gates: true,
+      question: "Stand inside Fafnir in the heather, dying, having just been told the name of a young man he has never met. What does he understand about what has happened to him?",
+      options: [
+        "That he was beaten in a fair fight by a better warrior",
+        "That someone he had never heard of was raised and aimed at him by a person with a reason",
+        "That the gods have finally punished him for his greed",
+        "That his own carelessness is what killed him"
+      ],
+      correctAnswer: 1,
+      explanation: "He asks who, and the answer means nothing to him. The boy is not his enemy and never was. Somewhere behind this stranger in the pit there is a person with an old grievance, and Fafnir dies at the end of an arrangement he was not part of."
+    },
+    {
+      type: "story",
+      text: "Regin came up and asked Sigurd to roast the dragon's heart for him. Sigurd burned his thumb on it and put it in his mouth, and the blood was on his tongue, and all at once he could understand two birds talking in the tree above him. They were saying that Regin was going to kill him as soon as the heart was eaten."
+    },
+    {
+      type: "question",
+      domain: "other_mind",
+      band: "B3",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "Put the birds' warning next to what Regin has been doing since Sigurd was small. What does Sigurd now understand about his own childhood?",
+      options: [
+        "That Regin was training him to be a great warrior",
+        "That the years of stories about the dragon were the beginning of this, and he was being aimed the whole time",
+        "That Regin never really cared about the gold",
+        "That the birds must be mistaken about a man who raised him"
+      ],
+      correctAnswer: 1,
+      explanation: "The warning does not only tell him about tonight. It tells him what all those tellings were for, and he has to look back at being brought up and see it as work somebody was doing on him."
+    },
+    {
+      type: "story",
+      text: "Sigurd killed him first, and loaded the gold on his horse and rode off with it. He became a king and married a queen and for a while everything went well for him."
+    },
+    {
+      type: "question",
+      domain: "vantage",
+      band: "B3",
+      grammar_cell: "passive_voice",
+      gates: true,
+      question: "Sigurd rides away pleased. Fafnir told him plainly that the gold destroys whoever holds it. Picture him loading it anyway. What has he done with the warning?",
+      options: [
+        "Forgotten it in the excitement of the fight",
+        "Heard it, understood it, and taken the gold regardless, which is what everyone who has held it did",
+        "Decided the dragon was lying to spite him",
+        "Never actually heard it, since the dragon spoke too quietly"
+      ],
+      correctAnswer: 1,
+      explanation: "He was warned at the source, by the one who had it longest. He takes it anyway. Whatever the curse is, it does not need to trick anybody, because it works on people who have already been told."
+    },
+    {
+      type: "story",
+      text: "In time treachery came into his own hall, and he was killed by people close to him, exactly as Fafnir had said. The gold went on to somebody else, and the sorrow went with it."
     },
     { type: "story", moral: "The cruel blow was felt by the dragon, the betrayal by Sigurd, the curse by everyone the gold touched. Some prizes are carried, and some carry you." }
   ]

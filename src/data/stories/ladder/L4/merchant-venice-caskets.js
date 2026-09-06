@@ -1,4 +1,6 @@
 // merchant-venice-caskets.js  L4, B4 the ought. Target: deontic_modal. Gate: weigh must vs may.
+// Rewritten: description stated the binding, Q1 and Q4 both asked why Portia cannot choose,
+// and Q4 was a lookup. All options now carry B4 subordination.
 const story = {
   id: "merchant-venice-caskets",
   title: "The Merchant of Venice: The Casket Choice",
@@ -6,7 +8,7 @@ const story = {
   difficulty: "Medium",
   theme: "Bound by a promise you did not make",
   estimatedTime: "5-10 min",
-  description: "A woman may not choose her own husband; a dead father's will decides it by a riddle of three caskets. Each suitor must swear a heavy oath before he chooses.",
+  description: "A rich woman's father dies and leaves instructions about how she is to be married.",
   meta: {
     level: 4,
     track: "gated",
@@ -25,74 +27,87 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "Portia was rich, clever, and longed to choose her own husband. But her father, before he died, had left a will that bound her: she could not marry whom she pleased. Instead, each suitor must choose among three caskets, one of gold, one of silver, one of lead, and only the man who chose the right one could marry her." },
+    {
+      type: "story",
+      text: "Portia had money, and wit, and a great house, and no say in who she married. Her father had died leaving a will: three caskets, one gold, one silver, one lead, and whichever suitor chose the right one would have her. She could not refuse the man who chose correctly, and she could not accept any man who did not."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "Portia loves none of her early suitors and longs to choose for herself. Why can she not simply pick the husband she wants?",
+      question: "Portia is bound by a promise she was never asked to give. Picture what her father thought he was arranging. What was the will for?",
       options: [
-        "She may choose freely; she is only being shy",
-        "Her father's will binds her: she must marry whoever solves the casket riddle, and may not choose for herself",
-        "She must marry the richest suitor who comes",
-        "She is forbidden to marry at all"
+        "To keep her fortune together, by making sure no fortune-hunter could talk his way into it",
+        "To pick her husband for her after his death, because he did not trust her to do it herself",
+        "To give her a way of refusing suitors politely, without having to insult powerful families",
+        "To honour an old custom of Belmont, which every family of that standing was expected to follow"
       ],
       correctAnswer: 1,
-      explanation: "Weigh what she wishes against what binds her. Her own heart is free, but the will of her dead father holds her: the caskets decide, not she. What she may want and what she must accept are not the same."
+      explanation: "He could have left her the choice and did not. Whatever else the caskets do, they are a machine for deciding a thing he was not going to be alive for, and it runs whether she likes its answer or not."
     },
-    { type: "story", text: "And the suitors were bound too. Before any man could choose a casket, he had to swear a solemn oath: if he chose wrongly, he must leave at once, never tell which casket he picked, and never marry any woman for the rest of his life." },
+    {
+      type: "story",
+      text: "And the suitors were bound too. Before a man could open a casket he swore an oath: if he chose wrong, he would leave at once, never say which casket he had picked, and never marry any woman as long as he lived."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "Each suitor must swear the oath before he may choose. If he chooses the wrong casket, what is he then bound to?",
+      question: "Picture the second condition of the oath: never say which casket you chose. Portia gains nothing by that silence. Who does?",
       options: [
-        "He may simply try again with a different casket",
-        "He must leave forever and never marry any woman at all, a heavy price for guessing wrong",
-        "He must pay a fine and go home",
-        "He may marry a different lady instead"
+        "The suitor himself, whose defeat will not be talked about in the courts of Europe",
+        "Every suitor still to come, who is prevented from learning anything from the failures",
+        "Portia's household, who would be embarrassed by gossip about the men who came and lost",
+        "The dead father, whose strange arrangement is not held up to ridicule by those who fail"
       ],
       correctAnswer: 1,
-      explanation: "The oath turns a guess into a binding. A wrong choice does not just lose Portia; it binds the man to lifelong solitude. What he is free to attempt, he is not free to attempt lightly."
+      explanation: "If the losers could talk, the fourth man would arrive knowing two wrong answers and the test would collapse. The silence clause is not modesty; it is what keeps every suitor guessing from nothing, exactly as the first one did."
     },
-    { type: "story", text: "The proud suitors reached for the gold and the silver, drawn by their shine, and each chose wrong and went away bound by his oath. Then came Bassanio, whom Portia loved. He passed over the glittering caskets and chose the plain lead one, whose message warned that the one who chose it must give and risk everything." },
+    {
+      type: "story",
+      text: "The proud ones came and reached for the gold and the silver, and each chose wrong and went away bound by his oath. Then Bassanio came, whom Portia wanted, and he passed the two bright caskets and picked up the lead one, which said that the man who chose it must give and risk everything he had."
+    },
     {
       type: "question",
       domain: "obligation",
       band: "B4",
       grammar_cell: "deontic_modal",
       gates: true,
-      question: "The lead casket says that whoever chooses it must give and hazard all he has. What does choosing rightly truly ask of a suitor?",
+      question: "Picture the three caskets in front of a suitor. Two promise him something and one demands something. What is the test actually sorting for?",
       options: [
-        "Only to be lucky enough to guess",
-        "To be willing to give everything and risk all, rather than reach for easy show",
-        "To be the wealthiest man in the room",
-        "To choose whichever casket looks most valuable"
+        "Cleverness, since a sharp man will see through the shine to the trick underneath it",
+        "What the man came for, because only somebody who came to give will reach for the one that asks",
+        "Courage, since it takes nerve to pass over gold and stake everything on a piece of lead",
+        "Good fortune, because with three caskets and no clue any man has the same chance as another"
       ],
       correctAnswer: 1,
-      explanation: "The riddle rewards the one bound to give rather than to grab. The gold and silver promise gain; the lead demands sacrifice. Choosing well means accepting what one must give, not seizing what one may get."
+      explanation: "The gold and silver are addressed to a man who has come to acquire something. The lead is addressed to one who has come to hand something over. It does not measure how sharp he is, only which of those two he is."
     },
-    { type: "story", text: "Bassanio's choice was right, and he and Portia could marry at last. The father's strange test had done its work, sorting the suitors who came to take from the one willing to give." },
+    {
+      type: "story",
+      text: "Bassanio had chosen right, and they could marry. The father's odd machine had done what it was built to do, and sorted the men who came to take from the one who came to give."
+    },
     {
       type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "past_perfect",
-      gates: false,
-      question: "Why could Portia not just marry Bassanio when he arrived, without the caskets?",
+      domain: "obligation",
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true,
+      question: "The test worked and Portia got the man she wanted. Picture how near it came to going otherwise. What was she never protected from?",
       options: [
-        "Because her father's will had bound the choice to the casket test",
-        "Because Bassanio was too poor for her",
-        "Because she had already promised another man",
-        "Because the law forbade marriage in Venice"
+        "A suitor who guessed the lead casket by luck, without any of the qualities it was testing for",
+        "Being married to a man she disliked, since the caskets were never going to consult her",
+        "A suitor who bribed a servant to tell him which casket the earlier men had opened",
+        "The possibility that no man at all would choose correctly, leaving her unmarried for life"
       ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause: the father's will set the rule that bound them. Here it frames the whole test rather than testing the weighing of must against may. (This is the plot of Shakespeare's play, in plain words.)"
+      correctAnswer: 1,
+      explanation: "It came out well and it was not built to come out well for her. Any of the proud ones could have reached for the lead by accident, and the will would have handed her over just as readily. The happy ending is luck sitting on top of a machine that did not care."
     },
+    { type: "story", text: "(This is the plot of Shakespeare's play, told in plain words.)" },
     { type: "story", moral: "She could not choose, and they could not guess lightly. A promise made by another can bind you as tightly as one you swear yourself." }
   ]
 };

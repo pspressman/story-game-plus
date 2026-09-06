@@ -1,5 +1,6 @@
 // crown-weight-richard.js  L4, B4 the ought. Target: deontic_modal. Gate: weigh must vs may.
-// History play: inaccuracy_flag set. Explanations note the story bends real kings.
+// History play: inaccuracy_flag set. Rewritten: no question asks for the moral outright, and
+// all four options carry B4-level subordination rather than the answer alone.
 const story = {
   id: "crown-weight-richard",
   title: "The Weight of the Crown",
@@ -7,7 +8,7 @@ const story = {
   difficulty: "Medium",
   theme: "What a crown binds you to that no one else must bear",
   estimatedTime: "5-10 min",
-  description: "A king learns too late what the crown demands, and the man who takes it from him finds it heavier still. A story of kings, shaped by a playwright's pen.",
+  description: "One king spends the treasury on his favourites. Another takes the crown off him. A story of kings, shaped by a playwright's pen.",
   meta: {
     level: 4,
     track: "gated",
@@ -26,74 +27,83 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "King Richard believed a crown meant he could do as he pleased. He spent the kingdom's wealth on favorites, seized lands that were not his to take, and listened to no counsel but flattery. He thought the crown set him free of every rule that bound other men." },
     {
-      type: "question",
-      domain: "obligation",
-      band: "B4",
-      grammar_cell: "deontic_modal",
-      gates: true,
-      question: "Richard treats the crown as a license to please himself. What does wearing it truly bind a king to do?",
-      options: [
-        "Nothing; a king may do exactly as he wishes",
-        "He must serve and protect the realm, bound by duties a common man is free of",
-        "He must only keep up the appearance of a fine court",
-        "He may rule however he likes as long as he is strong"
-      ],
-      correctAnswer: 1,
-      explanation: "Weigh freedom against duty. The crown looks like permission and is really obligation: it binds the wearer to the whole realm. Richard's ruin begins in mistaking what he must do for what he may do."
+      type: "story",
+      text: "King Richard spent the kingdom's money on his favourites. When his uncle died, Richard seized the lands that should have gone to his cousin Bolingbroke, and used them to pay for a war. His lords advised him against it and he did not listen to any of them."
     },
-    { type: "story", text: "His cousin Bolingbroke, whom Richard had wronged, returned at the head of an army. The lords, weary of Richard's misrule, turned to Bolingbroke, and Richard found that a king who forgets his duty cannot count on the loyalty of those he was meant to serve. He was forced to give up the crown." },
     {
       type: "question",
-      domain: "obligation",
+      domain: "inference",
       band: "B4",
-      grammar_cell: "deontic_modal",
-      gates: true,
-      question: "Bolingbroke takes the crown and becomes king, but cannot rest easy. What does holding it now require of him that a common man never has to bear?",
-      options: [
-        "Nothing new; he is simply richer and grander now",
-        "He must carry the endless cares of the realm and the doubt of how he came to power, burdens an ordinary man is free of",
-        "He must only wear finer robes than before",
-        "He may now finally do whatever he likes"
-      ],
-      correctAnswer: 1,
-      explanation: "The crown that looked like a prize becomes a weight the moment it is his. He is bound to the realm's troubles and haunted by how he took the throne. Uneasy is the head that wears it, free as a common man's head is to sleep."
-    },
-    { type: "story", text: "So one king fell for forgetting what he owed, and the next found the crown a burden from the first night he wore it. The throne gave power, but it took rest, and ease, and the freedom that smaller men keep without a thought." },
-    {
-      type: "question",
-      domain: "obligation",
-      band: "B4",
-      grammar_cell: "deontic_modal",
-      gates: true,
-      question: "What is the hard lesson both kings learn about the crown?",
-      options: [
-        "That it sets a man free of all rules and cares",
-        "That it binds the wearer to heavy duties and takes the freedoms ordinary people keep",
-        "That it can be worn lightly if one is brave",
-        "That it is only a piece of gold and means nothing"
-      ],
-      correctAnswer: 1,
-      explanation: "Both come to the same place: the crown is far more must than may. It does not free the wearer; it binds him hardest of all, and that is its true weight."
-    },
-    { type: "story", text: "A note as you read: these kings come from Shakespeare's history plays, and he shaped them for the stage. The real Richard and the real Bolingbroke were more tangled than the plays allow, so enjoy the story while remembering that a play bends history to fit a stage." },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "past_perfect",
+      grammar_cell: "present_perfect",
       gates: false,
-      question: "Why had the lords turned away from Richard and toward Bolingbroke?",
+      question: "Picture the other lords watching Richard take Bolingbroke's inheritance. They own lands too. What have they just learned?",
       options: [
-        "Because Richard had misruled and wronged them, losing their loyalty",
-        "Because Bolingbroke had promised them gold",
-        "Because Richard had died in battle",
-        "Because Bolingbroke was the older cousin"
+        "That Richard bears a particular grudge against Bolingbroke, which need not touch the rest of them",
+        "That the rule keeping land in a family does not hold, which means it does not hold for theirs",
+        "That the war must be urgent indeed, if a king will go so far to find the money to pay for it",
+        "That Bolingbroke should have stayed in England, since a man who is absent cannot defend a claim"
       ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of cause: Richard's misrule cost him loyalty. Here it explains the fall rather than testing the weighing of must against may. Remember the play simplifies a messier real history."
+      correctAnswer: 1,
+      explanation: "It is not one man's misfortune to them. It is a demonstration that the thing keeping their own estates in their families is only as good as the king's mood, and every one of them is doing that arithmetic."
     },
+    {
+      type: "story",
+      text: "Bolingbroke came back with an army. The lords went over to him almost without a fight. Richard was taken, and made to hand over the crown in front of them all, and Bolingbroke was king."
+    },
+    {
+      type: "question",
+      domain: "obligation",
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true,
+      question: "Picture the lords choosing sides. Richard was the anointed king and they were sworn to him. What made the oath easy to leave?",
+      options: [
+        "Bolingbroke's army was too large to face, so that resisting would have cost them everything",
+        "Richard had already shown that his half of the bargain did not bind him, so little was left of it",
+        "They had never meant the oath seriously, having sworn it only because it was expected of them",
+        "The church had released them from it, as a bishop may do when a king has offended badly"
+      ],
+      correctAnswer: 1,
+      explanation: "An oath of loyalty is one half of something. He took the lands, ignored the counsel, and spent what was not his, and by the time Bolingbroke landed there was not much left on the other side of the promise for them to keep faith with."
+    },
+    {
+      type: "story",
+      text: "But Bolingbroke could not rest afterwards. He sat up at night. He knew how he had come by the crown, and so did everyone else, and rebellions started almost at once and did not stop while he lived."
+    },
+    {
+      type: "question",
+      domain: "inference",
+      band: "B4",
+      grammar_cell: "future_perfect",
+      gates: true,
+      question: "Picture a lord in Bolingbroke's court weighing whether to rebel against him. What can he point to that Richard's lords could not?",
+      options: [
+        "That Bolingbroke governs worse than Richard did, which the country can see for itself",
+        "That the throne has been taken by force once already, which means that it can be taken so",
+        "That Bolingbroke was never properly crowned, so that his title carries a flaw in it",
+        "That Richard is living yet and wants it back, which gives a rebel someone to raise up"
+      ],
+      correctAnswer: 1,
+      explanation: "Bolingbroke's own road to the crown is the argument against him, and it is available to every ambitious man in England. He cannot answer it, because answering it would mean explaining why the thing he did should not be done again."
+    },
+    {
+      type: "question",
+      domain: "obligation",
+      band: "B4",
+      grammar_cell: "deontic_modal",
+      gates: true,
+      question: "Richard thought the crown let him do as he liked and lost it. Picture Bolingbroke awake at night with it. What did each of them get wrong about it beforehand?",
+      options: [
+        "Both thought the treasury larger than it was, having never had to count it themselves",
+        "Both took it for a thing that gives, and each found it was a thing that is owed",
+        "Both misjudged how many enemies a king keeps, which no man knows until he is one",
+        "Both believed a crown could not be taken away, having seen it worn all their lives"
+      ],
+      correctAnswer: 1,
+      explanation: "One treated it as permission and found out it was a debt to the realm. The other treated it as a prize and found out he had bought the debt. Neither of them, before wearing it, was looking at the right side of the thing."
+    },
+    { type: "story", text: "A note as you read: these kings come from Shakespeare's history plays, and he shaped them for the stage. The real Richard and the real Bolingbroke were more tangled than the plays allow." },
     { type: "story", moral: "A crown looks like leave to do anything. It is really a bond to do everything. The head that wears it lies least easy of all." }
   ]
 };
