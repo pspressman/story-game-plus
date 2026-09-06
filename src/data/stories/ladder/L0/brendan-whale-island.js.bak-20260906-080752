@@ -29,7 +29,7 @@ const brendanWhaleIsland = {
   content: [
     {
       type: "story",
-      text: "St. Brendan and his monks sailed their small boat for many days across the gray ocean, until their water ran low and their bread was gone. At last they saw land ahead, low and dark in the water, and they turned the boat toward it and rowed hard."
+      text: "St. Brendan and his monks sailed their small boat for many days across the gray ocean. At last they spotted land ahead and steered toward it, grateful for solid ground. As they drew near, the monks saw no beach and no trees, only a long dark ridge lying low and level in the water. The waves did not break against it. They lifted it gently, and it settled again, the way a floating thing rides the swell. Brother Malo frowned at the water at its edge, where no rocks showed beneath the surface, only more of the smooth dark back going down into the dark."
     },
     {
       type: "question",
@@ -37,15 +37,15 @@ const brendanWhaleIsland = {
       band: "B0",
       grammar_cell: "locative",
       gates: true,
-      question: "Picture the monks in their boat as they row. Where is the land they are heading for?",
+      question: "Picture how the land sits in the water as they row up to it. Where is this 'island' they are steering toward?",
       options: [
-        "Ahead of them, and getting closer",
-        "Behind them, falling further away",
-        "Directly beneath their boat",
-        "Above them, on the cliffs"
+        "Fixed to the ocean floor like a normal island",
+        "Floating on the surface—it is actually the back of a sleeping whale",
+        "High in the clouds above them",
+        "Already behind them, not ahead"
       ],
-      correctAnswer: 0,
-      explanation: "They saw it ahead and turned toward it, and they are rowing hard. Picture the boat moving and the land staying where it is: the gap between them is closing."
+      correctAnswer: 1,
+      explanation: "What looks like rock is really the broad back of a whale sleeping just below the surface. The island is not anchored, but floating."
     },
     {
       type: "story",
