@@ -1,12 +1,15 @@
 // cu-chulainn-boyhood.js  L2, B2. Ireland. How Setanta became Cu Chulainn.
+// Rewritten: prior version stated the killing and the grief inside a question stem,
+// and every answer restated the sentence above it. The gate is now the hound acting
+// on what was true when it was loosed, not what is true now.
 const story = {
   id: "cu-chulainn-boyhood",
   title: "How the Boy Became the Hound",
   icon: "🐕",
   difficulty: "Easy",
   theme: "Setting right what you have undone",
-  estimatedTime: "4-7 min",
-  description: "A boy arrives late to a feast, meets a fierce guard dog that does not know he is a guest, and afterward makes an offer that earns him a new name.",
+  estimatedTime: "5-10 min",
+  description: "A boy arrives late to a feast and meets a guard dog working from an old count of who is inside. Picture what the hound knows and what it cannot know.",
   meta: {
     level: 2,
     track: "gated",
@@ -25,22 +28,85 @@ const story = {
     visualize_prompt: null
   },
   content: [
-    { type: "story", text: "A young boy named Setanta was invited to a feast at the house of Culann the smith, but he arrived late, after the others had gone in. Culann, thinking all his guests had come, had already loosed his great guard hound for the night, a fierce dog that watched the house. The hound did not know the late-coming boy was a guest, and it rushed at him." },
+    {
+      type: "story",
+      text: "Culann the smith was holding a feast, and he had counted his guests in through the door and shut it behind the last of them. Then he went out to the yard and unchained his hound. It was a huge dog, and it had one job: nobody crosses this yard at night. Culann went back in to his fire and his ale."
+    },
     {
       type: "question",
-      domain: "cause",
+      domain: "other_mind",
       band: "B2",
       grammar_cell: "past_perfect",
       gates: true,
-      question: "Why did the hound attack Setanta?",
+      question: "Picture the hound alone in the dark yard just after Culann goes inside. What does it believe about the people it is guarding against?",
       options: [
-        "Because Setanta had hurt it earlier",
-        "Because Culann had already loosed it for the night, and it did not know the late boy was a welcome guest",
-        "Because the boy had thrown stones at it",
-        "Because the hound was always cruel to children"
+        "That some guests are still on the road and will arrive later",
+        "That everyone who belongs here is already inside, so anything moving out here is a stranger",
+        "That it should let children pass but stop grown men",
+        "That Culann will come out again soon to call it off"
       ],
       correctAnswer: 1,
-      explanation: "Track the cause and what came before. The dog was not wicked; it had been set loose to guard, and no one had told it a guest still lay outside. It attacks because, as far as it knows, a stranger is approaching the house in the dark."
+      explanation: "It was let out after the door shut. That is the whole of what it knows. Picture the yard divided in the dog's mind into inside, where the guests are, and outside, where nothing has any business being."
+    },
+    {
+      type: "story",
+      text: "But the boy Setanta had been invited too. He had stayed late at his game on the green, and now he was coming up the road in the dark, alone, running to catch the end of the feast. He turned in at Culann's gate."
+    },
+    {
+      type: "question",
+      domain: "irony",
+      band: "B2",
+      grammar_cell: "past_perfect",
+      gates: true,
+      question: "You can see both the boy on the road and the dog in the yard. Picture the moment Setanta steps through the gate. What is wrong here?",
+      options: [
+        "The boy is trespassing where he was never welcome",
+        "The boy is an invited guest, but the count the hound is working from was finished before he arrived",
+        "The hound has escaped its chain and should not be loose",
+        "Culann has set the dog on the boy deliberately"
+      ],
+      correctAnswer: 1,
+      explanation: "Nobody here is wrong. The boy really was invited. The dog really was told everyone was in. The trouble is that the counting happened first and the boy happened after, and no one went back out to tell the dog."
+    },
+    {
+      type: "story",
+      text: "The hound came at him across the yard. Setanta had no weapon but the ball and stick he had been playing with. When it was over the great dog lay dead in the dirt, and the door of the house was open, and Culann was standing in the light of it looking down at his hound."
+    },
+    {
+      type: "question",
+      domain: "feeling",
+      band: "B2",
+      grammar_cell: "participle",
+      gates: false,
+      question: "Picture Culann in the doorway, looking from the dead hound to the boy standing over it. He is a host and he is the dog's owner at the same time. What is he feeling?",
+      options: [
+        "Only anger at the boy for killing his dog",
+        "Grief for the hound and no blame for the boy, because he can see how it happened",
+        "Relief that the dangerous animal is gone",
+        "Fear that the boy will attack him next"
+      ],
+      correctAnswer: 1,
+      explanation: "He knows he shut the door. He knows he loosed the dog. Standing there he can see the whole thing at once, which is why what is on his face is loss rather than accusation."
+    },
+    {
+      type: "question",
+      domain: "where",
+      band: "B2",
+      grammar_cell: "gerund",
+      gates: true,
+      question: "The hound is gone. Picture Culann's house tomorrow night, and the night after. What is different about it now?",
+      options: [
+        "The feast will have to be held somewhere else",
+        "There is an empty yard with nothing in it watching the dark",
+        "The door will no longer close properly",
+        "Culann will have to move away from the district"
+      ],
+      correctAnswer: 1,
+      explanation: "The dog was not a pet, it was the thing standing between a smith's house and whatever walks the road at night. Picture that yard empty and you are looking at the actual size of what was lost."
+    },
+    {
+      type: "story",
+      text: "Setanta looked at the empty yard too. Then he told Culann: I will guard your house myself, every night, until a pup of that hound is grown and trained to do it. And he did. And they called him Cu Chulainn after that, which means the Hound of Culann."
     },
     {
       type: "question",
@@ -48,47 +114,15 @@ const story = {
       band: "B2",
       grammar_cell: "infinitive",
       gates: true,
-      question: "Setanta had to kill the hound to defend himself, and Culann was grieved to lose his loyal guard. What did the boy then offer to do?",
+      question: "Setanta could have apologised, or paid, or brought another dog. Picture what he offers instead. What is he actually doing?",
       options: [
-        "To leave at once and never return",
-        "To guard Culann's house himself until a new hound could be reared, taking the dog's place",
-        "To buy Culann ten new dogs",
-        "To blame Culann for the loss"
+        "Proving he is braver than the hound was",
+        "Putting himself into the exact gap he made, and standing in it until it is filled again",
+        "Punishing himself so that Culann will forgive him",
+        "Making sure no other dog can take the hound's place"
       ],
       correctAnswer: 1,
-      explanation: "Read the aim behind the offer. The boy does not just apologize; he sets out to repair the loss he caused, standing guard himself in the hound's place. His purpose is to make right the harm, not merely to feel sorry for it."
-    },
-    {
-      type: "question",
-      domain: "sequence",
-      band: "B2",
-      grammar_cell: "present_perfect",
-      gates: true,
-      question: "Because of his offer, the boy earned a new name. What had he become, in name, by the end?",
-      options: [
-        "The Smith of Culann",
-        "Cu Chulainn, meaning the Hound of Culann, for taking the hound's place",
-        "The Lord of the Feast",
-        "The Boy Who Ran Away"
-      ],
-      correctAnswer: 1,
-      explanation: "Follow the events to their end. By offering to guard the house himself, he has earned the name the Hound of Culann. The new name is the mark of how he chose to mend what he had broken."
-    },
-    {
-      type: "question",
-      domain: "cause",
-      band: "B1",
-      grammar_cell: "simple_past",
-      gates: false,
-      question: "Why was Setanta out alone when the hound rushed at him?",
-      options: [
-        "He had arrived late to the feast, after the others were already inside",
-        "He had been thrown out of the house",
-        "He was hunting the hound on purpose",
-        "He lived in the woods nearby"
-      ],
-      correctAnswer: 0,
-      explanation: "A plain tracking of the setup: he came late, after the guard dog was loosed. Here it frames the encounter rather than testing cause or intent."
+      explanation: "He does not offer something instead of the hound. He offers the hound's own job, in the hound's own yard, on the hound's own nights, for as long as it takes. That is why the name he earns is the dog's."
     },
     { type: "story", moral: "The boy caused a loss without meaning to, and then chose to stand in the very place he had emptied. To make right a harm you caused is how a name worth keeping is earned." }
   ]
