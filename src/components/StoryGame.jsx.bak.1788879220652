@@ -1,6 +1,5 @@
 // src/components/StoryGame.jsx
-import { useState, useEffect, useMemo } from 'react';
-import { orderFor } from '../lib/optionOrder';
+import { useState, useEffect } from 'react';
 import { markStarted, markFinished } from '../lib/readTracker';
 import Link from 'next/link';
 
@@ -23,19 +22,6 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
 
   const currentContent = gameContent[currentStep];
 
-  const optionOrder = useMemo(() => {
-    if (!currentContent || currentContent.type !== "question") return null;
-    if (!Array.isArray(currentContent.options)) return null;
-    const n = currentContent.options.length;
-    const order = orderFor(currentContent.question, currentStep, n);
-    if (order.indexOf(currentContent.correctAnswer) < 0) {
-      return Array.from({ length: n }, (_, i) => i);
-    }
-    return order;
-  }, [currentContent, currentStep]);
-
-  const displayCorrect = optionOrder ? optionOrder.indexOf(currentContent.correctAnswer) : -1;
-
   // Handle answer selection
   const handleSelectAnswer = (index) => {
     if (!answered) {
@@ -46,7 +32,7 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
   // Submit answer and check if correct
   const handleSubmit = () => {
     if (selectedAnswer !== null && !answered) {
-      if (selectedAnswer === displayCorrect) {
+      if (selectedAnswer === currentContent.correctAnswer) {
         setScore(score + 1);
         // Add a new gem with random color when answer is correct
         setGems([...gems, gemColors[Math.floor(Math.random() * gemColors.length)]]);
@@ -107,28 +93,28 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
                 </div>
                 <h2 className="text-xl font-semibold mb-4 text-blue-700">{currentContent.question}</h2>
                 <div className="space-y-3 mb-6">
-                  {optionOrder.map((srcIndex, index) => (
+                  {currentContent.options.map((option, index) => (
                     <div 
                       key={index}
                       onClick={() => handleSelectAnswer(index)}
                       className={`p-3 border rounded-lg cursor-pointer transition-colors ${
                         selectedAnswer === index 
                           ? answered 
-                            ? index === displayCorrect 
+                            ? index === currentContent.correctAnswer 
                               ? 'bg-green-100 border-green-500' 
                               : 'bg-red-100 border-red-500'
                             : 'bg-blue-100 border-blue-500'
                           : 'hover:bg-gray-50 border-gray-300'
                       }`}
                     >
-                      <span className="font-medium">{String.fromCharCode(65 + index)}.</span> {currentContent.options[srcIndex]}
+                      <span className="font-medium">{String.fromCharCode(65 + index)}.</span> {option}
                     </div>
                   ))}
                 </div>
                 {answered && (
-                  <div className={`p-4 rounded-lg mb-4 ${selectedAnswer === displayCorrect ? 'bg-green-100' : 'bg-red-100'}`}>
+                  <div className={`p-4 rounded-lg mb-4 ${selectedAnswer === currentContent.correctAnswer ? 'bg-green-100' : 'bg-red-100'}`}>
                     <div className="flex items-center mb-2">
-                      {selectedAnswer === displayCorrect ? (
+                      {selectedAnswer === currentContent.correctAnswer ? (
                         <>
                           <span className="text-green-600 text-xl mr-2">✓</span>
                           <p className="font-medium flex items-center">
@@ -253,16 +239,16 @@ const StoryGame = ({ gameContent, title, moduleId, storyId }) => {
 
 // Visualization domains reference
 const visualizationDomains = {
-  allegory: { name: "Standing for More" },
-  self_aware: { name: "Knowing You Choose" },
-  anticipation: { name: "Minds Reading Minds" },
-  bond: { name: "Bound as One" },
-  destiny: { name: "What Was Always Coming" },
-  nested_report: { name: "Words Within Words" },
-  if_only: { name: "If Only" },
-  report: { name: "What Was Said" },
-  inference: { name: "What Must Be True" },
-  branch: { name: "The Branch That Could Be" },
+  allegory: "Standing for More",
+  self_aware: "Knowing You Choose",
+  anticipation: "Minds Reading Minds",
+  bond: "Bound as One",
+  destiny: "What Was Always Coming",
+  nested_report: "Words Within Words",
+  if_only: "If Only",
+  report: "What Was Said",
+  inference: "What Must Be True",
+  branch: "The Branch That Could Be",
   "what": { name: "Object Identification" },
   "shape": { name: "Shape Properties" },
   "background": { name: "Environment" },
